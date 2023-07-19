@@ -1,0 +1,1118 @@
+<html lang="ko">
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+	<head>
+		<title>minho&middot;kim</title>
+		<link rel="stylesheet" type="text/css" href="theme-dark.css"/>
+		<!--
+		<link rel="stylesheet" type="text/css" href="theme-dark.css"/>
+		-->
+<!--		<link rel="stylesheet" type="text/css" href="theme-light.css"/>	-->
+		<script type="text/javascript">
+		<!--
+			function toggle_visibility(id) 
+			{
+				var e = document.getElementById(id);
+				var sender = document.getElementById('show_hide');
+				if(e.style.display == 'block')
+				{
+					e.style.display = 'none';
+					sender.content = 'click to show';
+				}
+				else
+				{
+					e.style.display = 'block';
+					sender.content = 'click to hide';
+				}
+			}
+			function onload_body()
+			{
+				var	dois = document.getElementsByClassName("doi");
+//				console.log(dois);
+				for(var i=0 ; i<dois.length ; i++)
+				{
+					doi = dois[i].innerHTML;
+					str = "<a class=doi href='https://doi.org/" + doi + "'>"
+						+ "(DOI: " + doi + ")</a>";
+					dois[i].outerHTML = str;
+//					console.log(str);
+//					console.log(dois[i].innerHTML);
+				}
+			}
+			-->
+		</script>
+	</head>
+	<body onload="onload_body()">
+		<table class=whole align=center>
+			<tr>
+				<td class=title colspan=2>
+		<div class=title_name>
+			<img class=profile src=myself.jpg>
+<span class=title_first_name>minho</span><span class=title_last_name>kim</span>
+</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+		<div class=sec>
+			<div class=title><span class=title>profile</span></div>
+			<div class=content>
+			Professor<br>
+			Department of Computer Science and Engineering
+			(
+			<a href="http://cs.uos.ac.kr">ko</a>,
+			<a href="http://english.uos.ac.kr/eng/html/academics/colleges/cengineering/cscience/introduction.do">en</a>
+			)<br>
+			College of Engineering<br>
+			University of Seoul
+			(
+			<a href="http://www.uos.ac.kr">ko</a>,
+			<a href="http://english.uos.ac.kr">en</a>
+			)
+			</div>
+		</div>
+				</td>
+				<td>
+		<div class=sec>
+			<div class=title><span class=title>contact info</span></div>
+			<div class=content>
+			<span class=subtitle>address</span><br>
+			Room #312, IT Bldg.,<br>
+			University of Seoul<br>
+			163 Siripdaero 13 (90 Jeonnong-dong),<br>
+			Dongdaemun-gu, Seoul,<br>
+			South Korea, 130-743
+			<div><span class=subtitle>tel</span> +82-2-6490-2453</div>
+			<div><span class=subtitle>fax</span> +82-2-6490-2444</div>
+<!--			<div><span class=subtitle>e-mail</span> <img src="email.jpg"></div>	-->
+			<div><span class=subtitle>e-mail</span> 
+				<a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a>
+			</div>
+			</div>
+		</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+		<div class=sec>
+			<div class=title><span class=title>education</span></div>
+			<div class=content>
+			<ul>
+				<li>Ph.D in Computer Engineering, <a href="http://www.ufl.edu">University of Florida</a>, 2008
+					<br>
+					(chair: <a href="http://www.cise.ufl.edu/~jorg">Dr. J&ouml;rg Peters</a>)
+				</li>
+				<li>M.S. in Computer Science, <a href="http://www.ufl.edu">University of Florida</a>, 2004
+					<br>
+					(chair: <a href="http://www.cise.ufl.edu/~jorg">Dr. J&ouml;rg Peters</a>)
+</li>
+				<li>B.S. in Electrical Engineering, <a href="http://www.useoul.edu">Seoul National University</a>, 1997 </li>
+			</ul>
+			</div>
+		</div>
+				</td>
+				<td>
+		<div class=sec>
+			<div class=title><span class=title>research interests</span></div>
+			<div class=content>
+			<ul>
+				<li>Computer graphics</li>
+				<li>Spline theory (Box-splines)</li>
+				<li>GPU techniques</li>
+				<li>Computational geometry</li>
+				<li>Volume reconstruction</li>
+				<li>Virtual surgery</li>
+			</ul>
+			</div>
+		</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2>
+		<div class=sec>
+			<div class=title><span class=title>teaching</span></div>
+
+			<div class=content>
+				spring 2021
+			(<a href="schedule.html">schedule</a>)
+			<ul>
+				<li>
+				71007: 선형대수 [Linear Algebra]
+				</li>
+				<li>
+					71043: 논리회로및실습
+					[Digital Logic Design and Experiment (sec 1&amp;2) ]
+				</li>
+			</ul>
+
+			</div>
+
+
+			Click 
+				<a class=button id="show_hide" style="cursor:hand" onclick="toggle_visibility('old_lectures');">here</a>
+				to show/hide old lectures.
+			<div id="old_lectures" style="display:none;">
+
+
+			<div class=content>
+				fall 2020
+
+			<ul>
+				<li>
+					71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]
+				</li>
+				<li>
+					71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]
+				</li>
+			</ul>
+
+			</div>
+
+			<div class=content>
+				spring 2020
+			<ul>
+				<li>
+				71007: 선형대수 [Linear Algebra]
+				</li>
+				<li>
+					71043: 논리회로및실습
+					[Digital Logic Design and Experiment (sec 1&amp;2) ]
+				</li>
+			</ul>
+
+			</div>
+
+			<div class=content>
+				fall 2019
+			<ul>
+				<li>
+					71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]
+				</li>
+				<li>
+					71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]
+				</li>
+			</ul>
+			</div>
+			<div class=content>
+				spring 2019
+			<ul>
+				<li>
+				71007: 선형대수 [Linear Algebra]
+				</li>
+				<li>
+					71043: 논리회로및실습
+					[Digital Logic Design and Experiment (sec 1&amp;2) ]
+				</li>
+			</ul>
+
+			</div>
+			<div class=content>
+				fall 2018
+			<ul>
+				<li>
+				<a href="courses/18fa71051">71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]</a>
+				</li>
+				<li>
+				<a href="courses/18fa71033">71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]</a>
+				</li>
+				<li>
+					<a href="courses/18fa43.527">43.527: 컴퓨터그래픽스 [Computer graphics (for grads)]</a>
+				</li>
+
+			</ul>
+			</div>
+
+
+			<div class=content>
+			spring 2018
+			<ul>
+				<li>
+					<a href="courses/18sp71007">71007: 선형대수 [Linear Algebra]</a>
+				</li>
+				<li>
+				<a href="courses/18sp71043">71043: 논리회로및실습
+					[Digital Logic Design and Experiment (for SCSC)]</a>
+				</li>
+				<li>
+				<a href="courses/18sp71074">71074: 자료구조 [Data Structure (for SCSC)]</a>
+				</li>
+
+				<!--
+				<li>
+					<a href="courses/18sp43.527">43.527: 컴퓨터그래픽스 [Computer graphics (for grads)]</a>
+				</li>
+				-->
+			</ul>
+
+			</div>
+
+
+			<div class=content>
+			fall 2017
+			<ul>
+				<li>
+				<a href="courses/17fa71051">71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]</a>
+				</li>
+				<li>
+				<a href="courses/17fa71033">71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]</a>
+				</li>
+				<li>
+				<a href="courses/17fa71043-1">71043: 논리회로및실습 (1분반)
+					[Digital Logic Design and Experiment (Section 1)]</a>
+				<li>
+				<a href="courses/17fa71043-2">71043: 논리회로및실습 (2분반)
+					[Digital Logic Design and Experiment (Section 2)]</a>
+				</li>
+			</ul>
+			</div>
+
+
+			<div class=content>
+			spring 2017
+			<ul>
+				<li>
+					<a href="courses/17sp71007">71007: 선형대수 [Linear Algebra]</a>
+				</li>
+				<li>
+				<a href="courses/17sp71043">71043: 논리회로및실습
+					[Digital Logic Design and Experiment (for SCSC)]</a>
+				</li>
+				<li>
+					<a href="courses/17sp43.635">43.635: 컴퓨터그래픽스특강
+					[Topics in Computer Graphics]</a>
+				</li>
+
+			</ul>
+
+			</div>
+
+
+
+			<div class=content>
+			fall 2016
+			<!--
+			-->
+			<ul>
+				<li>
+				<a href="courses/16fa71051">71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]</a>
+				</li>
+				<li>
+				<a href="courses/16fa71033">71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]</a>
+				</li>
+				<li>
+				<a href="courses/16fa71043">71043: 컴퓨터구조및실습
+					[Computer Architecture (for SCSC)]</a>
+				</li>
+			</ul>
+			</div>
+
+			<div class=content>
+			spring 2016
+			<ul>
+				<li>
+					<a href="courses/16sp71007">71007: 선형대수 [Linear Algebra]</a>
+				</li>
+				<li>
+				<a href="courses/16sp43.634">43.634: 고급컴퓨터그래픽스
+					[Advanced  Computer Graphics]</a>
+				</li>
+			</ul>
+
+			</div>
+
+
+			<div class=content>
+			fall 2014
+			<!--
+			-->
+			<ul>
+				<li>
+					<a href="courses/14fa71051">71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]</a>
+				</li>
+				<li>
+					<a href="courses/14fa71033">71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]</a>
+				</li>
+				<li>
+				<a href="courses/14fa71043">71043: 컴퓨터구조및실습
+					[Computer Architecture (for SCSC)]</a>
+				</li>
+			</ul>
+
+			</div>
+
+
+			<div class=content>
+			spring 2014
+			<ul>
+				<li>
+					<a href="courses/14sp71007">71007: 선형대수 [Linear Algebra]</a>
+				</li>
+				<li>
+					<a href="courses/14sp43.635">43.635: 컴퓨터그래픽스특강
+					[Topics in Computer Graphics]</a>
+				</li>
+			</ul>
+
+			</div>
+
+			<div class=content>
+			fall 2013
+			<ul>
+				<li>
+					<a href="courses/13fa71051">71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]</a>
+				</li>
+				<li>
+					<a href="courses/13fa71033">71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]</a>
+				</li>
+			</ul>
+			</div>
+
+
+			<div class=content>
+			spring 2013
+			<ul>
+				<li>
+					<a href="courses/13sp71007">71007: 선형대수 [Linear Algebra]</a>
+				</li>
+				<li>
+					<a href="courses/13sp43.527">43.527: 컴퓨터그래픽스 [Computer graphics (for grads)]</a>
+				</li>
+			</ul>
+			</div>
+
+			<div class=content>
+			fall 2012
+			<ul>
+				<li>
+					<a href="courses/12fa71051">71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]</a>
+				</li>
+				<li>
+					<a href="courses/12fa71033">71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]</a>
+				</li>
+			</ul>
+			</div>
+
+			<div class=content>
+			spring 2012
+			<ul>
+				<li>
+					<a href="courses/12sp71007">71007: 선형대수 [Linear Algebra]</a>
+				</li>
+				<li>
+					<a href="courses/12sp43.527">43.527: 컴퓨터그래픽스
+					[Computer graphics (for grads)]</a>
+				</li>
+			</ul>
+			</div>
+
+			<div class=content>
+			fall 2011
+			<ul>
+				<li>
+					<a href="courses/11fa71051">71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]</a>
+				</li>
+				<li>
+					<a href="courses/11fa71033">71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]</a>
+				</li>
+				<li>
+				<a href="courses/11fa43.635">43.635: 컴퓨터그래픽스특강
+					[Topics in Computer Graphics]</a>
+				</li>
+			</ul>
+			</div>
+			<div class=content>
+			spring 2011
+			<ul>
+				<li>
+					<a href="courses/11sp71007">71007: 선형대수 [Linear Algebra]</a>
+				</li>
+				<li>
+					01430: 공학소양세미나(1학년)
+					[Seminar on Engineering Capability (for freshmen)]
+				</li>
+				<li>
+					71053: 컴퓨터과학캡스톤설계
+					[Capstone design in computer science]
+				</li>
+			</ul>
+			</div>
+			<div class=content>
+			fall 2010 
+			<ul>
+				<li>
+					<a href="courses/10fa71033">71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]</a>
+				</li>
+				<li>
+					<a href="courses/10fa71051">71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]</a>
+				</li>
+				<li>
+					71053: 컴퓨터과학캡스톤설계
+					[Capstone design in computer science]
+				</li>
+				<li>
+					<a href="courses/10fa43.527">43.527: 컴퓨터그래픽스
+					[Computer graphics (for grads)]</a>
+				</li>
+			</ul>
+			</div>
+			<div class=content>
+			spring 2010
+			<ul>
+				<li>
+					01430: 공학소양세미나(1학년)
+					[Seminar on Engineering Capability (for freshmen)]
+				</li>
+				<li>
+					<a href="courses/10sp71007">71007: 선형대수
+					[Linear Algebra]</a>
+				</li>
+				<li>
+					71053: 컴퓨터과학캡스톤설계
+					[Capstone design in computer science]
+				</li>
+			</ul>
+			</div>
+			<div class=content>
+			fall 2009 
+			<ul>
+				<li>
+					<a href="courses/09fa71033">71033: 컴퓨터그래픽스 
+					[Computer graphics (for undergrads)]</a>
+				</li>
+				<li>
+					<a href="courses/09fa71051">71051: 수리모형과미분방정식 
+					[Mathematical models for engineering problems and differential equations]</a>
+				</li>
+				<li>
+					71053: 컴퓨터과학캡스톤설계
+					[Capstone design in computer science]
+				</li>
+			</ul>
+			</div>
+			<div class=content>
+			spring 2009
+			<ul>
+				<li>
+					71005: 프로그래밍언어론
+					[Programming language]
+				</li>
+				<li>
+					43.527: 컴퓨터그래픽스
+					[Computer graphics (for grads)]
+				</li>
+			</ul>
+			</div>
+			</div>
+		</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2>
+		<div class=sec>
+				<div class=title><span class=title>publications</span>
+					<a class=button href="pubs.bib"><tt><b>BibTeX</b></tt></a>
+				</div>
+			<div class=content>
+			<div class=subtitle><span class=title>international journal articles</span></div>
+			<ul>
+				<li class=paper>
+					<!--#include file="authors/hyunjun.kim.html"--> and
+					<!--#include file="authors/minho.kim.html"-->,
+					<a href="https://doi.org/10.1007/s11075-023-01562-5" class=title>Analytic Evaluation of the FCC Voronoi-Splines</a>,
+					<a class=where href="http://www.springer.com/computer/mathematics/journal/11075">Numerical Algorithms</a>,
+					<span class=doi>10.1007/s11075-023-01562-5</span>
+					Jun.
+					<span class=year>2023</span>
+					(published online)
+				</li>
+				<li class=paper>
+					<!--#include file="authors/hyunjun.kim.html"--> and
+					<!--#include file="authors/minho.kim.html"-->,
+					<a href="https://doi.org/10.1016/j.gmod.2022.101168" class=title>Volume Reconstruction Based on the
+						Six-Direction Cubic Box-Spline</a>,
+					<a class=where href="http://www.journals.elsevier.com/graphical-models">Graphical Models</a>,
+					125,
+					<span class=doi>10.1016/j.gmod.2022.101168</span>
+					Jan.
+					<span class=year>2023</span>
+					(published online)
+				</li>
+				<li class=paper>
+					<!--#include file="authors/minho.kim.html"-->,
+					<a class=title
+						href="https://doi.org/10.1007/s11075-020-00916-7">Fast and Stable Evaluation of Splines and Their Derivatives Generated by the Seven-Direction Quartic Box-Spline</a>,
+					<a class=where href="http://www.springer.com/computer/mathematics/journal/11075">Numerical Algorithms</a>,
+					86,
+					pp. 887-909,
+					<span class=doi>10.1007/s11075-020-00916-7</span>
+					Feb.
+					<span class=year>2021</span>
+				</li>
+
+
+				<!--
+				<li class=paper>
+					<!--#include file="authors/minho.kim.html"-->,
+					<!--#include file="authors/hyunjun.kim.html"-->,
+					and
+					<!--#include file="authors/aaliya.sarfaraz.html"-->,
+					<span class=title>Efficient GPU Isosurface Raycasting of BCC Datasets</span>,
+					<!--#include file="journals/kcgs.html"-->
+					19(2),
+					pp. 19-27,
+					Jun.
+					<span class=year>2013</span>
+					<a class=icon href="papers/kim13efficient.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				-->
+				<li class=paper>
+					<!--#include file="authors/minho.kim.html"-->,
+					<a class=title href="https://doi.org/10.1016/j.gmod.2017.08.001">Analysis of Symmetry Groups of Box-Splines for Evaluation on GPUs</a>,
+					<a class=where href="http://www.journals.elsevier.com/graphical-models">Graphical Models</a>,
+					93, 
+					pp. 14-24,
+					<span class=doi>10.1016/j.gmod.2017.08.001</span>
+					Sep.
+					<span class=year>2017</span>
+				</li>
+
+				<li class=paper>
+					<!--#include file="authors/minho.kim.html"-->,
+					<a class=title href="http://dx.doi.org/10.1016/j.gmod.2012.11.001">GPU Isosurface Raycasting of FCC Datasets</a>,
+					<a class=where href="http://www.journals.elsevier.com/graphical-models">Graphical Models</a>,
+					75(2),
+					pp. 90-101,
+					<span class=doi>10.1016/j.gmod.2012.11.001</span>
+					Mar.
+					<span class=year>2013</span>
+					<a class=icon href="papers/kim12gpu.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+
+				<li class=paper>
+					<!--#include file="authors/minho.kim.html"-->,
+					<a class=title href="http://dx.doi.org/10.1109/TVCG.2012.130">Quartic Box-Spline Reconstruction on the BCC Lattice</a>,
+						<a class=where href="http://www.computer.org/tvcg">IEEE 
+							Transactions on Visualization and Computer Graphics</a>
+						19(2),
+						pp. 319-330,
+					<span class=doi>10.1109/TVCG.2012.130</span>
+						Feb.
+					<span class=year>2013</span>
+						<a class=icon href="papers/kim13quartic.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<!--
+				<li class=paper>
+					<!--#include file="authors/minho.kim.html"-->
+					and
+					<!--#include file="authors/youngjoon.lee.html"-->,
+					<span class=title>Real-time BCC Volume Isosurface Ray Casting on the GPU</span>,
+					<!--#include file="journals/kcgs.html"-->
+					18(4),
+					pp. 25-34,
+					Dec.
+					<span class=year>2012</span>
+					<a class=icon href="papers/kim12bcc.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				-->
+
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://dx.doi.org/10.1016/j.cam.2010.11.027">Symmetric Box-Splines on Root Lattices</a>,
+						<a class=where href="http://www.elsevier.com/locate/cam">Journal of Computational and Applied Mathematics</a>,
+						235(14),
+						pp. 3972-3989,
+						<span class=doi>10.1016/j.cam.2010.11.027</span>
+						May
+						<span class=year>2011</span>
+						<a class=icon href="papers/kim11symmetric.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://dx.doi.org/10.1016/j.jat.2010.04.007">Symmetric Box-Splines on the <i>A<sub>n</sub>*</i> Lattice</a>,
+						<a class=where href="http://www.elsevier.com/locate/jat">Journal of Approximation Theory</a>,
+						162(9),
+						pp. 1607-1630,
+						<span class=doi>10.1016/j.jat.2010.04.007</span>
+						Sep.
+						<span class=year>2010</span>
+						<a class=icon href="papers/kim10symmetric.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/jian.wu.html"-->,
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/jorg.peters.html"-->,
+						<!--#include file="authors/heetaek.chung.html"-->
+						and
+						<!--#include file="authors/sanjiv.samant.html"-->,
+						<a class=title href="http://dx.doi.org/10.1118/1.3250843">Evaluation of Similarity Measures for 
+						Use in the Intensity-Based Rigid 2D-3D Registration for 
+						Patient Positioning in Radiotherapy</a>,
+						<a class=where href="http://www.medphys.org">Medical Physics</a>,
+						36(12), 
+						pp. 5391-5403,
+						<span class=doi>10.1118/1.3250843</span>
+						Dec. 
+						<span class=year>2009</span>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://dx.doi.org/10.1007/s11075-008-9231-6">Fast and Stable Evaluation of Box-Splines via the BB-Form</a>,
+						<a class=where href="http://www.springer.com/computer/mathematics/journal/11075">Numerical Algorithms</a>,
+						<!--<a class=where href="http://www.springerlink.com/content/101751">Numerical Algorithms</a>-->
+						50(4),
+						pp. 381-399,
+						<span class=doi>10.1007/s11075-008-9231-6</span>
+						Apr.
+						<span class=year>2009</span>.
+						<a class=icon href="papers/kim09fast.pdf"><img src="thumbnails/pdf.gif"></a>
+						<div>
+							<a href="http://www.cise.ufl.edu/research/SurfLab/tribox">[supplementary page]</a></div>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/alireza.entezari.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://dx.doi.org/10.1109/TVCG.2008.115">Box Spline Reconstruction on the Face-Centered Cubic Lattice</a>,
+						<a class=where href="http://www.computer.org/tvcg">IEEE 
+							Transactions on Visualization and Computer Graphics</a>
+
+						<a href="http://vis.computer.org/VisWeek2008/vis">(Proceedings Visualization / Information Visualization 2008)</a>,
+						14(6),
+						1523-1530,
+						<span class=doi>10.1109/TVCG.2008.115</span>
+						Nov.-Dec. 
+						<span class=year>2008</span>.
+						<a class=icon href="papers/kim08box.pdf"><img src="thumbnails/pdf.gif"></a>
+						<a class=icon href="papers/kim08box-talk.pdf"><img src="thumbnails/pdf.gif"></a>
+						<div>
+							<a href="http://www.cise.ufl.edu/research/SurfLab/08vis/">[supplementary page]</a></div>
+				</li>
+				<!--
+				<li class=paper>
+						<!--#include file="authors/jian.wu.html"-->,
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/jorg.peters.html"-->,
+						C. Liu,
+						J. Palta,
+						and
+						<!--#include file="authors/sanjiv.samant.html"-->,
+						<a class=title href="http://dx.doi.org/10.1016/j.ijrobp.2007.07.079">Patient Positioning Using a Fast Robust 2D-3D Registration Strategy With a Registration Quality Evaluator</a>,
+						<a class=where href="http://www.redjournal.org">International Journal of Radiation Oncology &middot; Biology &middot; Physics</a>,
+						69(3),
+						pp. S43
+						Nov.
+						<span class=year>2007</span>
+				</li>
+				-->
+				<li class=paper>
+						<!--#include file="authors/juan.cendan.html"-->,
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/sergei.kurenov.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://dx.doi.org/10.1007/s00464-006-9119-2">Developing a Multimedia Environment for Customized Teaching of an Adrenalectomy</a>,
+						<!--<a class=where href="http://www.springerlink.com/content/100368">Surgical Endoscopy</a>,-->
+						<a class=where href="http://www.springer.com/medicine/surgery/journal/464">Surgical Endoscopy</a>,
+						21(6),
+						pp. 1012-1016,
+						<span class=doi>10.1007/s00464-006-9119-2</span>
+						Jun. 
+						<span class=year>2007</span>.
+				</li>
+				<li class=paper>
+						<!--#include file="authors/sergei.kurenov.html"-->,
+						<!--#include file="authors/sukitti.punak.html"-->,
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/jorg.peters.html"-->
+
+						and
+						<!--#include file="authors/juan.cendan.html"-->,
+						<a class=title href="http://dx.doi.org/10.1177/1553350606296923">Simulation for Training with the Autosuture Endo Stitch Device</a>,
+						<a class=where href="http://sri.sagepub.com">Surgical Innovation</a>,
+						13(4),
+						pp. 283-287,
+						<span class=doi>10.1177/1553350606296923</span>
+						Dec. 
+						<span class=year>2006</span>.
+				</li>
+			</ul>
+			<div class=subtitle><span class=title>domestic journal articles</span></div>
+			<ul>
+				<li class=paper>
+					<!--#include file="authors/hyunjun.kim.html"-->
+					and
+					<!--#include file="authors/minho.kim.html"-->,
+					<a class=title href="https://doi.org/10.15701/kcgs.2020.26.4.17">
+						Real-Time GPU Technique for Extracting Mesh Isosurfaces from BCC Volume Datasets</a>,
+					<!--#include file="journals/kcgs.html"-->
+					26(4),
+					pp. 17-26,
+					Sep.
+					<span class=doi>10.15701/kcgs.2020.26.4.17</span>
+					<span class=year>2020</span>
+				</li>
+
+				<li class=paper>
+					<!--#include file="authors/hyunjun.kim.html"-->,
+					<!--#include file="authors/dohoon.kim.html"-->,
+					and
+					<!--#include file="authors/minho.kim.html"-->,
+					<a class=title href="http://dx.doi.org/10.15701/kcgs.2018.24.1.1">Mesh-based Marching Cubes on the GPU</a>,
+					<!--#include file="journals/kcgs.html"-->
+					24(1),
+					pp. 1-8,
+					Mar.
+					<span class=doi>10.15701/kcgs.2018.24.1.1</span>
+					<span class=year>2018</span>
+				</li>
+
+
+				<li class=paper>
+					<!--#include file="authors/minho.kim.html"-->,
+					<a class=title href="http://dx.doi.org/10.15701/kcgs.2017.23.3.47">Efficient Computation of Isosurface Curvatures on GPUs Based on the de Boor Algorithm</a>,
+					<!--#include file="journals/kcgs.html"-->
+						23(3),
+						pp. 47-54,
+						Jul. 
+						<span class=doi>10.15701/kcgs.2017.23.3.47</span>
+					<span class=year>2017</span>
+				</li>
+
+
+				<li class=paper>
+					<!--#include file="authors/hyunjun.kim.html"-->
+					and
+					<!--#include file="authors/minho.kim.html"-->,
+					<a class=title href="http://dx.doi.org/10.15701/kcgs.2016.22.5.1">Curve Reconstruction from Oriented Points Using Hierarchical ZP-Splines</a>,
+					<!--#include file="journals/kcgs.html"-->
+						22(5),
+						pp. 1-16,
+						Dec. 
+						<span class=doi>10.15701/kcgs.2016.22.5.1</span>
+					<span class=year>2016</span>
+					<a class=icon href="http://www.cg-korea.or.kr/controllers/download.php?fileID=302"><img src="thumbnails/pdf.gif"></a>
+				</li>
+
+				<li class=paper>
+					<!--#include file="authors/hyunjun.kim.html"-->
+					and
+					<!--#include file="authors/minho.kim.html"-->,
+					<a class=title href="http://dx.doi.org/10.15701/kcgs.2015.21.2.1">Surface Reconstruction from Oriented Point Cloud Using a Box-Spline on the BCC Lattice</a>,
+					<!--#include file="journals/kcgs.html"-->
+					21(2),
+					pp. 1-10,
+					Jun.
+					<span class=doi>10.15701/kcgs.2015.21.2.1</span>
+					<span class=year>2015</span>
+					<a class=icon href="http://cg-korea.or.kr/controllers/download.php?fileID=266"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+					<!--#include file="authors/minho.kim.html"-->,
+					<!--#include file="authors/hyunjun.kim.html"-->,
+					and
+					<!--#include file="authors/aaliya.sarfaraz.html"-->,
+					<a class=title href="http://dx.doi.org/10.15701/kcgs.2013.19.2.19">Efficient GPU Isosurface Raycasting of BCC Datasets</a>,
+					<!--#include file="journals/kcgs.html"-->
+					19(2),
+					pp. 19-27,
+					Jun.
+					<span class=doi>10.15701/kcgs.2013.19.2.19</span>
+					<span class=year>2013</span>
+					<a class=icon href="http://cg-korea.or.kr/controllers/download.php?fileID=245"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+					<!--#include file="authors/minho.kim.html"-->
+					and
+					<!--#include file="authors/youngjoon.lee.html"-->,
+					<a class=title href="http://dx.doi.org/10.15701/kcgs.2012.18.4.25">Real-time BCC Volume Isosurface Ray Casting on the GPU</a>,
+					<!--#include file="journals/kcgs.html"-->
+					18(4),
+					pp. 25-34,
+					Dec.
+					<span class=doi>10.15701/kcgs.2012.18.4.25</span>
+					<span class=year>2012</span>
+					<a class=icon href="http://cg-korea.or.kr/controllers/download.php?fileID=238"><img src="thumbnails/pdf.gif"></a>
+				</li>
+			</ul>
+
+			<div class=subtitle><span class=title>conference proceedings/posters/talks</span></div>
+			<ul>
+				<li class=paper>
+						<!--#include file="authors/hyunjun.kim.html"-->,
+						<!--#include file="authors/lottie.lu.html"-->,
+						and
+						<!--#include file="authors/minho.kim.html"-->,
+						<a class=title href="http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09221636">Internal Structure for DLP 3D Printer</a>,
+						<a class=where href="http://cg-korea.org/index.php?hCode=CONF_VIEW&cl_Idx=3&domeTF=">KCGS Conference (domestic)</a>,
+						<span class=year>2019</span>
+				</li>
+
+				<li class=paper>
+						<!--#include file="authors/hyunjun.kim.html"-->,
+						<!--#include file="authors/lottie.lu.html"-->,
+						and
+						<!--#include file="authors/minho.kim.html"-->,
+						<a class=title href="http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07515108">Real-Time GPU Slicing Based on Implicit Representation</a>,
+					<a class=where href="http://cg-korea.org/index.php?hCode=CONF_VIEW&cl_Idx=2&domeTF=">
+							KCGS Conference (domestic)</a>,
+						<span class=year>2018</span>
+
+				</li>
+				<li class=paper>
+						<!--#include file="authors/dohoon.kim.html"-->,
+						<!--#include file="authors/hyunjun.kim.html"-->,
+						and
+						<!--#include file="authors/minho.kim.html"-->,
+							<!--http://cg-korea.or.kr/Papers/7/06%20Rendering/O23.pdf">
+							-->
+							<a class=title href="http://www.dbpia.co.kr/Article/NODE07299387">Mesh-Based Marching Tetrahedra on BCC Datasets</a>,
+						<a class=where href="http://cg-korea.or.kr/conference.php?conferenceID=32&target=page&pageID=146">
+							KCGS Conference (domestic)</a>,
+						<span class=year>2017</span>
+				</li>
+
+
+				<li class=paper>
+						<!--#include file="authors/hyunjun.kim.html"-->,
+						<!--#include file="authors/dohoon.kim.html"-->,
+						and
+						<!--#include file="authors/minho.kim.html"-->,
+						<a class=title href="http://www.dbpia.co.kr/Article/NODE06749207">Mesh-Based Marching Cubes</a>,
+						<a class=where href="http://cg-korea.or.kr/conference.php?conferenceID=31">KCGS Conference (domestic)</a>,
+						<span class=year>2016</span>
+						<!--
+						<a class=icon href="http://cg-korea.or.kr/Papers/Rendering/4.pdf"><img src="thumbnails/pdf.gif"></a>
+						-->
+				</li>
+
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/hyunjun.kim.html"-->,
+						and
+						<!--#include file="authors/aaliya.sarfaraz.html"-->,
+						<a class=title href="http://www.dbpia.co.kr/Article/NODE02225733">Efficient GPU Isosurface Raycasting of BCC Datasets</a>,
+						<a class=where href="http://cg-korea.or.kr/conference.php?conferenceID=28">KCGS Conference (domestic)</a>,
+						<span class=year>2013</span>
+						<!--
+						<a class=icon href="http://cg-korea.or.kr/files/files/Conference/2013/papers/%5BS7-01%5D%20%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8%20BCC%20%EB%B3%BC%EB%A5%A8%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%20GPU%20%EB%93%B1%EA%B0%80%EB%A9%B4%20%EB%A0%88%EC%9D%B4%EC%BA%90%EC%8A%A4%ED%8C%85.pdf"><img src="thumbnails/pdf.gif"></a>
+						-->
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<a class=title href="http://www.birs.ca/workshops/2013/13w5062/Programme13w5062.pdf">GPU Isosurface Raycasting of Volume Datasets Based On Box-Splines</a>,
+						<a class=where href="http://www.birs.ca/events/2013/5-day-workshops/13w5062">Algebraic Geometry and Geometric Modeling</a> (Workshop at BIRS)
+						<span class=hear>2013</span>
+						<a class=icon href="papers/birs13.pdf"><img src="thumbnails/pdf.gif"></a>
+
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<a class=title href="http://sweb.cityu.edu.hk/pg2012/#section-Invited-CGF-TVCG-presentations-II">Quartic Box-Spline Reconstruction on the BCC Lattice</a>
+						(invited TVCG presentation),
+						<a class=where href="http://sweb.cityu.edu.hk/pg2012">The 20th Pacific Conference on Computer Graphics and Applications (Pacific Graphics)</a>,
+						<span class=year>2012</span>
+						<a class=icon href="papers/pg12.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->
+						and
+						<!--#include file="authors/youngjoon.lee.html"-->
+						<a class=title href="http://www.dbpia.co.kr/Article/NODE01956377">GPU Raycasting of BCC Volume Datasets</a>,
+						<a class=where href="http://cg-korea.or.kr/conference.php?conferenceID=26">KCGS Conference (domestic)</a>,
+						<span clas=year>2012</span>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/jaechan.kim.html"-->
+						and
+						<!--#include file="authors/minho.kim.html"-->
+						<a class=title href="http://www.dbpia.co.kr/Article/NODE01983454">B-Spline Isoline Extraction on the GPU</a>,
+						<a class=where href="http://cg-korea.or.kr/conference.php?conferenceID=24&target=page&pageID=80">KCGS Conference (domestic)</a>
+						<span class=year>2011</span>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<span class=title>Symmetric Box-Splines on Root Lattices</span>,
+						<a class=where href="http://www.birs.ca/events/2010/5-day-workshops/10w5122">Sampling and Reconstruction: Applications and Advances</a>
+						(Workshop at BIRS)
+						<span class=year>2010</span>
+						<a class=icon href="papers/kim10birs.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/ashish.myles.html"-->,
+						<!--#include file="authors/young.in.yeo.html"-->,
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/juan.cendan.html"-->,
+						<!--#include file="authors/sergei.kurenov.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://dx.doi.org/10.3233/978-1-58603-964-6-221">Interactive Peritoneum in a Haptic Surgery Illustration Environment</a>,
+						in
+						<a class=where href="http://www.iospress.nl/loadtop/load.php?isbn=9781586039646">Proceedings 
+								of the 17th Annual Medicine Meets Virtual Reality (MMVR) Conference</a>,
+						Jan. 19-22 2009, Long Beach, CA,
+						vol. 142,
+						pp. 221-223,
+						<span class=year>2009</span>.
+				</li>
+				<li class=paper>
+						<!--#include file="authors/sukitti.punak.html"-->,
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/ashish.myles.html"-->,
+						<!--#include file="authors/juan.cendan.html"-->,
+						<!--#include file="authors/sergei.kurenov.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://www.booksonline.iospress.nl/Content/View.aspx?piid=8113">Fatty Tissue in a Haptic Illustration Environment</a>,
+						in
+						<a class=where href="http://www.iospress.nl/loadtop/load.php?isbn=9781586038229">Proceedings 
+								of the 16th Annual Medicine Meets Virtual Reality (MMVR) Conference</a>,
+						Jan. 30-Feb. 1 2008, Long Beach, CA,
+						vol. 132,
+						pp. 384-386,
+						Feb. 
+						<span class=year>2008</span>.
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://www.math.vanderbilt.edu/~gdc07/longprog3.pdf">Fast and Stable Evaluation of Box
+						Splines via the B&eacute;zier Form</a>
+						presented at
+						<a class=where href="http://www.math.vanderbilt.edu/~gdc07">10th SIAM Conference on
+						Geometric Design 
+						&amp; Computing
+						(SIAM GDC'07)</a>,
+					6 Nov. <span class=year>2007</span>
+						<a class=icon href="papers/07gdc.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/tianyun.ni.html"-->,
+						<!--#include file="authors/juan.cendan.html"-->,
+						<!--#include file="authors/sergei.kurenov.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://www.booksonline.iospress.nl/Content/View.aspx?piid=5164">A Haptic-enabled Toolkit for Illustration of Procedures in Surgery (TIPS)</a>,
+						in
+						<a class=where href="http://www.iospress.nl/loadtop/load.php?isbn=9781586037130">Proceedings 
+								of the 15th Annual Medicine Meets Virtual Reality (MMVR) Conference</a>,
+						Feb. 6-9  2007, Long Beach, CA,
+						vol. 125,
+						pp. 209-214,
+						Feb. 
+						<span class=year>2007</span>.
+						<a class=icon href="papers/kim07haptic.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/sukitti.punak.html"-->,
+						<!--#include file="authors/juan.cendan.html"-->,
+						<!--#include file="authors/sergei.kurenov.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://booksonline.iospress.nl/Content/View.aspx?piid=4641">Exploiting Graphics Hardware for Haptic Authoring</a>,
+						in
+						<a class=where href="http://www.nextmed.com/mmvr_virtual_reality.html">Proceedings 
+							of the 14th Annual Medicine Meets Virtual Reality (MMVR) Conference</a>,
+						Jan. 25-27  2006, Long Beach, CA,
+						pp. 255-260,
+						Jan. 
+						<span class=year>2006</span>.
+						<a class=icon href="papers/kim06exploiting.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://dx.doi.org/10.1145/1186954.1187094">Realtime Loop Subdivision on the GPU</a>
+						(<a href="http://portal.acm.org/citation.cfm?id=1187094">abstract</a>,
+						<a href="papers/kim05realtime_poster.pdf">poster
+							<img src="thumbnails/pdf.gif">
+						</a>),
+						<a class=where href="http://www.siggraph.org">ACM SIGGRAPH 2005 Posters</a>,
+						Jul. 31-Aug. 04 2005, Los Angeles, California,
+						pp. 123,
+						Aug. 
+						<span class=year>2005</span>.
+				</li>
+
+			</ul>
+			<div class=subtitle><span class=title>theses</span></div>
+			<ul>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->
+						<a class=title href="https://ufl-flvc.primo.exlibrisgroup.com/permalink/01FALSC_UFL/6ad6fc/alma990216436700306597">Symmetric Box-Splines on Root Lattices</a>,
+						University of Florida,
+						Doctoral dissertation,
+						Aug.
+						<span class=year>2008</span>.
+				</li>
+
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<a class=title href="https://ufl-flvc.primo.exlibrisgroup.com/permalink/01FALSC_UFL/6ad6fc/alma990230327450306597">Finding Intersection Curves Using SLEFE (Subdividable Linear Efficient Function Enclosure)</a>, 
+						University of Florida,
+						Master's thesis,
+						May 
+						<span class=year>2004</span>.
+				</li>
+
+			</ul>
+			<!--
+			<div class=subtitle><span class=title>miscellaneous</span></div>
+			<ul>
+				<li class=paper>
+						<a class=title href="http://www.imaso.co.kr/?doc=bbs/gnuboard_pdf.php&bo_table=article&page=3&wr_id=1356&publishdate=20020801">GP32 Game Development</a>, article for the Korean magazine <a href="http://www.imaso.co.kr/">Microsoftware</a>,
+						Aug. 
+						<span class=year>2002</span>.
+				</li>
+
+			</ul>
+			-->
+			<div class=subtitle><span class=title>etc.</span></div>
+			<ul>
+				<li class=paper>
+					<!--#include file="authors/minho.kim.html"--> and
+					<!--#include file="authors/jorg.peters.html"-->,
+				<a class=title href="http://www.cise.ufl.edu/tr/REP-2010-506">Derivation of Some Quasi-interpolants for 
+					Symmetric Box Splines on Root Lattices</a>,
+					Technical report (REP-2010-506),
+					University of Florida,
+					Oct. <span class=year>2010</span>
+				</li>
+			</ul>
+			</div>
+		</div>
+				</td>
+			</tr>
+		</table>
+		<div class=footnote>last updated 30 Jun. 2023</div>
+	</body>
+</html>
