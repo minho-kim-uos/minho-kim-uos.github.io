@@ -1,0 +1,138 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Mathematical Models for Engineering Problems 
+			and Differential Equations (fall,2014): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+				<span class=date>12/26</span>
+				<a href="http://www.minho-kim.com/courses/14fa71051/data/14fall_ode_exam_scores.pdf">Scores for midterm &amp; final exams</a> are posted.
+				<span style="color:red;">If you want to check your exams,
+					please drop by my office during 1pm~6pm on 29 Dec. (Mon)</span>
+				</li>
+				<li>
+				<span class=date>12/22</span>
+					<ul>
+						<li>Score for homeworks is posted in the <a href="homeworks.shtml">homeworks</a> page.
+				Please contact the TA for any questions.
+						</li>
+						<li><a href="https://www.dropbox.com/s/qu3xocb3gky9jsp/final2014.pdf?dl=0">Solution for the final exam</a> is posted.</li>
+						<li><a href="https://www.dropbox.com/s/to1udyp4sy9sxj4/midterm2014.pdf?dl=0">Solution for the midterm exam</a> is posted.</li>
+					</ul>
+				</li>
+				<li>
+				<span class=date>12/11</span>
+				The due date for the last homework (Chapter 8) is delayed to 17 Dec before exam.
+				</li>
+				<li>
+				<span class=date>12/8</span>
+				<span style="color:red;font-weight:bold;">IMPORTANT!!!</span>
+				The final exam will be held in
+				<span style="color:red;">2-111
+					(제1공학관 111호 대형강의실)</span> on 17 Dec 5:00-6:50pm.
+				</li>
+
+				<li>
+				<span class=date>12/5</span>
+				Homework for Chapter 8 is posted.
+				</li>
+				<li>
+				<span class=date>12/1</span>
+				Homework for Chapter 7 is posted.
+				</li>
+				<li>
+				<span class=date>11/12</span>
+				Mistake during the lecture on 10 Nov.
+				When explaining the derivation of the error estimation
+				of the composite trapezoidal method,
+				I said that the &xi;<sub>i</sub>
+				in the step 2 is different from 
+				the &xi;<sub>i</sub> in the step 1, but I was wrong.
+				They are the same.
+				You can obtain the equation in step 2 from the equation in step 1
+				by substituting x by x<sub>i</sub>.
+
+				</li>
+				<li>
+				<span class=date>10/31</span>
+				The classroom will be the same 
+				as before: 19-110.
+				</li>
+				<li>
+				<span class=date>10/28</span>
+				Midterm 2010/2011/2013 are updated
+				with all the solutions.
+				</li>
+				<li>
+				<span class=date>10/27</span>
+				<span style="color:red;font-weight:bold;">IMPORTANT!!!</span>
+				The midterm exam will be held in
+				<span style="color:red;">2-111
+				(제1공학관 111호 대형강의실)</span>.
+				</li>
+				<li>
+				<span class=date>10/24</span>
+				Solutions for homeworks
+				are to be provided based on request.
+				If you want a solution,
+				send an e-mail to the TA with the chapter you want.
+				</li>
+				<span class=date>10/22</span>
+				Due date of the homework for Chapter 4
+				is delayed.
+				Check out the homeworks page.
+				</li>
+				<li>
+				<span class=date>10/16</span>
+				Homework for Chapter 4 is posted.
+				</li>
+				<li>
+					Welcome!
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

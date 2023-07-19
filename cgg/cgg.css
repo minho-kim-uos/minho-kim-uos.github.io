@@ -1,0 +1,101 @@
+body
+{
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:arial;
+}
+div.header
+{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+div.menu
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:320px;
+}
+a.menuitem
+{
+	text-decoration:none;
+}
+div.member
+{
+	border:1px dashed black;
+	padding:10px;
+	margin:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:320px;
+}
+div.member span.name
+{
+	display:block;
+}
+div.member a.email
+{
+	display:block;
+	font-family:courier new;
+}
+div.work
+{
+	border:1px dashed black;
+	padding:20px;
+	margin:10px;
+}
+div.work div.author
+{
+}
+div.work a.title
+{
+	font-weight:bold;
+	font-size:120%;
+	text-decoration:none;
+}
+div.work a.title:hover
+{
+	text-decoration:underline;
+}
+div.work a.title:before
+{
+	content:open-quote;
+}
+div.work div.author a
+{
+	text-decoration:none;
+}
+div.work div.author a:hover
+{
+	text-decoration:underline;
+}
+div.work a.where
+{
+	text-decoration:none;
+}
+div.work a.where:hover
+{
+	text-decoration:underline;
+}
+div.work img.thumbnail
+{
+	float:left;
+	margin:10px;
+}
+div.work div.abstract div.title
+{
+	text-align:center;
+	text-decoration:underline;
+	font-weight:bold;
+}
+div.subtitle
+{
+	background-color:darkgray;
+	padding:10px;
+	color:white;
+	font-weight:bold;
+	font-size:150%;
+}
+

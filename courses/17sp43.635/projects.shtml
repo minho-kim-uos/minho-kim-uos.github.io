@@ -1,0 +1,20 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Topics in Computer Graphics (spring,2017): projects</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Projects</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li>
+					<a href="proj-mid.html">Midterm project</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

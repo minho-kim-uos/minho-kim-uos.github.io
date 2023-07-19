@@ -1,0 +1,53 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2014): projects</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+		span.date
+		{
+			font-weight:bold;
+			color:red;
+		}
+		span.date:before
+		{
+			content:'[';
+		}
+		span.date:after
+		{
+			content:']';
+		}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Projects</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li>
+				Term Project: 3D Virtual Desktop
+					<ul>
+						<li>
+						<span class=date>11/12</span>
+						<a href="http://www.ted.com/talks/anand_agarawala_demos_his_bumptop_desktop">BumpTop demo (March 2007 @TED2007)</a>
+						<br>
+						<iframe src="https://embed-ssl.ted.com/talks/lang/ko/anand_agarawala_demos_his_bumptop_desktop.html" width="854" height="480" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+						</li>
+
+						<li>
+						<span class=date>9/23</span>
+						<a href="https://www.dropbox.com/s/c1x7o18nbv6qpeq/proposal-outline.pdf?dl=0">proposal outline</a>
+						</li>
+						<li>
+						schedule
+							<ul>
+								<li>proposal submission: 2014/10/2</li>
+								<li>proposal presentation: 2014/10/2</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Midterm Project
+			(Topics in Computer Graphics, spring 2017)</title>
+	</head>
+	<body>
+		<h1 align=center>Midterm Project &ldquo;Game of Life&rdquo;</h1>
+		<h2 align=center style="color:red;">(due: 11:59pm, 4 May)</h2>
+		<ul>
+			<li>Objective: To implement
+			<a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>
+			using OpenCL</li>
+			<li>Requirements
+				<ul>
+					<li>Download the stub script
+					(<a href="
+						https://www.dropbox.com/s/5okbkp7mi1tgpxt/GoL.py?dl=0"><tt>GoL.py</tt></a>) and a sample seed file (<a href="https://www.dropbox.com/s/a1tk35fx7q236ob/seed.txt?dl=0"><tt>seed.txt</tt></a>)
+					</li>
+					<li>
+					Usage: 
+					<div style="background-color:black;color:white;padding:10px;"><tt>python GoL.py <i>&lt;seed_file&gt;</i> <i>&lt;num_iter&gt;</i></tt></div>
+						<ul>
+							<li><tt><i>&lt;seed_file&gt;</i></tt>: seed file name</li>
+							<li><tt><i>&lt;num_iter&gt;</i></tt>: number of iterations</li>
+						</ul>
+					</li>
+					<li>
+						The seed file is a text file containing the seed pattern.
+						You can assume that the rows and columns are always multiple of 8.
+					</li>
+					<li>
+						Currently, if you run the stub, 
+						it just
+						<ol>
+							<li>loads the seed file
+								into a numpy array (<tt>numpy.int32</tt> type),</li>
+							<li>displays the pattern,</li>
+							<li>does NOT do any iteration, and </li>
+							<li>saves the pattern as a text file named <tt>out.txt</tt>.</li>
+						</ol>
+					</li>
+					<li>
+						You should implement all the necessary 
+						OpenCL parts to do the iterations
+						and save the final pattern as
+						<tt>out.txt</tt>.
+					</li>
+					<li>
+					Extra points
+					if &ldquo;local memory + local synchronization&rdquo; is used for better performance.
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,74 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Architecture for SCSC (fall,2016): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+				<span class=date>24 Nov</span>
+				Final project is posted!
+				</li>
+				<li>
+				<span class=date>26 Oct</span>
+				midterm project notices
+					<ul>
+						<li>Please DO NOT share your circuits-cloud file multiple times.</li>
+						<li>Please specify your name in your circuits-cloud file.</li>
+					</ul>
+				</li>
+				<li>
+				<span class=date>13 Oct</span>
+				I just sent out an e-mail with
+				the URL where you can find the working HDL files for Chapter 1 (nand2tetris).
+				Please let me know if you didn't receive the e-mail.
+				</li>
+				<span class=date>6 Oct</span>
+					Midterm project is posted!
+				</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<head>
+		<title>Linear Algebra (spring,2016): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.note
+	{
+		color:red;
+	}
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+	span.date:before
+	{
+		content:"[";
+	}
+	span.date:after
+	{
+		content:"]";
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<div class=title >Homeworks</div>
+			<ul>
+				<li>
+				<a href="hw01.shtml">Homework #01</a>
+				(due: 11 Apr 11:59pm)
+				</li>
+				<li>
+				<a href="hw02.shtml">Homework #02</a>
+				(due: 25 Apr 5:00pm)
+				</li>
+				<li>
+				<a href="https://www.dropbox.com/s/pk7m8g2blngmd1m/hw3.pdf?dl=0">Homework #03</a>
+				(due: 2 Jun 2:00pm before class)
+				<!--
+				<a href="https://www.dropbox.com/s/pk7m8g2blngmd1m/hw3-solution.pdf?dl=0">solution</a>
+				-->
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

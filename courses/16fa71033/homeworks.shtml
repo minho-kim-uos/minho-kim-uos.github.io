@@ -1,0 +1,86 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2016): projects</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+		span.date
+		{
+			font-weight:bold;
+			color:red;
+		}
+		span.date:before
+		{
+			content:'[';
+		}
+		span.date:after
+		{
+			content:']';
+		}
+		span.note
+		{
+			color:red;
+		}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li>
+				<span class=date>9 Oct</span>
+				Homework #1
+				<span class=note>(Due: 16 Oct (Sun) 11:59pm)</span>
+					<ul>
+						<li>Objective: Modify
+						the file
+						<a href="https://www.dropbox.com/s/shm9l12o8pksuos/homework1.cpp?dl=0"><tt>homework1.cpp</tt></a>
+						where marked by <tt>XXX</tt>
+						so that it produces the result 
+						as the screenshot below.
+						
+						<img style="display:block" width=20% src="hw1-screenshot.PNG">
+						</li>
+						<li>
+						The scene is composed of two
+						quads.
+						The one on the lower left corner is
+						NOT transparent
+						and the other one, on the upper right corner,
+						is transparent.
+						See the color attributes in <tt>homework1.cpp</tt>.
+						Note that you need to draw
+						transparent objects in the correct order.
+						</li>
+
+						<li>
+						You should NOT modify any other parts
+						of <tt>homework1.cpp</tt>.
+						</li>
+						<li>Also, you should NOT modify
+						any of the shader files.
+						</li>
+
+						<li>
+						You may need
+						<tt>shaders.cpp</tt> to compile <tt>homework1.cpp</tt>.
+						</li>
+						<li>Shader files:
+						<a href="https://www.dropbox.com/s/6dwhjp3zajexsa1/homework1.vert?dl=0"><tt>homework1.vert</tt></a>,
+						<a href="https://www.dropbox.com/s/oeloakoyc9tswbc/homework1.frag?dl=0"><tt>homework1.frag</tt></a>
+						</li>
+
+						<li>
+						Please send <tt>homework1.cpp</tt>
+						ONLY to me
+						(<tt>Mr.Minho.Kim@gmail.com</tt>)
+						before the due date.
+						</li>
+					</ul>
+
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

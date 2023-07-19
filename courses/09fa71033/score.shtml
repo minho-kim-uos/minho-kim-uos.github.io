@@ -1,0 +1,101 @@
+<html>
+	<head>
+		<title>Score</title>
+		<style type="text/css">
+		td.passcode
+		{
+			font-family:courier;
+			text-align:center;
+		}
+		table
+		{
+			border-collapse:collapse;
+		}
+		table td
+		{
+			border:1px solid black;
+		}
+		table td.score
+		{
+			text-align:right;
+		}
+		</style>
+	</head>
+	<body>
+		<h1 align=center>Score</h1>
+		<table align=center>
+			<tr>
+				<td>passcode</td>
+				<td>project#1</td>
+			</tr>
+			<tr>
+				<td class=passcode>0000</td>
+				<td class=score>120</td>
+			</tr>
+			<tr>
+				<td class=passcode>000a</td>
+				<td class=score>120</td>
+			</tr>
+			<tr>
+				<td class=passcode>0070</td>
+				<td class=score>110</td>
+			</tr>
+			<tr>
+				<td class=passcode>0615</td>
+				<td class=score>25</td>
+			</tr>
+			<tr>
+				<td class=passcode>0x00</td>
+				<td class=score>120</td>
+			</tr>
+			<tr>
+				<td class=passcode>1010</td>
+				<td class=score>20</td>
+			</tr>
+			<tr>
+				<td class=passcode>9030</td>
+				<td class=score>120</td>
+			</tr>
+			<tr>
+				<td class=passcode>a21c</td>
+				<td class=score>120</td>
+			</tr>
+			<tr>
+				<td class=passcode>abcd</td>
+				<td class=score>10</td>
+			</tr>
+			<tr>
+				<td class=passcode>bfff</td>
+				<td class=score>120</td>
+			</tr>
+			<tr>
+				<td class=passcode>hamt</td>
+				<td class=score>120</td>
+			</tr>
+			<tr>
+				<td class=passcode>hoyo</td>
+				<td class=score>120</td>
+			</tr>
+			<tr>
+				<td class=passcode>kimc</td>
+				<td class=score>120</td>
+			</tr>
+			<tr>
+				<td class=passcode>SNOW</td>
+				<td class=score>120</td>
+			</tr>
+			<tr>
+				<td class=passcode>uukk</td>
+				<td class=score>110</td>
+			</tr>
+			<tr>
+				<td class=passcode>xxxx</td>
+				<td class=score>65</td>
+			</tr>
+			<tr>
+				<td>average</td>
+				<td class=score>97.6471</td>
+			</tr>
+		</table>
+	</body>
+</html>

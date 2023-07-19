@@ -1,0 +1,27 @@
+1. Install Visual Studio c++ Express 
+2. Install GLUT library
+	1) Download pre-compiled GLUT for Win32 (glut-3.7.6-bin.zip)
+		(You can download and compile freeglut if you want, but it's more complicated.)
+	2) Extracts GLUT in a folder, e.g., "C:\lib\".
+		(Now all files (glut32.dll, glut32.lib, glut.h) are located in C:\lib\glut-3.7.6-bin)
+	3) Creates folder "GL" in "C:\lib\glut-3.7.6-bin" and move "glut.h" in "GL".
+3. Set environment variables.
+	1) Go to "제어판->시스템->고급->환경변수->시스템 변수->새로 만들기
+	2) Create a environment variable with 변수 이름: GLUTROOT, 변수 값: C:\lib\glut-3.7.6-bin
+	3) Go to "제어판->시스템->고급->환경변수->시스템 변수->select "Path"->편집
+	4) Add ";%GLUTROOT%" at the end.
+4. Set environment for the Visual Studio
+	1) Tools->Options->Project and Solutions->VC++ Directories
+	2) Platforms: Win32, Show directories for: Include files
+	3) Add "$(GLUTROOT)" in the list.
+	4) Platforms: Win32, Show directories for: Include files
+	5) Add "$(GLUTROOT)" in the list.
+5. Create and execute an OpenGL sample
+	1) File->New->Project...
+	2) Project type: General, Templates: Empty project,
+		name: hello, location: [wherever you want], uncheck "Create Directory for Solution"
+	3) Download hello.c and place it in the folder where the project file is.
+	4) In the "solution explorer", right-click "Source files"->Add->Existing Item...
+	5) Select hello.c
+	6) Build->Build solution
+	7) "Debug"->"Start debugging"

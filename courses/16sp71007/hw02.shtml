@@ -1,0 +1,57 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<head>
+		<title>Linear Algebra (spring,2013): homework #02</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+span.emph
+{
+	color:red;
+	font-weight:bold;
+}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homework #02</h1>
+		<ul>
+			<li>
+			<span class=emph>Due: 25 Apr 5:00pm</span>
+			</li>
+			<li>
+			How to submit: Submit your homework 
+			to the TA 
+			(Hyunjun Kim)
+			in room #206
+			or to me before the class.
+			</li>
+			<li>
+			What to do:
+			Solve the following problems by hand.
+				<ul>
+					<li>Chapter 2 (p.111~113):
+						Problem 2.14.3,
+						Problem 2.14.4,
+						Problem 2.14.6
+						
+					</li>
+					<li>
+						Chapter 3 (p.145~147):
+						Problem 3.8.4,
+						Problem 3.8.7,
+						Problem 3.8.9,
+						Problem 3.8.10
+					</li>
+					<li>
+						Chapter 4 (p.207~213):
+						Problem 4.17.3,
+						Problem 4.17.8,
+						#3 of Problem 4.17.21,
+						Problem 4.17.23
+
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

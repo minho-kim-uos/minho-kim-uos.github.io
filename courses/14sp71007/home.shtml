@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<meta charset="euc-kr">
+		<title>Linear Algebra (spring,2014): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.</h3>
+		<div class="announce">
+			<ul>
+				<li><span class=date>6/26</span>
+				<a href="data/14sp_LA_score_midterm_final.pdf">Scores for midterm &amp; final exams</a> is posted.
+				<div style="border:1px solid black;padding:10px;color:red;" class=note>
+					시험지 확인을 원하는 학생은 6월27일(금)에 제 사무실(312호)로 찾아오시기 바랍니다.
+				</div>
+				</li>
+				<li><span class=date>6/25</span>
+				<a href="data/score-hw.pdf">Scores for homeworks</a>
+				are posted.
+				Please contact the TA 
+				(<a href="mailto:kamumik@gmail.com">kamumik@gmail.com</a>)
+				for your passcode.
+				</li>
+				<li><span class=date>6/19</span>
+				<a href="data/final-2014-answers.pdf">Solution
+					for the final exam</a>.
+				</li>
+				<li><span class=date>5/27</span>
+				Homework for Chapter 4 is posted.
+					(due: 5 June 6pm)
+				</li>
+				<li><span class=date>5/14</span>
+					Homework for Chapter 3 is posted.
+					(due: 29 May 6pm)
+				</li>
+				<li><span class=date>5/8</span>
+					<a href="data/midterm.pdf">Solution for midterm exam</a>.
+				</li>
+				<li><span class=date>4/21</span>
+				Midterm exam details
+					<ul>
+						<li>When: 24 Apr (Thursday) 4-5:50pm</li>
+						<li>Coverage: Chapter 1 - 3.4 (LU factorization)</li>
+						<li>Note: Open book exam (You can bring the <u>texbook</u> and <u>lecture slides printouts</u> ONLY.)
+					</ul>
+				</li>
+				<li><span class=date>4/4</span> Homework for chapter 2 is posted. (due: 18 Apr before class)</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

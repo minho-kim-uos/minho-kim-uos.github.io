@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2014): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.note
+	{
+		color:red;
+	}
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+	span.date:before
+	{
+		content:"[";
+	}
+	span.date:after
+	{
+		content:"]";
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li>Homework for Chapter 4 <span class=note>(due: 5 June 6pm - Please submit your homework to the TA in room #206.)</span>
+				<ul>
+					<li>Excercises 4.1 (p.271~273): 37</li>
+					<li>Excercises 4.2 (p.292~294): 53</li>
+					<li>Excercises 4.3 (p.309~312): 4, 18</li>
+					<li>Excercises 4.4 (p.320~322): 11, 22, 44, 47</li>
+				</ul>
+				<li>Homework for Chapter 3 <span class=note>(due: 29 May 6pm - Please submit your homework to the TA in room #206.)</span>
+					<ul>
+						<li>Exercises 3.1 (p.158~159): 37</li>
+						<li>Exercises 3.2 (p.167~168): 42, 43(a)</li>
+						<li>Exercises 3.3 (p.184~186): 44(b),47</li>
+						<li>Exercises 3.5 (p.215~217): 34, 57, 59(a), 61</li>
+						<li>Exercises 3.6 (p.229~231): 26(b)</li>
+					</ul>
+				</li>
+				<li>Homework for Chapter 2 <span class=note>(due: 18 Apr before class)</span>
+					<ul>
+						<li>Exercises 2.2 (p.85~88): 11, 12, 15, 28, 30, 48, 58</li>
+						<li>Exercises 2.3 (p.103~105): 2, 10, 15, 17, 24, 28, 34, 38</li>
+						<li>Exercises 2.4 (p.119~126): 2, 26, 31</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

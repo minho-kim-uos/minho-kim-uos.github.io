@@ -1,0 +1,26 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Advanced Computer Graphics (spring,2016): projects</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Projects</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li><a href="proj1.shtml">Project #1</a>
+				(due: 11:59pm 1 Apr)
+				</li>
+				<li><a href="proj2.shtml">Project #2</a>
+				(due: 11:59pm 27 May)
+				</li>
+				<li><a href="proj3.shtml">Project #3</a>
+				(due: 11:59pm 23 June)
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

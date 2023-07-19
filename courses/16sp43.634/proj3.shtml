@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>
+			Project #3
+		</title>
+	</head>
+	<body>
+		<h1 align=center>Project #3</h1>
+		<ul>
+			<li>
+			GOAL: to draw a tensor-product B&eacute;zier surface and
+			a B&eacute;zier triangle.
+			</li>
+			<li>
+			DUE: 11:59pm 23 June
+			</li>
+			<li>
+			SUBMISSION: send your python code (two files) to me via an e-mail.
+			(<tt>Mr.Minho.Kim@gmail.com</tt>)
+			</li>
+			<li>
+			REQUIREMENTS
+			<ul>
+				<li>
+				tensor-product B&eacute;zier surface
+					<ul>
+						<li>
+							Fill in the arrays BX, BY, BZ
+							using the de Casteljau algorithm.
+						</li>
+						<li>
+							The program should
+							work with any degree (N and M) and resolution (Nu and Nv).
+						</li>
+						<li>
+				A sample pyton files
+				<a href="https://www.dropbox.com/s/14vbi8q9e8jgia0/bezier_quad.py?dl=0">bezier_quad.py</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+				B&eacute;zier triangle
+					<ul>
+						<li>
+							Fill in the dictionary B
+							using the de Casteljau algorithm.
+						</li>
+						<li>
+							The program should
+							work with any resolution (N).
+						</li>
+						<li>
+				A sample pyton files
+				<a href="https://www.dropbox.com/s/l1ko757y30zlmiq/bezier_tri.py?dl=0">bezier_tri.py</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</ul>
+	</body>
+</html>

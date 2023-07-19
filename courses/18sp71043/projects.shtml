@@ -1,0 +1,41 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Digital Logic Design and Experiment (for SCSC)
+			(spring,2018)</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+		span.date
+		{
+			font-weight:bold;
+			color:red;
+		}
+		span.date:before
+		{
+			content:'[';
+		}
+		span.date:after
+		{
+			content:']';
+		}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Projects</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li><span class=date>4/13</span>
+					<a href="proj-mid.shtml">Midterm project</a>
+					(due: 11:59pm 3 May (Thu) )
+				</li>
+				<li><span class=date>6/8</span>
+					<a href="proj-final.shtml">Final project</a>
+					(due: 11:59pm 25 Jun. (Mon) )
+				</li>
+
+			</ul>
+		</div>
+	</body>
+</html>

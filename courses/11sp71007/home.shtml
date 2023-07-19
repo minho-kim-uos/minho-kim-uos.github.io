@@ -1,0 +1,254 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2011): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.</h3>
+		<div class="announce">
+			<ul>
+				<li>
+				<span class=date>6/17</span>
+				Solution for homework#6 is posted.
+				</li>
+				<li>
+				<span class=date>6/17</span>
+				Solution for homework#5 is updated.
+				(There was an error in the solution of question 3.)
+
+				</li>
+				<li>
+				<span class=date>6/16</span>
+				Final exam
+					<ul>
+						<li>6/21 9am~10:50am</li>
+						<li>You can take ONLY (1) the textbook (2)lecture slides and
+						(3) your own notes with you.</li>
+						<li>The final exam covers
+						Chap 3.5~3.6,
+						Chap 4.1~4.4,
+						Chap 5.1~5.2.
+						But you may need to know previous contents, too.
+					</ul>
+				</li>
+				<li>
+				<span class=date>6/14</span>
+				Solution for homework #5 is posted.
+				</li>
+				<li>
+				<span class=date>6/13</span>
+					Homework #6 is posted.
+					(due: 17 June before class)
+				</li>
+				<li>
+				<span class=date>6/13</span>
+				The due date for homework #5 is delayed to
+				<span style="color:red;font-weight:bold;">
+					before class on 14 June</span>.
+				</li>
+				<li>
+				<span class=date>6/9</span>
+				Lecture slide for chap 5 is updated.
+				</li>
+				<li>
+				<span class=date>6/7</span>
+				<span style="color:red;font-weight:bold;">
+					Final exam: 21 June 9~10:50am in room 110
+				</span>
+				</li>
+				<li>
+				<span class=date>6/6</span>
+				<ul>
+					<li>
+				Homework #5 is posted.
+				(due: 13 June 6pm room #312)
+					</li>
+					<li>
+					Lecture slide for chap 5 is updated.
+					</li>
+				</ul>
+				</li>
+				<li>
+				<span class=date>6/2</span>
+				Lecture slide for chap 4 is updated.
+				<br>
+				Lecture slide for chap 5 is uploaded.
+				</li>
+				<li>
+				<span class=date>5/30</span>
+				Lecture slide for chap 4 is updated.
+				</li>
+				<li>
+				<span class=date>5/30</span>
+				Solution for homework #4 is posted.
+				</li>
+				<li>
+				<span class=date>5/24</span>
+				The error was in the question 1(b) not 3(b). Sorry.
+				</li>
+				<li>
+				<span class=date>5/23</span>
+				Homework #4 is updated.
+				(There was an error in the question 3(b) before.)
+				</li>
+				<li>
+				<span class=date>5/23</span>
+				Lecture slide for chap 4 is updated.
+				</li>
+				<li>
+				<span class=date>5/16 8pm</span>
+				<b>Homework #4 is updated!</b>
+				</li>
+				<li>
+				<span class=date>5/16</span>
+				Homework #4 is posted.
+				(due: 27 May, before class)
+				</li>
+				<span class=date>5/12</span>
+				Lecture slide for chap 4 is uploaded.
+				</li>
+				<li>
+				<span class=date>5/2</span>
+				Lecture slide for chap 3 is updated.
+				</li>
+				<li>
+				<span class=date>4/28</span>
+				Solution for homework #3 is updated.
+				(Solutions for Excercise 3.1 #26~28 were incorrect.)
+				</li>
+				<li>
+				<span class=date>4/28</span>
+				Solution for homework #3 is posted.
+				</li>
+				<li>
+				<span class=date>4/25</span>
+				<ul>
+					<li>
+					Midterm
+					<ul>
+						<li>4/29 10am~11:50am</li>
+						<li>You can take ONLY (1) the textbook (2) lecture slides and (3) your own note with you.</li>
+						<li>The midterm covers Chap. 1.1~1.3, Chap. 2.1~2.4, and Chap. 3.1~3.4</li>
+					</ul>
+					</li>
+					<li>
+					Homework #3 is due <span style="color:red">6pm 4/26</span>. (Slide your homework under the door of my office 
+					(room <span style="color:red">312</span>)
+						if I'm not in.)
+					</li>
+				</ul>
+				</li>
+				<li>
+				<span class=date>4/21</span>
+				Lecture slide for chap 3 is updated.
+				</li>
+				<li>
+				<span class=date>4/20</span>
+				Solution for homework #2 is posted.
+				</li>
+				<li>
+				<span class=date>4/14</span>
+				Lecture slide for chap 3 is updated.
+				</li>
+				<li>
+				<span class=date>4/12</span>
+				Hint for #42 of Excercises 2.3 is posted.
+				</li>
+				<li>
+				<span class=date>4/11</span>
+				Part of homework #3 is posted. 
+				More problems will come...
+				</li>
+				<li>
+				<span class=date>4/9</span>
+				Homework #2 is posted. (due: 4/19 before class)
+				</li>
+				<li>
+				<span class=date>4/7</span>
+				Lecture slide for Chap 3 is updated.
+				</li>
+				<li>
+				<span class=date>4/5</span>
+				Solution of homework #1 is updated. (#46 of Excercise 1.2)
+				(오류를 지적해 준 윤경민 학생에게 감사드립니다.)
+				</li>
+				<li>
+				<span class=date>4/4</span>
+				Lecture slide for Chap 3 is updated.
+				</li>
+				<li>
+				<span class=date>4/1</span>
+				Solution for homework #1
+				is posted.
+				</li>
+				<li>
+				<span class=date>3/31</span>
+				Lecture slide for Chap 3 is updated.
+				</li>
+
+				<li>
+				<span class=date>3/24</span>
+				Lecture slide for Chap 3 is posted.
+				</li>
+				<li>
+				<span class=date>3/24</span>
+				Lecture slide for Chap 2 is (slightly) updated.
+				</li>
+				<li>
+				<span class=date>3/21</span>
+				<a href="homeworks.shtml">Homework #1</a> is posted.
+				(due: 4/1 before class)
+				</li>
+				<li>
+				<span class=date>3/17</span>
+				Lecture slide for chap 2 is updated.
+				</li>
+				<li>
+				<span class=date>3/14</span>
+				(Part of) lecture slide for chapter 2
+				is uploaded.
+				</li>
+				<li>
+				<span class=date>3/7</span>
+				Slide for chapter 1 is uploaded.
+				You can find it in the &ldquo;<a href="materials.shtml">materials</a>&rdquo; page.
+				</li>
+				<li>
+				<span class=date>3/7</span>
+				Please print out a copy of the  
+				<a href="http://academic.cengage.com/resource_uploads/downloads/0534998453_44890.pdf">errata</a>
+				not to waste your time!
+				</li>
+				<li>Welcome! Check out the <a href="syllabus.shtml">syllabus</a> for details.</li>
+			</ul>
+		</div>
+	</body>
+</html>

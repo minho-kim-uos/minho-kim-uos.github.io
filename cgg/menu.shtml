@@ -1,0 +1,5 @@
+<div class=menu>
+	<a class=menuitem href="home.shtml">home</a>
+	<a class=menuitem href="members.shtml">members</a>
+	<a class=menuitem href="pubs.shtml">pubs</a>
+</div>

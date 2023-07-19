@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>Computer Graphics Group @University of Seoul</title>
+		<style type="text/css">
+		<!--#include file="cgg.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="header.shtml"-->
+	</body>
+</html>

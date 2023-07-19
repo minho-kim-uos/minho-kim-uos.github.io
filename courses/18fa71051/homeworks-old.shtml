@@ -1,0 +1,208 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2018): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+	span.date:before
+	{
+		content:"[";
+	}
+	span.date:after
+	{
+		content:"]";
+	}
+	span.note
+	{
+		color:red;
+	}
+	table.figure
+	{
+		display:block;
+	}
+	table.figure tr.caption td
+	{
+		text-align:center;
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<div style="border:solid 1px black">
+				<b>Note</b><br>
+				<ul>
+					<li>TA info
+						<ul>
+							<li>±Ë«ˆ¡ÿ</li>
+							<li>office: #206 (Computer Graphics Lab)</li>
+							<li>e-mail: 
+							<tt>cglab.cs.uos@gmail.com</tt>
+							</li>
+							<!--
+							<li>e-mail: <tt>kamumik@gmail.com</tt></li>
+							-->
+						</ul>
+					</li>
+					<li>
+						The problems in
+						&ldquo;by hand &amp; calculator&rdquo;
+						category should be solved by hand on a paper,
+						using a calculator.
+					</li>
+					<li>
+						For the problems in 
+						&ldquo;programming&rdquo;,
+						you should write a
+						MATLAB or GNU Octave program
+						yourself as specified in the problem.
+						(Please specify which software
+						you used.)
+					</li>
+					<li>
+						Please submit your (hand-written) homework
+						directly to the TA at room 206.
+					</li>
+					<li>
+						Please send source files to the TA via an e-mail
+						for &ldquo;programming&rdquo; problems.
+					</li>
+				</ul>
+			</div>
+			<ul>
+			</ul>
+		</div>
+		<ul>
+			<li><span class=date>12/6</span>
+				Homework #4
+				<span class=note>(Due: 12 Dec 11:59pm)</span>
+				<ul>
+					<li>objective: To implement 1st order ODE solvers. </li>
+					<li>
+						Complete the following script by modifying the TODO parts as directed.
+						<ul>
+							<li>
+							<a href="data/plot_ode.m"><tt>plot_ode.m</tt></a>
+								<table class=figure>
+									<tr>
+										<td><img width=100% src="data/hw4-fig1.png"></td>
+										<td><img width=100% src="data/hw4-fig2.png"></td>
+									</tr>
+									<tr class=caption>
+										<td>(Figure 1)</td>
+										<td>(Figure 2)</td>
+									</tr>
+								</table>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<b>After done, please send your scripts (with <u>screenshots</u>) to the TA <u>via an e-mail</u>. </b>
+					</li>
+					<li>
+						More details will be given during the lecture.
+					</li>
+				</ul>
+			</li>
+			<li><span class=date>11/6</span>
+			Homework #4
+				<span class=note>(Due: 21 Nov 11:59pm)</span>
+				<ul>
+					<li>objective:
+						To implement numerical differentiation 
+						&amp; integration methods.
+					</li>
+					<li>
+						Complete each of the following 
+					script by modifying the TODO parts as directed.
+						<ul>
+							<li>
+								1st order derivatives:
+								<a href="data/plot_der1st.m"><tt>plot_der1st.m</tt></a>
+								<table class=figure>
+									<tr>
+										<td><img width=100% src="data/plot_der1st_Fig1.png"></td>
+										<td><img width=100% src="data/plot_der1st_Fig2.png"></td>
+									</tr>
+									<tr class=caption>
+										<td>(Figure 1)</td>
+										<td>(Figure 2)</td>
+									</tr>
+								</table>
+							</li>
+							<li>
+								2nd order derivatives:
+								<a href="data/plot_der2nd.m"><tt>plot_der2nd.m</tt></a>
+								<table class=figure>
+									<tr>
+										<td><img width=100% src="data/plot_der2nd_Fig1.png"></td>
+										<td><img width=100% src="data/plot_der2nd_Fig2.png"></td>
+									</tr>
+									<tr class=caption>
+										<td>(Figure 1)</td>
+										<td>(Figure 2)</td>
+									</tr>
+								</table>
+							</li>
+							<li>
+								integration:
+								<a href="data/plot_int.m"><tt>plot_int.m</tt></a>
+								<table class=figure>
+									<tr>
+										<td><img width=100% src="data/plot_int_Fig1.png"></td>
+										<td><img width=100% src="data/plot_int_Fig2.png"></td>
+									</tr>
+									<tr class=caption>
+										<td>(Figure 1)</td>
+										<td>(Figure 2)</td>
+									</tr>
+								</table>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<b>
+						After done,
+							please send your scripts
+							to the TA <u>via an e-mail</u>.
+						</b>
+					</li>
+					<li>
+						More details will be given during the lecture.
+					</li>
+				</ul>
+			</li>
+			<li><span class=date>10/18</span>
+			Homework #3 (Ch 6, due: 11:59pm 2 Nov.)
+			<ul>
+				<li>(by hand &amp; calculator) 2, 4, 14, 18</li>
+				<li>(programming) 22, 25</li>
+			</ul>
+
+			</li>
+			<li><span class=date>10/4</span>
+			Homework #2 (Ch 4, due: 11:59pm 12 Oct.)
+			<ul>
+				<li>(by hand &amp; calculator) 3, 16, 18, 20</li>
+				<li>(programming) 21, 28</li>
+			</ul>
+
+			</li>
+			<li><span class=date>9/26</span>
+			Homework #1 (Ch 3, due: 11:59pm 5 Oct.)
+			<ul>
+				<li>(by hand &amp; calculator) 1, 3</li>
+				<li>(programming) 15, 20, 24</li>
+			</ul>
+		</ul>
+	</body>
+</html>

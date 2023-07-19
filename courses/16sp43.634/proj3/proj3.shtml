@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>
+		</title>
+	</head>
+	<body>
+		<h1 align=center>Project #3: Robot arm pro</h1>
+		<h2 align=center style="color:red">Due: 17 Dec. 11:59pm</h2>
+		<div style="text-align:center">
+		<img src="proj3.png" style="border:1px solid black">
+		</div>
+		<ul>
+			<li>
+				Executables
+				<ul>
+					<li><a href="proj3.xp32.exe"><tt>proj3.xp32.exe</tt></a>: for Windows XP 32 bit</li>
+					<li><a href="grass.jpg"><tt>grass.jpb</tt></a>: texture file</li>
+					<li><a href="soccerball.obj">soccerball.obj</a></li>
+					<li><a href="soccerball.mtl">soccerball.mtl</a></li>
+					<li><a href="DevIL.dll"><tt>DevIL.dll</tt></a>: <a href="http://openil.sourceforge.net">DevIL</a> library DLL (for Win32)</li>
+				</ul>
+				<b>Let me know if you have any problem with the executables!</b>
+			</li>
+		</ul>
+		<hr>
+	</body>
+</html>

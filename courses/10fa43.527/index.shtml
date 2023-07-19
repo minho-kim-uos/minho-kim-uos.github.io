@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Computer Graphics for grads (fall,2010)</title>
+	</head>
+	<body>
+		<h1 align=center>Computer Graphics for grads (fall,2010)</h1>
+		<ul>
+			<li><a href="syllabus.shtml">syllabus</a></li>
+			<li>
+				lecture slides
+				<ol>
+					<li><a href="data/rendering.odp">rendering</a></li>
+					<li><a href="data/OpenGL.odp">OpenGL</a></li>
+					<li><a href="data/OpenGL_prog.odp">OpenGL programming</a></li>
+					<li><a href="data/OpenGL_lighting.odp">OpenGL lighting</a></li>
+					<li><a href="data/splines-handout.pdf">Splines</a>
+						(updated 4 Oct. 1pm)
+					</li>
+				</ol>
+			</li>
+			<li>
+				samples
+				<ul>
+					<li><a href="data/makefile">makefile</a>: Try "make PROG=sampleXX"</li>
+					<li><a href="data/sample01.c">sample01.c</a></li>
+					<li><a href="data/sample02.c">sample02.c</a></li>
+					<li><a href="data/sample03.c">sample03.c</a></li>
+					<li><a href="data/sample04.c">sample04.c</a></li>
+					<li><a href="data/sample05.c">sample05.c</a></li>
+					<li>More samples can be found
+					at the <a href="http://www.minho-kim.com/courses/10fa71033/materials.shtml">here</a>.</li>
+				</ul>
+			</li>
+			<li>
+				links
+				<ul>
+					<li>
+					<a href="http://www.vis.uni-stuttgart.de/~kraus/LiveGraphics3D/cagd/index.html">Applets</a>
+					for the book 
+					<a href="http://www.farinhansford.com/books/cagd">"Curves and Surfaces for CAGD - A Practical Guide"</a>
+					</li>
+					<li>
+					<a href="http://www.cut-the-knot.org/Curriculum/Calculus/LagrangeInterpolation.shtml">Applet</a> for Lagrange interpolation (polynomial interpolation)</a>
+					</li>
+					<li>
+						<a href="http://www.ibiblio.org/e-notes/Splines/Basis.htm">Applets</a>
+						for B-spline basis functions
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

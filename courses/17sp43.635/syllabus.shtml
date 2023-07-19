@@ -1,0 +1,119 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Topics in Computer Graphics (spring,2017): syllabus</title>
+		<style type="text/css">
+			td
+			{
+//				vertical-align:top;
+			}
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Syllabus</h1>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: Topics in Computer Graphics (for grads)</li>
+				<li>course webpage: 
+					<a href="http://www.minho-kim.com/courses/14sp43.635">http://www.minho-kim.com/courses/14sp43.635</a></li>
+				<li>credits: 3</li>
+				<li>course number: 43.635</li>
+				<li>hours: Thu 5-7 (1pm~3:50pm)</li>
+				<li>classroom: 19-317</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-6490-2453</li>
+				<li>office: 19-312</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading (tentative)</div>
+			<ul>
+				<li>attendance/participation 10%</li>
+				<li>midterm exam 30%</li>
+				<li>final exam 30%</li>
+				<li>homeworks/projects 30%</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for pirated homework/projects (including the original one)</li>
+				<li>no score for cheating during exams</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>To understand GPU programming techniques using OpenCL or CUDA.</li>
+				<li>To apply the GPGPU technique to various research fields.</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>prerequisite</div>
+			<ul>
+				<li>C/C++ programming</li>
+				<li>data structure</li>
+				<li>algorithms</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>textbooks</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">
+						<img src="https://secure-ecsd.elsevier.com/covers/80/Tango2/large/9780124058941.jpg">
+					</td>
+					<td style="valign:top;">
+						[mandatory]
+						<a href="https://www.elsevier.com/books/heterogeneous-computing-with-opencl/gaster/978-0-12-405894-1">
+							Heterogeneous Computing with OpenCL
+							2nd Edition
+							Revised OpenCL 1.2 Edition
+						</a> (2012)
+						<br>
+						by 
+						Benedict Gaster,
+						Lee Howes,
+						David Kaeli,
+						Perhaad Mistry,
+						and
+						Dana Schaa
+					</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">
+						<img src="http://www.informit.com/ShowCover.aspx?isbn=9780321749642&type=f">
+					</td>
+					<td style="valign:top;">
+						[optional]
+						<a href="http://www.informit.com/store/opencl-programming-guide-9780321749642">OpenCL Programming Guide</a> (2011)
+						<br>
+						by
+						Aaftab Munshi, 
+						Benedict Gaster, 
+						Timothy G. Mattson, 
+						James Fung, 
+						and
+						Dan Ginsburg
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,130 @@
+<html>
+	<head>
+		<meta charset="euc-kr">
+		<title>Linear Algebra (spring,2017): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.</h3>
+		<div class="announce">
+			<ul>
+				<li>
+				<span class=date>6/29</span>
+				<a href="https://www.dropbox.com/s/dlbhns8lv3urrju/17LA_HW.pdf?dl=0">Scores for homeworks</a>
+				<ul>
+					<li>숙제 관련 문의는 
+						조교(<tt>uos.cs.la@gmail.com</tt>)에게 하시기 바랍니다. </li>
+				</ul>
+				</li>
+				<li>
+				<span class=date>6/28</span>
+				<a href="https://www.dropbox.com/s/v3op7qdyd3ogr2e/17sp_scores_exams.pdf?dl=0">Scores for midterm &amp; final exams</a>
+				<ul>
+						<li>각자 WISE에 등록된 이메일 계정으로 passcode 정보를 받게 될 예정입니다.</li>
+						<li>만약 passcode를 받지 못했다면 
+						조교(<tt>uos.cs.la@gmail.com</tt>)에게 문의하시기 바랍니다. </li>
+						<li><span style="color:red">중간 및 기말고사 시험지를 확인하고 싶은 학생은 목/금요일에 <u>미리 이메일로 방문시간을 알린 후</u> 제 연구실에  방문하시기 바랍니다.</span></li>
+						<li>homework 점수도 곧 게시할 예정입니다.</li>
+					</ul>
+				</li>
+				<li>
+				<span class=date>6/5</span>
+					Homework
+					for Chapter 5 is posted.
+				</li>
+				<li>
+				<span class=date>5/24</span>
+					<ul>
+						<li>
+				A make-up lecture is scheduled on
+				10am-1pm (3 hours) 3 June (Sat)
+				at 19-B114.
+						</li>
+						<li>
+							Homework for Chapter 4 is posted.
+						</li>
+					</ul>
+				</li>
+				<li>
+				<span class=date>5/19</span>
+				<span style="color:red">Due to power outage, 
+					the make-up lecture tomorrow is canceled.
+					Sorry for the late notice.</span>
+				</li>
+				<li>
+				<span class=date>5/16</span>
+				<ul>
+					<li>
+				A make-up lecture is scheduled on
+				10am-1pm (3 hours) 20 May (Sat)
+				at 19-B114.
+					</li>
+					<li>
+					There will be no class on
+					26 May (Fri).
+					</li>
+				</ul>
+				</li>
+				<li>
+				<span class=date>4/21</span>
+				All the old exams are uploaded.
+				</li>
+				<li>
+				<span class=date>4/5</span>
+				The midterm exam date is changed.
+				(28 Apr)
+				</li>
+				<li>
+				<span class=date>4/5</span>
+				Midterm exam
+					<ul>
+						<li>when: 
+						<strike>22 April (Saturday) 10am-11:50am</strike>
+						<strike>21 April (Friday) 12pm-1:50pm</strike>
+						28 April (Friday) 12pm-1:50pm
+						</li>
+						<li>where: 
+						<strike>2-202</strike> 5-202 (classroom)</li>
+						<li>coverage: Chapters 1-3</li>
+						<li>note: Openbook exam, but you can bring only the textbook (English)
+						and lecture slides printouts.</li>
+					</ul>
+				</li>
+				<li>
+				<span class=date>3/31</span>
+				Homework for Chapters 1&amp;2
+				are posted.
+				</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

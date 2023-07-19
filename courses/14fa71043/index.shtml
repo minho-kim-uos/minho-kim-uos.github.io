@@ -1,0 +1,83 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Architecture for SCSC (fall,2014): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+				<span class=date>12/8</span>
+				Working files for Chapter 4 (nand2tetris) are uploaded in
+				&ldquo;materials&rdquo; page.
+				</li>
+				<li>
+				<span class=date>12/8</span>
+				Final project is up in the &ldquo;Projects&rdquo; page.
+				</li>
+				<li>
+				<span class=date>10/16</span>
+				&ldquo;Projects&rdquo;
+				page is open and
+				the midterm project is posted.
+				</li>
+				<li>
+				<span class=date>10/11</span>
+				A new slide (<tt>q01-long.pdf</tt>)
+				is uploaded which contains more details
+				than <tt>q01.pdf</tt>.
+				</li>
+				<li>
+				<span class=date>9/18</span>
+				The classroom has been switched to
+				the room 328.
+				</li>
+				<li>
+				<span class=date>9/11</span>
+				The lecture on 12 Sep will be held in the room 319 as before.
+				</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

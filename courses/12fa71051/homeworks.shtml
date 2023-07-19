@@ -1,0 +1,99 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2012): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+	span.date:before
+	{
+		content:"[";
+	}
+	span.date:after
+	{
+		content:"]";
+	}
+	span.note
+	{
+		color:red;
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<div style="border:solid 1px black">
+				<b>Note</b><br>
+				<ul>
+					<li>TA info
+						<ul>
+							<li>À¯º´È­</li>
+							<li>office: #206 (Computer Graphics Lab)</li>
+							<li>e-mail: <tt>ssohjiro@nate.com</tt></li>
+						</ul>
+					</li>
+					<li>
+					Please submit your (hand-written) homework
+						directly to the TA at room 206.
+					</li>
+					<li>
+						Please send source files to TA via e-mail
+						for coding problems.
+					</li>
+				</ul>
+			</div>
+			<ul>
+				<li>
+				<span class=date>11/20</span>
+				<span class=note>(due: 30 Nov)</span>
+				Chap 6: (by hand) 6, 8
+				(coding) 22, 24, 25
+				</li>
+				<li>
+				<span class=date>11/12</span>
+					<a href="data/solution2-3.pdf">Solution for chap 2&amp;3</a> is posted.
+				</li>
+				<li>
+				<span class=date>11/12</span>
+					<a href="data/hw2-3.html">Homework 2&amp;3 scores</a> are posted.
+					You can find your ID 
+					<a href="http://listenup.kr/smb">here</a>.
+				</li>
+				<li>
+				<span class=date>11/12</span>
+				<span class=note>(due: 28 Nov)</span>
+				Chap 5: (by hand) 6, 10, 12
+				(coding) 22
+				</li>
+				<li>
+				<span class=date>11/1</span>
+				<span class=note>(due: 14 Nov)</span>
+				Chap 4: (by hand) 2, 9, 16, 17
+				(coding) 23, 24
+				</li>
+				<li>
+				<span class=date>10/4</span>
+				<span class=note>(due: 18 Oct)</span>
+				Chap 3: (by hand) 5, 16
+				(coding) 
+				Fill in the function <tt>Jacobi</tt>
+				in
+				<a href="data/Jacobi.m"><tt>Jacobi.m</tt></a>.
+				</li>
+				<li>
+				<span class=date>9/27</span>
+				<span class=note>(due: 10 Oct)</span>
+				Chap 2: (by hand) 1, 2, 6, 10 (coding) 19, 21
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

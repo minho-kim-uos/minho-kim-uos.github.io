@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>Project #2: 3D Chopper Simulation</title>
+	</head>
+	<body>
+		<h1 align=center>Project #2: 3D Chopper Simulation</h1>
+		<h2 align=center style="color:red">(Due: 26 Nov 11:59pm)</h2>
+		<h3 align=center style="color:green">Please send all the files 
+			to <tt>Mr.Minho.Kim@gmail.com</tt>.</h2>
+		<table>
+			<tr> <td style="text-align:center"><img width="50%" src=fig1.png></td> </tr>
+			<tr> <td style="text-align:center"> &lt;Figure 1&gt;</td></tr>
+		</table>
+		<p>
+		Requirements
+		<ul>
+			<li>
+				Render the scene in two different viewports
+				as in the Figure 1.
+				<ul>
+					<li>In the left viewport,
+					the (perspective) camera should be 
+					located such that 
+					the whole scene 
+					is viewed as in the figure.
+					</li>
+					<li>
+						You do NOT need
+						to render
+						the view frustum 
+						as in the Figure 1.
+					</li>
+					<li>
+						In the right viewport,
+						the scene viewed from
+						the (perspective) camera
+						attached on the bottom
+						of the chopper should be rendered.
+						The scene should 
+						change
+						according to the chopper movement.
+					</li>
+					<li>
+						For multiple viewports,
+						refer to 
+						<a href="https://xregy.github.io/webgl/src/multiple_viewports.html">this example</a>.
+					</li>
+				</ul>
+			</li>
+			<li>
+				Render the landscape.
+				<ul>
+					Draw a quad-shaped landscape with its size
+					2x2 on the x-y plane
+					with its center
+					at the origin of the 
+					&ldquo;world coordinates system&rdquo;.
+					(The &ldquo;up&rdquo; direction
+					is the z-axis.)
+					See
+					Figure 2.
+		<table>
+			<tr> <td style="text-align:center"><img width="50%" src=fig2.png></td> </tr>
+			<tr> <td style="text-align:center"> &lt;Figure 2&gt;</td></tr>
+		</table>
+
+				</ul>
+				<ul>
+						Make the quad
+						texture-mapped
+						with an image you chose.
+						(Be careful with the license.)
+				</ul>
+				<ul>
+				</ul>
+			</li>
+			<li>
+				Render a chopper.
+				<ul>
+					<li>The body and the rotor should be rendered as 3D mesh.
+						<ul>
+							<li>You have to use vertex attributes for the color.</li>
+						</ul>
+					</li>
+					<li>The rotor should keep rotating as project #1.</li>
+					<li>Make the chopper look as fancy as you want.</li>
+				</ul>
+			</li>
+			<li>
+				Implement a keyboard controller.
+				<ul>
+					<li>Up: Move forward by 0.05</li>
+					<li>Down: Move backward by 0.05</li>
+					<li>Left: Rotate counterclockwise by 10 degree</li>
+					<li>Right: Rotate clockwise by 10 degree</li>
+					<li>W/w: Move upward in the air by 0.05</li>
+					<li>S/s: Move downward in the air by 0.05</li>
+				</ul>
+			</li>
+			<li>
+				Note
+				<ul>
+					<li>If you failed to implement the project #1,
+						you can start with the source code I sent,
+						but with 10 points penalty.
+						Ask me to send the code if you want.
+					</li>
+					<li>
+						Send me the zip file (html + js)
+						as an attachment.
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

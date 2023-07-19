@@ -1,0 +1,101 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2011): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+					<span class=date>12/29</span>
+					<a href="term.shtml">Term project gallery</a> is open!
+				</li>
+				<li>
+					<span class=date>12/23</span>
+					<a href="data/eval-win.txt">Evaluation form</a> for Windows machines.
+				</li>
+				<li>
+					<span class=date>12/22</span>
+					<ul>
+						<li>Upload your movie on YouTube and send me the link.</li>
+						<li>Send me your <tt>*.blend</tt> file and other related files.</li>
+						<li>Each member should fill out  the
+						<a href="data/eval.txt">evaluation form</a> and send it to me.</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/23</span>
+					'Requirements' added to
+					homework #2 description.
+				</li>
+				<li>
+					<span class=date>11/23</span>
+					<a href="hw1.shtml">Homework #1 Gallery</a>
+					(Let me know if your movie is not in the list.)
+				</li>
+				<li>
+					<span class=date>11/23</span>
+					Sample <tt>arm.cpp</tt> is uploaded 
+					in <a href="hw2.shtml">homework #2</a> page.
+				</li>
+				<li>
+					<span class=date>10/25</span>
+					Please upload your video file for the homework #1 on YouTube.
+					Ycan either
+					<ul>
+						<li>make it public so that everyone can watch your work or</li>
+						<li>make it private and share it with me (Mr.Minho.Kim@gmail.com).
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>9/19</span>
+					<a href="schedule.shtml">Schedule</a> page is being updated.
+				</li>
+				<li><span class=date>8/30</span>
+					<a href="project.shtml">Term Project</a> page is open.</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

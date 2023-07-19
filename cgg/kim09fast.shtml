@@ -1,0 +1,32 @@
+<div class=work>
+	<img class=thumbnail src="images/kim09fast.png">
+	<a class=title href="http://dx.doi.org/10.1007/s11075-008-9231-6">Fast and Stable Evaluation of Box-Splines via the BB-Form</a>
+	<div class=author>
+	<!--#include file="authors/minho.kim.html"-->
+	and
+	<!--#include file="authors/jorg.peters.html"-->
+	</div>
+	<a class=where href="http://www.springer.com/computer/mathematics/journal/11075">Numerical Algorithms</a>,
+	<!--<a class=where href="http://www.springerlink.com/content/101751">Numerical Algorithms</a>-->
+	50(4),
+	pp. 381-399,
+	Apr.
+	<span class=year>2009</span>.
+	<a class=icon href="papers/kim09fast.pdf"><img src="thumbnails/pdf.gif"></a>
+	<div class=abstract>
+		<div class=title>abstract</div>
+		To repeatedly evaluate linear combinations of box-splines in a fast and stable way, 
+		in particular along knot planes, the box-spline is converted to and tabulated 
+		as piecewise polynomial in BB-form (Bernstein-B&eacute;zier-form). We show that 
+		the BB-coefficients can be derived and stored as integers plus a rational 
+		scale factor and derive a hash table for efficiently accessing 
+		the polynomial pieces. This preprocessing, the resulting evaluation algorithm 
+		and use in a widely-used ray-tracing package are illustrated for splines 
+		based on two trivariate box-splines: the 7-directional box-spline on the 
+		Cartesian lattice and the 6-directional box-spline on the Face-Centered 
+		Cubic lattice. 
+		<p>
+		The work was supported in part by NSF grant CCF-0728797.
+	</div>
+	<div><a href="http://www.cise.ufl.edu/research/SurfLab/tribox">[supplementary page]</a></div>
+</div>

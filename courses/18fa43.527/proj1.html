@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Project #1: Chopper Simulation</title>
+	</head>
+	<body>
+		<h1 align=center>Project #1: Chopper Simulation</h1>
+		<h2 align=center style="color:red">(Due: 29 Oct 11:59pm)</h2>
+		<h3 align=center style="color:green">Please send all the files (HTML + JS)
+			to <tt>Mr.Minho.Kim@gmail.com</tt>.</h2>
+		<img src=ss.png>	
+		<p>
+		Requirements
+		<ul>
+			<li>
+				Render a chopper.
+				<ul>
+					<li>The body and the rotor should be rendered in different colors.
+						<ul>
+							<li>You have to use only one pair of vertex &amp; fragment shaders.</li>
+							<li>Use a uniform variable for the color.</li>
+						</ul>
+					</li>
+					<li>The rotor should keep rotating.</li>
+					<li>Make the chopper look as fancy as you want.</li>
+				</ul>
+			</li>
+			<li>
+				Implement a keyboard controller.
+				<ul>
+					<li>Up: Move forward by 0.05</li>
+					<li>Down: Move backward by 0.05</li>
+					<li>Left: Rotate counterclockwise by 10 degree</li>
+					<li>Right: Rotate clockwise by 10 degree</li>
+				</ul>
+			</li>
+		</ul>
+		Hints
+		<ul>
+			<li>You need to handle the <tt>keydown</tt>
+			event of the <tt>&lt;body&gt;</tt> element, not the <tt>&lt;canvas&gt;</tt> element.</li>
+			<li>Understand 
+			what 
+			<tt>vertexAttribPointer</tt> does
+			and carefully call it when needed.
+			</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2011): materials</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+		table.demos
+		{
+			border-collapse:collapse;
+		}
+		table.demos td
+		{
+			border:1px solid black;
+		}
+		table.demos a
+		{
+			display:block;
+		}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Materials</h1>
+		<div style="margin:100px;">
+		<ul>
+			<li>
+				Lecture slides
+				<ul>
+					<li><a href="data/p01-handout.pdf">Chapter 1</a></li>
+					<li><a href="data/p02-handout.pdf">Chapter 2</a></li>
+					<li><a href="data/p03-handout.pdf">Chapter 3</a></li>
+					<li><a href="data/p04-handout.pdf">Chapter 4</a></li>
+					<li><a href="data/p05-handout.pdf">Chapter 5</a></li>
+				</ul>
+			</li>
+			<li>
+				Homewotk solutions
+				<ul>
+					<li><a href="data/hw01.pdf">hw#1</a></li>
+					<li><a href="data/hw02.pdf">hw#2</a></li>
+				</ul>
+			</li>
+			<li>
+				GNU Octave
+				<ul>
+					<li><a href="octave.html">초간단 설명서</a></li>
+				</ul>
+			</li>
+			<li>
+				Mathematica Demonstrations
+				<br>
+				(Read "<a href="data/mathematica.html">How to try Mathematica demos?</a>" first.)
+				<table class=demos>
+					<tr><td>Chapter</td><td>demos</td></tr>
+					<tr>
+						<td>1. Vectors</td>
+						<td>
+							<a href="http://demonstrations.wolfram.com/DisplacementAlongACurve">Displacement along a Curve</a>
+							<a href="http://demonstrations.wolfram.com/2DVectorAddition">2D Vector Addition</a>
+							<a href="http://demonstrations.wolfram.com/VectorAdditionIsCommutative">Vector Addition is Commutative</a>
+							<a href="http://demonstrations.wolfram.com/DotProduct">Dot Product</a>
+							<a href="http://demonstrations.wolfram.com/NormalizingVectors">Normalizing Vectors</a>
+							<a href="http://demonstrations.wolfram.com/VectorProjection">Vector Projection</a>
+							<a href="http://demonstrations.wolfram.com/FromVectorToLine">From Vector to Line</a>
+							<a href="http://demonstrations.wolfram.com/FromVectorToPlane">From Vector to Plane</a>
+							<a href="http://demonstrations.wolfram.com/NormedLine">Normed Line</a>
+							<a href="http://demonstrations.wolfram.com/CrossProductOfVectorsInTheYZPlane">Cross Product of Vectors in the y-z Plane</a>
+						</td>
+					</tr>
+					<tr>
+						<td>2. Systems of Linear Equations</td>
+						<td>
+							<a href="http://demonstrations.wolfram.com/LinearEquationsRowAndColumnView">Linear Equations: Row and Column View</a>
+							<a href="http://demonstrations.wolfram.com/PlanesSolutionsAndGaussianEliminationOfA33LinearSystem">Planes, Solutions, and Gaussian Elimination of a 3x3 Linear System</a>
+						</td>
+					</tr>
+					<tr>
+						<td>3. Matrices</td>
+						<td>
+							<a href="http://demonstrations.wolfram.com/MatrixMultiplication">Matrix Multiplication</a>
+							<a href="http://demonstrations.wolfram.com/LUDecomposition">LU Decomposition</a>
+							<a href="http://demonstrations.wolfram.com/3x3MatrixExplorer">3x3 Matrix Explorer</a>
+							<a href="http://demonstrations.wolfram.com/LinearTransformationGivenByImagesOfBasisVectors">Linear Transformation Given by Images of Basis Vectors</a>
+							<a href="http://demonstrations.wolfram.com/LinearTransformationsOfAPolygon">Linear Transformations of a Polygon</a>
+							<a href="http://demonstrations.wolfram.com/MatrixTransformationsF">Matrix Transformations: "F"</a>
+							<a href="http://demonstrations.wolfram.com/MatrixTransformation">Matrix Transformation</a>
+							<a href="http://demonstrations.wolfram.com/ReflectionMatrixIn2D">Reflection Matrix in 2D</a>
+							<a href="http://demonstrations.wolfram.com/VectorRotationsIn3D">Vector Rotations in 3D</a>
+							<a href="http://demonstrations.wolfram.com/CombiningTwo3DRotations">Combining Two 3D Rotations</a>
+							<a href="http://demonstrations.wolfram.com/IteratedMatrixOperationsIn3D">Iterated Matrix Operations in 3D</a>
+							<a href="http://demonstrations.wolfram.com/RotationMatrixEntries">Rotation Matrix Entries</a>
+							<a href="http://demonstrations.wolfram.com/TransitionMatricesOfMarkovChains">Transition Matrices of Markov Chains</a>
+							<a href="http://demonstrations.wolfram.com/AdjacencyMatricesOfManipulableGraphs">Adjacency Matrices of Manipulable Graphs</a>
+						</td>
+					</tr>
+					<tr>
+						<td>4. Eigenvalues and Eigenvectors</td>
+						<td>
+							<a href="http://demonstrations.wolfram.com/33DeterminantsUsingDiagonals">3x3 Determinants Using Diagonals</a>
+							<a href="http://demonstrations.wolfram.com/33DeterminantsByExpansion">3x3 Determinants by Expansion</a>
+							<a href="http://demonstrations.wolfram.com/DecompositionOfAVectorIn2D">Decomposition of a Vector in 2D</a>
+							<a href="http://demonstrations.wolfram.com/DeterminantsSeenGeometrically">Determinants Seen Geometrically</a>
+							<a href="http://demonstrations.wolfram.com/TheDeterminantUsingTraces">The Determinant Using Traces</a>
+							<a href="http://demonstrations.wolfram.com/TetrahedronVolume">Tetrahedron Volume</a>
+							<a href="http://demonstrations.wolfram.com/EigenvectorsByHand">Eigenvectors by Hand</a>
+							<a href="http://demonstrations.wolfram.com/EigenvectorsIn2D">Eigenvectors in 2D</a>
+							<a href="http://demonstrations.wolfram.com/EigenvalueProblemFor22HermitianMatrices">Eigenvalue Problem for 2x2 Hermitian Matrices</a>
+							<a href="http://demonstrations.wolfram.com/EigenvaluePlotsOfCertainTridiagonalMatrices">Eigenvalue Plots of Certain Tridiagonal Matrices</a>
+							<a href="http://demonstrations.wolfram.com/EigenvaluesOfRandomSymmetricMatrices">Eigenvalues of Random Symmetric Matrices</a>
+							<a href="http://demonstrations.wolfram.com/EigenvaluesAndLinearPhasePortraits">Eigenvalues and Linear Phase Portraits</a>
+							<a href="http://demonstrations.wolfram.com/NetworkCentralityUsingEigenvectors">Network Centrality Using Eigenvectors</a>
+							<a href="http://demonstrations.wolfram.com/TheEigenvectorsOfARandomGraph">The Eigenvectors of a Random Graph</a>
+						</td>
+					</tr>
+					<tr>
+						<td>5. Orthogonality</td>
+						<td>
+							<a href="http://demonstrations.wolfram.com/QRDecomposition">QR Decomposition</a>
+							<a href="http://demonstrations.wolfram.com/GramSchmidtProcessInTwoDimensions">Gram-Schmidt Process in Two Dimensions</a>
+							<a href="http://demonstrations.wolfram.com/NumericalInstabilityInTheGramSchmidtAlgorithm">Numerical Instability in the Gram-Schmidt Algorithm</a>
+						</td>
+					</tr>
+					<tr>
+						<td>6. Vector Spaces</td>
+						<td>
+							<a href="http://demonstrations.wolfram.com/CoordinatesOfAPointRelativeToABasisIn2D">Coordinates of a Point Relative to a Basis in 2D</a>
+							<a href="http://demonstrations.wolfram.com/ChangeOfBasisIn2D">Change of Basis in 2D</a>
+						</td>
+					</tr>
+					<tr>
+						<td>7. Distance and Approximation</td>
+						<td>
+							<a href="http://demonstrations.wolfram.com/SingularValueDecomposition">Singular Value Decomposition</a>
+							<a href="http://demonstrations.wolfram.com/MaximumAbsoluteColumnSumNorm">Maximum Absolute Column Sum Norm</a>
+							<a href="http://demonstrations.wolfram.com/MaximumAbsoluteRowSumNorm">Maximum Absolute Row Sum Norm</a>
+							<a href="http://demonstrations.wolfram.com/MatrixNormAndSpectralNorm">Matrix Norm and Spectral Norm</a>
+							<a href="http://demonstrations.wolfram.com/LeastSquares">Least Squares</a>
+							<a href="http://demonstrations.wolfram.com/ImageCompressionViaTheSingularValueDecomposition">Image Compression via the Singular Value Decomposition</a>
+						</td>
+					</tr>
+				</table>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

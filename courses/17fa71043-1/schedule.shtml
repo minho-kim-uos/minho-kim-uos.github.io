@@ -1,0 +1,206 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Digital Logic Design and Experiment [Section 1]
+			(fall,2017): schedule</title>
+		<style type="text/css">
+			div.topic
+			{
+				font-weight:bold;
+			}
+			div.topic:before
+			{
+//				content:open-quote;
+				content:"\"";
+			}
+			div.topic:after
+			{
+//				content:close-quote;
+				content:"\"";
+			}
+			tr.header td
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:center;
+			}
+			td.week
+			{
+				font-size:200%;
+				font-weight:bold;
+				text-align:right;
+			}
+			table
+			{
+				border-collapse:collapse;
+			}
+			td
+			{
+				border-top:1px dashed black;
+				border-bottom:1px dashed black;
+				padding-left:5px;
+				padding-right:5px;
+			}
+			tr.header td
+			{
+				border-top:2px solid black;
+				border-bottom:2px solid black;
+			}
+			td ul
+			{
+				margin:0px;
+				list-style-type:square;
+			}
+			span.holiday
+			{
+				color:red;
+				font-weight:bold;
+			}
+		<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Course Schedule</h1>
+		<table align=center>
+			<tr class=header>
+				<td>week</td>
+				<td>date</td>
+				<td>topics</td>
+				<td>materials</td>
+			</tr>
+			<tr>
+				<td class=week>1</td>
+				<td class=date>5,7 Sep</td>
+				<td>
+					Introduction
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td class=date>12,14 Sep</td>
+				<td>
+					Binary and other codes
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>3</td>
+				<td class=date>19,21 Sep</td>
+				<td>
+					Basics of relays
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>4</td>
+				<td class=date>26,28 Sep</td>
+				<td>
+					Decimals, hexadecimals, and bits
+				</td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td class=date><span class=holiday>3</span>,
+					<span class=holiday>5</span> Oct</td>
+				<td>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td class=date>10,12 Oct</td>
+				<td>
+					Basics of logic and switches
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>7</td>
+				<td class=date>17,19 Oct</td>
+				<td>
+					Logic gates
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>8</td>
+				<td class=date>24,26 Oct</td>
+				<td>
+					Implementing ALU (1/2)
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td class=date>31 Oct, 2 Nov</td>
+				<td>
+					Implementing ALU (2/2)
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td class=date>7,9 Nov</td>
+				<td>
+					Feedback and flip-flops
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td class=date>14,16 Nov</td>
+				<td>
+					Implementing memory (1/2)
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>12</td>
+				<td class=date>21,23 Nov</td>
+				<td>
+					Implementing memory (2/2)
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td class=date>28,30 Nov</td>
+				<td>
+					Implementing CPU (1/2)
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>14</td>
+				<td class=date>5,7 Dec</td>
+				<td>
+					Implementing CPU (1/2)
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td class=date>12,14 Dec</td>
+				<td>
+					Classic CPUs - 8088 &amp; 68000
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>16</td>
+				<td class=date>19,21 Dec</td>
+				<td>
+					Advanced topics
+				</td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>

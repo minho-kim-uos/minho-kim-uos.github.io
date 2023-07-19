@@ -1,0 +1,42 @@
+<div class=work>
+	<img class=thumbnail src="images/kim11symmetric.png">
+	<a class=title href="http://dx.doi.org/10.1016/j.cam.2010.11.027">Symmetric Box-Splines on Root Lattices</a>
+	<div class=author>
+	<!--#include file="authors/minho.kim.html"-->
+	and
+	<!--#include file="authors/jorg.peters.html"-->
+	</div>
+	<a class=where href="http://www.elsevier.com/locate/cam">Journal of Computational and Applied Mathematics</a>
+	(accepted Nov. 2010)
+	<a class=icon href="papers/kim11symmetric.pdf"><img src="thumbnails/pdf.gif"></a>
+	<div class=abstract>
+		<div class=title>abstract</div>
+		<p>
+		Root lattices are efficient sampling lattices for reconstructing 
+		isotropic signals in arbitrary dimensions, due to their highly 
+		symmetric structure. One root lattice, the Cartesian grid, 
+		is almost exclusively used since it matches the coordinate grid; 
+		but it is less efficient than other root lattices. Box-splines, on the other hand, 
+		generalize tensor-product B-splines by allowing non-Cartesian directions. 
+		They provide, in any number of dimensions, higher-order reconstructions 
+		of fields, often of higher efficiency than tensored B-splines. But on 
+		non-Cartesian lattices, such as the BCC (Body-Centered Cubic) or 
+		the FCC (Face-Centered Cubic) lattice, 
+		only some box-splines and then only up to dimension three have been investigated.
+		<p>
+		This paper derives and completely characterizes efficient symmetric 
+		box-spline reconstruction filters on all irreducible root lattices 
+		that exist in any number of dimensions <i>n</i>&ge;2 (<i>n</i>&ge;3 for 
+		<i>Dn</i> and <i>Dn*</i> lattices).
+		In all cases, box-splines are constructed by convolution using the 
+		lattice directions, generalizing the known 
+		constructions in two and three variables. For each box-spline, 
+		we document the basic properties for computational use: 
+		the polynomial degree, the continuity, the linear independence 
+		of shifts on the lattice and 
+		optimal quasi-interpolants for fast approximation of fields.
+
+		<p>
+		Keywords: Box-spline, Root lattice, Sampling lattice, Reconstruction filter, Multi-dimensional signal processing, Approximation, Quasi-interpolation
+	</div>
+</div>

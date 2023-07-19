@@ -1,0 +1,133 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2014): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+	span.date:before
+	{
+		content:"[";
+	}
+	span.date:after
+	{
+		content:"]";
+	}
+	span.note
+	{
+		color:red;
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<div style="border:solid 1px black">
+				<b>Note</b><br>
+				<ul>
+					<li>TA info
+						<ul>
+							<li>±Ë«ˆ¡ÿ</li>
+							<li>office: #206 (Computer Graphics Lab)</li>
+							<li>e-mail: <tt>kamumik@gmail.com</tt></li>
+						</ul>
+					</li>
+					<li>
+					Please submit your (hand-written) homework
+						directly to the TA at room 206.
+					</li>
+					<li>
+						Please send source files to TA via e-mail
+						for coding problems.
+					</li>
+					<ul>
+					</ul>
+				</ul>
+			</div>
+			<ul>
+				<li>
+						<span class=date>12/22</span>
+				<a href="https://www.dropbox.com/s/0bozli4d9xyqljb/14fall_ODE_homework_score.pdf?dl=0">Score for homeworks</a>
+				</li>
+				<li>
+						<span class=date>12/5</span>
+						<span class=note>(due: <del>12/15 6pm</del> 12/17 before exam)</span>
+						<br>
+						Chapter 8
+						(by hand &amp; calculator)
+						8.6
+						(programming)
+						8.13, 8.15
+				</li>
+				<li>
+						<span class=date>12/1</span>
+						<span class=note>(due: 12/10 before class)</span>
+						<br>
+						Chapter 7
+						(by hand &amp; calculator)
+						7.2, 7.5, 7.10
+						(programming)
+						7.16, 7.22
+				</li>
+				<li>
+						<span class=date>11/10</span>
+						<span class=note>(due: 11/19 before class)</span>
+						<br>
+						Chapter 5
+						(by hand &amp; calculator)
+						5.3, 5.14
+						<br>
+						(programming)
+						5.21
+						<br>
+						Chapter 6
+						(by hand &amp; calculator)
+						6.3, 6.11
+						(programming)
+						6.21, 6.25
+				</li>
+				<li>
+						<span class=date>10/16</span>
+						<span class=note>(due: <strike>10/24</strike> 11/3 before class)</span>
+						<br>
+						Chapter 4
+						(by hand &amp; calculator)
+						4.4, 4.12, 4.17
+						(programming)
+						4.21, 4.23
+				</li>
+				<li>
+						<span class=date>10/8</span>
+						<span class=note>(due: 10/20 before class)</span>
+						<br>
+						Chapter 3
+						(by hand &amp; calculator)
+						3.16, 3.17, 3.19 
+						(Octave programming)
+						3.27,
+						3.30,
+						3.31
+				</li>
+				<li>
+						<span class=date>9/29</span>
+						<span class=note>(due: 10/13 before class)</span>
+						<br>
+						Chapter 2
+						(by hand &amp; calculator)
+						2.2, 2.12
+						(Octave programming)
+						2.18,
+						2.22
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

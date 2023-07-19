@@ -1,0 +1,46 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Topics in Computer Graphics (spring,2014): links</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Links</h1>
+		<div style="margin:100px;">
+		<ul>
+			<li>
+				CAGD
+				<ul>
+					<li><a href="http://kowon.dongseo.ac.kr/~lbg/cagd/history1.pdf">A History of Curves and Surfaces in CAGD</a></li>
+					<li><a href="http://www.youtube.com/watch?v=l7W75UfAjRI">1964 DAC-1</a></li>
+					<li><a href="http://www.youtube.com/watch?v=mOZqRJzE8xg">Ivan Sutherland's Sketchpad</a></li>
+				</ul>
+			</li>
+			<li>
+				OpenCL
+				<ul>
+					<li><a href="http://www.khronos.org/opencl">OpenCL page in Khronos group</a></li>
+					<li><a href="http://developer.amd.com/zones/openclzone/courses/pages/introduction-opencl-programming-may-2010.aspx">OpenCL&trade; Course: Introduction to OpenCL&trade; Programming</a> As taught in: May 2010 @ Colfax International</li>
+					<li><a href="http://openclprogrammingguide.com/">Homepage for the book "OpenCL Programming Guide"</a></li>
+					<li><a href="http://software.intel.com/en-us/articles/vcsource-tools-opencl-sdk/">Intel&reg; OpenCL SDK</a></li>
+					<li><a href="http://www.amd.com/us/products/technologies/stream-technology/opencl/pages/opencl.aspx">AMD OpenCL page</a></li>
+					<li><a href="http://developer.nvidia.com/opencl">NVIDIA OpenCL page</a></li>
+					<li><a href="http://developer.apple.com/library/mac/#documentation/Performance/Conceptual/OpenCL_MacProgGuide/Introduction/Introduction.html">OpenCL Programming Guide for Mac OS X</a></li>
+					<li><a href="http://www.khronos.org/developers/library/">Khronos Lecture Series Presentations, Whitepapers, and Supporting Materials</a> (You can find "OpenCL Overview PDF" and etc.)</li>
+					<li><a href="http://www.khronos.org/assets/uploads/developers/library/overview/OpenCL-Overview-Jun10.pdf">Kronos OpenCL Overview (Jun 2010)</a></li>
+					<li><a href="http://developer.amd.com/zones/OpenCLZone/programming">Programming in OpenCL&trade;</a> by AMD</li>
+					<li><a href="http://developer.nvidia.com/opencl-sdk-code-samples">OpenCL SDK Code Samples</a> by NVIDIA</li>
+					<li>
+					<a href="http://developer.nvidia.com/cuda-toolkit-40">NVIDIA GPU Computing SDK download</a></li>
+					<li><a href="http://developer.amd.com/zones/openclzone/pages/openclappexamples.aspx">OpenCL Samples</a> by AMD</li>
+					<li><a href="http://blog.shayanjaved.com/2011/11/13/evaluating-bezier-pyopencl/">Evaluating Bicubic Bezier Surfaces using (Py)OpenCL</a></li>
+					<li><a href="http://mathema.tician.de/software/pyopencl">PyOpenCL</a></li>
+					<li><a href="http://developer.apple.com/library/mac/navigation/#section=Frameworks&topic=OpenCL">OpenCL examples</a> by Apple</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>Computer Graphics (fall,2009): calendar</title>
+		<style type="text/css">
+				<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<iframe align=center src="http://www.google.com/calendar/embed?src=3om9r22cnk696mgfb9o7f99q28%40group.calendar.google.com&ctz=Asia/Seoul" align=center style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+	</body>
+</html>

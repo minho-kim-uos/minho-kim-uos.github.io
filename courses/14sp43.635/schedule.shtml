@@ -1,0 +1,243 @@
+<html lang=ko>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (spring,2014): schedule</title>
+		<style type="text/css">
+			div.topic
+			{
+				font-weight:bold;
+			}
+			div.topic:before
+			{
+//				content:open-quote;
+				content:"\"";
+			}
+			div.topic:after
+			{
+//				content:close-quote;
+				content:"\"";
+			}
+			tr.header td
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:center;
+			}
+			td.week
+			{
+				font-size:200%;
+				font-weight:bold;
+				text-align:right;
+			}
+			table
+			{
+				border-collapse:collapse;
+			}
+			td
+			{
+				border-top:1px dashed black;
+				border-bottom:1px dashed black;
+				padding-left:5px;
+				padding-right:5px;
+			}
+			tr.header td
+			{
+				border-top:2px solid black;
+				border-bottom:2px solid black;
+			}
+			td ul
+			{
+				margin:0px;
+				list-style-type:square;
+			}
+		<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Course Schedule</h1>
+		<table align=center>
+			<tr class=header>
+				<td>week</td>
+				<td>topics</td>
+				<td>materials</td>
+			</tr>
+			<!--
+			<tr>
+				<td class=week>1</td>
+				<td>
+					<div class=topic>What is computer graphics?</div>
+					<div class=topic>What are the latest topics
+						in computer graphics field?</div>
+					<ul>
+						<li>Introduction to computer graphics</li>
+						<li>Lastest technical papers in computer graphics conferences</li>
+						<li>Other cutting-edge technologies in computer graphics</li>
+					</ul>
+				</td>
+				<td>
+					<a href="data/p01.odp">p01.odp</a>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td rowspan=2>
+					<div class=topic>How can we generate realistic computer graphics images?</div> 
+					<div class=topic>How can we implement interactive 3D applications, like games?</div>
+					<div class=topic>How can we create a window to draw something on?</div>
+					<div class=topic>How can we draw a red rectangle in the window?</div>
+					<div class=topic>How can we change the color of the rectangle 
+						by keyboard input?</div>
+					<ul>
+						<li>Introduction to Pov-Ray</li>
+						<li>Introduction to OpenGL programming</li>
+						<li>Rendering 2D objects</li>
+						<li>GLUT, interaction, animation</li>
+					</ul>
+				</td>
+				<td>
+					<a href="data/rendering.odp">rendering.odp</a>
+					<br>
+					<a href="data/OpenGL.odp">OpenGL.odp</a>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>3</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>4</td>
+				<td rowspan=2>
+					<div class=topic>How can we draw a blue ball?</div>
+					<div class=topic>How can we move the ball?</div>
+					<div class=topic>How can we set up the camera in different positions?</div>
+					<div class=topic>How can we set up the camera with different lenses?</div>
+					<ul>
+						<li>Rendering 3D objects</li>
+						<li>Review on linear algebra</li>
+						<li>Transformation</li>
+						<li>Viewing</li>
+					</ul>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td rowspan=1>
+					<div class=topic>Our ball looks flat...how can make it shaded?</div>
+					<div class=topic>Blue color is boring...can I make it a gold ball?</div>
+					<ul>
+						<li>Lighting</li>
+						<li>Materials</li>
+					</ul>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>7</td>
+				<td rowspan=2>
+					<div class=topic>It takes too much time to draw 3D objects with OpenGL...how
+						can I draw complicated objects more easily?</div>
+					<div class=topic>How can import  the stupid house
+						I made using Blender into my OpenGL application?</div>
+					<ul>
+						<li>Introduction to Blender</li>
+						<li>Polygonal meshes, 3D file formats</li>
+					</ul>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>8</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td rowspan=1>
+					<div class=topic>The walls of my stupid house look dull...
+						can I make it brick walls?</div>
+					<ul>
+						<li>Texture Mapping</li>
+					</ul>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td>
+					<div class=topic>I want the door of my stupid house
+						open when I click it. How can I do that?</div>
+					<ul>
+						<li>Picking and UI</li>
+					</ul>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td rowspan=1>
+					<div class=topic>I am tired of making 3D objects
+						using only boxes, spheres, and cylinders...
+						how can I make cool objects, like a fancy racing car?</div>
+					<ul>
+						<li>Curves &amp; surfaces</li>
+					</ul>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr style="background-color:gray">
+				<td class=week>12</td>
+				<td>
+					Break
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td rowspan=1>
+					<ul>
+						<li>Curves &amp; surfaces</li>
+					</ul>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>14</td>
+				<td rowspan=2>
+					<div class=topic>Now I am an expert in computer  graphics.
+						Tell me more!</div>
+					<ul>
+						<li>GPU programming</li>
+						<li>Ray-tracing</li>
+						<li>Volume rendering</li>
+						<li>Particle system</li>
+						<li>...and more advanced topics</li>
+					</ul>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td></td>
+			</tr>
+			<tr style="background-color:orange;">
+				<td class=week>16</td>
+				<td>
+					Final exam
+				</td>
+				<td></td>
+			</tr>
+			-->
+		</table>
+	</body>
+</html>

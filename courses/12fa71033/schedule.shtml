@@ -1,0 +1,622 @@
+<html lang=ko>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2012): schedule</title>
+		<style type="text/css">
+			div.topic
+			{
+				font-weight:bold;
+			}
+			div.topic:before
+			{
+//				content:open-quote;
+				content:"\"";
+			}
+			div.topic:after
+			{
+//				content:close-quote;
+				content:"\"";
+			}
+			tr.header td
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:center;
+			}
+			td.week
+			{
+				font-size:200%;
+				font-weight:bold;
+				text-align:right;
+			}
+			table
+			{
+				border-collapse:collapse;
+			}
+			td
+			{
+				border-top:1px dashed black;
+				border-bottom:1px dashed black;
+				padding-left:5px;
+				padding-right:5px;
+			}
+			tr.header td
+			{
+				border-top:2px solid black;
+				border-bottom:2px solid black;
+			}
+			td ul
+			{
+				margin:0px;
+				list-style-type:square;
+			}
+		<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Course Schedule</h1>
+		<table align=center>
+			<tr class=header>
+				<td>week</td>
+				<td>date</td>
+				<td>topics</td>
+				<td>materials</td>
+			</tr>
+			<tr>
+				<td class=week>1</td>
+				<td class=date>30,31 Aug</td>
+				<td>
+					<ul>
+						<li>Introduction to computer graphics</li>
+						<li>Introduction to the term project</li>
+						<li>Introduction to Blender
+							<ul>
+								<li>Blender UI</li>
+								<li>Making a gingerbread man</li>
+							</ul>
+						</li>
+					</ul>
+				</td>
+				<td>
+					<ul>
+						<li><a href="http://wiki.blender.org/index.php/Doc:2.6/Manual/Interface">Starting Blender for the first time</a>
+							(from Blender official manual)</li>
+						<li><a href="http://wiki.blender.org/index.php/Doc:2.6/Manual/Your_First_Animation/1.A_static_Gingerbread_Man">A static gingerbread man</a> (from Blender official manual)</li>
+					</ul>
+					<!--
+					<ul>
+						<li><a href="data/2011-fall-CG-week01.odp">week#1</a></li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td class=date>6,7 Sep</td>
+				<td>
+					<!--
+					<ul>
+						<li>Rendering</li>
+						<li>Graphics libraries</li>
+						<li>Introduction to Blender</li>
+					</ul>
+					-->
+				</td>
+				<td>
+					<!--
+					<ul>
+						<li><a href="data/2011-fall-CG-week02-1.odp">week#2-1</a></li>
+						<li><a href="http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro#Unit_1:_Background">Blender 3D: Noob to Pro (Unit #1: Background)</a></li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr style="background-color:gray">
+				<td class=week>3</td>
+				<td class=date>13,14 Sep</td>
+				<td>
+					Out of town
+					<!--
+					<ul>
+						<li>Modeling</li>
+					</ul>
+					-->
+				</td>
+				<td>
+					<!--
+					<ul>
+						<li><a href="http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro#Unit_2:_Basic_Modeling_and_Shading">Blender 3D: Noob to Pro (Unit #2: Basic Modeling and Shading)</a></li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>4</td>
+				<td class=date>20,21 Sep</td>
+				<td>
+					<ul>
+						<li>Term project proposal</li>
+						<li>Introduction to computer graphics: rendering</li>
+					</ul>
+				</td>
+				<td>
+					<!--
+					<ul>
+						<li><a href="http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro#Unit_2:_Basic_Modeling_and_Shading">Blender 3D: Noob to Pro (Unit #2: Basic Modeling and Shading)</a></li>
+						<li><a href="http://www.cdschools.org/54223045235521/blank/browse.asp?A=383&BMDRN=2000&BCOB=0&C=55205">Blender Basics (4th ed)</a> (Chap 9: Animation Basics)</li>
+						<li><a href="https://www.kyobobook.co.kr/product/detailViewEng.laf?ejkGb=ENG&mallGb=ENG&barcode=9780470584460&orderClick=LAG">&ldquo;Blender for Dummies (2nd ed)&rdquo;</a> (Chap 10~11)</li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td class=date>27,28 Sep</td>
+				<td>
+					<ul>
+						<li>Rigging</li>
+						<li>Animaion</li>
+					</ul>
+				</td>
+				<td>
+					<ul>
+						<li><a href="http://wiki.blender.org/index.php/Doc:2.6/Manual/Your_First_Animation/2.Animating_the_Gingerbread_Man">Animating the Gingerbreadman</a>
+						<li><a href="data/gingerbread-static.blend">gingerbread-static.blend</a></li>
+						<li>"Chapter 9: Rigging: Digiral Orthopedia"
+						of the book "Blender Foundations"
+						(<a href="http://www.blenderfoundations.com">"Blender Foundations"</a> book page)</li>
+						<li><a href="data/demo_scene_chapter_09-2012-10-04.blend"><tt>demo_scene_chapter_09-2012-10-04.blend</tt></a></li>
+						<li>"Chap 9: Animation Basics" of <a href="http://www.cdschools.info/blenderbasics">Blender Basics (4th ed)</a></li>
+						<li><a href="http://cgcookie.com/blender/2010/09/29/creating-a-bouncing-ball-rig/">Creating a Bouncing Ball</a></li>
+					</ul>
+					<!--
+					<ul>
+						<li><a href="https://www.kyobobook.co.kr/product/detailViewEng.laf?ejkGb=ENG&mallGb=ENG&barcode=9780470584460&orderClick=LAG">&ldquo;Blender for Dummies (2nd ed)&rdquo;</a> (Chap 11)
+						(Requires <tt><a href="http://www.blenderbasics.com/category/files/page/4">stickman.blend</a></tt> file.)
+						</li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td class=date>4,5 Oct</td>
+				<td>
+					<!--
+					<ul>
+						<li>Animation</li>
+						<li>Materials &amp; textures</li>
+						<li>Python scripting</li>
+					</ul>
+					-->
+				</td>
+				<td>
+					<!--
+					<ul>
+						<li><a href="http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Materials_and_Textures">Blender 3D: Noob to Pro (Unit #2 Sec 2C Materials and Textures)</a></li>
+						<li><a href="http://www.blender.org/documentation/blender_python_api_2_59_3">Blender v2.59.3 API documentation</a></li>
+						<li><a href="https://sites.google.com/site/satishgoda/blender/learningblender25/introduction-to-blender-python-api">Introduction to Blender Python API</a></li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>7</td>
+				<td class=date>11,12 Oct</td>
+				<td>
+					<ul>
+						<li>Physics in Blender</li>
+						<li>Blender Game Engine</li>
+					</ul>
+				</td>
+				<td>
+					<ul>
+						<li><a href="http://wiki.blender.org/index.php/Doc:2.6/Tutorials/Physics/Rigid_Bodies">Basic Physics Tutorial</a>
+						(<a href="http://wiki.blender.org/index.php/Doc:2.6/Manual/Modeling/Objects/Duplication/DupliFrames">DupliFrames</a>)</li>
+						<li><a href="http://cgcookie.com/blender/2010/08/17/cloth-simulation/">Introduction to Cloth Simulation</a> (Video)</li>
+						<li><a href="http://www.youtube.com/watch?v=UIdm7Y3dGIw">Blender 2.5 Physics: Soft Body "Jelly"</a></li>
+						<li><a href="http://cgcookie.com/blender/2010/03/29/introduction-to-fluid-simulator/">Introduction to Fluid Simulator</a> (CG Cookie)</li>
+						<li><a href="http://www.blenderguru.com/videos/introduction-to-the-fluid-simulator/">Introduction to the Fluid Simulator</a> (Blender Guru)</li>
+						<li><a href="http://www.blenderguru.com/videos/introduction-to-smoke-simulation/">Introduction to Smokre Simulation</a></li>
+						<li><a href="http://wiki.blender.org/index.php/Doc:2.6/Manual/Game_Engine">Blender 2.6 Game Engine Manual</a></li>
+						<li><a href="http://cgcookie.com/blender/2011/05/08/game-engine-create-a-basic-game/">Game Engine: Create a Basic Game</a></li>
+					</ul>
+					<!--
+					<ul>
+						<li><a href="http://wiki.blender.org/index.php/Doc:2.5/Manual/Physics">Blender 2.5 manual -- Physic Simulation</a></li>
+						<li><a href="http://www.vimeo.com/17370781">Blender Tutorial: How to Add Physics to Blender Render</a></li>
+						<li><a href="http://wiki.blender.org/index.php/Doc:2.5/Manual/Game_Engine">Blender 2.5 manual -- Game Engine</a></li>
+						<li>Blender cookie video tutorial <a href="http://cgcookie.com/blender/2011/05/08/game-engine-create-a-basic-game/">Game Engine: Create a Basic Game</a></li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>8</td>
+				<td class=date>18,19 Oct</td>
+				<td>
+					<ul>
+						<li>Blender script</li>
+						<li>OpenGL programming</li>
+					</ul>
+				</td>
+				<td>
+					<ul>
+						<li><a href="http://cgcookie.com/blender/2011/06/02/building-an-audio-visualizer-in-python/">Building an Audio Visualizer in Python</a> (<a href="http://pornophonique.de/">Audio file</a>, <a href="data/audio_vis.blend">finished file</a>)</li>
+						<li><a href="http://www.arcsynthesis.org/gltut/">Learning Modern 3D Graphics Programming</a> by Jason L. McKesson</li>
+						<li><a href="http://openglbook.com/the-book/preface-what-is-opengl">OpenGLBook.com</a></li>
+					</ul>
+					<!--
+					<ul>
+						<li><a href="data/OpenGL-01.pdf">OpenGL-01.pdf</a></li>
+						<li><a href="data/OpenGL-02.pdf">OpenGL-02.pdf</a></li>
+						<li><a href="OpenGL-vs2008.txt">Compiling OpenGL program with Visual Studio 2008</a></li>
+						<li><a href="http://www.arcsynthesis.org/gltut/">Learning Modern 3D Graphics Programming</a> by Jason L. McKesson</li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td class=date>25,26 Oct</td>
+				<td>
+					<!--
+					<ul>
+						<li>OpenGL transformations</li>
+						<li>Orthogonal projection</li>
+						<li>Modelview transformation</li>
+					</ul>
+					-->
+				</td>
+				<td>
+					<!--
+					<ul>
+						<li><a href="data/OpenGL-02.pdf">OpenGL-02.pdf</a></li>
+						<li><a href="http://openglbook.com/the-book/preface-what-is-opengl">OpenGLBook.com</a></li>
+						<li><a href="http://www.glprogramming.com/red">OpenGL Programming Guide (ver. 1.1)</a></li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td class=date>1,2 Nov</td>
+				<td>
+					<!--
+					<ul>
+						<li>OpenGL projection</li>
+					</ul>
+					-->
+				</td>
+				<td>
+					<!--
+					<ul>
+						<li>sample05.c, projection.c, projection2.c, projection3.c,
+							hud.c</li>
+						<li><a href="http://user.xmission.com/~nate/tutors.html">Nate Robin's tutor</a></li>
+						<li><a href="http://www.songho.ca/opengl/gl_transform.html">OpenGL Transformation</a>
+						(by Song Ho Ahn) with example program</li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td class=date>8,9 Nov</td>
+				<td>
+					<ul>
+						<li>Modern OpenGL: Pojection</li>
+					</ul>
+					<!--
+					<ul>
+						<li>Homework #2</li>
+						<li>OpenGL lighting</li>
+					</ul>
+					-->
+				</td>
+				<td>
+					<ul>
+						<li><a href="http://www.songho.ca/opengl/gl_projectionmatrix.html">OpenGL Projection Matrix</a> by Song Ho Ahn</li>
+					</ul>
+					<!--
+					<ul>
+						<li><a href="hw2.shtml">Homework #2 page</a></li>
+						<li><a href="data/OpenGL-shading.pdf">OpenGL-shading.pdf</a></li>
+						<li><a href="http://en.wikipedia.org/wiki/Phong_reflection_model">Phong reflection model</a></li>
+						<li><a href="http://en.wikipedia.org/wiki/Blinn%E2%80%93Phong_shading_model">Blinn-Phong shading model</a></li>
+						<li><a href="http://en.wikipedia.org/wiki/Gouraud_shading">Gouraud shading</a></li>
+						<li><a href="http://www.opengl.org/resources/code/samples/sig99/advanced99/notes/node153.html">OpenGL material values</a></li>
+						<li>gouraud.c, gouraud2.c, movelight.c, normalize.c, back.c</li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>12</td>
+				<td class=date>15,16 Nov</td>
+				<td>
+					<ul>
+						<li>Modern OpenGL: Projection, Transformation
+						</li>
+					</ul>
+				</td>
+				<td style="text-align:center;" colspan=2>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td class=date>22,23 Nov</td>
+				<td>
+					<ul>
+						<li>Modern OpenGL: Transformation,
+						Lighting</li>
+					</ul>
+					<!--
+					<ul>
+						<li>OpenGL lighting</li>
+						<li>OpenGL texture mapping</li>
+					</ul>
+					-->
+				</td>
+				<td>
+					<!--
+					<ul>
+						<li>texmap.c, tex2d.cpp</li>
+						<li><a href="http://www.gimp.org/">GIMP</a>: The GNU Image Manipulation Program</li>
+						<li><a href="http://openil.sourceforge.net/">DevIL</a>: Cross-platform image library</li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>14</td>
+				<td class=date>29,30 Nov</td>
+				<td>
+					<ul>
+						<li>Modern OpenGL: Lighting</li>
+					</ul>
+
+					<!--
+					<ul>
+						<li>Importing and rendering external 3D model files into OpenGL</li>
+						<li>Efficient rendering of mesh data using VBOs (Vertex Buffer Objects)</li>
+					</ul>
+					-->
+				</td>
+				<td>
+					<!--
+					<ul>
+						<li><a href="http://assimp.sourceforge.net/">Assimp</a> (Open Asset Import Library)</li>
+						<li>demo_glm.c</li>
+						<li>See "links" page for webpages providing free model files.</li>
+						<li>mesh.c</li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td class=date>6,7 Dec</td>
+				<td>
+					<!--
+					<ul>
+						<li>
+						Advanced rendering:<br> cubemapping, volume rendering, bumpmapping, etc.
+						</li>
+					</ul>
+					-->
+				</td>
+				<td>
+					<!--
+					<ul>
+						<li><a href="http://origin-developer.nvidia.com/object/cube_map_ogl_tutorial.html">nVidia cubemap example</a> (1999)</li>
+						<li><a href="http://www.opengl.org/resources/code/samples/advanced/advanced97/programs/programs.html">Programming with OpenGL: Advanced Rendering</a> (Siggraph '97)</li>
+						<li><a href="http://www.opengl.org/resources/code/samples/sig99/">Course materials</a> (Siggraph '99)</li>
+					</ul>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>16</td>
+				<td class=date>13,14 Dec</td>
+				<td style="text-align:center;" colspan=2>
+					<!--
+					<ul>
+						<li>Canceled (traveling overseas)</li>
+					</ul>
+					-->
+				</td>
+			</tr>
+					<!--
+			<tr>
+				<td class=week>17</td>
+				<td>
+					<ul>
+						<li>Term project presentation (22 Dec 4-6pm)</li>
+					</ul>
+				</td>
+				<td>
+				</td>
+			</tr>
+					-->
+
+			<!--
+			<tr>
+				<td class=week>1</td>
+				<td>
+					<div class=topic>What is computer graphics?</div>
+					<div class=topic>What are the latest topics
+						in computer graphics field?</div>
+					<ul>
+						<li>Introduction to computer graphics</li>
+						<li>Lastest technical papers in computer graphics conferences</li>
+						<li>Other cutting-edge technologies in computer graphics</li>
+					</ul>
+				</td>
+				<td>
+					<a href="data/p01.odp">p01.odp</a>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td rowspan=2>
+					<div class=topic>How can we generate realistic computer graphics images?</div> 
+					<div class=topic>How can we implement interactive 3D applications, like games?</div>
+					<div class=topic>How can we create a window to draw something on?</div>
+					<div class=topic>How can we draw a red rectangle in the window?</div>
+					<div class=topic>How can we change the color of the rectangle 
+						by keyboard input?</div>
+					<ul>
+						<li>Introduction to Pov-Ray</li>
+						<li>Introduction to OpenGL programming</li>
+						<li>Rendering 2D objects</li>
+						<li>GLUT, interaction, animation</li>
+					</ul>
+				</td>
+				<td>
+					<a href="data/rendering.odp">rendering.odp</a>
+					<br>
+					<a href="data/OpenGL.odp">OpenGL.odp</a>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>3</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>4</td>
+				<td rowspan=2>
+					<div class=topic>How can we draw a blue ball?</div>
+					<div class=topic>How can we move the ball?</div>
+					<div class=topic>How can we set up the camera in different positions?</div>
+					<div class=topic>How can we set up the camera with different lenses?</div>
+					<ul>
+						<li>Rendering 3D objects</li>
+						<li>Review on linear algebra</li>
+						<li>Transformation</li>
+						<li>Viewing</li>
+					</ul>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td rowspan=1>
+					<div class=topic>Our ball looks flat...how can make it shaded?</div>
+					<div class=topic>Blue color is boring...can I make it a gold ball?</div>
+					<ul>
+						<li>Lighting</li>
+						<li>Materials</li>
+					</ul>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>7</td>
+				<td rowspan=2>
+					<div class=topic>It takes too much time to draw 3D objects with OpenGL...how
+						can I draw complicated objects more easily?</div>
+					<div class=topic>How can import  the stupid house
+						I made using Blender into my OpenGL application?</div>
+					<ul>
+						<li>Introduction to Blender</li>
+						<li>Polygonal meshes, 3D file formats</li>
+					</ul>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>8</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td rowspan=1>
+					<div class=topic>The walls of my stupid house look dull...
+						can I make it brick walls?</div>
+					<ul>
+						<li>Texture Mapping</li>
+					</ul>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td>
+					<div class=topic>I want the door of my stupid house
+						open when I click it. How can I do that?</div>
+					<ul>
+						<li>Picking and UI</li>
+					</ul>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td rowspan=1>
+					<div class=topic>I am tired of making 3D objects
+						using only boxes, spheres, and cylinders...
+						how can I make cool objects, like a fancy racing car?</div>
+					<ul>
+						<li>Curves &amp; surfaces</li>
+					</ul>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr style="background-color:gray">
+				<td class=week>12</td>
+				<td>
+					Break
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td rowspan=1>
+					<ul>
+						<li>Curves &amp; surfaces</li>
+					</ul>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>14</td>
+				<td rowspan=2>
+					<div class=topic>Now I am an expert in computer  graphics.
+						Tell me more!</div>
+					<ul>
+						<li>GPU programming</li>
+						<li>Ray-tracing</li>
+						<li>Volume rendering</li>
+						<li>Particle system</li>
+						<li>...and more advanced topics</li>
+					</ul>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td></td>
+			</tr>
+			<tr style="background-color:orange;">
+				<td class=week>16</td>
+				<td>
+					Final exam
+				</td>
+				<td></td>
+			</tr>
+			-->
+		</table>
+	</body>
+</html>

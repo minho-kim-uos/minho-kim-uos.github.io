@@ -1,0 +1,75 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Mathematical Models for Engineering Problems 
+			and Differential Equations (fall,2010): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+					[11/25] 
+					Final exam coverage:
+					<ul>
+						<li>Ch 6: ~6.4</li>
+						<li>Ch 7: ~7.3</li>
+						<li>Ch 8: ~8.9 ("stability" included -- See the course slide)</li>
+						<li>Ch 9: ~9.3 (nonlinear BVP excluded)</li>
+					</ul>
+				</li>
+				<li>[11/25] Homework #3 is posted.
+					(Due: before class (10am) 10 Dec.)
+				</li>
+				<!--
+				<li>
+					[9/16,9am]
+					Slide for chap.3 is updated.
+				</li>
+				-->
+				<li>[10/7] More details about homrwork #1 is posted.</li>
+				<li>[10/7] The slide for chap 4 is updated.</li>
+				<li><a href="homeworks.shtml">Homework #1</a> is posted. (Due: 12 Oct 11am -- before class)</li>
+			</ul>
+		</div>
+	</body>
+</html>

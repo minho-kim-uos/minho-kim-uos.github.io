@@ -1,0 +1,134 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Topics in Computer Graphics (fall,2011): syllabus</title>
+		<style type="text/css">
+			td
+			{
+//				vertical-align:top;
+			}
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Syllabus</h1>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: Topics in Computer Graphics (for grads)</li>
+				<li>course webpage: 
+					<a href="http://www.minho-kim.com/courses/11fa43.635">http://www.minho-kim.com/courses/11fa43.635</a></li>
+				<li>credits: 3</li>
+				<li>course number: 43.635</li>
+				<li>hours: Wed 6-8</li>
+				<li>classroom: 19-317</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-2210-5786</li>
+				<li>office: 19-312</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading</div>
+			<ul>
+				<li>attendance/participation 10%</li>
+				<li>midterm exam 30%</li>
+				<li>final exam 30%</li>
+				<li>homeworks/projects 30%</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for pirated homework/projects (including the original one)</li>
+				<li>no score for cheating during exams</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>To understand the theory of curves and surfaces.</li>
+				<li>To understand the graphics pipeline.</li>
+				<li>To understand and practice GPU programming.</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>prerequisite</div>
+			<ul>
+				<li>linear algebra</li>
+				<li>C/C++ programming</li>
+				<li>data structure</li>
+				<li>algorithms</li>
+				<li>computer graphics basics</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>textbooks</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">
+						<img src="http://bks4.books.google.com/books?id=D0qGMAwSUkEC&printsec=frontcover&img=1&zoom=1&edge=curl">
+					</td>
+					<td style="valign:top;">
+						[mandatory]
+						<a href="http://www.farinhansford.com/books/cagd">
+							Curves and Surfaces for CAGD: A Practical Guide
+						</a>
+						by 
+						<a href="http://www.farinhansford.com/gerald">
+						Gerald Farin
+					</a>
+						<br>
+						<a href="http://books.google.com/books/about/Curves_and_surfaces_for_CAGD.html?id=D0qGMAwSUkEC">Google Books</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">
+						<img src="http://www.opengl.org/documentation/img/books/red_book.jpg">
+					</td>
+					<td style="valign:top;">
+						[optional]
+						<a href="http://www.opengl.org/documentation/red_book">
+						&ldquo;OpenGL Programming Guide: The Official Guide 
+						to Learning OpenGL version 2.1&rdquo; 
+						(6th ed.)
+						</a>
+						(by 
+						<a href="http://www.linkedin.com/in/daveshreiner">Dave Shreiner</a>, 
+						<a href="http://www.woo.com">Mason Woo</a>, 
+						Jackie Neider, 
+						<a href="http://www.geometer.org">Tom Davis</a>)
+						<p>
+						* online version for OpenGL 1.1
+						<a href="http://www.glprogramming.com/red">http://www.glprogramming.com/red</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">
+						<img src="http://www.heterogeneouscompute.org/wordpress/wp-content/uploads/2011/06/openclprogrammingguide1-300x300.jpg">
+					</td>
+					<td style="valign:top;">
+						[optional]
+						<a href="http://openclprogrammingguide.com/">
+							&ldquo;OpenCL Programming Guide&rdquo;</a>
+						(by 
+						Aaftab Munshi, Benedict R Gaster, Timothy G. Mattson, James Fung, Dan Ginsburg)
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</body>
+</html>

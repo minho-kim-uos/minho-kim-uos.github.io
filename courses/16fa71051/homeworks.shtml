@@ -1,0 +1,273 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2016): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+	span.date:before
+	{
+		content:"[";
+	}
+	span.date:after
+	{
+		content:"]";
+	}
+	span.note
+	{
+		color:red;
+	}
+	table.figure
+	{
+		display:block;
+	}
+	table.figure tr.caption td
+	{
+		text-align:center;
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<div style="border:solid 1px black">
+				<b>Note</b><br>
+				<ul>
+					<li>TA info
+						<ul>
+							<li>±Ë«ˆ¡ÿ</li>
+							<li>office: #206 (Computer Graphics Lab)</li>
+							<li>e-mail: 
+							<tt>ode.cs.uos@gmail.com</tt>
+							</li>
+							<!--
+							<li>e-mail: <tt>kamumik@gmail.com</tt></li>
+							-->
+						</ul>
+					</li>
+					<li>
+						The problems in
+						&ldquo;by hand &amp; calculator&rdquo;
+						category should be solved by hand on a paper,
+						using a calculator.
+					</li>
+					<li>
+						For the problems in 
+						&ldquo;programming&rdquo;,
+						you should write an GNU Octave program
+						yourself as specified by the problem.
+					</li>
+					<li>
+					Please submit your (hand-written) homework
+						directly to the TA at room 206.
+					</li>
+					<li>
+						Please send source files to the TA via an e-mail
+						for &ldquo;programming&rdquo; problems.
+					</li>
+					<li>
+						The &ldquo;programming&rdquo;
+						problems are to be tested by GNU Octave.
+					</li>
+				</ul>
+			</div>
+			<ul>
+				<li>
+					<span class=date>12/13</span>
+					Homework #5 
+					<span class=note>(Due: 21 Dec 6pm)</span>
+					<ul>
+						<li>
+						Chapter 8 (p.405~414)
+							<ul>
+								<li>by hand &amp; calculator:
+								4, 8, 9
+								</li>
+								<li>programming:
+								12
+								</li>
+							</ul>
+						</li>
+					</ul>
+
+				</li>
+				<li>
+					<span class=date>12/6</span>
+					Homework #4
+					<span class=note>(Due: 13 Dec 6pm)</span>
+					<ul>
+						<li>objective:
+						To implement 1st order ODE solvers.
+						</li>
+						<li>
+							Complete the following 
+							script
+							by modifying the TODO parts
+							as directed.
+							<ul>
+								<li>
+								<a href="https://www.dropbox.com/s/oqdi65xcq8gec43/plot_ode.m?dl=0"><tt>plot_ode.m</tt></a>
+
+									<table class=figure>
+										<tr>
+											<td><img width=100% src="data/hw4-fig1.png"></td>
+											<td><img width=100% src="data/hw4-fig2.png"></td>
+										</tr>
+										<tr class=caption>
+											<td>(Figure 1)</td>
+											<td>(Figure 2)</td>
+										</tr>
+									</table>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<b>
+							After done,
+							please send your scripts
+							to the TA <u>via an e-mail</u>.
+							</b>
+						</li>
+						<li>
+							More details will be given during the lecture.
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/9</span>
+					Homework #3
+					<span class=note>(Due: 28 Nov 6pm)</span>
+					<ul>
+						<li>objective:
+					To implement numerical differentiation 
+					&amp; integration methods.
+						</li>
+						<li>
+							Complete each of the following 
+							script
+							by modifying the TODO parts
+							as directed.
+							<ul>
+								<li>
+									1st order derivatives:
+									<a href="https://www.dropbox.com/s/u7izoqzk0tpzymm/plot_der1st.m?dl=0"><tt>plot_der1st.m</tt></a>
+
+									<table class=figure>
+										<tr>
+											<td><img width=100% src="data/plot_der1st_Fig1.png"></td>
+											<td><img width=100% src="data/plot_der1st_Fig2.png"></td>
+										</tr>
+										<tr class=caption>
+											<td>(Figure 1)</td>
+											<td>(Figure 2)</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									2nd order derivatives:
+									<a href="https://www.dropbox.com/s/5btg7xpz4y7d0ot/plot_der2nd.m?dl=0"><tt>plot_der2nd.m</tt></a>
+									<table class=figure>
+										<tr>
+											<td><img width=100% src="data/plot_der2nd_Fig1.png"></td>
+											<td><img width=100% src="data/plot_der2nd_Fig2.png"></td>
+										</tr>
+										<tr class=caption>
+											<td>(Figure 1)</td>
+											<td>(Figure 2)</td>
+										</tr>
+									</table>
+
+								</li>
+								<li>
+									integration:
+									<a href="https://www.dropbox.com/s/svvtks0pf6m606n/plot_int.m?dl=0"><tt>plot_int.m</tt></a>
+									<table class=figure>
+										<tr>
+											<td><img width=100% src="data/plot_int_Fig1.png"></td>
+											<td><img width=100% src="data/plot_int_Fig2.png"></td>
+										</tr>
+										<tr class=caption>
+											<td>(Figure 1)</td>
+											<td>(Figure 2)</td>
+										</tr>
+									</table>
+
+								</li>
+							</ul>
+						</li>
+						<li>
+							<b>
+							After done,
+							please send your scripts
+							to the TA <u>via an e-mail</u>.
+							</b>
+						</li>
+						<li>
+							More details will be given during the lecture.
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>10/18</span>
+					Homework #2
+					<span class=note>(Due: 1 Nov 6pm)</span>
+					<ul>
+						<li>
+						<del>Chapter 3</del>
+						Chapter 4
+					(p.201~210)
+					<ul>
+						<li>
+						by hand &amp; calculator:
+						7, 14, 17
+						</li>
+						<li>
+						programming: 22
+						</li>
+					</ul>
+					</li>
+				</ul>
+				</li>
+				<li>
+					<span class=date>9/27</span>
+					Homework #1
+					<span class=note>(Due: 11 Oct 6pm)</span>
+					<ul>
+						<li>
+							Chapter 2
+							(p.54~64)
+							<ul>
+								<li>by hand &amp; calculator:
+									4, 8, 14
+								</li>
+								<li>programming:
+									17
+								</li>
+							</ul>
+						</li>
+						<li>
+							Chapter 3
+							(p.141~152)
+							<ul>
+								<li>by hand &amp; calculator:
+								5, 16, 17, 19
+								</li>
+								<li>programming:
+								27
+								</li>
+							</ul>
+						</li>
+					</li>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

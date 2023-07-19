@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>
+			Computer Graphics for grads (fall,2010): Syllabus
+		</title>
+	</head>
+	<body>
+<h1 align=center>Computer Graphics for grads</h1>
+<h2 align=center>fall 2010</h2>
+
+<h3 align=center>Syllabus</h3>
+
+<ul>
+	<li>
+		Course info
+		<ul>
+			<li>Hours: 6-8 Mon</li>
+			<li>Instructor: Minho Kim (
+			<a href="mailto:Mr.Minho.Kim@gmail.com">
+				Mr.Minho.Kim@gmail.com</a>
+			)</li>
+			<li>Office: 19-312 (tel: 2210-5786)</li>
+		</ul>
+	</li>
+	<li>
+		Course objectives
+		<ul>
+			<li>To understand interactive 3D graphics programming 
+			using <a href="http://www.opengl.org">OpenGL</a></li>
+			<li>To understand the 
+			<a href="http://en.wikipedia.org/wiki/Spline_(mathematics)">spline</a> theory and apply it 
+			in various research area</li>
+			<li>To understand 
+			<a href="http://en.wikipedia.org/wiki/GPGPU">GPGPU</a>
+			and apply it in various research area</li>
+			<li>To understand the latest research topics 
+			in computer graphics</li>
+		</ul>
+	</li>
+	<li>
+		Prerequisite
+		<ul>
+			<li>Basic knowledge of OpenGL programming</li>
+			<li>C/C++ or other language with OpenGL binding 
+			(see 
+			<a href="http://www.opengl.org/resources/bindings">http://www.opengl.org/resources/bindings</a>)</li>
+			<li>Data structure / algorithms</li>
+			<li>Linear algebra</li>
+			<li>...fluency in English</li>
+		</ul>
+	</li>
+	<li>
+		Grading
+		<ul>
+			<li>10% attendance</li>
+			<li>20% presentation (1-2 talks for each)</li>
+			<li>40% project (CG topics. Topics related to your own 
+			research area is recommended.)</li>
+			<li>30% midterm exam (on spline theory)</li>
+			<li>Don&rsquo;t expect a good grade if don&rsquo;t 
+			try hard enough. This is not an easy-going course.</li>
+		</ul>
+	</li>
+	<li>
+		Lecture 
+		<ul>
+			<li>Lectures will be given on theoretical topics. 
+			(e.g. spline theory)</li>
+			<li>Each student is required to pick 1~2 papers 
+			from cg conferences and give a talk.</li>
+			<li>Lectures will be given in Korean, 
+			but all the materials are in English.</li>
+		</ul>
+	</li>
+	<li>
+		Course materials
+		<ul>
+			<li>Resources on the web: Wikipedia, online documents, etc.</li>
+			<li>Refer to the 
+			<a href="http://www.minho-kim.com/courses/10fa71033">
+				course webpage of CG (for undergrads)</a>. 
+			</li>
+		</ul>
+	</li>
+	<li>
+		Topics (but not limited to...)
+		<ul>
+			<li>Spline theory</li>
+			<li>GPGPU</li>
+			<li>More topics in CG</li>
+			<li>Latest topics in CG conferences 
+			(
+			<a href="http://kesen.realtimerendering.com">http://kesen.realtimerendering.com</a>
+			)
+			<br>
+			<a href="http://www.siggraph.org">SIGGRAPH</a>,
+			<a href="http://vis.computer.org">IEEE VIS</a>, 
+			<a href="http://www.eg.org">EG</a>,
+				PG, etc.
+			</li>
+		</ul>
+	</li>
+</body>
+</html>
+
+
+
+
+

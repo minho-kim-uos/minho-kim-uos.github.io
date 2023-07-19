@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<style = "text/css">
+			<!--#include file="cgg.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="header.shtml"-->
+		<div class=sec>
+			<div class=title><span class=title>publications</span></div>
+			<div>&nbsp;&nbsp;[<a href="pubs.bib">bibtex</a>]</div>
+			<div class=content>
+			<div class=subtitle><span class=title>journal articles</span></div>
+			<!--#include file="kim11symmetric.shtml"-->
+			<!--#include file="kim10symmetric.shtml"-->
+			<!--#include file="wu09evaluation.shtml"-->
+			<!--#include file="kim09fast.shtml"-->
+			<!--#include file="kim08box.shtml"-->
+			<!--#include file="cendan07developing.shtml"-->
+			<!--#include file="kurenov06simulation.shtml"-->
+			<div class=subtitle><span class=title>conference proceedings/posters/talks</span></div>
+			<ul>
+				<li class=paper>
+						<!--#include file="authors/ashish.myles.html"-->,
+						<!--#include file="authors/young.in.yeo.html"-->,
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/juan.cendan.html"-->,
+						<!--#include file="authors/sergei.kurenov.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://dx.doi.org/10.3233/978-1-58603-964-6-221">Interactive Peritoneum in a Haptic Surgery Illustration Environment</a>,
+						in
+						<a class=where href="http://www.iospress.nl/loadtop/load.php?isbn=9781586039646">Proceedings 
+								of the 17th Annual Medicine Meets Virtual Reality (MMVR) Conference</a>,
+						Jan. 19-22 2009, Long Beach, CA,
+						vol. 142,
+						pp. 221-223,
+						<span class=year>2009</span>.
+				</li>
+				<li class=paper>
+						<!--#include file="authors/sukitti.punak.html"-->,
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/ashish.myles.html"-->,
+						<!--#include file="authors/juan.cendan.html"-->,
+						<!--#include file="authors/sergei.kurenov.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://www.booksonline.iospress.nl/Content/View.aspx?piid=8113">Fatty Tissue in a Haptic Illustration Environment</a>,
+						in
+						<a class=where href="http://www.iospress.nl/loadtop/load.php?isbn=9781586038229">Proceedings 
+								of the 16th Annual Medicine Meets Virtual Reality (MMVR) Conference</a>,
+						Jan. 30-Feb. 1 2008, Long Beach, CA,
+						vol. 132,
+						pp. 384-386,
+						Feb. 
+						<span class=year>2008</span>.
+				</li>
+				<li>
+						<!--#include file="authors/minho.kim.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://www.math.vanderbilt.edu/~gdc07/longprog3.pdf">Fast and Stable Evaluation of Box
+						Splines via the B&eacute;zier Form</a>
+						presented at
+						<a class=where href="http://www.math.vanderbilt.edu/~gdc07">10th SIAM Conference on
+						Geometric Design 
+						&amp; Computing
+						(SIAM GDC'07)</a>,
+					6 Nov. 2007
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/tianyun.ni.html"-->,
+						<!--#include file="authors/juan.cendan.html"-->,
+						<!--#include file="authors/sergei.kurenov.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://www.booksonline.iospress.nl/Content/View.aspx?piid=5164">A Haptic-enabled Toolkit for Illustration of Procedures in Surgery (TIPS)</a>,
+						in
+						<a class=where href="http://www.iospress.nl/loadtop/load.php?isbn=9781586037130">Proceedings 
+								of the 15th Annual Medicine Meets Virtual Reality (MMVR) Conference</a>,
+						Feb. 6-9  2007, Long Beach, CA,
+						vol. 125,
+						pp. 209-214,
+						Feb. 
+						<span class=year>2007</span>.
+						<a class=icon href="papers/kim07haptic.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<!--#include file="authors/sukitti.punak.html"-->,
+						<!--#include file="authors/juan.cendan.html"-->,
+						<!--#include file="authors/sergei.kurenov.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://booksonline.iospress.nl/Content/View.aspx?piid=4641">Exploiting Graphics Hardware for Haptic Authoring</a>,
+						in
+						<a class=where href="http://www.nextmed.com/mmvr_virtual_reality.html">Proceedings 
+							of the 14th Annual Medicine Meets Virtual Reality (MMVR) Conference</a>,
+						Jan. 25-27  2006, Long Beach, CA,
+						pp. 255-260,
+						Jan. 
+						<span class=year>2006</span>.
+						<a class=icon href="papers/kim06exploiting.pdf"><img src="thumbnails/pdf.gif"></a>
+				</li>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->
+						and
+						<!--#include file="authors/jorg.peters.html"-->,
+						<a class=title href="http://dx.doi.org/10.1145/1186954.1187094">Realtime Loop Subdivision on the GPU</a>
+						(<a href="http://portal.acm.org/citation.cfm?id=1187094">abstract</a>,
+						<a href="papers/kim05realtime_poster.pdf">poster
+							<img src="thumbnails/pdf.gif">
+						</a>),
+						<a class=where href="http://www.siggraph.org">ACM SIGGRAPH 2005 Posters</a>,
+						Jul. 31-Aug. 04 2005, Los Angeles, California,
+						pp. 123,
+						Aug. 
+						<span class=year>2005</span>.
+				</li>
+
+			</ul>
+			<div class=subtitle><span class=title>theses</span></div>
+			<ul>
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->
+						<a class=title href="http://uf.catalog.fcla.edu/permalink.jsp?20UF004275255">Symmetric Box-Splines on Root Lattices</a>,
+						University of Florida,
+						Doctoral dissertation,
+						Aug.
+						<span class=year>2008</span>.
+				</li>
+
+				<li class=paper>
+						<!--#include file="authors/minho.kim.html"-->,
+						<a class=title href="http://uf.catalog.fcla.edu/permalink.jsp?20UF003108231">Finding Intersection Curves Using SLEFE (Subdividable Linear Efficient Function Enclosure)</a>, 
+						University of Florida,
+						Master's thesis,
+						May 
+						<span class=year>2004</span>.
+				</li>
+
+			</ul>
+			<!--
+			<div class=subtitle><span class=title>miscellaneous</span></div>
+			<ul>
+				<li class=paper>
+						<a class=title href="http://www.imaso.co.kr/?doc=bbs/gnuboard_pdf.php&bo_table=article&page=3&wr_id=1356&publishdate=20020801">GP32 Game Development</a>, article for the Korean magazine <a href="http://www.imaso.co.kr/">Microsoftware</a>,
+						Aug. 
+						<span class=year>2002</span>.
+				</li>
+
+			</ul>
+			-->
+			</div>
+		</div>
+	</body>
+</html>

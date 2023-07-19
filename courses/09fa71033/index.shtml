@@ -1,0 +1,192 @@
+<html>
+	<head>
+		<title>Computer Graphics (fall,2009): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+					<span class=date>12/4</span>
+					Bug of proj3-2 is fixed.
+					(showing the position of control points
+					at the incorrect locations.)
+				</li>
+				<li>
+					<span class=date>11/27</span>
+					Project #3 is posted.
+					<span style="color:red;">[Due: 15 Dec. 11:59pm]</span>
+				</li>
+				<li>
+					<span class=date>11/27</span>
+					<tt>viewer.c</tt> is updated.
+					In the old version, only positive ids are used 
+					for picking, but now zero id is also used.
+					(Not a big deal, but easier to handle arrays.)
+				</li>
+				<li>
+					<span class=date>11/6</span>
+					More mistakes.
+					I wrote all the samples using freeglut
+					as the glut library.
+					You may have a compilation error
+					if you try compiling them with
+					GLUT32.
+					To fix it, just put the line
+					"<tt>#include &lt;GL/glut.h&gt;</tt>"
+					below all the other header files.
+					(e.g., <tt>&lt;stdlib.h&gt;</tt>)
+					<p>
+					Also, some sample programs doesn't show
+					anything since I mistakenly call
+					<tt>glutSwapBuffers</tt>
+					while I just initialized single buffer.
+					(<tt>polyoffset.c</tt> and <tt>hud.c</tt>
+					had this bug.)
+					Now I fixed them. (at leat I believe so...)
+					Let me know if you have any problem with
+					the samples.
+				</li>
+				<li>
+					<span class=date>11/6</span>
+					There was an error in the executable
+					<a href="proj2/proj2_xp32.exe"><tt>proj2_xp32.exe</tt></a>.
+					(I compiled using "freeglut"
+					not "GLUT for Win32" by mistake.)
+					Please let me know if you still have any problem.
+				</li>
+				<li>
+					<span class=date>11/1</span>
+					<a href="proj2.shtml">Project #2</a>
+					is posted. 
+					<span class=note>[Due: 24 Nov. 11:59pm]</span>
+				</li>
+				<li>
+					<span class=date>10/22</span>
+					<a href="data/fa09_CG_06.pptx">Slide #6</a> 
+					has been updated.
+				</li>
+				<li>
+					<span class=date>10/12</span>
+					Late submission of project #1:
+					You may get at most 50% of your score,
+					but it's still better than submitting nothing.
+					So go ahead and submit your project as soon as possible.
+					<span style="color:red;">[Late submission due: 11:59pm 16 Oct.]</span>
+				</li>
+				<li>
+					<span class=date>10/6</span>
+					Any EXE file attached in the e-mail cannot be delievered since it's considered as a virus.
+					You can change the file extension to, say, ZIP, or just send the source file.
+				</li>
+				<li>
+					<span class=date>9/18</span>
+					<a href="proj1.shtml">Project #1</a> is posted. (due: 6 Oct. 11:59pm)
+				</li>
+				<li>
+					<span class=date>9/17</span>
+					GLUT sample codes are uploaded in the <a href="materials.shtml">materials</a> page.
+					<p>
+					You may notice that a sample named <a href="data/postredisplay.c"><tt>postredisplay.c</tt></a> is posted which was not presented in the lecture today.
+					This sample is to show you how to use the function 
+				<a href="http://www.opengl.org/resources/libraries/glut/spec3/node20.html#SECTION00055000000000000000"><tt>glutPostRedisplay</tt></a>.
+					When you press the space bar, the color of the rectangle will be switched between red and white.
+					We expect the color changes immediately after we press the space bar, 
+					and this is why we call the function at the end of <tt>keyboard</tt> callback.
+					Without this, the color changes only when the window needs to be refreshed. 
+					(so that the <tt>display</tt> callback is called)
+					To see the effect, try commenting out the line calling <tt>glutPostRedisplay</tt>
+					and see how it works.
+					Without the call, you have to force the <tt>display</tt> callback
+					is called by, for example, covering the window with another window
+					and then removing it away.
+				</li>
+				<li>
+					<span class=date>9/16</span>
+					To fix the error (on Windows XP)
+					<div class=code>
+error C2381: 'exit' : redefinition; __declspec(noreturn) differs
+       [WHERE_GLUT_IS_LOCATED]\gl\glut.h(146) : see declaration of 'exit'
+					</div>
+					try removing the include sentence in the source.
+					<div class=code>
+					//#include &lt;stdlib.h&gt;
+					</div>
+				</li>
+				<li>
+					<span class=date>9/16</span>
+교과서설문의 "기초설문조사" 참여도가 너무 저조하오니 많이 참여해주시기 바랍니다.
+				</li>
+				<li>
+					<span class=date>9/10</span>
+					Lecture slides can be found in either
+					<a href="schedule.shtml">schedule</a> or
+					<a href="materials.shtml">materials</a> page.
+				</li>
+				<li>
+					<span class=date>9/9</span>
+					<a href="howto-win32.txt">howto-win32.txt</a>
+					shows step-by-step procedure to compile 
+					an OpenGL sample on Windows XP.
+					(It's quite straightforward to apply
+					this to other Windows systems.)
+				</li>
+				<li><span class=date>9/8</span>
+					The office hours has been moved to
+					4~5pm on Wednesday permanently.
+				</li>
+				<li><span class=date>9/2</span> Welcome. 
+					In this course, `passcode' will be used to post your scores for your privacy. 
+					Please send your own passcode (composed of 4 alpha-numeric characters) to 
+					<a href="mailto:minhokim@uos.ac.kr">me</a> as soon as possible. 
+					In case of conflicts, please send at least three candidates.
+					For example, your e-mail may look as follows:
+					<table style="border:1px solid black"><tr><td>
+					name: Minho Kim<br>
+					id: 20090000<br>
+					passcodes: (1)1a2b (2)2b3c (3)abcd
+					</td></tr></table>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

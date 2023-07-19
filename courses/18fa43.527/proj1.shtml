@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Project #1</title>
+	</head>
+	<body>
+		<h1 align=center>Project #1</h1>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/AfXNkxQdsJE" frameborder="0" allowfullscreen></iframe>
+		<ul>
+			<li>
+				Due: 25 Oct 11:59pm
+			</li>
+			<li>
+				Send an e-mail to
+				<tt>Mr.Minho.Kim@gmail.com</tt>
+				with all the files (usually <tt>*.html</tt> and <tt>*.js</tt>) attached.
+				<ul>
+					<li>
+				Please DO NOT include any library files,
+				such as <tt>cuon-matrix.js</tt> or <tt>webgl-utils.js</tt>.
+					</li>
+					<li>
+						Please do not compress the files.
+					</li>
+			</ul>
+			</li>
+			<li>
+			Goal: To implement a simple 2D firework app.
+			</li>
+			<li>
+				Requirements
+				<ul>
+					<li>If the mouse is clicked on the canvas,
+					a &ldquo;firework&rdquo;
+					pops up at the mouse position and disappears after some time.
+					</li>
+					<li>
+					The firework should
+						<ul>
+							<li>get bigger,</li>
+							<li>rotate,</li>
+							<li>change its brightness from bright to dark, and</li>
+							<li>disappear after some time.</li>
+						</ul>
+					</li>
+					<li>
+					When the mouse is clicked while 
+					the firework is still being rendered,
+					the previous one disappears immediately
+					and the new one pops up.
+					</li>
+					<li>
+					The firework shape should be 
+					rendered analytically on a quad. Refer
+					to <a href="http://jwilson.coe.uga.edu/EMAT6680Fa08/Radford/Assignment11/Assignment11.html">this page</a>
+					or other websites
+					to see various analytic shapes.
+					You can choose whatever shape you think  interesting.
+					</li>
+					<li>
+						Refer to
+						<a href="https://xregy.github.io/webgl/src/point-circle.html">this example</a>
+						to see how to render a shape
+						analytically on a quad.
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

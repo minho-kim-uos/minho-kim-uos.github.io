@@ -1,0 +1,168 @@
+<html>
+	<head>
+		<title>How to build the course samples on Windows</title>
+		<style type="text/css">
+			span.macro:before
+			{
+				content:"<";
+			}
+			span.macro:after
+			{
+				content:">";
+			}
+			span.macro
+			{
+				color:darkgreen;
+				font-style:italic;
+				font-family:courier;
+			}
+			span.dir
+			{
+				font-family:courier;
+				color:darkgreen;
+			}
+			div.note
+			{
+				border:1px solid black;
+				padding:10px;
+				margin:20px;
+			}
+			ol ol
+			{
+				list-style-type:lower-alpha;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align=center>How to build the course samples on Windows</h1>
+		<h3 align=center>(last updated: 5 Sep 2016)</h3>
+		<div class=note>
+		test environment
+		<ul>
+			<li>platforms:
+				<ul>
+					<li>Windows 7 Professional K + Visual Studio 2010 Professional</li>
+					<li>Windows 10 Enterprise + Visual Studio Community 2015</li>
+				</ul>
+			</li>
+			<li>freeglut: 3.0.0</li>
+			<li>glew: 2.0.0</li>
+		</ul>
+		</div>
+
+		<ol>
+			<li>First, create a folder where all your OpenGL-related work will be stored. Let's call it <span class=macro>my_OpenGL</span></li>
+			<li>
+				Create following directories.
+				<ul>
+					<li><span class=dir><span class=macro>my_OpenGL</span>/include/GL</span> (for header files)</li>
+					<li><span class=dir><span class=macro>my_OpenGL</span>/lib/x32</span> (for 32bit LIB files)</li>
+					<li><span class=dir><span class=macro>my_OpenGL</span>/lib/x64</span> (for 64bit LIB files)</li>
+					<li><span class=dir><span class=macro>my_OpenGL</span>/bin/x32</span> (for 32bit DLL files)</li>
+					<li><span class=dir><span class=macro>my_OpenGL</span>/bin/x64</span> (for 64bit DLL files)</li>
+				</ul>
+			</li>
+			<li>
+				Set up  for freeglut
+				<ol>
+					<li>Download the pre-compiled libraries "freeglut 3.0.0 MSVC Package" at <a class=url href="http://www.transmissionzero.co.uk/software/freeglut-devel">http://www.transmissionzero.co.uk/software/freeglut-devel</a>
+						</li>
+					<li>Unpack it.
+						<br>
+						* You can also find the link at the freeglut homepage 
+						<a class=url href="http://freeglut.sourceforge.net">http://freeglut.sourceforge.net</a>
+					</li>
+					<li>Copy <span class=dir><span class=macro>freeglut</span>/include/GL/*.h</span> to
+						<span class=dir><span class=macro>my_OpenGL</span>/include/GL</span>.</li>
+					<li>Copy <span class=dir><span class=macro>freeglut</span>/lib/freeglut.lib</span> to
+						<span class=dir><span class=macro>my_OpenGL</span>/lib/x32</span>.</li>
+					<li>Copy <span class=dir><span class=macro>freeglut</span>/lib/x64/freeglut.lib</span> to
+						<span class=dir><span class=macro>my_OpenGL</span>/lib/x64</span>.</li>
+					<li>Copy <span class=dir><span class=macro>freeglut</span>/bin/freeglut.dll</span> to
+						<span class=dir><span class=macro>my_OpenGL</span>/bin/x32</span>.</li>
+						<li>Copy <span class=dir><span class=macro>freeglut</span>/bin/x64/freeglut.dll</span> to
+						<span class=dir><span class=macro>my_OpenGL</span>/bin/x64</span>.</li>
+				</ol>
+			</li>
+			<li>
+				Set up for  glew
+				<ol>
+					<li>Download the "Binaries" at 
+					<a class=url href="http://glew.sourceforge.net">http://glew.sourceforge.net</a>
+					</li>
+					<li>Unpack it.</li>
+					<li>Copy <span class=dir><span class=macro>glew</span>/include/GL/*.h</span> to
+						<span class=dir><span class=macro>my_OpenGL</span>/include/GL</span>.</li>
+					<li>Copy
+							<span class=dir><span class=macro>glew</span>/lib/Release/Win32/glew32.lib</span> and
+							<span class=dir><span class=macro>glew</span>/lib/Release/Win32/glew32s.lib</span>
+						<span class=dir><span class=macro>my_OpenGL</span>/lib/x32</span>.
+					</li>
+					<li>Copy
+							<span class=dir><span class=macro>glew</span>/lib/Release/x64/glew32.lib</span> and
+							<span class=dir><span class=macro>glew</span>/lib/Release/x64/glew32s.lib</span>
+							to
+						<span class=dir><span class=macro>my_OpenGL</span>/lib/x64</span>.
+					</li>
+					<li>Copy
+							<span class=dir><span class=macro>glew</span>/bin/Release/Win32/glew32.dll</span> and
+						<span class=dir><span class=macro>my_OpenGL</span>/bin/x32</span>.</li>
+					</li>
+					<li>Copy
+							<span class=dir><span class=macro>glew</span>/bin/Release/x64/glew32.dll</span> and
+						<span class=dir><span class=macro>my_OpenGL</span>/bin/x64</span>.</li>
+					</li>
+				</ol>
+			</li>
+			<li>
+				Build a sample
+				<ol>
+					<li> 
+						Create a project with
+						<ul>
+							<li>Template: Visual C++ &rarr; Empty Project</li>
+							<li>Name: <span class=macro>my_proj</span> (Whichever name you choose)</li>
+							<li>Location: <span class=dir><span class=macro>my_OpenGL</span></span></li>
+							<li>"Create directory for solution" option unchecked</li>
+						</ul>
+					</li>
+					<li>
+					Download <span class=dir>triangles.cpp</span> in <span class=dir><span class=macro>my_OpenGL</span>/<span class=macro>my_proj</span></span> 
+					and add it to the "Source Files" of the project just created.
+					</li>
+					<li>
+						Select the "Solution Platform" (combobox on the left of the Run button)
+						<ul>
+							<li>64bit: Select "x64"</li>
+							<li>32bit: Select "x32"</li>
+						</ul>
+					</li>
+					<li>
+						Set the project properties as follows:
+						<ul>
+							<li>C/C++ &rarr; General &rarr; Additional Include Directories: <span class=dir>../include</span></li>
+							<li>Linker &rarr; General &rarr; Additional Library Directories:
+								<ul>
+									<li>32bit: <span class=dir>../lib/x32</span></li>
+									<li>64bit: <span class=dir>../lib/x64</span></li>
+								</ul>
+							<li>Linker &rarr; Input &rarr; Additional Dependencies: Add <span class=dir>glew32.lib</span> and <span class=dir>freeglut.lib</span></li>
+							<li>Debugging &rarr; Environment
+								<ul>
+									<li>64bit: <span class=dir>PATH=%PATH%;../bin/x64</span></li>
+									<li>32bit: <span class=dir>PATH=%PATH%;../bin/x32</span></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						Start build.
+					</li>
+				</ol>
+			</li>
+			<li>
+				Run the project from the Visual Studio.
+			</li>
+		</ol>
+	</body>
+</html>

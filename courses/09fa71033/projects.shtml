@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Computer Graphics (fall,2009): projects</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Projects</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li><a href="proj1.shtml">Project #1</a></li>
+				<li><a href="proj2.shtml">Project #2</a> [due: 24 Nov. 11:59pm]</li>
+				<li>Project #3
+					<span style="color:red;">[Due: 15 Dec. 11:59pm]</span>
+					<br>
+					You can choose one of two versions
+					(210 points for proj3-1 and 250 points for proj3-2)
+					<ul>
+						<li><a href="proj3-1.shtml">Project #3-1</a>:
+							2D B&eacute;zier curve editor</li>
+							<li><a href="proj3-2.shtml">Project #3-2</a>:
+							3D B&eacute;zier curve editor</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

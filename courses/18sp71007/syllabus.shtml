@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2018): syllabus</title>
+		<style type="text/css">
+			td
+			{
+				vertical-align:top;
+			}
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Syllabus</h1>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: Linear algebra</li>
+				<li>course webpage: 
+				<a href="http://www.minho-kim.com/courses/18sp71007">http://www.minho-kim.com/courses/18sp71007</a></li>
+				<li>credits: 3</li>
+				<li>course number: 71007</li>
+				<li>hours: Thu 3-5 (11am~1:50pm)</li>
+				<li>classroom: 5-202</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-6490-2453</li>
+				<li>office: 19-312</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading</div>
+			<ul>
+				<li>attendance/participation 10%</li>
+				<li>midterm exam 35%</li>
+				<li>final exam 35%</li>
+				<li>homework/projects 20%</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for copied homework/projects (including the original one)</li>
+				<li>no score for cheating during exams</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>to understand fundamentals of linear algebra: vectors, vectors spaces, and matrices</li>
+				<li>to apply linear algebra to solve engineering problems</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>textbooks</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">
+						<img width=200px src="http://assets.cambridge.org/97809802/32714/cover/9780980232714.jpg">
+					</td>
+					<td style="valign:top;">
+							[mandatory]
+							<a href=" http://www.cambridge.org/us/academic/subjects/mathematics/mathematical-modelling-and-methods/introduction-linear-algebra-4th-edition">
+								&ldquo;
+								Introduction to Linear Algebra (4th ed.)
+							</a>
+							(by <a href="http://math.mit.edu/~gs">
+								Gilbert Strang</a>)
+						<p>
+						* Can be purchased at the campus bookstore.
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">
+						<img width=200px src="http://ecx.images-amazon.com/images/I/71PAenlrXwL.jpg">
+					</td>
+					<td style="valign:top;">
+						[optional]
+						<a href="http://www.codingthematrix.com">&ldquo;Coding the Matrix: Linear Algebra through Applications to Computer Science&rdquo;</a>
+			(by <a href="http://cs.brown.edu/~pnk">Philip N. Klein</a>)
+						<div>
+				* <a href="https://cs.brown.edu/video/channels/coding-matrix-fall-2014">Video lectures</a>
+					by the author at Brown University (2014)
+						</div>
+					</td>
+				</tr>
+	
+			</table>
+		</div>
+	</body>
+</html>

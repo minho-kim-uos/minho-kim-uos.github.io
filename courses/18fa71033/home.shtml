@@ -1,0 +1,83 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2018): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li><span class=date>12/28</span>
+					<a href="https://www.dropbox.com/sh/8u8d5vdweijdsbr/AACEZjLuzb2Fkih99Xby-Ipca?dl=0">Scores for the projects</a>:
+					You need your passcode to check your score.
+					I will send them to each of you 
+					(to the e-mail address registered in
+					the WISE system) this morning.
+					Let me (Mr.Minho.Kim@gmail.com) know
+					if you don't receive yours until
+					1pm 28 Dec.
+				</li>
+				<li><span class=date>12/20</span>
+				During the lectures this week, 
+				I will have Q&amp;A sessions about
+					the project #3. 
+					You can bring your laptop to work on your project.
+					I will not bring the attendance sheet, 
+					so feel free to join the session.
+				</li>
+				<li><span class=date>12/4</span>
+				Project #3 is posted. 
+				<span class=note>(due: 21 Dec, 11:59pm)</span>
+				</li>
+				<li><span class=date>11/8</span>
+				Project #2 is posted. 
+				<span class=note>(due: 28 Nov, 11:59pm)</span>
+				</li>
+				<li><span class=date>10/5</span>
+				Project #1 is posted. 
+				<span class=note>(due: 19 Oct, 11:59pm)</span>
+				</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

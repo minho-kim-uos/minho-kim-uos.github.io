@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>
+		</title>
+	</head>
+	<body>
+		<h1 align=center>Project #2: Robot arm</h1>
+		<h2 align=center style="color:red">Due: 12 Nov. 11:59pm</h2>
+		<div style="text-align:center">
+		<img src="proj2.png" style="border:1px solid black">
+		</div>
+		<ul>
+			<li>
+				Directions
+				<ul>
+					<li><span style="font-weight:bold;color:red">Due: 12 Nov. 11:59pm</span></li>
+					<li>Send an e-mail with your code attached. <span style="color:red">(Do not attach
+						EXE of LIB files.)</span></li>
+					<li>Describe, in detail, how your code can be compiled in 
+					<span style=color:red"><tt>README.txt</tt></span>.</li>
+					<li>Send all the files required to compile. Otherwise, you may lose points.</li>
+					<li>Make sure your code is compiled correctly.</li>
+					<li>You can use other languages other than C,
+						(C++, Java, etc.) but describe how to compile (or run) your code carefully.</li>
+				</ul>
+			</li>
+			<li>
+			Objective: To implement a robot arm.
+			</li>
+			<li>
+				Executables
+				<ul>
+					<li><a href="proj2.lin64"><tt>proj2.lin64</tt></a>: for linux 64 bit</li>
+					<li><a href="proj2.xp32.exe"><tt>proj2.xp32.exe</tt></a>: for Windows XP 32 bit</li>
+				</ul>
+				<b>Let me know if you have any problem with the executables!</b>
+			</li>
+			<li>
+				<li>
+					Requirements
+					<ul>
+						<li>Render a container box with some objects (spheres, cubes, etc.) inside.
+							<ul>
+								<li>Render both "faces" and "edges"
+								of objects to make them look 3D.
+								(See <a href="../samples/sample05.c"><tt>sample05.c</tt></a> to see how to use 
+								<a href="http://www.opengl.org/sdk/docs/man/xhtml/glPolygonOffset.xml"><tt>glPolygonOffset</tt></a>.)
+								</li>
+								<li>Use <b>perspective projection</b> for camera.</li>
+								<li>The aspect ratio should stay the same when the window is resized.</li>
+							</ul>
+						</li>
+						<li>
+							Implement an "interactive robot arm with claws".
+							<ul>
+								<li>By pressing the arrow keys,
+								the arm should keep moving in the corresponding direction.</li>
+								<li>While moving, if the arrow key with the same direction is pressed again, the arm should stop moving.</li>
+								<li>While moving, if any other arrow key is pressed,
+								the arm should keep moving in the new direction.</li>
+								<li>If the space bar is pressed,
+								the arm should 
+								do the following action:
+								<ol>
+									<li> opens the claw,</li>
+									<li>  stretches to the bottom,</li>
+									<li> closes the claw to grab an object, and</li>
+									<li>  shrinks back.</li>
+								</ol>
+								<li>
+								The arm should grab an object if
+								it lays close to the position of the arm.
+								You can decide the "sensitivity" as you want. 
+								Just make it "look reasonable."</li>
+							</ul>
+						</li>
+						<li>
+							Make your program more interesting!!!
+						</li>
+					</ul>
+				</li>
+			</li>
+		</ul>
+		<hr>
+	</body>
+</html>

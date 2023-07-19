@@ -1,0 +1,164 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Mathematical Models for Engineering Problems 
+			and Differential Equations (fall,2011): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+					<span class=date>12/21</span>
+					<a href="data/final-solution.pdf">Solution for the final exam</a> is posted.
+				</li>
+				<li>
+					<span class=date>12/11</span>
+					<ul>
+						<li>For the final exam, please make sure if you have the latest 
+						versions of lecture slides.</li>
+						<li>Lecture slide for chap 6 is updated.
+						There was an error in the section "6.8 Estimation 
+						of error in numerical integration."
+						(Please refresh (F5) to make sure you download the latest version.)
+						</li>
+						<li style="color:red">Final exam
+							<ul>
+								<li>7~9pm on 19 Dec</li>
+								<li>will be held in the room #110</li>
+								<li>will cover chap 5~8</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/30</span>
+					<ul>
+						<li>Lecture slide for Chap 8 is updated.</li>
+						<li>Homework for Chap 8 is posted.</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/25</span>
+					Lecture slide for Chap 8 is uploaded.
+				</li>
+				<li>
+					<span class=date>11/23</span>
+					<ul>
+						<li>Homework for Chap 7 is posted. (due 8 Dec)</li>
+						<li>Lecture slide for Chap 7 is updated.</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/10</span>
+					Lecture slide for chap 7 is updated.
+				</li>
+				<li>
+					<span class=date>11/10</span>
+					<span style="color:red">[IMPORTANT NOTICE]</span>
+					Final exam schedule
+					<ul>
+						<li><span style="color:red">19 Dec 7~9pm</span></li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/10</span>
+					Homework due for chap 6 is postponed to
+					<span style="color:blue">21 Nov 6pm</span>
+					(to Young Jun Lee in room #206)
+				</li>
+				<li>
+					<span class=date>11/9</span>
+					Lecture slide for chap 7 is updated.
+				</li>
+				<li>
+					<span class=date>11/4</span>
+					Homework for Chap 6 is posted.
+				</li>
+				<li>
+					<span class=date>10/28</span>
+					Homework for Chap 5 is posted.
+				</li>
+				<li>
+					<span class=date>10/27</span>
+					Lectre slide for Chap 6 is updated.
+				</li>
+				<li>
+					<span class=date>10/12</span>
+					Lecture slide for chap 5 is updated.
+				</li>
+				<li>
+					<span class=date>10/7</span>
+					Midterm exam
+					<ul>
+						<li>on 20 Oct</li>
+						<li>2 hours</li>
+						<li>Open book -- textbook &amp; lecture slides allowed only.</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>10/7</span>
+					Homework for Chap 4 is posted.
+				</li>
+				<li>
+					<span class=date>10/5</span>
+					Lecture slide for Chap 4 is updated.
+				</li>
+				<li>
+					<span class=date>9/28</span>
+					Lecture slide for Chap 4 is updated.
+				</li>
+				<li>
+					<span class=date>9/23</span>
+					Homeworks for Chap 2&amp;3 are posted.
+				</li>
+				<li>
+					<span class=date>9/14</span>
+					Lecture slide for Chap 2 is updated.
+				</li>
+				<li>
+					Welcome!
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

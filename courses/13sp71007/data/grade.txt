@@ -1,0 +1,93 @@
+Linear Algebra
+(spring, 2013)
+
+<final grade>
+
+statistics:
+======================
+grade	#	ratio
+----------------------
+A+	10	14.93%
+A0	 7	10.45%
+B+	16	23.88%
+B0	13	19.40%
+C+	 6	 8.96%
+C0	11	16.42%
+D+	 3	 4.48%
+D0	 0	 0.00%
+F	 1	 1.49%
+======================
+
+grades:
+======================
+passcode	grade
+----------------------
+016s		C0
+0pp9		B0
+3jmr		D+
+4xfi		A0
+51lv		B+
+5f3e		A+
+5yoq		B+
+6dht		A0
+705y		C0
+7isy		B+
+7pgs		A0
+7pxm		B+
+87p2		C+
+9foe		B+
+a6yp		B0
+b9sd		B+
+c7qk		A+
+c8uv		C+
+cp48		A+
+d18r		B0
+e4zx		C0
+f19t		B0
+f3ub		D+
+fy9d		C+
+gsse		B+
+gx20		B+
+h190		C0
+hqq3		A0
+iaok		A+
+j1rl		B0
+j3x2		C0
+jk10		B0
+jr1h		B+
+l9bw		C0
+m8oq		B0
+msj9		C0
+n05t		B+
+nvtc		B+
+o5r9		A0
+opmp		A+
+oqrb		B+
+or75		A+
+pvas		C+
+pw16		B0
+qfex		A+
+qr7f		F
+r2tq		C0
+r6cz		A+
+raw4		B0
+rgft		B+
+rn3a		B+
+s2wv		D+
+tnx8		A+
+tq19		B+
+ttkv		A+
+uc5b		C+
+vgwk		C0
+vkn0		B+
+vp52		B0
+wj3u		A0
+wjq9		B0
+y788		B0
+ynfc		A0
+yy98		B0
+yyq6		C+
+z10h		C0
+zy8a		C0
+======================
+

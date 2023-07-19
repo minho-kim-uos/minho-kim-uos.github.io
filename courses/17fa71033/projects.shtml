@@ -1,0 +1,37 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2017): projects</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+		span.date
+		{
+			font-weight:bold;
+			color:red;
+		}
+		span.date:before
+		{
+			content:'[';
+		}
+		span.date:after
+		{
+			content:']';
+		}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Projects</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li><a href="proj3.shtml">Project #3</a>
+				(due: <strike>18 Dec (Mon) 11:59pm</strike>
+					22 Dec (Fri) 11:59pm)</li>
+				<li><a href="proj2.shtml">Project #2</a>
+				(due: 27 Nov (Mon) 11:59pm)</li>
+				<li><a href="proj1.shtml">Project #1</a>
+				(due: 25 Oct 11:59pm)</li>
+			</ul>
+		</div>
+	</body>
+</html>

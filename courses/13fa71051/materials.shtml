@@ -1,0 +1,72 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2013): materials</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Materials</h1>
+		<div style="margin:100px;">
+		<ul>
+			<li>Lecture slides
+				<ul>
+					<li><a href="data/p1-handout.pdf">Chapter 1</a></li>
+					<li><a href="data/p2-handout.pdf">Chapter 2</a></li>
+					<li><a href="data/p3-handout.pdf">Chapter 3</a></li>
+					<li><a href="data/p4-handout.pdf">Chapter 4</a></li>
+					<li><a href="data/p5-handout.pdf">Chapter 5</a></li>
+					<li><a href="data/p6-handout.pdf">Chapter 6</a></li>
+					<li><a href="data/p7-handout.pdf">Chapter 7</a></li>
+					<li><a href="data/p8-handout.pdf">Chapter 8</a></li>
+					<li><a href="data/pA-handout.pdf">Appendix A</a></li>
+					<!--
+					<li><a href="data/p3-handout.pdf">Chapter 3</a></li>
+					<li><a href="data/p4-handout.pdf">Chapter 4</a></li>
+					<li><a href="data/p5-handout.pdf">Chapter 5</a></li>
+					<li><a href="data/p6-handout.pdf">Chapter 6</a></li>
+					<li><a href="data/p7-handout.pdf">Chapter 7</a></li>
+					<li><a href="data/p8-handout.pdf">Chapter 8</a></li>
+					<li><a href="data/p0-handout.pdf">Introduction</a></li>
+					-->
+				</ul>
+			</li>
+			<li>
+				Old Exams
+				<ul>
+					<li>Midterm:
+					<a href="data/midterm2010.pdf">2010</a>,
+					<a href="data/midterm2011.pdf">2011</a>,
+					<a href="data/midterm2012.pdf">2012</a>
+					</li>
+					<li>Final:
+					<a href="data/final2010.pdf">2010</a>,
+					<a href="data/final2011.pdf">2011</a>,
+					<a href="data/final2012.pdf">2012</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Example scripts
+				<ul>
+					<li><a href="data/fit_interp.m"><tt>fit_interp.m</tt></a>:
+					Plots and compares three four methods in Chap 4.
+					(Press space bar to show the interpolating polynomial.)
+					<ul>
+						<li>curve fitting (blue)</li>
+						<li>cubic spline interpolation (red)</li>
+						<li>linear spline interpolation (magenta)</li>
+						<li>interpolating polynomial (green)</li>
+					</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

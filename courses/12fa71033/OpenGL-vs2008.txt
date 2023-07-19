@@ -1,0 +1,62 @@
+Compiling OpenGL program with Visual Studio 2008
+
+1. Build GLUT libraries.
+	1-1. Download the lastest "stable release" version at the freeglut project page. (http://freeglut.sourceforge.net)
+	1-2. Extract the downloaded file.
+	1-3. Compile static libraries
+		1-3-1. Open freeglut-*/VisualStudio2008Static/freeglut.sln.
+		1-3-2. With the configuration as "Debug", build freeglut project only.
+		1-3-3. Do the same with "Release" configuration.
+		1-3-4. Now you have freeglut_static.lib in both Debug and Release folders.
+	1.4. Compile dynamic libraries
+		1-4-1. Open freeglut-*/VisualStudio2008/freeglut.sln.
+		1-4-2. Build freeglut project for both Debug and Release configurations.
+		1-4-3. Now you have freeglut.lib and freeglut.dll in both Debug and Release folders.
+
+* To make a self-contained directory structure, I recommend you to organize files as follows:
+	mystuff/include/GL: glut.h, freeglut.h, freeglut_std.h, freeglut_ext.h
+	mystuff/lib/Debug: freeglut.lib, freeglut_static.lib (Debug versions)
+	mystuff/lib/Release: freeglut.lib, freeglut_static.lib (Release versions)
+	mystuff/proj: all your projects
+
+2. Create a project
+	2-1. File - New - Project...
+	2-2. Select Visual C++ - General - Empty Project for template.
+	2-3. "sample01" for "Name" field
+	2-4. "mystuff/proj" for "Location" field
+	2-5. Click OK
+	2-6. A folder "sample01" is created in mystuff/proj with necessary files in it.
+	2-7. Copy sample01.c in sample01 folder.
+	2-8. Add sample01.c into the project "Source Files"
+
+3. Set up include search path
+	3-1. Highlight "sample01" project in "Solution Explorer" pane on the left.
+	3-2. Project - Properties
+	3-3. Choose Configuration Properties - C/C++ - General
+	3-4. Add "../../include" in "Additional Include Directories."
+	3-5. Do this for both "Debut" and "Release" configurations on top.
+
+4. Set up library search path
+	* For static link (Large exe size, but no freeglut.dll is required for running.)
+	4-1. Highlight "sample01" project in "Solution Explorer" pane on the left.
+	4-2. Project - Properties
+	4-3. Choose Configuration Properties - C/C++ - Preprocessor
+	4-4. Add "FREEGLUT_STATIC" in "Preprocessor Definitions" for both configurations.
+	4-5. Choose Configuration Properties - Link - General
+	4-6. Choose "Debug" in "Configuration" on top and add "../../lib/Debug" in "Additional Library Directories".
+	4-7. Choose "Release" in "Configuration" on top and add "../../lib/Release" in "Additional Library Directories".
+	4-8. Choose Configuration Properties - Link - Input
+	4-9. Add "freeglut_static.lib" in "Additional Dependencies" for both configurations.
+
+	* For dynamic link (Small exe size, but freeglut.dll is required to be in PATH for running.)
+	4-1. Highlight "sample01" project in "Solution Explorer" pane on the left.
+	4-2. Project - Properties
+	4-3. Choose Configuration Properties - Link - General
+	4-4. Choose "Debug" in "Configuration" on top and add "../../lib/Debug" in "Additional Library Directories".
+	4-5. Choose "Release" in "Configuration" on top and add "../../lib/Release" in "Additional Library Directories".
+	4-6. Choose Configuration Properties - Link - Input
+	4-7. Add "freeglut.lib" in "Additional Dependencies" for both configurations.
+
+5. Build sample01 project and execute it.
+
+

@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2013): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.</h3>
+		<div class="announce">
+			<ul>
+				<li><span class=date>6/28</span>
+				<a href="data/grade.txt">Final grades</a> 
+				are posted.
+				</li>
+				<li><span class=date>6/28</span>
+				<a href="data/score-hw-all.pdf">Score for all homeworks</a> is posted.
+				</li>
+				<li><span class=date>6/27</span>
+				<a href="data/score-final.txt">Final exam score</a> is posted.
+				</li>
+				<li><span class=date>6/19</span>
+				<a href="data/final-sol.pdf">Solution for the final exam</a> is posted.</li>
+				</li>
+				<li><span class=date>6/11</span>
+				<a href="data/score-midterm.txt">Midterm exam score</a> is posted.
+				Sorry for the delay.
+				</li>
+				<li><span class=date>6/7</span>
+				Homework for Chap 4 is posted.
+				</li>
+				<li><span class=date>5/28</span>
+				Homework for Chap 3 is posted.
+				</li>
+				<li><span class=date>4/24</span>
+				<a href="data/score-hw1&2.pdf">Scores for homework 1&2</a> are posted.
+				</li>
+				<li><span class=date>4/9</span>
+					Homework for Chap 2 is posted.
+				</li>
+				<li><span class=date>4/4</span>
+				Lecture slide for Chap 2 is updated.
+				</li>
+				<li><span class=date>3/25</span>
+					Homework for Chap 1 is posted.
+				</li>
+				<li><span class=date>3/19</span>
+					<ul>
+						<li>Lecture slide for Chap 1 is updated. (Only the last page)</li>
+						<li>Lecture slide for Chap 2 is uploaded.</li>
+					</ul>
+				</li>
+				<li><span class=date>3/12</span>
+				Lecture slide for Chapter 1 is uploaded.
+				</li>
+				<li><span class=date>3/7</span>
+					The book in the bookstore is the 3rd edition
+					and
+					the course will be taught based on the 3rd edition.
+					But you can bring the 2nd edition if you want.
+				</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

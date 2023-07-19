@@ -1,0 +1,749 @@
+<html>
+	<head>
+		<title>Modern OpenGL Samples</title>
+		<style type="text/css">
+			table.samples
+			{
+				margin:50px;
+			}
+			table.samples, table.samples th, table.samples td
+			{
+				border-collapse:collapse;
+//				margin:0px;
+			}
+			table.samples tr.title th
+			{
+				border-top:1px solid black;
+				border-bottom:1px solid black;
+				background-color:silver;
+			}
+			table.samples tr.sample td
+			{
+				border-bottom:1px solid black;
+			}
+			tr.title
+			{
+				text-align:center;
+			}
+			tr.sample td.filename
+			{
+				font-family:consolas;
+			}
+			tr.sample td.glver
+			{
+				text-align:center;
+			}
+			tr.sample td.desc
+			{
+			}
+			tt
+			{
+				font-family:consolas;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align=center>Modern OpenGL Samples</h1>
+
+		Chapter 2: Shader Fundamentals
+		<table class=samples>
+			<tr class=title>
+				<th>filename</th>
+				<th>OpenGL version</th>
+				<th>description</th>
+			</tr>
+			<tr class=sample>
+				<td class=filename>triangles.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>minimal OpenGL sample</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>triangles_310.cpp</td>
+				<td class=glver>3.1</td>
+				<td class=desc>minimal OpenGL 3.10 sample</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>triangles_without_vao.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>minimal OpenGL sample without using any VAO<br>
+				NOTE: This sample does not work on macOS/OSX.</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>shader_check.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>GLSL error checking</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>shader_files.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to load external shader source files 
+						(<tt>triangles.vert</tt> &amp; <tt>triangles.frag</tt>)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>uniform.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use uniform variables</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>uniform_anim.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>a simple animation using a uniform variable</td>
+			</tr>
+
+			<tr class=sample>
+				<td class=filename>uniform_block.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use uniform blocks</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>uniform_block_shared.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use uniform blocks to 
+					share uniform variables across shaders</td>
+			</tr>
+
+			<tr class=sample>
+				<td class=filename>sel_func_two_shaders.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to select GLSL function dynamically (using two different shader programs)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>sel_func_uniform_var.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to select GLSL function dynamically (using a uniform variable and if~else statement)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>sel_func_subroutine.cpp</td>
+				<td class=glver>4.0</td>
+				<td class=desc>How to select GLSL function dynamically using subroutines</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>sel_func_subroutine_layout.cpp</td>
+				<td class=glver>4.3</td>
+				<td class=desc>How to select GLSL function dynamically (using GLSL subroutines &amp; layout specifier)</td>
+			</tr>
+		</table>
+		VAO (Vertex Array Object)
+		<table class=samples>
+			<tr class=title>
+				<th>filename</th>
+				<th>OpenGL version</th>
+				<th>description</th>
+			</tr>
+			<tr class=sample>
+				<td class=filename>draw_two_with_vao.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Rendering two &ldquo;models&rdquo; using VAOs</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>draw_two_without_vao.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Rendering two &ldquo;models&rdquo; without using VAOs<br>
+					- Compare this sample with <tt>draw_two_without_vao.cpp</tt> to see how cumbersome it is.<br>
+				NOTE: This sample does not work on macOS/OSX.</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>default_VAO_310.cpp</td>
+				<td class=glver>3.1</td>
+				<td class=desc>Test the default VAO on OpenGL 3.1</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>default_VAO_330.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Test the default VAO on OpenGL 3.3</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>one_vbo_for_multiple_vaos.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Test one VBO for multiple VAOs</td>
+			</tr>
+		</table>
+
+
+			Chapter 3: Drawing with OpenGL
+		<table class=samples>
+			<tr class=title>
+				<th>filename</th>
+				<th>OpenGL version</th>
+				<th>description</th>
+			</tr>
+			<tr class=sample>
+				<td class=filename>gl_PointCoord.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use  <tt>gl_PointCoord</tt> in fragment shader
+					<br>
+					How to render point sprite
+					<br>
+				</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>PolygonMode.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use <a href="https://www.opengl.org/sdk/docs/man/html/glPolygonMode.xhtml"><tt>glPolygonMode()</tt></a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>culling.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use culling</td>
+			</tr>
+
+			<tr class=sample>
+				<td class=filename>quad.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Rendering a quad in  three different ways 
+					(<tt>GL_TRIANGLES</tt>, <tt>GL_TRIANGLE_STRIP</tt>, <tt>GL_TRIANGLE_FAN</tt>)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>BufferSubData.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use <a href="https://www.opengl.org/sdk/docs/man/html/glBufferSubData.xhtml"><tt>glBufferSubData()</tt></a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>ClearBufferSubData.cpp</td>
+				<td class=glver>4.5</td>
+				<td class=desc>How to use 
+					<a href="https://www.opengl.org/sdk/docs/man/html/glClearBufferSubData.xhtml"><tt>glClearBufferSubData()</tt></a> (&ge;4.3)
+				and
+				<a href="https://www.opengl.org/sdk/docs/man/html/glClearBufferSubData.xhtml"><tt>glClearNamedBufferSubData()</tt></a> (&ge;4.5)
+			</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>CopyBufferSubData.cpp</td>
+				<td class=glver>4.5</td>
+				<td class=desc>How to use 
+					<a href="https://www.opengl.org/sdk/docs/man/html/glCopyBufferSubData.xhtml"><tt>glCopyBufferSubData()</tt></a> (&ge;3.1)
+				and
+					<a href="https://www.opengl.org/sdk/docs/man/html/glCopyBufferSubData.xhtml"><tt>glCopyNamedBufferSubData()</tt></a> (&ge;4.5)
+				</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>GetBufferSubData.cpp</td>
+				<td class=glver>4.5</td>
+				<td class=desc>How to use 
+					<a href="https://www.opengl.org/sdk/docs/man/html/glGetBufferSubData.xhtml"><tt>glGetBufferSubData()</tt></a> (&ge;2.0)
+				and
+					<a href="https://www.opengl.org/sdk/docs/man/html/glGetBufferSubData.xhtml"><tt>glGetNamedBufferSubData()</tt></a> (&ge;4.5)
+				</td>
+			</tr>
+
+			<tr class=sample>
+				<td class=filename>quad_map.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use <a href="https://www.opengl.org/sdk/docs/man/html/glMapBuffer.xhtml"><tt>glMapBuffer</tt></a> (&ge;2.0)
+				</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>attribs_int.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>integer vertex attributes</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>aos.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to arrange vertex attribs in &ldquo;array of structures&rdquo; style</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>soa.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to arrange vertex attribs in &ldquo;structure of arrays&rdquo; style</td>
+			</tr>
+<!--
+			<tr class=sample>
+				<td class=filename>triangles_two_attribs.cpp</td>
+				<td class=glver></td>
+				<td class=desc>How to use  two attributes</td>
+			</tr>
+			-->
+			<tr class=sample>
+				<td class=filename>attribs.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use multiple attributes</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>quad_indexed.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to do indexed rendering</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>DrawElements.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use <a href="https://www.opengl.org/sdk/docs/man/html/glDrawElements.xhtml"><tt>glDrawElements()</tt></a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>DrawElementsBaseVertex.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use <a href="https://www.opengl.org/sdk/docs/man/html/glDrawElementsBaseVertex.xhtml"><tt>glDrawElementsBaseVertex()</tt></a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>MultiDrawArrays.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use <a href="https://www.opengl.org/sdk/docs/man/html/glMultiDrawArrays.xhtml"><tt>glMultiDrawArrays()</tt></a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>MultiDrawElements.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use <a href="https://www.opengl.org/sdk/docs/man/html/glMultiDrawElements.xhtml"><tt>glMultiDrawElements()</tt></a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>MultiDrawElementsBaseVertex.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use <a href="https://www.opengl.org/sdk/docs/man/html/glMultiDrawElementsBaseVertex.xhtml"><tt>glMultiDrawElementsBaseVertex()</tt></a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>primitive_restart.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use &ldquo;primitive restart&rdquo; feature</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>DrawArraysInstanced.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use <a href="https://www.opengl.org/sdk/docs/man/html/glDrawArraysInstanced.xhtml"><tt>glDrawArraysInstanced()</tt></a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>instanced_vert_attribs.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use &ldquo;instanced vertex attributes&rdquo;</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>DrawArraysInstancedBaseInstance.cpp</td>
+				<td class=glver>4.2</td>
+				<td class=desc>How to use <a href="https://www.opengl.org/sdk/docs/man/html/glDrawArraysInstancedBaseInstance.xhtml"><tt>glDrawArraysInstancedBaseInstance()</tt></a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>InstanceID.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>instanced rendering by texture look-up using 
+					<a href="https://www.opengl.org/sdk/docs/man/html/gl_InstanceID.xhtml"><tt>gl_InstanceID</tt></a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>mesh_assimp.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to load and render mesh objects using <a href="https:/github.com/assimp">Assimp</a> library</td>
+			</tr>
+		</table>
+
+			Chapter 4: Colors, Pixels, and Framebuffers
+		<table class=samples>
+			<tr class=title>
+				<th>filename</th>
+				<th>OpenGL version</th>
+				<th>description</th>
+			</tr>
+			<tr class=sample>
+				<td class=filename>ColorMask.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use 
+					<a href="https://www.opengl.org/sdk/docs/man/html/glColorMask.xhtml"><tt>glColorMask</tt></a></td>
+				</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>frag_analytic.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Computing fragment color analytically</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>msaa.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to enable MSAA (MultiSample Anti-Aliasing) feature</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>sample_shader.cpp</td>
+				<td class=glver>4.0</td>
+				<td class=desc>How to implement a sample shader 
+					using <a href="https://www.opengl.org/sdk/docs/man/html/gl_SampleID.xhtml"><tt>gl_SampleID</tt></a>
+				</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>scissor.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use the scissor test</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>stencil.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use the stencil buffer</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>stencil_circle.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to make a circular stencil mask</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>depth.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to enable depth buffering (z-buffering)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>depth_fight_assimp.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Illustration of 
+					<a href="https://en.wikipedia.org/wiki/Z-fighting">depth fighting</a>
+					<br>
+					How to remove depth fighting by 
+					<a href="https://www.opengl.org/sdk/docs/man/html/glPolygonOffset.xhtml"><tt>glPolygonOffset</tt></a>
+				</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>blend.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to do blending</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>occlusion_query.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use occlusion query</td>
+			</tr>
+
+			<tr class=sample>
+				<td class=filename>fbo_rbo.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use FBO (Framebuffer Object) + RBO (Renderbuffer Object)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>fbo_tex.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use FBO (framebuffer object) + texture</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>mrt.cpp</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to render to multiple framebuffers (MRT: Multiple Render Target)</td>
+			</tr>
+
+		</table>
+
+
+			Chapter 5: Viewing Transformations, Clipping, and Feedback
+		<table class=samples>
+			<tr class=title>
+				<th>filename</th>
+				<th>OpenGL version</th>
+				<th>description</th>
+			</tr>
+			<tr class=sample>
+				<td class=filename>xfm_no_glm</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Basic 3D transformations without using the GLM library</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>xfm_with_glm</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Basic 3D transformations using the GLM library</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>xfm_with_glm_2</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use the 1st parameter of GLM transformation functions (rotate, scale, translate, etc.)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>xfm_anim</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Simple animation</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>xfm_lookat</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use <tt>glm::lookAt</tt> function for view transformation</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>xfm_hierarchy</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Hierarchical transformations without using any stack</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>xfm_stack</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Hierarchical transformations using a stack</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>xfm_viewport</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Viewport mapping to avoid screen distortion</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>xfm_viewport2</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Another viewport mapping</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>viewer</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Intuitive GUI</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>user_clip</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to user user clipping planes</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>mouse_rotate</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Mouse UI to rotate an object</td>
+			</tr>
+
+			<tr class=sample>
+				<td class=filename>mouse_examine</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Mouse UI to rotate &amp; move an object</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>transform_feedback</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to use transform feedback</td>
+			</tr>
+
+		</table>
+
+			Chapter 6: Textures
+		<table class=samples>
+			<tr class=title>
+				<th>filename</th>
+				<th>OpenGL version</th>
+				<th>description</th>
+			</tr>
+			<tr class=sample>
+				<td class=filename>quad_tex_c</td>
+				<td class=glver></td>
+				<td class=desc>How to do texture mapping
+					using texture stored as a c-type array</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>texcoords</td>
+				<td class=glver></td>
+				<td class=desc>What do the texture coordinates mean</td>
+			</tr>
+
+			<tr class=sample>
+				<td class=filename>quad_tex_DevIL</td>
+				<td class=glver></td>
+				<td class=desc>How to load external image files as textures using <a href="http://openil.sourceforge.net/">DevIL</a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>quad_tex_GLI</td>
+				<td class=glver></td>
+				<td class=desc>(NOT WORKING) How to load external image files as textures using <a href="http://glsdk.sourceforge.net/docs/html/group__module__glimg.html">GLImg</a></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>tex_rect</td>
+				<td class=glver></td>
+				<td class=desc>How to use rectangle texture (<tt>GL_TEXTURE_RECTANGLE</tt>)</td>
+			</tr>
+
+
+			<tr class=sample>
+				<td class=filename>glPixelStore</td>
+				<td class=glver></td>
+				<td class=desc>How to upload part of the texture using <tt>GL_UNPACK_SKIP_ROWS</tt>
+					&amp; <tt>GL_UNPACK_SKIP_PIXELS</tt></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>tex_multi</td>
+				<td class=glver></td>
+				<td class=desc>How to do multi-texturing</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>quad_tex_multi</td>
+				<td class=glver></td>
+				<td class=desc>: multi texturing</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>quad_tex_sampler</td>
+				<td class=glver></td>
+				<td class=desc>: how to use samplers</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>quad_tex_mipmap</td>
+				<td class=glver></td>
+				<td class=desc>: how to use mipmap (glGenerateMipmap)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>tex_cubemap</td>
+				<td class=glver></td>
+				<td class=desc>: how to use cubemap texture</td>
+			</tr>
+		</table>
+
+			Chapter 7: Light and Shadow
+		<table class=samples>
+			<tr class=title>
+				<th>filename</th>
+				<th>OpenGL version</th>
+				<th>description</th>
+			</tr>
+			<tr class=sample>
+				<td class=filename>shading</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Classic lighting (shading) models
+					with various materials
+					<ul>
+						<li>Phong reflection model + Gouraud interpolation</li>
+						<li>Phong reflection model + Phong interpolation</li>
+						<li>Blinn-Phong reflection model + Gouraud interpolation</li>
+						<li>Blinn-Phong reflection model + Phong interpolation</li>
+					</ul>
+					* material settings courtesy of
+					<a href="http://devernay.free.fr/cours/opengl/materials.html">http://devernay.free.fr/cours/opengl/materials.html</a>
+					</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>assimp_mat</td>
+				<td class=glver>3.3</td>
+				<td class=desc>How to handle the material data in assimp</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>lights</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Various light types (directional, positional, spot)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>two_sided</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Two-sided lighting</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>xfm_light</td>
+				<td class=glver>3.3</td>
+				<td class=desc>Transformation of light sources</td>
+			</tr>
+		</table>
+
+			Chapter 9: Tessellation Shaders
+		<table class=samples>
+			<tr class=title>
+				<th>filename</th>
+				<th>OpenGL version</th>
+				<th>description</th>
+			</tr>
+			<tr class=sample>
+
+				<td class=filename>tess_quad_no_TCS</td>
+				<td class=glver></td>
+				<td class=desc>a simple tessellation of a quad patch without any TCS (Tessellation Control Shader)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>tess_quad_with_TCS</td>
+				<td class=glver></td>
+				<td class=desc>a simple tessellation of a quad patch using  a TCS (Tessellation Control Shader)</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>tess_isoline_anim</td>
+				<td class=glver></td>
+				<td class=desc>transition of tessellation level of isolines</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>tess_isoline_bezier_fixed</td>
+				<td class=glver></td>
+				<td class=desc>rendering a cubic B&eacute;zier curve using an isoline</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>tess_quad_anim</td>
+				<td class=glver></td>
+				<td class=desc>transition of tessellation level of a quad patch</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>tess_triangle_anim</td>
+				<td class=glver></td>
+				<td class=desc>transition of tessellation level of a triangle patch</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>tess_quad_bezier_fixed</td>
+				<td class=glver></td>
+				<td class=desc>rendering of a bi-cubic B&eacute;zier patch using a quad patch</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>tess_quad_disp</td>
+				<td class=glver></td>
+				<td class=desc>displacement mapping + normal mapping</td>
+			</tr>
+
+			<tr class=sample>
+				<td class=filename>tess_quad_bezier_disp</td>
+				<td class=glver></td>
+				<td class=desc>bi-cubic B&eacute;zier patch + displacement mapping + normal mapping</td>
+			</tr>
+			<!--
+			<tr class=sample>
+				<td class=filename></td>
+				<td class=glver></td>
+				<td class=desc></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename></td>
+				<td class=glver></td>
+				<td class=desc></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename></td>
+				<td class=glver></td>
+				<td class=desc></td>
+			</tr>
+			-->
+		</table>
+
+			Chapter 10: Geometry Shaders
+		<table class=samples>
+			<tr class=title>
+				<th>filename</th>
+				<th>OpenGL version</th>
+				<th>description</th>
+			</tr>
+			<tr class=sample>
+				<td class=filename>geom_triadj</td>
+				<td class=glver></td>
+				<td class=desc>Simple geometry shader
+					with <tt>GL_TRIANGLES_ADJACENCY</tt></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>geom_tristpadj</td>
+				<td class=glver></td>
+				<td class=desc>Simple geometry shader
+					with <tt>GL_TRIANGLE_STRIP_ADJACENCY</tt></td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>geom_shrink</td>
+				<td class=glver></td>
+				<td class=desc>shrinking triangles</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>geom_stream</td>
+				<td class=glver></td>
+				<td class=desc>Streaming primitives to multiple transform feedback buffers</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>geom_viewport_index</td>
+				<td class=glver></td>
+				<td class=desc>Multiple viewports</td>
+			</tr>
+
+
+
+		</table>
+
+
+			miscellaneous
+		<table class=samples>
+			<tr class=title>
+				<th>filename</th>
+				<th>OpenGL version</th>
+				<th>description</th>
+			</tr>
+			<tr class=sample>
+
+				<td class=filename>text</td>
+				<td class=glver></td>
+				<td class=desc>text rendering using <a href="https://www.freetype.org">freetype</a> library</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>picking_color</td>
+				<td class=glver></td>
+				<td class=desc>picking</td>
+			</tr>
+			<tr class=sample>
+				<td class=filename>silhouette_old</td>
+				<td class=glver></td>
+				<td class=desc>old-fashioned silhouette rendering</td>
+			</tr>
+		</table>
+
+	</body>
+</html>

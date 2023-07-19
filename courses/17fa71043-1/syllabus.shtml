@@ -1,0 +1,134 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Digital Logic Design and Experiment 
+			[Section 1]
+			(fall,2017): syllabus</title>
+		<style type="text/css">
+			td
+			{
+//				vertical-align:top;
+			}
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Syllabus</h1>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: 
+				Digital Logic Design and Experiment [Section 1]
+				</li>
+				<li>course webpage: 
+				<a href="http://www.minho-kim.com/courses/17fa71043-1">http://www.minho-kim.com/courses/17fa71043-1</a></li>
+				<li>credits: 3</li>
+				<li>course number: 71043</li>
+				<li>hours: [lecture] Tue 2-3 (10-11:50am) 
+						[lab] Thu 8-9 (4-5:50pm)</li>
+				<li>classroom: 19-326</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-6490-2453</li>
+				<li>office: 19-312</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading</div>
+			<ul>
+				<li>attendance/participation 10%</li>
+				<li>homeworks 20%</li>
+				<li>term projects (or exams) 70%</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for pirated homework/projects (including the original one)</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>To understand how computers work</li>
+				<li>To build simulate a computer using basic logic gates</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>prerequisite</div>
+			<ul>
+				<li>None</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>textbooks</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">
+						<a href="http://charlespetzold.com/code">
+							<img src="http://blog.codinghorror.com/content/images/uploads/2007/01/6a0120a85dcdae970b0120a86d6d3a970b-pi.png">
+							<!--						<img src="http://ecx.images-amazon.com/images/I/310WZuKyEUL._SY344_BO1,204,203,200_.jpg">
+							-->
+					</a>
+
+					</td>
+					<td style="valign:top;">
+						<a href="http://charlespetzold.com/code">
+							Code
+						</a>
+						(by 
+						<a href="http://charlespetzold.com">Charles Petzold</a>)
+						<br>
+						<br>
+						<ul>
+							<li>
+								<a href="http://www.amazon.com/Code-Developer-Practices-Charles-Petzold-ebook/dp/B00JDMPOK2">Kindle e-book</a> available
+							</li>
+							<!--
+							<li>
+								<a href="https://books.google.co.kr/books/about/CODE.html?id=viSw4hPJ1pgC&redir_esc=y">&ldquo;Code&rdquo; @Google Books</a>
+							</li>
+							-->
+							<li>
+								Translated to <a href="http://book.daum.net/detail/book.do?bookid=BOK00010830743IN">Korean</a>
+							</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">
+						<a href="http://www.nand2tetris.org/book.php">
+							<img src="http://www.nand2tetris.org/imgs/cover.jpg">
+						</a>
+					</td>
+					<td style="valign:top;">
+						<a href="http://www.nand2tetris.org/book.php">
+							The Elements of Computing Systems
+						</a>
+						(by 
+						<a href="http://www.cs.huji.ac.il/~noam">Noam Nisan</a>
+						and 
+						<a href="http://shimonschocken.com/">Shimon Schocken</a>
+						)
+						<br>
+						<br>
+						* <a href="http://www.amazon.com/The-Elements-Computing-Systems-Principles-ebook/dp/B004HHORGA">Kindle e-book</a> available
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

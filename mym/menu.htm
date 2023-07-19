@@ -1,0 +1,177 @@
+<?       $configfile1 = shell_exec(" ls ./.htaccess ");
+         if(!$configfile1){
+         print "<script>window.alert('메니져 접근 인증이 설정되지 않아, 처리가 보류됩니다..\\n\\n비누넷 관리자에게 문의하세요.');history.go(-1)</script>";
+         }
+?>
+
+<? include "../.htuserinfo.php" ;?>
+
+<html>
+<head>
+<style TYPE='text/css'>
+<!--
+        A:link, A:visited, A:active { text-decoration: none; }
+        A:hover { text-decoration: none ; }
+
+BODY,TD {font-size:12px;font-family:굴림체;color:#555555;}
+A:LINK, A:VISITED, A:ACTIVE {text-decoration:none; color:#555555}
+A:hover {text-decoration:underline; color:#7190C8}
+INPUT {border:0x solid #555555;background-Color:FFFFFF;font-size:12px;font-family:굴림체;color:#000000}
+SELECT {border:0x solid #555555;background-Color:#FFFFFF;font:11px tahoma;color:#555555}
+TEXTAREA {border:0x solid #555555;background-Color:#FFFFFF;font-size:12px;font-family:굴림체;color:#000000}
+-->
+</style>
+
+<script language='JavaScript'>
+
+function ttftp(w,h,tb,st,di,mb,sb,re) { 
+var position ="width="+w+",height="+h+",left=" + ((screen.width-w)/2) + ",top=" + ((screen.height-h)/2) + ",toolbar="+tb+",directories="+di+",status="+st+",menubar="+mb+",scrollbars="+sb+",resizable="+re+""
+url = "http://ttcgi.com/ttftp/ftp.php?ip=<?=$ftpadd?>&id=<?=$account?>&port=21&remote_dir=&passive=FALSE"
+window.open( url, "FTP", position); }
+
+
+function chat( url )
+        { window.open( url, "chat","width=550,height=430,resizable=no,scrollbars=no,status=0");  }
+
+</script> 
+
+</head>
+
+<? echo "
+
+<body bgcolor=#F5F5F5 LINK='#555555' ALINK='#888888' VLINK='#3f3f3f' TEXT='#000000' TOPMARGIN=0 LEFTMARGIN=0>
+<table align=center width=100% border=0 cellpadding=0 cellspacing=0 bgcolor=#DDE2E9>
+	<tr><td width=100% align=center height=30 bgcolor=#7190C8 colspan=3><a href=/mym/ target=_parent><font color=ffffff>B/Y/U/S 웹메니저</font></a></td></tr>
+	<tr>		
+		<td height=2 colspan=3 bgcolor='fcfcfc'></td></tr>
+	<tr>
+		<td align=right></td>
+		<td></td>
+		<td height=22>&nbsp;<a href='userinfo.htm' target=main>사용자정보</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='/throttle-me' target=main>실시간트래픽</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>
+		<td align=right width=10></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='logs/' target=main >웹로그분석</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>  
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='http://$hostname/phpadmin/' target=main>디비관리</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='du.php' target=main>계정사용량</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>  
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='http://$mailadd' target=main>웹메일접속</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>  
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href=javascript:ttftp('474','580',0,0,0,0,0,0,0) >FTP접속</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>  
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='http://$ftpadd' target=main>웹FTP접속</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>  
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='telnet://$hostname' target=main>텔넷접속</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='web_backup.htm' target=main>계정백업</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='db_backup.htm' target=main>디비백업</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+
+	<tr><td height=5></td></tr>
+	<tr>  
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='defaultindex.htm' target=main>디폴트인덱스</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+
+	<tr><td height=5></td></tr>
+	<tr>  
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='phpinfo.php' target=main>PHP 환경정보</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+
+	<tr><td height=5></td></tr>
+	<tr>
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='http://byus.net/mainpage_manual_manager.html' target=blank>메뉴얼(새창)</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href=javascript:chat('http://byus.net/irc/index.html') >실시간지원센터</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='../' target=blank>홈피접속</a></td>
+	</tr>
+	<tr><td></td><td height=1 colspan=2><img src=line.gif width=100 height=1></td></tr>
+	<tr><td height=5></td></tr>
+	<tr>
+		<td align=right></td>
+		<td></td>
+		<td height=18>&nbsp;<a href='http://byus.net/index_service.html' target=blank>비누넷접속</a></td>
+	</tr>
+
+	<tr><td height=5></td></tr>
+	<tr><td colspan=3 height=2 bgcolor=#5C7AB1></td></tr>
+	<tr bgcolor=#ffffff><td colspan=3 height=5></td></tr>
+	<tr>
+		<td bgcolor=#F5F5F5 colspan=3 height=18 align=center> "; ?> <? print(date('20y년 m월 d일')); ?> <?echo " </td>
+	</tr>
+</table>
+</body>
+</html>
+
+" ; ?>

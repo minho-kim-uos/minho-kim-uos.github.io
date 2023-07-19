@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>
+			Project #2
+		</title>
+	</head>
+	<body>
+		<h1 align=center>Project #2</h1>
+		<ul>
+			<li>
+			GOAL: to draw an interactive cubic B-spline curve.
+			</li>
+			<li>
+			DUE: 11:59pm 27 May
+			</li>
+			<li>
+			SUBMISSION: send your python code (two files) to me via an e-mail.
+			(<tt>Mr.Minho.Kim@gmail.com</tt>)
+			</li>
+			<li>
+			REQUIREMENTS
+			<ul>
+				<li>
+				A sample pyton files
+				<a href="https://www.dropbox.com/s/61rliu2a66rlucx/sample-drag.py?dl=0"><tt>sample-drag.py</tt></a>
+				is provided.
+				(courtesy of Hyunjun Kim)
+				</li>
+				<li>
+				You need to draw two separate cubic B-spline
+				curves each defined by the following knot sequences.
+					<ul>
+						<li>0,1,2,3,4,5,6,7</li>
+						<li>-3,-3,-1,1,1,2,4,4,4,6,7,10</li>
+					</ul>
+				</li>
+				<li>
+				Figure out yourself the number of curve segments for each case.
+				</li>
+				<li>
+				Draw each curve segment in different color so that they can be easily 
+				distinguished.
+				</li>
+				<li>
+				When the control polygon is modified
+				interactively,
+				the curve also needs to be updated accordingly.
+				</li>
+			</ul>
+		</ul>
+	</body>
+</html>

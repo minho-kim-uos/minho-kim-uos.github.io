@@ -1,0 +1,916 @@
+<html>
+	<head>
+		<title>Midterm Project</title>
+		<style type="text/css">
+			span.note
+			{
+				color:red;
+			}
+			li
+			{
+				margin:1em 0;
+			}
+			table.truthtable
+			{
+				border:1px black solid;
+				border-collapse:collapse;
+			}
+			table.truthtable td
+			{
+				border:1px black solid;
+				padding:5px;
+			}
+			table.truthtable td.header-in
+			{
+				background-color:black;
+				text-align:center;
+				font-weight:bold;
+				color:white;
+			}
+			table.truthtable td.header-out
+			{
+				background-color:gray;
+				text-align:center;
+				font-weight:bold;
+				color:white;
+			}
+			table.truthtable td.in
+			{
+				background-color:lightgray;
+				text-align:center;
+			}
+			table.truthtable td.out
+			{
+				text-align:center;
+			}
+			table.figure td.figure
+			{
+				text-align:center;
+			}
+			table.figure td.caption
+			{
+				text-align:center;
+				font-weight:bold;
+				color:darkgreen;
+			}
+			table.figure td.caption:before
+			{
+				content:"(";
+			}
+			table.figure td.caption:after
+			{
+				content:")";
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1 align=center>Midterm Project</h1>
+		<h2 align=center>Building a 7-Segment Display Circuit</h2>
+		<h3 align=center style="color:red;font-weight:bold;">( Due: 11:59pm 26 Oct. (Wed) )</h3>
+	</body>
+	<div style="align:center;margin:100px;">
+	<ul>
+		<li>Goal:
+		To build the 7-segment display circuit.
+			<ul>
+				<li>Build the circuit
+					using the visual circuit editor
+		<a href="http://circuits-cloud.com">Circuits Cloud</a>
+		and share it with me
+		(Mr.Minho.Kim@gmail.com).
+					<ul>
+						<li>You should use only elementry gates, AND, OR, INV, etc.
+						In other words, you CANNOT use 8-4 encoder, etc.
+						</li>
+					</ul>
+				</li>
+				<li>Build the circuit using the HardwareSimulator.
+				You can download the necessary files
+				<a href="data/hdl-empty.zip">here</a>.
+					<ul>
+						<li><tt>Encoder16.tst</tt>: DO NOT modify this file.</li>
+						<li><tt>Encoder16.cmp</tt>: DO NOT modify this file.</li>
+						<li><tt><b>Encoder16.hdl</b></tt>: Complete the circuit.</li>
+						<li><tt>Decoder7Seg.tst</tt>: DO NOT modify this file.</li>
+						<li><tt><b>Decoder7Seg.cmp</b></tt>: Modify the output by
+							setting all X's to correct values (1 or 0)
+							which is the same as the truth table of (Table 2).
+							<br>
+							<span class=note>
+								(NOTE: You should modify only the X letters not others.
+								Otherwise you may get an error.)
+							</span>
+							</li>
+							<li><tt><b>Decoder7Seg.hdl</b></tt>: Complete the circuit.</li>
+						<li><tt>Seg7.tst</tt>: DO NOT modify this file.</li>
+						<li><tt><b>Seg7.cmp</b></tt>: Modify the output of the file
+						which should be the same as the output of <tt>Decoder7Seg.cmp</tt>.
+						(Table 2)
+							<br>
+							<span class=note>
+								(NOTE: You should modify only the X letters not others.
+								Otherwise you may get an error.)
+							</span>
+
+						</li>
+						<li><tt>Seg7.hdl</tt>: DO NOT modify this file.</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>input: 16 buttons (d15~d0) associated with numbers 0~15</li>
+		<li>output: a 7-segment display component displaying the corresponding input (hexadecimal) number</li>
+
+		<table class=figure>
+			<tr><td class=figure>
+					<table class=dummy>
+			<tr>
+				<td><img width=40px src="FIG/seg-0.png"></td>
+				<td><img width=40px src="FIG/seg-1.png"></td>
+				<td><img width=40px src="FIG/seg-2.png"></td>
+				<td><img width=40px src="FIG/seg-3.png"></td>
+				<td><img width=40px src="FIG/seg-4.png"></td>
+				<td><img width=40px src="FIG/seg-5.png"></td>
+				<td><img width=40px src="FIG/seg-6.png"></td>
+				<td><img width=40px src="FIG/seg-7.png"></td>
+				<td><img width=40px src="FIG/seg-8.png"></td>
+				<td><img width=40px src="FIG/seg-9.png"></td>
+				<td><img width=40px src="FIG/seg-a.png"></td>
+				<td><img width=40px src="FIG/seg-b.png"></td>
+				<td><img width=40px src="FIG/seg-c.png"></td>
+				<td><img width=40px src="FIG/seg-d.png"></td>
+				<td><img width=40px src="FIG/seg-e.png"></td>
+				<td><img width=40px src="FIG/seg-f.png"></td>
+			</tr>
+			<tr>
+				<td align=center>0</td>
+				<td align=center>1</td>
+				<td align=center>2</td>
+				<td align=center>3</td>
+				<td align=center>4</td>
+				<td align=center>5</td>
+				<td align=center>6</td>
+				<td align=center>7</td>
+				<td align=center>8</td>
+				<td align=center>9</td>
+				<td align=center>a(10)</td>
+				<td align=center>b(11)</td>
+				<td align=center>c(12)</td>
+				<td align=center>d(13)</td>
+				<td align=center>e(14)</td>
+				<td align=center>f(15)</td>
+			</tr>
+		</table>
+				</td></tr>
+				<tr><td class=caption>
+							Figure 1
+				</td></tr>
+		</table>
+		<li>
+		Note that our display is different from the typical hexadecimal display,
+		e.g.,
+
+		<div>
+			<table class=figure>
+				<tr><td class=figure>
+			<table>
+				<tr><td align=center>
+					<img width=300px src="FIG/Seven_segment_display-gallery.png">
+				</td></tr>
+			</table>
+				</td></tr>
+				<tr><td class=caption>
+						Figure 2
+						(image courtesy of
+						<a href="https://commons.wikimedia.org/wiki/File:Seven_segment_display-gallery.png">Wikipedia</a>)
+				</td></tr>
+		</table>
+		</div>
+		</li>
+		<li>
+		The circuit MUST be composed of two parts:
+			<ul>
+				<li>16-to-4 encoder</li>
+				<li>7-segment decoder</li>
+			</ul>
+		</li>
+		<li>
+			The truth table for the 16-to-4 encoder:
+			<table class=figure>
+				<tr><td class=figure>
+			<table class=truthtable>
+				<tr>
+					<td class=header-in>d15</td>
+					<td class=header-in>d14</td>
+					<td class=header-in>d13</td>
+					<td class=header-in>d12</td>
+					<td class=header-in>d11</td>
+					<td class=header-in>d10</td>
+					<td class=header-in>d9</td>
+					<td class=header-in>d8</td>
+					<td class=header-in>d7</td>
+					<td class=header-in>d6</td>
+					<td class=header-in>d5</td>
+					<td class=header-in>d4</td>
+					<td class=header-in>d3</td>
+					<td class=header-in>d2</td>
+					<td class=header-in>d1</td>
+					<td class=header-in>d0</td>
+					<td class=header-out>w</td>
+					<td class=header-out>x</td>
+					<td class=header-out>y</td>
+					<td class=header-out>z</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+				</tr>
+				<tr>
+					<td colspan=20></td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+				</tr>
+				<tr>
+					<td colspan=20></td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+				</tr>
+				<tr>
+					<td colspan=20></td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+					<td class=out>0</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+					<td class=out>1</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+					<td class=out>0</td>
+				</tr>
+				<tr>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+					<td class=out>1</td>
+				</tr>
+
+			</table>
+					</td></tr>
+					<tr><td class=caption>
+							Table 1
+					</td></tr>
+				</table>
+		</li>
+		<li>
+		For the 16-to-4 encoder,
+		you do not need to take care of invalid inputs
+		not listed in the truth table.
+		</li>
+		<li>
+		The 7-segment display is composed of the following 8 segments,
+		but we only use the 7 segments A~G.
+		(Do not confuse those pin names A~G with the hexadecimal numbers A~F.)
+				<table class=figure>
+					<tr><td class=figure>
+				<img width=300px src="FIG/500px-7_segment_display_labeled.svg.png">
+					</td></tr>
+					<tr><td class=caption>
+							Figure 3
+					</td></tr>
+				</table>
+		</li>
+		<li>
+		The truth table for the 7-segment decoder
+		(You need to complete the table yourself.):
+		<table class=figure>
+			<tr><td class=figure>
+			<table class=truthtable>
+				<tr>
+					<td class=header-in>w</td>
+					<td class=header-in>x</td>
+					<td class=header-in>y</td>
+					<td class=header-in>z</td>
+					<td class=header-out>a</td>
+					<td class=header-out>b</td>
+					<td class=header-out>c</td>
+					<td class=header-out>d</td>
+					<td class=header-out>e</td>
+					<td class=header-out>f</td>
+					<td class=header-out>g</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td colspan=20></td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td colspan=20></td>
+				</tr>
+				<tr>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td colspan=20></td>
+				</tr>
+				<tr>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>0</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=in>1</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=in>0</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+				<tr>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=in>1</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+					<td class=out>?</td>
+				</tr>
+			</table>
+					</td></tr>
+					<tr><td class=caption>
+							Table 2
+					</td></tr>
+				</table>
+		</li>
+		<li>
+		(Recommended) procedure
+			<ol>
+				<li>
+					Build the 16-to-4 encoder.
+					For each output pin (w,x,y,z),
+					<ol>
+						<li>Derive the boolean expression from the truth table.</li>
+						<li>Simplify it as much as possible.</li>
+						<li>Build the circuit.</li>
+						<li>Check if it's correct by connecting an LED at the output.</li>
+					</ol>
+				</li>
+				<li>
+					Build the 7-segment display decoder.
+					<ol>
+						<li>Complete the truth table.</li>
+						<li>Build the circuit following the same procedure
+						as the 16-to-4 encoder.
+							<ul>
+								<li>
+						It might be easier for testing to connect switches to each input pin
+						(w,x,y,z).
+						When you complete the decoder,
+						you can remove those switches
+						and connect them to the output pins of the 16-to-4 encoder.
+								</li>
+								<li>
+								It might be also easier for testing to connect
+								an LED to each output.
+								You can remove them and connect the output
+								to a 7-segment display component when you're done.
+								</li>
+							</ul>
+						</li>
+					</ol>
+				</li>
+			</ol>
+		</li>
+		<li>
+			Note
+			<ul>
+				<li>During editing,
+					some of the lines might be colored in black.
+					In this situation, the output of your circuit might not
+					be correct.
+					So you should always be careful if all the lines
+					are colored in either green or red.
+					If there is any black line in the circuit,
+					try turning on and off all the switches
+					to make all the lines green or red.
+				</li>
+				<li>
+				Using XOR, XNOR, and NAND gates might be quite helpful
+				to make your circuit simpler.
+				So please keep in mind using them when you're simplifying the boolean expressions.
+				</li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+</html>

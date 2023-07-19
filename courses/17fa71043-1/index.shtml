@@ -1,0 +1,115 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Digital Logic Design and Experiment 
+			[Section 1]
+			(fall,2017): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+				<span class=date>12/27</span>
+				<a href="https://www.dropbox.com/s/p5n1ruiz0y6roma/17dig1_score_posting.pdf?dl=0">Scores</a> (proj1,proj2,midterm,final)
+					<ul>
+						<li>개인마다 passcode가 부여되었고, 행정정보시스템에 등록된 e-mail 주소로 전송되었습니다.</li>
+						<li>만약 passcode를 받지 못했다면 Mr.Minho.Kim@gmail로 문의하시기 바랍니다.</li>
+						<li>프로젝트 및 시험지를 확인하고 싶으면 목/금요일에 제 연구실(정보기술관312호)에 방문하시기 바랍니다.</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/22</span>
+					<a href="notes-CPUEmulator.html">CPU Emulator Tips</a>
+					page is open.
+					I will put some tips
+					about the CPUEmulator here.
+				</li>
+				<li>
+					<span class=date>11/18</span>
+						Project #2 is posted.
+				</li>
+				<li>
+					<span class=date>11/17</span>
+					Final exam schedule
+					<ul>
+						<li>When: 22 Dec. (Fri) 8pm-9:50pm</li>
+						<li>Where: 19-B114</li>
+						<li>Coverage: from the sequential logics</li>
+						<li>Closed book exam: You <u>CANNOT</u> bring any material with you.</li>
+					</ul>
+				</li>
+				<li>
+<span class=date>10/25</span>
+					The class canceled yesterday (Tue)
+					is scheduled to be held tomorrow (Thu).
+					Please keep checking this page for further notice.
+				</li>
+				<li>
+<span class=date>10/19</span>
+					<ul>
+						<li>
+				Check out
+				<a href="midterm.html">midterm page</a>
+				for detailed information
+				about the midterm.
+						</li>
+						<li>
+						There will be no class on 26 Oct Thursday.
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>10/11</span>
+					Midterm
+					<ul>
+						<li>when: 28 Oct (Sat) 4pm-5:50pm</li>
+						<li>where: 19-B114</li>
+					</ul>
+				</li>
+				<li><span class=date>9/28</span>Project #1 is posted.</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

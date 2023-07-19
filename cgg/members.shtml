@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Members</title>
+		<style = type="text/css">
+			<!--#include file="cgg.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="header.shtml"-->
+		<div class=member>
+			<span class=name>Minho Kim
+			(<a href="http://www.minho-kim.com">minho-kim.com</a>)
+			</span>
+			<span class=position>Assistant Professor</span>
+			<a class=email href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a>
+			<span class=tel>(02)2210-5786</span>
+		</div>
+		<div class=member>
+			<span class=name>Jaechan Kim</span>
+			<span class=position>Graduate student (M.S.)</span>
+			<a class=email href="mailto:"></a>
+			<span class=tel>(02)XXXXXXXX</span>
+		</div>
+		<div class=member>
+			<span class=name>Youngjoon Lee</span>
+			<span class=position>Graduate student (M.S.)</span>
+			<a class=email href="mailto:"></a>
+			<span class=tel>(02)XXXXXXXX</span>
+		</div>
+	</body>
+</html>

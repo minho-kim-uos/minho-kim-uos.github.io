@@ -1,0 +1,78 @@
+											
+Linear Algebra
+(spring, 2013)
+
+midterm exam score
+											
+passcode	score
+
+m8oq		57
+raw4		52
+87p2		37
+opmp		79
+wjq9		62
+wj3u		61
+j1rl		54
+jk10		55
+ttkv		74
+nvtc		57
+7pxm		44
+n05t		64
+fy9d		56
+4xfi		69
+tnx8		65
+r6cz		80
+5yoq		88
+gx20		55
+pvas		52
+l9bw		62
+tq19		70
+o5r9		75
+uc5b		60
+5f3e		81
+y788		61
+016s		38
+6dht		72
+z10h		29
+gsse		50
+9foe		75
+705y		47
+a6yp		69
+msj9		39
+rgft		71
+qfex		79
+s2wv		10
+c8uv		45
+zy8a		7
+f3ub		29
+pw16		69
+yy98		50
+r2tq		31
+jr1h		59
+iaok		80
+yyq6		50
+7isy		70
+oqrb		72
+7pgs		100
+qr7f		
+d18r		68
+f19t		78
+b9sd		76
+vgwk		46
+j3x2		43
+h190		58
+ynfc		57
+c7qk		72
+or75		89
+51lv		68
+hqq3		69
+0pp9		67
+vkn0		79
+rn3a		70
+3jmr		1
+vp52		58
+cp48		97
+e4zx		38
+
+average: 59.77 
+standard deviation: 19.51

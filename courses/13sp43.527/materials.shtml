@@ -1,0 +1,255 @@
+<html>
+	<head>
+		<title>Computer Graphics for grads (spring,2013): materials</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+		table.demos
+		{
+			border-collapse:collapse;
+		}
+		table.demos td
+		{
+			border:1px solid black;
+		}
+		table.demos a
+		{
+			display:block;
+		}
+		div.code
+		{
+			font-family:courier;
+			background-color:silver;
+			padding:10px;
+		}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Materials</h1>
+		<div style="margin:100px;">
+		<ul>
+			<li>
+				Lecture slides
+				<ul>
+					<li><a href="graphics-sp13-graphics.pdf">Intro</a></li>
+					<li><a href="graphics-sp13-GLES-ch01.pdf">Chapter 1</a></li>
+					<li><a href="graphics-sp13-GLES-ch02.pdf">Chapter 2</a></li>
+					<li><a href="graphics-sp13-GLES-ch03.pdf">Chapter 3</a></li>
+					<li><a href="graphics-sp13-GLES-ch04.pdf">Chapter 4</a></li>
+					<li><a href="graphics-sp13-GLES-ch05.pdf">Chapter 5</a></li>
+					<li><a href="graphics-sp13-GLES-ch06.pdf">Chapter 6</a></li>
+					<li><a href="graphics-sp13-GLES-ch07.pdf">Chapter 7</a></li>
+					<li><a href="graphics-sp13-GLES-ch08.pdf">Chapter 8</a></li>
+					<li><a href="graphics-sp13-GLES-ch09.pdf">Chapter 9</a></li>
+					<li><a href="graphics-sp13-GLES-ch10.pdf">Chapter 10</a></li>
+					<li><a href="graphics-sp13-GLES-ch11.pdf">Chapter 11</a></li>
+				</ul>
+			</li>
+			<li> 
+				Developing OpenGL ES 2.0 applications
+				<ol>
+					<li>
+						Using ARM emulator (for OpenGL ES 2.0)
+						<ul>
+							<li>Can be downloaded 
+								<a href="http://malideveloper.arm.com/develop-for-mali/tools/opengl-es-2-0-emulator">here</a>.
+							</li>
+							<li>
+								Supports OpenGL ES 2.0
+							</li>
+							<li>
+								Supports three major platforms (Windows, Linux, OSX)
+							</li>
+							<li>
+								No hassle to deal with UI/Windows layer --
+								EGL is implemented and examples from the "Goldbook" can be ported easily.)
+							</li>
+							<li>
+								Should be ported to a specific mobile platform
+								(Android or iOS) for final release
+							</li>
+							<li>
+								OpenGL ES 3.0 emulator is limited to the Windows platform.
+								(<a href="http://malideveloper.arm.com/develop-for-mali/tools/opengl-es-3-0-emulator">OpenGL ES 3.0 emulator</a>)
+							</li>
+						</ul>
+					</li>
+					<li>
+						Using AMD emulator
+						<ul>
+							<li>Can be downloaded 
+								<a href="http://developer.amd.com/tools/graphics-development/amd-opengl-es-sdk">here</a>.
+							</li>
+							<li>
+							Supports AMD graphics cards only (?)
+							<li>
+								OpenGL ES 2.0
+							</li>
+							<li>
+								Windows &amp; Linux only
+							</li>
+							<li>
+								Almost the same pros/cons with the ARM emulator
+							</li>
+						</ul>
+					</li>
+					<li>
+						Using  PowerVR SGX OpenGL ES 2.0 SDK
+						<ul>
+							<li>Can be downloaded <a href="http://www.imgtec.com/powervr/insider/sdk/KhronosOpenGLES2xSGX.asp">here</a>. (registration required)</li>
+							<li>Windows, OSX, Linux supported</li>
+						</ul>
+					</li>
+					<li>
+						Using NVIDIA Tegra Android Development Pack
+						<ul>
+							<li>Can be downloaded <a href="https://developer.nvidia.com/tegra-android-development-pack">here</a>.</li>
+							<li>Android only</li>
+							<li>Windows, OSX, Linux (Ubuntu) supported</li>
+						</ul>
+					</li>
+					<li>
+						Using Qualcomm OpenGL ES 3.0 emulator
+						<ul>
+							<li>Can be downloaded
+							<a href="https://developer.qualcomm.com/mobile-development/mobile-technologies/gaming-graphics-optimization-adreno/tools-and-resources">here</a>.
+							(registration required)</li>
+							<li>Windows only</li>
+						</ul>
+					</li>
+					<li>
+						xcode
+						<ul>
+							<li>
+								OSX only
+							</li>
+							<li>
+								Can be installed from the AppStore.
+							</li>
+							<li>
+								For iOS apps only.
+							</li>
+							<li>
+							Requires to get familiar with Objective-C to some level.
+							</li>
+							<li>
+							OSX-specific library for UI/Window management (EAGL)
+							</li>
+							<li>
+							App running on iOS devices (requires membership to run on actual devices)
+							</li>
+							<li>
+							Fast and stable emulator
+							</li>
+							<li>
+							Decent developement environment
+							</li>
+							</ul>
+							</li>
+							<li>
+							ADT (Android Development Tools)
+							<ul>
+							<li>
+							Can be downloaded 
+							<a href="http://developer.android.com/sdk/index.html">here</a>.
+							</li>
+							<li>
+							For android apps
+							</li>
+							<li>
+							Supports many platforms
+							</li>
+							<li>
+							(Normally) required to develop in Java
+							</li>
+							<li>
+							C with 
+							<a href="http://developer.android.com/tools/sdk/ndk/index.html">NDK (Native Development Kit)</a> (OpenGL ES 2 sample code in NDK)
+							</li>
+							<li>
+							Slow emulator
+							</li>
+							<li>
+							Can run the app on actual devices directly
+							</li>
+							</ul>
+							</li>
+							<li>
+							WebGL
+							<ul>
+							<li>
+							Almost compatible with OpenGL ES 2
+							</li>
+							<li>
+							No dev tools required (only any compatible webbrower required)
+							</li>
+							<li>
+							Required to develop in Javascript
+							</li>
+							<li>
+							Hard to debug
+							</li>
+							<li>
+							Source codes exposed (?)
+							</li>
+							<li>
+							Good to develop cross-platform mobile apps via HTML5 (?)
+							</li>
+						</ul>
+					</li>
+				</ol>
+			</li>
+			<li>
+				Compiling and running OpenGL ES 2.0 samples
+				<ul>
+					<li>Android java with ARM image
+					(Examples are compiled 
+					and running without any problem on actual devices
+					and Intel emulators)
+					<ul>
+						<li>
+						Modify
+						<div class=code>
+						return (info.reqGlEsVersion &gt;= 0x20000);
+						</div>
+						to
+						<div class=code>
+						return true;
+						</div>
+						(See
+						<a href="http://www.learnopengles.com/android-emulator-now-supports-native-opengl-es2-0/">this post</a>.)
+						</li>
+						<li>
+						Insert
+						<div class=code>
+						mGLSurfaceView.setEGLConfigChooser(8, 8, 8, 8, 16, 0);
+						</div>
+						before
+						<div class=code>
+							mGLSurfaceView.setRenderer(new HelloTriangleRenderer(this));
+						</div>
+						(See <a href="http://stackoverflow.com/questions/13702538/cocos2d-x-v-2-0-4-fatal-exception-glthread-when-run-on-android-emulator/13719983#13719983">this post</a>.)
+						</li>
+						<li>
+						Modifying 
+						<div class=code>
+						&lt;uses-sdk android:minSdkVersion="8" /&gt;
+						</div>
+						in AndroidManifest.xml is not required.
+						</li>
+					</ul>
+					</li>
+					<li>
+						NDK examples
+						<ul>
+							<li>Set NDK path in the preference</li>
+							<li>Select "Add Native Support" to the project</li>
+							<li>Check "GPU Host" in the emulator setting</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

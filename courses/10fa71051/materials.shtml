@@ -1,0 +1,43 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2010): materials</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Materials</h1>
+		<div style="margin:100px;">
+		<ul>
+			<li>
+				Lecture slides
+				<ul>
+					<li><a href="data/p1_handout.pdf">p1_handout.pdf</a></li>
+					<li><a href="data/pA_handout.pdf">pA_handout.pdf</a></li>
+					<li><a href="data/p2_handout.pdf">p2_handout.pdf</a></li>
+					<li><a href="data/p3_handout.pdf">p3_handout.pdf</a></li>
+					<li><a href="data/p4_handout.pdf">p4_handout.pdf</a> (updated 12 Oct. <del>7 Oct.</del>)</li>
+					<li><a href="data/p6_handout.pdf">p6_handout.pdf</a></li>
+					<li><a href="data/p7_handout.pdf">p7_handout.pdf</a></li>
+					<li><a href="data/p8_handout.pdf">p8_handout.pdf</a> 
+					(updated 23 Nov. <del>17 Nov.</del> <del>16 Nov.</del> <del>8 Nov.</del> <del>3 Nov.</del> -- to be updated)</li>
+					<li><a href="data/p9_handout.pdf">p9_handout.pdf</a>
+						(updates 9 Dec.)
+					</li>
+				</ul>
+			</li>
+			<li>
+				Homewotk solutions
+				<ul>
+					<li>Coming soon!</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

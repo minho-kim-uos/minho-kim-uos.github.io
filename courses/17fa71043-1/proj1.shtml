@@ -1,0 +1,96 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Digital Logic Design and Experiment 
+			(fall,2017): Project #1</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+table.truthtable 
+{
+	border-collapse:collapse;
+	font-family:serif;
+}
+table.truthtable td
+{
+	border:1px solid black;
+	padding-left:10px;
+	padding-right:10px;
+}
+th.in
+{
+	background-color:black;
+	color:white;
+}
+th.out
+{
+	background-color:darkgray;
+	color:black;
+}
+
+td.in
+{
+	background-color:lightgray;
+}
+span.note
+{
+	color:red;
+}
+
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Project #1</h1>
+		Goal: Implement a logic circuit for the boolean function described as a truth table below.
+		<table align=center class=truthtable>
+			<tr><th colspan=4 class=in>input</th><th colspan=2 class=out>output</th></tr>
+		<tr><th class=in>a</th><th class=in>b</th><th class=in>c</th><th class=in>d</th><th class=out>f</th><th class=out>g</th></tr>
+		<tr><td class=in>0</td><td class=in>0</td><td class=in>0</td><td class=in>0</td><td class=out>1</td><td class=out>1</td></tr>
+		<tr><td class=in>0</td><td class=in>0</td><td class=in>0</td><td class=in>1</td><td class=out>1</td><td class=out>0</td></tr>
+		<tr><td class=in>0</td><td class=in>0</td><td class=in>1</td><td class=in>0</td><td class=out>1</td><td class=out>1</td></tr>
+		<tr><td class=in>0</td><td class=in>0</td><td class=in>1</td><td class=in>1</td><td class=out>0</td><td class=out>0</td></tr>
+		<tr><td class=in>0</td><td class=in>1</td><td class=in>0</td><td class=in>0</td><td class=out>1</td><td class=out>0</td></tr>
+		<tr><td class=in>0</td><td class=in>1</td><td class=in>0</td><td class=in>1</td><td class=out>1</td><td class=out>1</td></tr>
+		<tr><td class=in>0</td><td class=in>1</td><td class=in>1</td><td class=in>0</td><td class=out>0</td><td class=out>0</td></tr>
+		<tr><td class=in>0</td><td class=in>1</td><td class=in>1</td><td class=in>1</td><td class=out>0</td><td class=out>0</td></tr>
+		<tr><td class=in>1</td><td class=in>0</td><td class=in>0</td><td class=in>0</td><td class=out>0</td><td class=out>1</td></tr>
+		<tr><td class=in>1</td><td class=in>0</td><td class=in>0</td><td class=in>1</td><td class=out>0</td><td class=out>1</td></tr>
+		<tr><td class=in>1</td><td class=in>0</td><td class=in>1</td><td class=in>0</td><td class=out>1</td><td class=out>1</td></tr>
+		<tr><td class=in>1</td><td class=in>0</td><td class=in>1</td><td class=in>1</td><td class=out>1</td><td class=out>1</td></tr>
+		<tr><td class=in>1</td><td class=in>1</td><td class=in>0</td><td class=in>0</td><td class=out>0</td><td class=out>1</td></tr>
+		<tr><td class=in>1</td><td class=in>1</td><td class=in>0</td><td class=in>1</td><td class=out>1</td><td class=out>1</td></tr>
+		<tr><td class=in>1</td><td class=in>1</td><td class=in>1</td><td class=in>0</td><td class=out>0</td><td class=out>1</td></tr>
+		<tr><td class=in>1</td><td class=in>1</td><td class=in>1</td><td class=in>1</td><td class=out>1</td><td class=out>1</td></tr>
+		</table>
+
+		What to do:
+		<ol>
+			<li>Download the following three files.
+		<ul>
+			<li><a href="https://www.dropbox.com/s/im3m87jxj4ws8gt/proj1.cmp?dl=0"><tt>proj1.cmp</tt></a></li>
+			<li><a href="https://www.dropbox.com/s/ns9gcxk9fcvyhax/proj1.tst?dl=0"><tt>proj1.tst</tt></a></li>
+			<li><a href="https://www.dropbox.com/s/zjnj1l05c36r953/proj1.hdl?dl=0"><tt>proj1.hdl</tt></a></li>
+		</ul>
+			</li>
+
+			<li>Modify <tt>proj1.hdl</tt> to implement the above function.
+				<span class=note>(DO NOT modify <tt>proj1.tst</tt> and <tt>proj1.comp</tt>!)</span>
+			</li>
+			<li>
+				Test your implementation using <tt>proj1.tst</tt> script.
+			</li>
+			<li>
+				When done, submit your <tt>proj1.hdl</tt> to <tt>Mr.Minho.Kim@gmail.com</tt> via an e-mail.
+				<br>
+				<span class=note>
+					(DO NOT submit any other file, only <tt>proj1.hdl</tt>.
+					Also DO NOT compress your attachment.)
+				</span>
+			</li>
+		</ol>
+
+		Note that you may lose some points if do not fully follow the instructions above.
+
+	</body>
+</html>

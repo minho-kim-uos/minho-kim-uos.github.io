@@ -1,0 +1,39 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Architecture for SCSC (fall 2016)</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+		span.date
+		{
+			font-weight:bold;
+			color:red;
+		}
+		span.date:before
+		{
+			content:'[';
+		}
+		span.date:after
+		{
+			content:']';
+		}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Projects</h1>
+		<div style="margin:100px;">
+			<!--
+			<ul>
+				<li>
+				<span class=date>6 Oct</span>
+				<a href="proj-mid.shtml">Midterm Project</a>
+				</li>
+				<span class=date>24 Nov</span>
+				<a href="proj-final.shtml">Final Project</a>
+				</li>
+			</ul>
+			-->
+		</div>
+	</body>
+</html>

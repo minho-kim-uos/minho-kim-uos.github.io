@@ -1,0 +1,89 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Digital Logic Design and Experiment (for SCSC)
+			(spring,2017): materials</title>
+		<style type="text/css">
+			body
+			{
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Materials</h1>
+		<ul>
+			<!--
+			<li>
+			nand2tetris book working files
+				<ul>
+					<li>
+					Chapter 5: 
+						<a href="https://www.dropbox.com/s/ww6l4oame11xj04/Memory.hdl?dl=0">Memory.hdl</a>
+						<a href="https://www.dropbox.com/s/xfyu6p9h4qc2he4/CPU.hdl?dl=0">CPU.hdl</a>
+						<a href="https://www.dropbox.com/s/u1v9jbwr8loftcj/Computer.hdl?dl=0">Computer.hdl</a>
+					</li>
+					<li>
+					Chapter 4:
+						<a href="https://www.dropbox.com/s/g3o6zegccfeydjw/Mult.asm?dl=0">Mult.asm</a>
+						<a href="https://www.dropbox.com/s/ktq57zk4sczlq8y/Fill.asm?dl=0">Fill.asm</a>
+						<a href="https://www.dropbox.com/s/9u4mztrl1lkobcs/Fill.working.asm?dl=0">Fill.working.asm</a>
+					</li>
+				</ul>
+			<li>
+				Files for Buffer gate:
+				<a href="https://www.dropbox.com/s/mvqebuf7l6gjs29/Buffer.hdl?dl=0">Buffer.hdl</a>
+				<a href="https://www.dropbox.com/s/iz5xea1rldryyh7/Buffer.tst?dl=0">Buffer.tst</a>
+				<a href="https://www.dropbox.com/s/yjj9o9sl9bvdz2j/Buffer.cmp?dl=0">Buffer.cmp</a>
+			</li>
+			-->
+			<li>
+			<a href="https://www.dropbox.com/sh/jtf2c5ipzp7up3e/AADWGGkFVZqH6wODxNxkLRGRa">Folder containing all the files below.</a>
+			</li>
+			<li>
+				Files for NOR gate:
+				<a href="https://www.dropbox.com/s/tdzpp5uk9t611c7/Nor.hdl?dl=0">Nor.hdl</a>
+				<a href="https://www.dropbox.com/s/8jz8operujnaadn/Nor.tst?dl=0">Nor.tst</a>
+				<a href="https://www.dropbox.com/s/42hybosmxbig1dy/Nor.cmp?dl=0">Nor.cmp</a>
+			</li>
+			<li>
+				Files for XNOR gate:
+				<a href="https://www.dropbox.com/s/qhuhbseci9rrdxr/Xnor.hdl?dl=0">Xnor.hdl</a>
+				<a href="https://www.dropbox.com/s/d2o0tjw2o3vub1v/Xnor.tst?dl=0">Xnor.tst</a>
+				<a href="https://www.dropbox.com/s/7j0tam0c3y0tmpa/Xnor.cmp?dl=0">Xnor.cmp</a>
+			</li>
+			<li>
+				Files for Decoder gate:
+				<a href="https://www.dropbox.com/s/lokkfowjbkdxk07/Decoder.hdl?dl=0">Decoder.hdl</a>
+				<a href="https://www.dropbox.com/s/p5ywtb8glxkuh1x/Decoder.tst?dl=0">Decoder.tst</a>
+				<a href="https://www.dropbox.com/s/fcr0uk8m4ilius0/Decoder.cmp?dl=0">Decoder.cmp</a>
+			</li>
+			<li>
+				Files for Decoder4Way gate:
+				<a href="https://www.dropbox.com/s/kb7fjjbw3pb5bvw/Decoder4Way.hdl?dl=0">Decoder4Way.hdl</a>
+				<a href="https://www.dropbox.com/s/a9kii49tqnl6pz9/Decoder4Way.tst?dl=0">Decoder4Way.tst</a>
+				<a href="https://www.dropbox.com/s/dtp0k8m6maxldap/Decoder4Way.cmp?dl=0">Decoder4Way.cmp</a>
+			</li>
+			<li>
+				Files for Encoder gate:
+				<a href="https://www.dropbox.com/s/rx29lbvaqphdmxj/Encoder.hdl?dl=0">Encoder.hdl</a>
+				<a href="https://www.dropbox.com/s/1ygzxmqnccjc0ls/Encoder.tst?dl=0">Encoder.tst</a>
+				<a href="https://www.dropbox.com/s/p1m9kpyw2t2ea3v/Encoder.cmp?dl=0">Encoder.cmp</a>
+			</li>
+			<li>
+				Files for Encoder4Way gate:
+				<a href="https://www.dropbox.com/s/3uydhzelq8xdhuw/Encoder4Way.hdl?dl=0">Encoder4Way.hdl</a>
+				<a href="https://www.dropbox.com/s/hr30km53d7ikvvk/Encoder4Way.tst?dl=0">Encoder4Way.tst</a>
+				<a href="https://www.dropbox.com/s/fcsfq2np6l7no69/Encoder4Way.cmp?dl=0">Encoder4Way.cmp</a>
+			</li>
+			<!--
+			<li>
+				<a href="https://www.dropbox.com/s/oa8l7yo946jjfkb/ALU.hdl?dl=0">ALU.hdl</a>
+			</li>
+			-->
+		</ul>
+
+	</body>
+</html>

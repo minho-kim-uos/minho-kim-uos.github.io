@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Computer Graphics (fall,2009): projects</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Project #1</h1>
+		<h3 align=center style="color:red;">[due: 6 Oct. 11:59pm]</h3>
+		<div style="margin:100px;">
+			<img style="float:right;margin:20px;" src="proj1/screenshot.gif">
+			Implements a 2D OpenGL program 
+			rendering the trace of the mouse movement.
+			(Demo: <a href="proj1/proj1.exe"><tt>proj1.exe</tt></a> for Windows XP 32bit)
+			<p>
+			Requirements:
+			<ul>
+				<li>The title must be of the form "Your Name [Your Passcode]".</li>
+				<li>Regardless of the window size, the trace must be rendered 
+						in the whole window area,
+					<b>without any distortion</b>.</li>
+				<li>The trace shoule be rendered using the latest 100 mouse positions.</li>
+				<li>The color of the trace must be brightest at the newest (current) position
+				and dimmest at the oldest position.</li> 
+				<li>Two styles are supported: line and dots. </li>
+				<li>
+					key interface
+					<ul>
+						<li>'d'/'D': switches to dots style</li>
+						<li>'l'/'L': switches to line style</li>
+						<li>'r'/'R': changes line color to red</li>
+						<li>'g'/'G': changes line color to green</li>
+						<li>'b'/'B': changes line color to blue</li>
+						<li>up arrow: increases the thickness (maximum 5)</li>
+						<li>down arrow: decreases the thickness (minimum 1)</li>
+					</ul>
+				</li>
+				<li>
+					All the features must be provided as menu, too.
+				</li>	
+				<li>
+					<b>Please try the demo yourself to see the features!</b>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

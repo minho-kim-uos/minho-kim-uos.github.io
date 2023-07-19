@@ -1,0 +1,229 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (for grads) (spring,2018): materials</title>
+		<style type="text/css">
+			body
+			{
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Lecture materials</h1>
+		<ul>
+			<li>
+			<a href="https://www.dropbox.com/sh/jyzsr2xsfy7p5gh/AABxAAU6x4pW5f-Cskkn_wIZa?dl=0">Course samples</a>  (C/C++, 2016 course)
+			<ul>
+				<li><a href="https://www.dropbox.com/s/jsgs1mlfi7rmxbu/README.txt?dl=0">README.txt</a> for build instruction</li>
+				<li><a href="samples.html">samples.html</a>
+				file for detailed description.</li>
+			</ul>
+			</li>
+			<li>
+			<a href="https://www.dropbox.com/sh/fcp4ntcizjxo5a9/AAAqMq-qyaYF6F9DxzI6DRIxa?dl=0">Lecture slides</a> (2016 course)
+			</li>
+
+			<li>
+			<a href="https://www.dropbox.com/sh/eauo4doqm1513k4/mMRSuLK2KX">Modern OpenGL samples</a> (2013 course)
+			(NOTE: Refer to 
+				<a href="https://www.dropbox.com/sh/eauo4doqm1513k4/5an70oxxzY/README.txt">README.txt</a> file for more details.)
+			<!--
+				<ul>
+					<li><a href="http://db.tt/6ATsNpZw">GL430_minimal.zip</a></li>
+					<li><a href="http://db.tt/7B0d7q7X">samples.zip</a> (350MB)</li>
+					<li><a href="data/samples/shader_check.cpp">shader_check.cpp</a></li>
+					<li><a href="data/samples/shader_files.cpp">shader_files.cpp</a></li>
+					<li><a href="data/samples/triangles.vert">triangles.vert</a></li>
+					<li><a href="data/samples/triangles.frag">triangles.frag</a></li>
+					<li><a href="data/samples/shader_uniform.cpp">shader_uniform.cpp</a></li>
+					<li><a href="data/samples/triangles_uniform.vert">triangles_uniform.vert</a></li>
+					<li><a href="data/samples/triangles_uniform.frag">triangles_uniform.frag</a></li>
+					<li><a href="data/samples/shader_uniform_anim.cpp">shader_uniform_anim.cpp</a></li>
+					<li><a href="data/samples/shader_quad.cpp">shader_quad.cpp</a></li>
+					<li><a href="data/samples/shader_attribs.cpp">shader_attribs.cpp</a></li>
+					<li><a href="data/samples/triangles_attribs.vert">triangles_attribs.vert</a></li>
+					<li><a href="data/samples/triangles_attribs.frag">triangles_attribs.frag</a></li>
+					<li><a href="data/samples/shader_quad_indexed.cpp">shader_quad_indexed.cpp</a></li>
+				</ul>
+				-->
+			</li>
+			<li>
+				Lecture slides of 2013 course (OpenGL)
+				<ul>
+					<li><a href="data/2013/redbook-01.pdf">Chapter 1</a></li>
+					<li><a href="data/2013/redbook-02.pdf">Chapter 2</a></li>
+					<li><a href="data/2013/redbook-03.pdf">Chapter 3</a></li>
+					<li><a href="data/2013/redbook-04.pdf">Chapter 4</a></li>
+					<li><a href="data/2013/redbook-05.pdf">Chapter 5</a></li>
+					<li><a href="data/2013/redbook-06.pdf">Chapter 6</a></li>
+					<li><a href="data/2013/redbook-07.pdf">Chapter 7</a></li>
+					<li><a href="data/2013/redbook-08.pdf">Chapter 8</a></li>
+					<li><a href="data/2013/redbook-09.pdf">Chapter 9</a></li>
+					<li><a href="data/2013/redbook-10.pdf">Chapter 10</a></li>
+					<li><a href="data/2013/redbook-11.pdf">Chapter 11</a></li>
+					<li><a href="data/2013/redbook-12.pdf">Chapter 12</a></li>
+					<li><a href="data/2013/GLES2.pdf">OpenGL ES 2.0</a></li>
+					<ul>
+						<li><a href="data/my_gl_jni.cpp">my_gl_jni.cpp</a></li>
+					</ul>
+					<!--
+					<li><a href="data/2011-fall-CG-week01.odp">week #1</a></li>
+					-->
+				</ul>
+			</li>
+			<li>Lecture slides of 2010 course (OpenOffice Impress format)
+				<ul>
+					<li><a href="data/p08.odp"><tt>p08.odp</tt></a></li>
+					<li><a href="data/p05-handout.pdf"><tt>p05-handout.pdf</tt></a></li>
+					<li><a href="data/p04-handout.pdf"><tt>p04-handout.pdf</tt></a> (updated 28 Sep)</li>
+					<li><a href="data/p03.odp"><tt>p03.odp</tt></a></li>
+					<li><a href="data/p02.odp"><tt>p02.odp</tt></a></li>
+					<li><a href="data/p01.odp"><tt>p01.odp</tt></a></li>
+					<li><a href="data/rendering.odp"><tt>rendering.odp</tt></a></li>
+					<li><a href="data/OpenGL.odp"><tt>OpenGL.odp</tt></a></li>
+				</ul>
+			</li>
+			<li>
+				Tutorials
+				<ul>
+					<li><a href="OpenGL-vs2008.txt">Compiling OpenGL program with Visual Studio 2008</a></li>
+					    <li><a href="data/freeglut-2.6.0.zip">freeglut-2.6.0.zip</a></li>
+				</ul>
+			</li>
+			<li>Samples (for modern desktop OpenGL)
+				<ul>
+					<li>
+						<div>
+								On linux, compile by typing 
+							(without the extension <tt>.c</tt>)
+							<div style="background-color:black;color:white;padding:10px;">
+								<tt>make PROG=<i>prog_name</i></tt> 
+							</div>
+						</div>
+						<ul>
+							<li><a href="samples/makefile"><tt>makefile</tt></a></li>
+							<li><a href="samples/sample01.c"><tt>sample01.c</tt></a></li>
+							<li><a href="samples/sample02.c"><tt>sample02.c</tt></a></li>
+							<li><a href="samples/sample03.c"><tt>sample03.c</tt></a></li>
+							<li><a href="samples/sample04.c"><tt>sample04.c</tt></a></li>
+							<li><a href="samples/sample05.c"><tt>sample05.c</tt></a></li>
+							<li><a href="samples/mesh.c"><tt>mesh.c</tt></a></li>
+						</ul>
+					</li>
+					<li>
+						UI using GLUT
+						<ul>
+							<li><a href="samples/reshape.c"><tt>reshape.c</tt></a></li>
+							<li><a href="samples/keyboard.c"><tt>keyboard.c</tt></a></li>
+							<li><a href="samples/special.c"><tt>special.c</tt></a></li>
+							<li><a href="samples/mouse.c"><tt>mouse.c</tt></a></li>
+							<li><a href="samples/motion.c"><tt>motion.c</tt></a></li>
+							<li><a href="samples/passivemotion.c"><tt>passivemotion.c</tt></a></li>
+							<li><a href="samples/idle.c"><tt>idle.c</tt></a></li>
+							<li><a href="samples/timer.c"><tt>timer.c</tt></a></li>
+							<li><a href="samples/menu.c"><tt>menu.c</tt></a></li>
+							<li><a href="samples/postredisplay.c"><tt>postredisplay.c</tt></a></li>
+							<li><a href="samples/viewer.c"><tt>viewer.c</tt></a>: Intuitive UI implemented using GLUT
+				
+						</ul>
+					</li>
+					<li>
+						Transformation
+						<ul>
+							<li>
+								<a href="samples/transformation.c"><tt>transformation.c</tt></a>, 
+								<a href="samples/transformation2.c"><tt>transformation2.c</tt></a>: 
+								Hierarchical transformation demo  (2D robot arm)
+							</li>
+						</ul>
+					</li>
+					<li>
+						Shading
+						<ul>
+							<li>
+							<a href="samples/lighting.c"><tt>lighting.c</tt></a></li>
+							<li>
+							<a href="samples/gouraud.c"><tt>gouraud.c</tt></a>,
+							<a href="samples/gouraud2.c"><tt>gouraud2.c</tt></a>:
+								Demonstrates the artifacts of the Gouraud shading.
+							</li>
+							<li>
+							<a href="samples/movelight.c"><tt>movelight.c</tt></a>:
+								Demonstrates how to transform a light source.
+								(Simple instruction at the beginning.)
+							</li>
+							<li>
+							<a href="samples/normalize.c"><tt>normalize.c</tt></a>:
+							Demonstrates why we need <tt>GL_NORMALIZE</tt>.
+							</li>
+							<li>
+							<a href="samples/back.c"><tt>back.c</tt></a>:
+							Demonstrates how to do back face shading.
+							(back-face culling + back-face material + two-sided lighting)
+							</li>
+						</ul>
+					</li>
+					<li>
+						Viewing
+						<ul>
+							<li>
+								<a href="samples/projection.c"><tt>projection.c</tt></a>,
+								<a href="samples/projection2.c"><tt>projection2.c</tt></a>,
+								<a href="samples/projection3.c"><tt>projection3.c</tt></a>:
+								To demonstrate using perspective/orthogonal projection matrices.
+							</li>
+						</ul>
+					</li>
+					<li>
+						Etc.
+						<ul>
+							<li>
+							<a href="samples/polyoffset.c"><tt>polyoffset.c</tt></a>:
+							Demonstrates the effect of <a href="http://www.opengl.org/resources/faq/technical/polygonoffset.htm">"polygon offset"</a>.
+							</li>
+							<li>
+							How to use GLM library to load OBJ files
+							<a href="samples/demo_glm.c">demo_glm.c</a>
+							<a href="samples/glm.c">glm.c</a>
+							<a href="samples/glm.h">glm.h</a>
+							<a href="samples/soccerball.obj">soccerball.obj</a>
+							<a href="samples/soccerball.mtl">soccerball.mtl</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						Discrete
+						<ul>
+							<li>
+							<a href="samples/rasterpos.c"><tt>rasterpos.c</tt></a>:
+							Demonstrates how 3D raster position works.
+							</li>
+							<li>
+							<a href="samples/rasterclip.c"><tt>rasterclip.c</tt></a>:
+							Demonstrates what happens if a raster position is clipped.
+							</li>
+							<li>
+							<a href="samples/hud.c"><tt>hud.c</tt></a>:
+							Demonstrate how to render HUD (Head-Up Displayh) texts
+							</li>
+							<li>
+							<a href="samples/texmap.c"><tt>texmap.c</tt></a>:
+							Demonstrate texture mapping where the texture data is exported by <a href="http://www.gimp.org">GIMP</a>.
+							(You may also need the file <a href="samples/bricks.c"><tt>bricks.c</tt></a>.)
+							</li>
+							<li>
+							<a href="samples/tex2d.cpp"><tt>tex2d.cpp</tt></a>:
+							2D texture mapping using 
+							<a href="http://openil.sourceforge.net/">DevIL</a>
+							(<a href="http://sourceforge.net/projects/openil/files/DevIL%20Windows%20SDK/1.7.8/DevIL-SDK-x86-1.7.8.zip/download">1.7.8 for Win32</a>
+							(<a href="samples/UOS_emblem_256.png">texture file</a>)
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

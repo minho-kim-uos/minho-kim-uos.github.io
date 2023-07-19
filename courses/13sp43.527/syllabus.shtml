@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Computer Graphics for grads (spring,2013): syllabus</title>
+		<style type="text/css">
+			td
+			{
+				vertical-align:top;
+			}
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Syllabus</h1>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: Computer Graphics</li>
+				<li>course webpage: 
+					<a href="http://www.minho-kim.com/courses/13sp43.527">http://www.minho-kim.com/courses/13sp43.527</a></li>
+				<li>credits: 3</li>
+				<li>course number: 43.527</li>
+				<li>hours: Thu 2-4</li>
+				<li>classroom: 317</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-6490-2453</li>
+				<li>office: 19-312</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading</div>
+			<ul>
+				<li>attendance/participation</li>
+				<li>presentation</li>
+				<li>term project</li>
+				<li>homework/projects</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for copied homework/projects (including the original one)</li>
+				<li>no score for cheating during exams</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>to understand the graphics pipeline for real-time interactive 3D rendering</li>
+				<li>to develop 3D mobile applications using OpenGL ES 2.0</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>textbooks</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">
+						<img src="http://bks5.books.google.co.kr/books?id=Oi_l1ZvzZoMC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73EeDZ4r_aqRbBbeEOqmaKgubuqtU1xOyLn6Elqjn2E7hZ48ux0kofPXKzMq-SnzzaMQU-r99mPu_EDGbssH8cKsRe1MZzHIpKav68O8yrbBVdmMi3AuPVrcDpYHSebjZQZEyYi">
+					</td>
+					<td style="valign:top;">
+						OpenGL&reg; ES 2.0 Programming Guide
+									(a.k.a. "Goldbook")
+						<ul>
+							<li>
+								Authors: Aaftab Munshi, Dan Ginsburg, Dave Shreiner
+							</li>
+							<li>
+								Publisher: Addison-Wesley Professional
+							</li>
+							<li>
+								ISBN: 0321502795
+							</li>
+							<li>
+							<a href="http://www.opengles-book.com">Book website</a>
+							</li>
+							<li>
+							<a href="http://www.amazon24.co.kr/product.do?action=moveToDetail&productNo=0321502795&productGroup=Book">Where you can buy with the lowest price in Korea?</a>
+							</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2010): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.</h3>
+		<div class="announce">
+			<ul>
+				<li><span class=date>6/24</span>
+					<a href="grade.html">Final grades</a> are posted!
+					I will send each passcode via SMS.
+					</li>
+				<li><span class=date>6/13</span>
+					Solution for homework #5 is posted.
+					Sorry for the delay!
+				</li>
+				<li><span class=date>6/6</span>
+					Lecture slide for Chapter 7 is posted.
+				</li>
+				<li><span class=date>6/1</span>
+					Homework #5 is posted.
+					(due: 6/11 4pm)
+				</li>
+				<li><span class=date>6/1</span>
+					Lecture slide for Chapter 5 is (minorly) updated.
+				</li>
+				<li><span class=date>5/31</span>
+					Solution for homework #4 is posted.
+					<span style="color:red;">
+						(I made a mistake solving Ex 4.2 70(b) in the class.
+						Please refer to the solution.)
+					</span>
+				</li>
+				<li><span class=date>5/25</span>
+					Lecture slide for Chapter 5 is posted.
+				</li>
+				<li><span class=date>5/18</span>
+					Homework #4 is posted. (due: 5/31, before class)
+				</li>
+				<li><span class=date>4/23</span>
+					Solution for homework #3 is posted.
+				</li>
+				<li><span class=date>4/18</span>
+					Lecture slide for Chapter 4 is posted.
+				</li>
+				<li><span class=date>4/14</span>
+					Detailed midterm exam coverage:
+					<ul>
+						<li>
+							Chap 1: Sec 1.1, 1.2, 1.3
+						</li>
+						<li>
+							Chap 2: Sec 2.1, 2.2, 2.3, 2.4 (allocation of resources, 
+							network analysis)
+						</li>
+						<li>
+							Chap 3: Sec 3.1, 3.2, 3.3, 3.5, 3.6
+						</li>
+					</ul>
+				</li>
+				<li><span class=date>4/13</span>
+					Midterm exam is scheduled.
+					<ul>
+						<li>4/26 (Mon) 10am~11:50am (110 min.)</li>
+						<li>Chap 1~3</li>
+						<li>Open book (course textbook only)</li>
+					</ul>
+				</li>
+				<li><span class=date>4/12</span>
+					Homework #3 is posted.
+					(due: 4/23 4pm)
+				</li>
+				<li><span class=date>4/6</span>
+					Solution for homework #2 is posted.
+				</li>
+				<li><span class=date>4/6</span>
+				All the scores (homeworks, midterm exam, final exam)
+				will be posted with passcode
+					unique to each person.
+					Please send me (<tt>minhokim@uos.ac.kr</tt>)
+					your own passcode
+					(which should not hint who you are)
+					composed of 6 alpha-numeric digits.
+					(영문과 숫자를 조합하여 6자리)
+					<br>
+					examples: ab10cd, 90aBD1, etc.
+					<br>
+					You e-mail should
+					contain (i) your name (ii) ID (학번) (iii) passcode
+					(3 candidates to avoid duplication).
+				</li>
+				<li><span class=date>4/1</span>
+					Lecture slide for Chapter 3 is updated again.
+				</li>
+				<li><span class=date>3/31</span>
+					Lecture slide for Chapter 3 is updated.
+				</li>
+				<li><span class=date>3/30</span>
+					Try Mathematica player to
+					see demos for linear algebra!
+					(Go to the <a href="materials.shtml">materials</a> page.)
+				</li>
+				<li><span class=date>3/26</span>
+					Lecture slide for chap 3 is uploaded.
+					(To be updated later, though.)
+				</li>
+				<li><span class=date>3/23</span>
+					Homework #2 is posted.
+				</li>
+				<li><span class=date>3/23</span>
+					Solution for homework #1
+					in the "homeworks" page.
+				</li>
+				<li><span class=date>3/21</span>
+				Chapter 2 slide (<a href="data/p02-handout.pdf">p02-handout.pdf</a>) has been updated.
+				</li>
+				<li><span class=date>3/21</span>
+				<a href="octave.html">GNU Octave 초간단 설명서</a>
+				is posted.
+				</li>
+				<li><span class=date>3/15</span>
+					<a href="homeworks.shtml">Homework #1</a> is posted.
+					(due: Mar 23, before class)
+				</li>
+				<li><span class=date>3/7</span>
+					Slides are uploaded in the <a href="materials.shtml">materials</a> page.</li>
+				<li>Welcome! Check out the <a href="syllabus.shtml">syllabus</a> for details.</li>
+			</ul>
+		</div>
+	</body>
+</html>

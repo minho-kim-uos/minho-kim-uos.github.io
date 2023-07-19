@@ -1,0 +1,152 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2014): syllabus</title>
+		<style type="text/css">
+			td
+			{
+//				vertical-align:top;
+			}
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Syllabus</h1>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: Computer Graphics (for undergrads)</li>
+				<li>course webpage: 
+					<a href="http://www.minho-kim.com/courses/14fa71033">http://www.minho-kim.com/courses/14fa71033</a></li>
+				<li>credits: 3</li>
+				<li>course number: 71033</li>
+				<li>hours: The 3, Thu 2-3</li>
+				<li>classroom: 19-328</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-6490-2453</li>
+				<li>office: 19-312</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading</div>
+			<ul>
+				<li>attendance/participation 10%</li>
+				<li>homeworks 10%</li>
+				<li>term design project 80%</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for pirated homework/projects (including the original one)</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>To understand how interactive 3D graphics applications work.</li>
+				<li>To implement interactive 3D graphics applications using OpenGL.</li>
+				<li>To understand the graphics pipeline.</li>
+				<li>To understand the theory of curves and surfaces.</li>
+				<li>To learn how to use 3D modeling tools.</li>
+				<li>To get familiar with the newest graphics technology (shaders, OpenGL 4, etc.).</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>prerequisite</div>
+			<ul>
+				<li>linear algebra</li>
+				<li>C/C++ programming</li>
+				<li>data structure</li>
+				<li>algorithms</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>textbooks</div>
+			<table>
+						<!--
+				<tr>
+					<td style="text-align:right;">
+						<img src="http://www.pearson.ch/images/buecher/books/9780131362628.jpg">
+					</td>
+					<td style="valign:top;">
+						<a href="http://www.4twk.com/shill/3rd-edition.html">
+							Computer Graphics using Open GL 3rd Edition
+						</a>
+						(by <a href="http://www.fshilljr.com">F.S. Hill Jr.</a> &amp; 
+						<a href="http://www.smkjr.com">Stephen M. Kelley Jr.</a>)
+						<p>
+					</td>
+				</tr>
+						-->
+				<tr>
+					<td style="text-align:right;">
+						<img src="http://www.informit.com/ShowCover.aspx?isbn=0321773039">
+					</td>
+					<td style="valign:top;">
+						<a href="http://www.opengl-redbook.com">
+							&ldquo;OpenGL Programming Guide&rdquo; 
+							(8th edition)
+						</a>
+						(by 
+						<a href="http://www.linkedin.com/in/daveshreiner">Dave Shreiner</a>, 
+						Graham Sellers,
+						John Kessenich,
+						Bill Licea-Kane)
+						<p>
+						* Good deal 
+						(62,200 KRW as of 2 Sep. 2013) can be found at
+						<a href="http://www.amazon24.co.kr/product.do?action=moveToDetail&productNo=0321773039&productGroup=Book">amazon24.co.kr</a>.
+						<p>
+						* online version for OpenGL 1.1
+						<a href="http://www.glprogramming.com/red">http://www.glprogramming.com/red</a>
+					</td>
+				</tr>
+				<!--
+				<tr>
+					<td style="text-align:right;">
+						<a href="http://www.kyobobook.co.kr/product/detailViewEng.laf?ejkGb=BNT&mallGb=ENG&barcode=9780240814308&orderClick=LAG"><img src="http://image.kyobobook.co.kr/images/book/large/308/l9780240814308.jpg"></a>
+					</td>
+					<td style="valign:top;">
+						<a href="http://www.kyobobook.co.kr/product/detailViewEng.laf?ejkGb=BNT&mallGb=ENG&barcode=9780240814308&orderClick=LAG">Blender Foundations</a>
+						(by
+						<a href="http://www.harkyman.com/what-is-harkyman">Roland Hess</a>)
+						<p>
+						*
+						<a href="http://www.blenderfoundations.com">Book page</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right">
+						<a href="http://www.dummies.com/store/product/Blender-For-Dummies-2nd-Edition.productCd-0470584467.html">
+							<img src="http://image.kyobobook.co.kr/images/book/large/460/l9780470584460.jpg">
+						</a>
+					</td>
+					<td style="valign:top">
+						<a href="https://www.kyobobook.co.kr/product/detailViewEng.laf?ejkGb=ENG&mallGb=ENG&barcode=9780470584460&orderClick=LAG">Blender for Dummies (2nd ed)</a>
+						(by 
+						<a href="http://www.linkedin.com/in/fweeb">
+							Jason van Gumster</a>)
+
+						<br>
+						* <a href="http://www.dummies.com/go/blenderfd2e">Companion web site</a>
+					</td>
+				</tr>
+				-->
+			</table>
+		</div>
+	</body>
+</html>

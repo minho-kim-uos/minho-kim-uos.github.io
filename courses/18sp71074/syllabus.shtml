@@ -1,0 +1,89 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+	<head>
+		<title>Dat Structure (spring,2018): syllabus</title>
+		<style type="text/css">
+			td
+			{
+				vertical-align:top;
+			}
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Syllabus</h1>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: Data Structure</li>
+				<li>course webpage: 
+				<a href="http://www.minho-kim.com/courses/18sp71074">http://www.minho-kim.com/courses/18sp71074</a></li>
+				<li>credits: 3</li>
+				<li>course number: 71074</li>
+				<li>hours: Thu 10-12 (6pm~8:20pm)</li>
+				<li>classroom: 19-112</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-6490-2453</li>
+				<li>office: 19-312</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading</div>
+			<ul>
+				<li>attendance/participation 10%</li>
+				<li>midterm exam 35%</li>
+				<li>final exam 35%</li>
+				<li>homework/projects 20%</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for copied homework/projects (including the original one)</li>
+				<li>no score for cheating during exams</li>
+			</ul>
+		</div>
+		<!--
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>to understand fundamentals of linear algebra: vectors, vectors spaces, and matrices</li>
+				<li>to apply linear algebra to solve engineering problems</li>
+			</ul>
+		</div>
+		-->
+		<div class=item>
+			<div class=title>textbooks</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">
+						<img width=200px src="https://www.booksr.co.kr/upload_data/catalog/cover%20(103).jpg">
+					</td>
+					<td style="valign:top;">
+							[mandatory]
+							<a href="https://www.booksr.co.kr/html/book/book.asp?seq=696059">
+								&ldquo;
+								C언어로 쉽게 풀어쓴 자료구조[개정판]
+							</a>
+							(by 천인국, 공용해, 하상호)
+						<p>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</body>
+</html>

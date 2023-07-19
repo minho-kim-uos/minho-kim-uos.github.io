@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>Final Project</title>
+		<style type="text/css">
+			li
+			{
+				margin:1em 0;
+			}
+			table.truthtable
+			{
+				border:1px black solid;
+				border-collapse:collapse;
+			}
+			table.truthtable td
+			{
+				border:1px black solid;
+				padding:5px;
+			}
+			table.truthtable td.header-in
+			{
+				background-color:black;
+				text-align:center;
+				font-weight:bold;
+				color:white;
+			}
+			table.truthtable td.header-out
+			{
+				background-color:gray;
+				text-align:center;
+				font-weight:bold;
+				color:white;
+			}
+			table.truthtable td.in
+			{
+				background-color:lightgray;
+				text-align:center;
+			}
+			table.truthtable td.out
+			{
+				text-align:center;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1 align=center>Final Project</h1>
+		<h2 align=center>Implementing a Hack &ldquo;Drawing&rdquo; Assembly Program</h2>
+		<h3 align=center style="color:red;font-weight:bold;">( Due: 11:59pm 21 Dec 2014 (Sunday) )</h3>
+	</body>
+	<div style="align:center;margin:100px;">
+	<ul>
+		<li>Goal:
+		To implement a Hack assembly program that draws a dot on the screen.
+			<ul>
+				<li>Implement required assembly programs (<tt>Div.asm</tt> and <tt>Draw.asm</tt>) and send them 
+				to me
+		(Mr.Minho.Kim@gmail.com).</li>
+			</ul>
+		</li>
+		<li>
+			<tt>Div.asm</tt>
+			<ul>
+				<li>A program that devides two non-negative integer numbers.</li>
+				<li>The program should work correctly when executed in the following steps:
+					<ol>
+						<li>Load the program <tt>Div.asm</tt> into the CPU emulator.</li>
+						<li>Clear all the memory.</li>
+						<li>Set <tt>R0</tt> and <tt>R1</tt> to the <i>dividend</i> (or <i>numerator</i>)
+								and <i>divisor</i> (or <i>denominator</i>), respectively.
+						(Two input numbers are both non-negative integers.)</li>
+						<li>Execute the program.</li>
+						<li>After the program finished, <tt>R2</tt> and <tt>R3</tt> each 
+						should contain the <i>quotient</i> and <i>remainder</i>, respectlvely.</li>
+					</ol>
+
+					For example, if <tt>R0</tt>=100 and <tt>R1</tt>=7, then after the program is executed
+					the results are <tt>R2</tt>=14 and <tt>R3</tt>=2.
+				</li>
+			</ul>
+		</li>
+		<li>
+			<tt>Draw.asm</tt>
+			<ul>
+				<li>A program that draws a dot in the screen.</li>
+				<li>The program should work correctly when executed in the following steps:
+					<ol>
+						<li>Load the program <tt>Draw.asm</tt> into the CPU emulator.</li>
+						<li>Clear all the memory.</li>
+						<li>Set <tt>R0</tt> and <tt>R1</tt> to the x and y coordinates of the 
+						dot to be drawn.
+						<li>Execute the program.</li>
+						<li>After the program finished, a black dot should be drawn at
+						the position (<tt>R0</tt>, <tt>R1</tt>).
+					</ol>
+				</li>
+
+			</ul>
+		</li>
+		<li>
+			Hints
+			<ul>
+				<li>You may need the divider program to implement <tt>Draw.asm</tt>.</li>
+				<li>Please read the <a href="http://www.nand2tetris.org/software.php">CPU emulator tutorial</a> first.</li>
+				<li>The &ldquo;break points&rdquo; feature might be really handy during debugging.</li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+</html>

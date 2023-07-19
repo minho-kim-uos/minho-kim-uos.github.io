@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>
+Installing PyOpenCL on Windows
+		</title>
+	</head>
+	<body>
+		<h1 align=center>Installing PyOpenCL on Windows</h1>
+		<ol>
+			<li>Install OpenCL SDK
+				<ul>
+					<li>
+					NVIDIA SDK: Install &ldquo;GPU Computing SDK&rdquo; at 
+					<a href="https://developer.nvidia.com/cuda-toolkit-40">https://developer.nvidia.com/cuda-toolkit-40</a>
+					</li>
+					<li>
+					AMD SDK: 
+					<a href="http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk">http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-processing-app-sdk</a>
+					</li>
+					<li>
+					Intel SDK: &ldquo;Intel SDK for OpenCL Applications&rdquo; 
+					<a href="https://software.intel.com/en-us/intel-opencl/download">https://software.intel.com/en-us/intel-opencl/download</a>
+					</li>
+					<li>
+					Intel GPU driver: 
+					<a href="http://www.intel.com/content/www/us/en/support/detect.html">http://www.intel.com/content/www/us/en/support/detect.html</a>
+					</li>
+					<li>
+	Intel CPU: OpenCL&trade; Runtime for Intel&reg; Core&trade; and Intel&reg; Xeon&reg; Processors
+	<a href="https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime">https://software.intel.com/en-us/articles/opencl-drivers#latest_CPU_runtime</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+			Install Python 3.6 at 
+			(version 3.6 is recommended)
+			<a href="https://www.python.org">https://www.python.org</a>
+			</li>
+			<li>
+Install pip
+				<ol>
+					<li>
+					Download <tt>get-pip.py</tt> at 
+					<a href="https://pip.pypa.io/en/stable/installing">https://pip.pypa.io/en/stable/installing</a>
+					</li>
+					<li>
+					Run the script by &ldquo;<tt>python get-pip.py</tt>&rdquo; in the console window.
+					</li>
+				</ol>
+			</li>
+			<li>
+			Install <a href="http://www.numpy.org">NumPy</a> package
+				<ol>
+					<li>
+					Download <tt>numpy-*-cp36-cp36-*.whl</tt> at 
+					<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy">http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy</a>
+					</li>
+					<li>
+					Run &ldquo;<tt>python -m pip install &lt;numpy_package.whl&gt;</tt>&rdquo;
+					</li>
+				</ol>
+			</li>
+			<li>
+			Install <a href="https://mathema.tician.de/software/pyopencl">PyOpenCL</a> package
+				<ol>
+					<li>
+					Download <tt>pyopencl-*-cl12-cp36-*.whl</tt> at 
+					<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopencl">http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopencl</a>
+					</li>
+					<li>
+					Run &ldquo;<tt>python -m pip install &lt;pyopencl_package.whl&gt;</tt>&rdquo;
+					</li>
+				</ol>
+			</li>
+		</ol>
+	</body>
+</html>

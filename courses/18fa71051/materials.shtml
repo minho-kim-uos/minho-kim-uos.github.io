@@ -1,0 +1,206 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2016): materials</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Materials</h1>
+		<div style="margin:100px;">
+		<ul>
+			<li>
+			<a href="https://www.dropbox.com/sh/0lxek95o6dobc78/AACkcg0YRigLShJGe3bOGf_Ma?dl=0">Lecture slides</a>
+			</li>
+			<li>
+			<a href="https://www.dropbox.com/sh/gvifhjezxpe8h6t/AADyIXx2JAXNuVOK6ztFEJima?dl=0">Lecture slides</a> (2017 course)
+			</li>
+			<li>
+			<a href="https://www.dropbox.com/sh/b0v1ee0y0nguc1n/AADB1D_GEW1sfvD_k6E48imEa?dl=0">Lecture slides</a> (2016 course)
+			</li>
+			<!--
+			<li>Lecture slides (2014 course)
+				<ul>
+					<li><a href="https://www.dropbox.com/s/ay5fxdnrywtvhv0/p0-handout.pdf?dl=0">Introduction to the Course</a></li>
+					<li><a href="https://www.dropbox.com/s/dnd2dkwqc1h2big/p1-handout.pdf?dl=0">Chapter 1: Introduction</a></li>
+					<li><a href="https://www.dropbox.com/s/nmk4cwlvhjpjd4h/p2-handout.pdf?dl=0">Chapter 2: Solving Nonlinear Equations</a></li>
+					<li><a href="https://www.dropbox.com/s/aezb4lq4xy3fvfx/p3-handout.pdf?dl=0">Chapter 3: Solving a System of Linear Equations</a></li>
+					<li><a href="https://www.dropbox.com/s/nd7xa52k1qysicd/p4-handout.pdf?dl=0">Chapter 4: Curve Fitting and Interpolation</a></li>
+					<li><a href="https://www.dropbox.com/s/izvw6kjeek36uvn/p5-handout.pdf?dl=0">Chapter 5: Numerical Differentiation</a></li>
+					<li><a href="https://www.dropbox.com/s/x35qk3cki537jfp/p6-handout.pdf?dl=0">Chapter 6: Numerical Integration</a></li>
+					<li><a href="https://www.dropbox.com/s/8pjpj9c13b8ioq4/p7-handout.pdf?dl=0">Chapter 7: Ordinary Differential Equations: Initial-Value Problems</a></li>
+					<li><a href="https://www.dropbox.com/s/pustn7hfbo6sz93/p8-handout.pdf?dl=0">Chapter 8: Ordinary Differential Equations: Boundary-Value Problems</a></li>
+					<li><a href="https://www.dropbox.com/s/rlpe5pe6h7oocoj/pA-handout.pdf?dl=0">Appendix A: Introductory MATLAB</a></li>
+				</ul>
+			</li>
+			-->
+			<li>
+				Old Exams
+				<ul>
+					<li>Midterm:
+					<a href="data/midterm2010.pdf">2010</a> /
+					<a href="data/midterm2011.pdf">2011</a> /
+					<a href="data/midterm2012.pdf">2012</a> /
+					<a href="data/midterm2013.pdf">2013</a> /
+					<a href="data/midterm2014.pdf">2014</a> /
+					<a href="data/midterm2016.pdf">2016</a> /
+					<a href="data/midterm2017.pdf">2017</a>
+					</li>
+					<li>Final:
+					<a href="data/final2010.pdf">2010</a> /
+					<a href="data/final2011.pdf">2011</a> /
+					<a href="data/final2012.pdf">2012</a> /
+					<a href="data/final2013.pdf">2013</a> /
+					<a href="data/final2014.pdf">2014</a> /
+					<a href="data/final2016.pdf">2016</a> /
+					<a href="data/final2017.pdf">2017</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Example scripts
+				<ul>
+					<li>
+						Solving Nonlinear Equations
+						<ul>
+							<li><a href="data/ch02_p42.m"><tt>ch02_p42.m</tt></a>: demo of the example on p.42-43.
+
+							<li>
+					<a href="http://demonstrations.wolfram.com">Wolfram Demonstrations Project</a> (You need to install the <a href="http://www.wolfram.com/cdf-player">CDF player</a> to try the demos.)
+								<ul>
+									<li><a href="http://demonstrations.wolfram.com/BisectionMethod">Bisection Method</a></li>
+									<li><a href="http://demonstrations.wolfram.com/FindingRootsUsingBinaryOrInterpolationSearch">Finding Roots Using Binary or Interpolation Search</a>: Bisection vs. Regula Falsi</li>
+									<li><a href="http://demonstrations.wolfram.com/NewtonsMethod">Newton's Method</a></li>
+									<li><a href="http://demonstrations.wolfram.com/LearningNewtonsMethod">Learning Newton's Method</a></li>
+									<li><a href="http://demonstrations.wolfram.com/SecantRootFindingMethod">Secant Root Finding Method</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						Solving a System of Linear Equations
+						<ul>
+							<li><a href="data/JvsGS.m"><tt>JvsGS.m</tt></a>: compares the convergence speed of Jacobi vs. Gauss-Seidel</li>
+							<li>
+					<a href="http://demonstrations.wolfram.com">Wolfram Demonstrations Project</a> (You need to install the <a href="http://www.wolfram.com/cdf-player">CDF player</a> to try the demos.)
+								<ul>
+									<li><a href="http://demonstrations.wolfram.com/UnitNormVectorsUnderDifferentPNorms">Unit-Norm Vectors under Different p-Norms</a></li>
+									<li><a href="http://demonstrations.wolfram.com/MatrixNormAndSpectralNorm">Matrix Norm and Spectral Norm</a>
+									&Vert;A&Vert;<sub>2</sub>
+									(2-norm)
+									</li>
+									<li><a href="http://demonstrations.wolfram.com/MaximumAbsoluteRowSumNorm">Maximum Absolute Row Sum Norm</a>:
+									&Vert;A&Vert;<sub>&infin;</sub>
+									(infinity-norm)
+									</li>
+									<li><a href="http://demonstrations.wolfram.com/MaximumAbsoluteColumnSumNorm">Maximum Absolute Column Sum Norm</a>:
+									&Vert;A&Vert;<sub>1</sub>
+									(1-norm)</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						Curve Fitting and Interpolation
+						<ul>
+							<li><a href="data/plot_p163.m"><tt>plot_p163.m</tt></a>: plots the example on p.163</li>
+							<li><a href="data/fit_interp.m"><tt>fit_interp.m</tt></a>:
+					Plots and compares four methods in Chap 4.
+					(Press space bar to show the interpolating polynomial.)
+					<ul>
+						<li>curve fitting (blue) with a quartic (degree 4) polynomial</li>
+
+						<li>cubic spline interpolation (red)</li>
+						<li>linear spline interpolation (magenta)</li>
+						<li>interpolating polynomial (green)</li>
+					</ul>
+					</li>
+					<li>
+						Splines
+						<ul>
+							<li><a href="http://www.globalspec.com/reference/54771/203279/chapter-5-spline-functions">Introduction to spline functions</a> by Ronald G. Mosier</li>
+							<li><a href="http://pages.cs.wisc.edu/~deboor/draftspline.html">A draftman's spline</a> by Carl de Boor</li>
+						</ul>
+					</li>
+					<li>
+					<a href="http://demonstrations.wolfram.com">Wolfram Demonstrations Project</a> (You need to install the <a href="http://www.wolfram.com/cdf-player">CDF player</a> to try the demos.)
+						<ul>
+							<li>
+						<a href="http://demonstrations.wolfram.com/CurveFitting">Curve Fitting</a> with polynomials</li>
+						<li>
+						<a href="http://demonstrations.wolfram.com/InteractiveCurveFitting">Interactive Curve Fitting</a>
+						</li>
+						<li><a href="http://demonstrations.wolfram.com/InterpolatingASetOfData/">Interpolating a Set of Data</a>
+						</li>
+						<li>
+						<a href="http://demonstrations.wolfram.com/InterpolatingPolynomial">Interpolating Polynomial</a>
+						</li>
+						<li>
+						<a href="http://demonstrations.wolfram.com/RungesPhenomenon">Runge's Phenomenon</a>
+						</li>
+					</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+			Numerical Integration
+				<ul>
+					<li>
+						<a href="http://demonstrations.wolfram.com">Wolfram Demonstrations Project</a> (You need to install the <a href="http://www.wolfram.com/cdf-player">CDF player</a> to try the demos.)
+					<ul>
+						<li><a href="http://demonstrations.wolfram.com/ComparingBasicNumericalIntegrationMethods">Comparing Basic Numerical Integration Methods</a></li>
+						<li><a href="http://demonstrations.wolfram.com/NumericalIntegrationUsingRectanglesTheTrapezoidalRuleOrSimps/">Numerical Integration using Rectangles, the Trapezoidal Rule, or Simpson's Rule</a></li>
+						<li><a href="http://demonstrations.wolfram.com/IntegrationByRiemannSums/">Integration by Riemann Sums</a></li>
+						<li><a href="http://demonstrations.wolfram.com/GaussianQuadrature/">Gaussian Quadrature</a></li>
+					</ul>
+						</li>
+				</ul>
+			</li>
+			<li>
+			Ordinary Differential Equations: Initial-Value Problems
+			<ul>
+				<li><a href="data/DemoODE.m"><tt>DemoODE.m</tt></a> Plots the solutions using three methods (Euler's explicit, modified Euler, and 4-th order Runge-Kutta methods)
+				(requires <a href="data/odeEULER.m"><tt>odeEULER.m</tt></a>, <a href="data/odeModEuler.m"><tt>odeModEuler.m</tt></a>, <a href="data/odeRK4.m"><tt>odeRK4.m</tt></a>)
+				</li>
+				<li><a href="data/DemoErrODE.m"><tt>DemoErrODE.m</tt></a> Plots how the global truncation errors change according to <i>h</i> for three methods (Euler's explicit, modified Euler, and 4-th order Runge-Kutta methods)
+				(requires <a href="data/odeEULER.m"><tt>odeEULER.m</tt></a>, <a href="data/odeModEuler.m"><tt>odeModEuler.m</tt></a>, <a href="data/odeRK4.m"><tt>odeRK4.m</tt></a>)
+				</li>
+				<li>
+						<a href="http://demonstrations.wolfram.com">Wolfram Demonstrations Project</a> (You need to install the <a href="http://www.wolfram.com/cdf-player">CDF player</a> to try the demos.)
+					<ul>
+						<li><a href="http://demonstrations.wolfram.com/FamiliesOfSolutionsForODEs">Families of Solutions for ODEs</a></li>
+						<li><a href="http://demonstrations.wolfram.com/SlopeFields">Slope Fields</a></li>
+						<li><a href="http://demonstrations.wolfram.com/FundamentalTheoremOfCalculusAndInitialValueProblems">Fundamental Theorem of Calculus and Initial Value Problems</a></li>
+						<li><a href="http://demonstrations.wolfram.com/GraphicSolutionOfAFirstOrderDifferentialEquation">Graphic Solution of a First-Order Differential Equation</a></li>
+						<li><a href="http://demonstrations.wolfram.com/EulersMethodForTheExponentialFunction">Euler's Method for the Exponential Function</a></li>
+						<li><a href="http://demonstrations.wolfram.com/NumericalMethodsForDifferentialEquations">Numerical Methods for Differential Equations</a> (explicit Euler, implicit Euler, Heun (modified Euler), classical Runge-Kutta)
+						<li><a href="http://demonstrations.wolfram.com/ComparingLeapfrogMethodsWithOtherNumericalMethodsForDifferen">Comparing Leapfrog Methods with Other Numerical Methods for Differential Equations</a>
+						<li><a href="http://demonstrations.wolfram.com/GraphicSolutionOfASecondOrderDifferentialEquation">Graphic Solution of a Second-Order Differential Equation</a></li>
+						<li><a href="http://demonstrations.wolfram.com/OneStepOfRungeKutta">One Step of Runge-Kutta</a>: The classical fourth-order Runge-Kutta method in Section 7.5.3.</li>
+						<li><a href="http://demonstrations.wolfram.com/UnderstandingRungeKutta">Understanding Runge-Kutta</a>: The classical fourth-order Runge-Kutta method in Section 7.5.3.</li>
+						<li><a href="http://demonstrations.wolfram.com/GlobalAndLocalErrorsInRungeKuttaMethods">Global and Local Errors in Runge-Kutta Methods</a></li>
+						<li><a href="http://demonstrations.wolfram.com/TwoStepAndFourStepAdamsPredictorCorrectorMethod">Two-Step and Four-Step Adams Predictor-Corrector Method</a></li>
+					</ul>
+				</li>
+			</ul>
+			</li>
+			<li>
+				Oridnary Differential Equations: Boundary-Vaue Problems
+				<ul>
+					<li>
+						<a href="http://demonstrations.wolfram.com">Wolfram Demonstrations Project</a> (You need to install the <a href="http://www.wolfram.com/cdf-player">CDF player</a> to try the demos.)
+						<ul>
+							<li><a href="http://demonstrations.wolfram.com/ShootingMethod">Shooting Method</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

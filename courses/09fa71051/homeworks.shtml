@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Differential Equations (fall,2009): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li>
+					Homework #3
+					<span style="color:red;">[due 11 Dec. (Fri.), before class]</span>
+					<a href="data/hw3.pdf">[solution]</a>
+					<ul>
+						<li>Chap 4
+							<ul>
+								<li>Ex 19-1 (p.210)</li>
+								<li>Ex 20-24 (p.220)</li>
+								<li>Ex 21-26 (p.231)</li>
+								<li>Ex 22-12 (p.240)</li>
+								<li>Ex 23-20 (p.247)</li>
+							</ul>
+						</li>
+						<li>Chap 5
+							<ul>
+								<li>Ex 24-22 (p.267)</li>
+								<li>Ex 25-29 (p.282)</li>
+								<li>Ex 26-15 (p.292)</li>
+								<li>Ex 27-17 (p.311)</li>
+							</ul>
+						</li>
+						<li>Chap 6
+							<ul>
+								<li>Ex 28AB-17 (p.322)</li>
+								<li>Ex 28C-24 (p.331)</li>
+								<li>Ex 28D-15 (p.344)</li>
+								<li>Ex 29A-27(a) (p.358)</li>
+								<li>Ex 29B-15 (p.367)</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					Homework #2 (<a href="data/hw2_ko.pdf">Korean version</a>)
+					<span style="color:red;">[due 23 Oct. (Fri.), before class]</span>
+					<a href="data/hw2.pdf">[solution]</a>
+					<ul>
+						<li>Excercise 15A, #10 (p.125)</li>
+						<li>Excercise 15D, #10. (p.133)</li>
+						<li>Excercise 15E, #9. (p.137)</li>
+						<li>Excercise 16A, #39. (p.156)</li>
+						<li>Excercise 17B, #6. (p.176)</li>
+
+					</ul>
+				</li>
+				<li>
+					Homework #1 
+					<span style="color:red;">[due 25 Sep. (Fri.) before class]</span>
+					<p>
+					"Miscellaneous Problems" (p.103~104)
+					15, 21, 27, 33, 39, 45
+					<a href="data/hw1.pdf">[solution]</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

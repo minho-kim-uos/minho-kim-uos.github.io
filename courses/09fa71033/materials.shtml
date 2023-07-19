@@ -1,0 +1,163 @@
+<html>
+	<head>
+		<title>Computer Graphics (fall,2009): materials</title>
+		<style type="text/css">
+			body
+			{
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Lecture materials</h1>
+		<ul>
+			<li>Lecture slides
+				<table>
+					<tr>
+						<td>Introduction</td>
+						<td><a href="data/fa09_CG_intro.pptx">fa09_CG_intro.pptx</a></td>
+					</tr>
+					<tr>
+						<td>Chap 1: Graphics Systems and Models</td>
+						<td><a href="data/fa09_CG_01.pptx">fa09_CG_01.pptx</a></td>
+					</tr>
+					<tr>
+						<td>Chap 2: Graphics Programming</td>
+						<td><a href="data/fa09_CG_02.pptx">fa09_CG_02.pptx</a></td>
+					</tr>
+					<tr>
+						<td>Chap 3: Input and Interaction</td>
+						<td><a href="data/fa09_CG_03.pptx">fa09_CG_03.pptx</a></td>
+					</tr>
+					<tr>
+						<td>Appendix B: Spaces</td>
+						<td><a href="data/fa09_CG_B.pdf">fa09_CG_B.pdf</a></td>
+					</tr>
+					<tr>
+						<td>Chap 4: Geometric Objects and Transformations</td>
+						<td><a href="data/fa09_CG_04.pdf">fa09_CG_04.pdf</a></td>
+					</tr>
+					<tr>
+						<td>Chap 5: Viewing</td>
+						<td><a href="data/fa09_CG_05.pptx">fa09_CG_05.pptx</a></td>
+					</tr>
+					<tr>
+						<td>Chap 6: Shading</td>
+						<td><a href="data/fa09_CG_06.pptx">fa09_CG_06.pptx</a></td>
+					</tr>
+					<tr>
+						<td>Chap 7: From Vertices to Fragments</td>
+						<td><a href="data/fa09_CG_07.pptx">fa09_CG_07.pptx</a></td>
+					</tr>
+					<tr>
+						<td>Chap 8: Discrete Techniques</td>
+						<td><a href="data/fa09_CG_08.pptx">fa09_CG_08.pptx</a></td>
+					</tr>
+					<tr>
+						<td>Chap 11: Curves and Surfaces</td>
+						<td><a href="data/fa09_CG_11_handout.pdf">fa09_CG_11_handout.pdf</a></td>
+					</tr>
+					<tr>
+						<td>Polygnal meshes, 3D file formats, vertex arrays</td>
+						<td><a href="data/fa09_CG_polymesh.pptx">fa09_CG_polymesh.pptx</a></td>
+					</tr>
+				</table>
+			</li>
+			<li>Samples
+				<ul>
+					<li>
+						UI
+						<ul>
+							<li><a href="data/reshape.c"><tt>reshape.c</tt></a></li>
+							<li><a href="data/keyboard.c"><tt>keyboard.c</tt></a></li>
+							<li><a href="data/special.c"><tt>special.c</tt></a></li>
+							<li><a href="data/mouse.c"><tt>mouse.c</tt></a></li>
+							<li><a href="data/motion.c"><tt>motion.c</tt></a></li>
+							<li><a href="data/passivemotion.c"><tt>passivemotion.c</tt></a></li>
+							<li><a href="data/idle.c"><tt>idle.c</tt></a></li>
+							<li><a href="data/timer.c"><tt>timer.c</tt></a></li>
+							<li><a href="data/menu.c"><tt>menu.c</tt></a></li>
+							<li><a href="data/postredisplay.c"><tt>postredisplay.c</tt></a></li>
+							<li><a href="data/viewer.c"><tt>viewer.c</tt></a>: Intuitive UI implemented using GLUT
+				
+						</ul>
+					</li>
+					<li>
+						Transformation
+						<ul>
+							<li>
+								<a href="data/transformation.c"><tt>transformation.c</tt></a>, 
+								<a href="data/transformation2.c"><tt>transformation2.c</tt></a>: 
+								Hierarchical transformation demo  (2D robot arm)
+							</li>
+						</ul>
+					</li>
+					<li>
+						Shading
+						<ul>
+							<li>
+							<a href="data/gouraud.c"><tt>gouraud.c</tt></a>,
+							<a href="data/gouraud2.c"><tt>gouraud2.c</tt></a>:
+								Demonstrates the artifacts of the Gouraud shading.
+							</li>
+							<li>
+							<a href="data/movelight.c"><tt>movelight.c</tt></a>:
+								Demonstrates how to transform a light source.
+								(Simple instruction at the beginning.)
+							</li>
+							<li>
+							<a href="data/normalize.c"><tt>normalize.c</tt></a>:
+							Demonstrates why we need <tt>GL_NORMALIZE</tt>.
+							</li>
+							<li>
+							<a href="data/back.c"><tt>back.c</tt></a>:
+							Demonstrates how to do back face shading.
+							(back-face culling + back-face material + two-sided lighting)
+							</li>
+						</ul>
+					</li>
+					<li>
+						Viewing
+						<ul>
+							<li>
+								<a href="data/projection.c"><tt>projection.c</tt></a>:
+								To demonstrate using perspective/orthogonal projection matrices.
+							</li>
+						</ul>
+					</li>
+					<li>
+						Etc.
+						<ul>
+							<li>
+							<a href="data/polyoffset.c"><tt>polyoffset.c</tt></a>:
+							Demonstrates the effect of <a href="http://www.opengl.org/resources/faq/technical/polygonoffset.htm">"polygon offset"</a>.
+						</ul>
+					</li>
+					<li>
+						Discrete
+						<ul>
+							<li>
+							<a href="data/rasterpos.c"><tt>rasterpos.c</tt></a>:
+							Demonstrates how 3D raster position works.
+							</li>
+							<li>
+							<a href="data/rasterclip.c"><tt>rasterclip.c</tt></a>:
+							Demonstrates what happens if a raster position is clipped.
+							</li>
+							<li>
+							<a href="data/hud.c"><tt>hud.c</tt></a>:
+							Demonstrate how to render HUD (Head-Up Displayh) texts
+							</li>
+							<li>
+							<a href="data/texmap.c"><tt>texmap.c</tt></a>:
+							Demonstrate texture mapping where the texture data is exported by <a href="http://www.gimp.org">GIMP</a>.
+							(You may also need the file <a href="data/bricks.c"><tt>bricks.c</tt></a>.)
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

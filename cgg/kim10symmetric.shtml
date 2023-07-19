@@ -1,0 +1,34 @@
+<div class=work>
+	<img class=thumbnail src="images/kim10symmetric.png">
+	<a class=title href="http://dx.doi.org/10.1016/j.jat.2010.04.007">Symmetric Box-Splines on the <i>An*</i> Lattice</a>
+	<div class=author>
+	<!--#include file="authors/minho.kim.html"-->
+	and
+	<!--#include file="authors/jorg.peters.html"-->
+	</div>
+	<a class=where href="http://www.elsevier.com/locate/jat">Journal of Approximation Theory</a>,
+	162(9),
+	pp. 1607-1630,
+	Sep.
+	<span class=year>2010</span>
+	<a class=icon href="papers/kim10symmetric.pdf"><img src="thumbnails/pdf.gif"></a>
+	<div class=abstract>
+		<div class=title>abstract</div>
+		Sampling and reconstruction of generic multivariate functions 
+	is more efficient on non-Cartesian root lattices, 
+	such as the BCC (Body-Centered Cubic) lattice, 
+	than on the Cartesian lattice. We introduce a new 
+	<i>n</i>x<i>n</i> generator matrix  <b>A</b>* 
+	 enables, 
+	in <i>n</i> variables, efficient reconstruction 
+	on the non-Cartesian root lattice  <i>An*</i> 
+	by a symmetric box-spline family <i>Mr*</i>.
+	<i>A<sub>2</sub>*</i> is the hexagonal lattice and  
+	<i>A<sub>3</sub>*</i> is the BCC lattice. We point out 
+	the similarities and differences of <i>Mr*</i> 
+	with respect to the popular Cartesian-shifted box-spline family <i>Mr</i>, 
+	document the main properties of <i>Mr*</i> 
+	and the partition induced by its knot planes and construct, 
+	in <i>n</i> variables, the optimal quasi-interpolant of <i>M<sub>2</sub>*</i>.
+	</div>
+</div>

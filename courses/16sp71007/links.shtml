@@ -1,0 +1,167 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<head>
+		<title>Linear Algebra (spring,2013): links</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<div class=title >Links</div>
+		<ul>
+			<li>
+				Linear Algebra
+				<ul>
+					<li>
+					<a href="http://en.wikibooks.org/wiki/Linear_algebra">Linear algebra</a>
+					(by <a href="http://www.wikibooks.org">Wikibooks</a>)
+					</li>
+					<li>
+						<a href="http://www.youtube.com/watch?v=xJBGfPfE4fQ">&ldquo;Vectors&rdquo;</a>
+						(YouTube video)
+					</li>
+					<li>
+						Thomas Yuster,
+						<a href="http://mathdl.maa.org/mathDL/20/?pa=content&sa=viewDocument&nodeId=3520">&ldquo;The Reduced Row Echelon Form of a Matrix is Unique: A Simple Proof&rdquo;</a>,
+						Mathematics Magazine,
+						March, 1984
+					</li>
+				</ul>
+			</li>
+			<li>
+				Video Lectures
+				<ul>
+					<li>
+					<a href="http://tryhelloworld.co.kr/courses/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%AC%B8">파이썬 입문</a>
+					at <a href="http://tryhelloworld.co.kr">helloworld</a>
+					by <a href="http://www.grepp.co">그렙(grepp)</a>
+					</li>
+					<li>
+					<a href="https://cs.brown.edu/video/channels/coding-matrix-fall-2014">Video lectures</a> by 
+					<a href="http://cs.brown.edu/~pnk">Philip N. Klein</a>
+					(Dept. of Computer Science)
+					at Brown University
+					(2014)
+					</li>
+					<li>
+					<a href="http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures">Video lectures</a>
+					(2010)
+						from 
+						<a href="http://www.mit.edu">MIT</a>
+						(original course name: <a href="http://web.mit.edu/18.06/www">18.06 Linear Algebra</a>)
+						by <a href="http://www-math.mit.edu/~gs">Gilbert Strang</a>
+						(Dept. of Mathematics, <a href="http://www.mit.edu">MIT</a>)
+					</li>
+					<li>
+						<a href="https://www.khanacademy.org/math/linear-algebra">Video lectures</a> from 
+						<a href="https://www.khanacademy.org">Khan Academy</a>
+					</li>
+					<li>
+					<a href="https://www.coursera.org/course/matrix">Online course</a>
+					at
+					<a href="https://www.coursera.org">Coursera</a>
+					by 
+					<a href="http://cs.brown.edu/~pnk">Philip N. Klein</a>
+					</li>
+
+				</ul>
+			</li>
+			<li>
+				Tools
+				<ul>
+					<li>
+					<a href="https://www.python.org">Python</a>
+						<ul>
+							<li>
+								modules
+								<ul>
+							<li>
+								<a href="http://www.sympy.org">SymPy</a>
+							</li>
+							<li>
+							<a href="http://www.numpy.org">NumPy</a>
+							</li>
+								</ul>
+							</li>
+							<li>
+								tools
+								<ul>
+							<li>
+							<a href="https://ipython.org">IPython</a>
+							</li>
+									<li>
+										<a href="https://play.google.com/store/apps/details?id=com.hipipal.qpy3&hl=en">QPython3</a>: Python 3 for Android
+									</li>
+									<li>
+										<a href="https://itunes.apple.com/us/app/pythoni3.3/id585633449?mt=8">pythoni3.3</a>: Python 3.3 app for iOS
+									</li>
+									<li>
+										<a href="https://www.pythonanywhere.com">Python Anywhere</a>:
+										Python Cloud IDE
+									</li>
+								</ul>
+							</li>
+							<li>
+							books
+								<ul>
+									<li>
+									<a href="https://wikidocs.net/book/1">점프 투 파이썬</a>
+									by 박응용
+									(Wikidocs)
+									</li>
+								</ul>
+							</li>
+							<li>
+								lectures
+								<ul>
+									<li>
+									<a href="https://www.codecademy.com/learn/python">Python @ CodeAcademy</a>
+									</li>
+									<!--
+									<li>
+									<a href="http://goto.kr/home/doku.php?id=01_lecture:%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D:%EB%B9%A0%EB%A5%B4%EA%B2%8C_%ED%99%9C%EC%9A%A9%ED%95%98%EB%8A%94_%ED%8C%8C%EC%9D%B4%EC%8D%AC_3.2_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D">빠르게 활용하는 파이썬 3.2 프로그래밍</a>
+									</li>
+									-->
+
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="http://maxima.sourceforge.net">Maxima</a>: a FREE Computer Algebra System (CAS)
+						<ul>
+							<li>
+								<a href="http://sourceforge.net/projects/maxima/files">Windows installer</a></li>
+						</ul>
+					</li>
+					<li>
+						GNU Octave: FREE Matlab clone
+						<ul>
+							<li>
+								<a href="http://www.gnu.org/software/octave">Homepage</a>
+							</li>
+							<li>
+								<a href="http://octave.sourceforge.net">Octave-Force</a>: Windows installer can be found here
+							</li>
+							<li>
+							<a href="http://www.network-theory.co.uk/docs/octave3">GNU Octave Manual Version 3</a>
+							</li>
+							<li>
+							<a href="http://xoctave.webs.com">Xoctave</a>: GLU Octave Interface for Win32 (requires Octave installed)
+								</li>
+						</ul>
+					</li>	
+					<li>
+					<a href="http://www.wolfram.com/products/player">Mathematica Player</a>:
+					Free viewer for Mathematica notebook files.
+					</li>
+					<li>
+						<a href="http://www.sagemath.org">Sage</a>: FREE open-source  mathematics software system
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

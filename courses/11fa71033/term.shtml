@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>Term project gallery</title>
+	</head>
+	<style type="text/css">
+		tr.name td
+		{
+			text-align:center;
+			background-color:silver;
+			font-weight:bold;
+			padding:10px;
+		}
+		tr.work td
+		{
+			text-align:center;
+		}
+	</style>
+	<body>
+		<h1 align=center>Term project gallery</h1>
+		<h2 align=center>(randomly sorted)</h2>
+		<table align=center>
+			<tr class=name>
+				<td>태영병원 (김태형+최영도+유병화+정원혁)</td>
+				<td>주주 (유주열+박한주)</td>
+			</tr>
+			<tr class=work>
+				<td>
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/4eW6B4nCQdA" frameborder="0" allowfullscreen></iframe>
+				</td>
+				<td>
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/I1AQ9aLjC_Q" frameborder="0" allowfullscreen></iframe>
+				</td>
+			</tr>
+			<tr class=name>
+				<td colspan=2>
+					4Men (김정훈+진승언+최병기+백록선)
+				</td>
+			</tr>
+			<tr class=work>
+				<td>
+					<iframe width="420" height="315" src="http://www.youtube.com/embed/PiPIBGoQH9w" frameborder="0" allowfullscreen></iframe>
+				</td>
+				<td>
+					<iframe width="420" height="315" src="http://www.youtube.com/embed/Fi42PqsXC9w" frameborder="0" allowfullscreen></iframe>
+				</td>
+			</tr>
+			<tr class=name>
+				<td>김오이 (김훈+이재욱)</td>
+				<td>묵이 (강상묵+이영우)</td>
+			</tr>
+			<tr class=work>
+				<td>
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/QQtWFjHBFFY" frameborder="0" allowfullscreen></iframe>
+				</td>
+				<td>
+					<iframe width="420" height="315" src="http://www.youtube.com/embed/NQE9us7KvOk" frameborder="0" allowfullscreen></iframe>
+				</td>
+			</tr>
+			<tr class=name>
+				<td>슈퍼개미 (김세형+민재홍)</td>
+				<td>(이현진+하석주+오지웅)</td>
+			</tr>
+			<tr class=work>
+				<td>
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/jDLJgZonZl4" frameborder="0" allowfullscreen></iframe>
+				</td>
+				<td>
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/9ulBJz9u16g" frameborder="0" allowfullscreen></iframe>
+				</td>
+			</tr>
+			<tr class=name>
+				<td>(오동일+천미란)</td>
+				<td>쇠구슬 (신희재+김유환)</td>
+			</tr>
+			<tr class=work>
+				<td>
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/kM5QM3yXfpw" frameborder="0" allowfullscreen></iframe>
+				</td>
+				<td>
+					<iframe width="420" height="315" src="http://www.youtube.com/embed/HsTm45MhvXI" frameborder="0" allowfullscreen></iframe>
+				</td>
+			</tr>
+			<tr class=name>
+				<td colspan=2>김진수+홍인표</td>			
+			</tr>
+			<tr class=work>
+				<td>
+					<iframe width="420" height="315" src="http://www.youtube.com/embed/KdwF-26g5dI" frameborder="0" allowfullscreen></iframe>
+				</td>
+				<td>
+					<iframe width="420" height="315" src="http://www.youtube.com/embed/1HMVAVEb040" frameborder="0" allowfullscreen></iframe>
+				</td>
+			</tr>
+			<tr class=name>
+				<td>아크 (김원태+최효주+이영무)</td>
+			</tr>
+			<tr class=work>
+				<td>
+					<iframe width="420" height="315" src="http://www.youtube.com/embed/MLXywXupfjM" frameborder="0" allowfullscreen></iframe>
+				</td>
+			</tr>
+
+		</table>
+	</body>
+</html>
+

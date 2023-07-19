@@ -1,0 +1,23 @@
+	body
+	{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+	}
+	a.menu
+	{
+		background-color:dimgray;
+		padding:5px;
+		text-decoration:none;
+		color:silver;
+		font-weight:bold;
+		font-size:120%;
+		font-family:courier new;
+	}
+	a.menu:hover
+	{
+		color:white;
+		background-color:orange;
+	}
+	span.warning
+	{
+		color:red;
+	}

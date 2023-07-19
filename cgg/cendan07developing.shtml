@@ -1,0 +1,21 @@
+<div class=work>
+	<img class=thumbnail src="images/cendan07developing.png">
+	<a class=title href="http://dx.doi.org/10.1007/s00464-006-9119-2">Developing a Multimedia Environment for Customized Teaching of an Adrenalectomy</a>
+	<div class=author>
+	<!--#include file="authors/juan.cendan.html"-->,
+	<!--#include file="authors/minho.kim.html"-->,
+	<!--#include file="authors/sergei.kurenov.html"-->
+	and
+	<!--#include file="authors/jorg.peters.html"-->,
+	</div>
+	<!--<a class=where href="http://www.springerlink.com/content/100368">Surgical Endoscopy</a>,-->
+	<a class=where href="http://www.springer.com/medicine/surgery/journal/464">Surgical Endoscopy</a>,
+	21(6),
+	pp. 1012-1016,
+	Jun. 
+	<span class=year>2007</span>.
+	<div class=abstract>
+		<div class=title>abstract</div>
+		We have developed a computer based simulation process which allows a surgical expert to create a customized operative environment. This virtual environment, the Toolkit for Illustration of Procedures in Surgery (3D TIPS), is deployed on a low-cost computer system and requires minimal training for the programmer. The learner can be engaged in training immediately and the educator can modify the system and annotate the procedure to highlight specific points using video clips, operative images, and the like. A laparoscopic adrenalectomy is presented as a proof of concept in the accompanying article.
+	</div>
+</div>

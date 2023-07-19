@@ -1,0 +1,71 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2010): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+					[12/9]
+					<a href="proj3/proj3.shtml">Project #3</a>
+					is posted.
+					(Due: 17 Dec. 11:59pm)
+				</li>
+				<li>
+					[10/28]
+					<a href="proj2/proj2.shtml">Project #2</a>
+					is posted. 
+					Hoooooray!
+					(Due: 12 Nov. 11:59pm)
+				</li>
+				<li>
+					[9/28]
+					<a href="proj1/proj1.shtml">Project #1</a>
+					is posted. (Due: 8 Oct. 11:59pm)
+				</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

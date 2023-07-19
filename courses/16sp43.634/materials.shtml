@@ -1,0 +1,55 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Advanced Computer Graphics (spring,2016): materials</title>
+		<style type="text/css">
+			body
+			{
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Lecture materials</h1>
+		<ul>
+			<li>
+			Lecture notes (fall 2016)
+				<ul>
+					<li><a href="https://www.dropbox.com/s/m0q30zvg0dtz3yn/p03.pdf?dl=0">Chapter 3</a></li>
+					<li><a href="https://www.dropbox.com/s/mim0yczj4g505zw/p04.pdf?dl=0">Chapter 4</a></li>
+					<li><a href="https://www.dropbox.com/s/rznqadogbo4dug5/p05.pdf?dl=0">Chapter 5</a></li>
+					<li><a href="https://www.dropbox.com/s/sw7fcviqq6keux7/p06.pdf?dl=0">Chapter 6</a></li>
+					<li><a href="https://www.dropbox.com/s/ebgn8vjxq8576iz/p07.pdf?dl=0">Chapter 7</a></li>
+					<li><a href="https://www.dropbox.com/s/nis2wtdry38bzai/p08.pdf?dl=0">Chapter 8</a></li>
+					<li><a href="https://www.dropbox.com/s/rjio3em1gla6tuk/p14.pdf?dl=0">Chapter 14</a></li>
+					<li><a href="https://www.dropbox.com/s/ji55j7p24n4mrcs/p17.pdf?dl=0">Chapter 17</a></li>
+					<li><a href="https://www.dropbox.com/s/xe091jyilvaq0yj/p21.pdf?dl=0">Chapter 21</a></li>
+					<li><a href="https://www.dropbox.com/s/18vclifwyo3t1hl/splines-proof.pdf?dl=0">Supplementary</a></li>
+				</ul>
+
+			</li>
+			<li>
+				old exams
+				<ul>
+					<li><a href="https://www.dropbox.com/s/azml5lgvf2vhpww/midterm-fa2011.pdf?dl=0">midterm exam (fall,2011)</a></li>
+					<li><a href="https://www.dropbox.com/s/9iathyitfc20xud/midterm-sp2014.pdf?dl=0">midterm exam (spring,2014)</a></li>
+					<li><a href="https://www.dropbox.com/s/j4k5jf76dn6ly4m/final-sp2014.pdf?dl=0">final exam (spring,2014)</a></li>
+				</ul>
+			</li>
+			<li>Lecture slides for &ldquo;Topics in Computer Graphics (fall,2011)&rdquo;
+				<ul>
+					<li><a href="data/p02-handout.pdf">Chapter 2</a></li>
+					<li><a href="data/p03-handout.pdf">Chapter 3</a></li>
+					<li><a href="data/p04-handout.pdf">Chapter 4</a></li>
+					<li><a href="data/p05-handout.pdf">Chapter 5</a></li>
+					<li><a href="data/p06-handout.pdf">Chapter 6</a></li>
+					<li><a href="data/p07-handout.pdf">Chapter 7</a></li>
+					<li><a href="data/p08-handout.pdf">Chapter 8</a></li>
+					<li><a href="data/p14-handout.pdf">Chapter 14</a></li>
+					<li><a href="data/p17-handout.pdf">Chapter 17</a></li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Topics in Computer Graphics (spring,2014): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li><span class=date>4/21</span>
+				As announced during the lecture,
+				the midterm exam will be held as follows.
+				<ul>
+					<li>When: 28 Apr 3-5pm</li>
+					<li>Coverage: Chapter 1-6</li>
+					<li>Note: Open book exam (You can bring the textbook and lecture slides printouts)</li>
+				</ul>
+				</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

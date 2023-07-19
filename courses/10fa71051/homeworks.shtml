@@ -1,0 +1,77 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2010): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li>
+					[11/25] Homework #3
+					(Due: before class (10am) 10 Dec.)
+					<ul>
+						<li>Problems 8.1, 8.4, 8.8: Use calculator</li>
+						<li>Problems 8.11, 8.12, 8.14, 8.19(a), 8.21(a):
+						Send Octave codes to T.A.</li>
+					</ul>
+				</li>
+				<li>
+					[10/20] Homework #2
+					(Due: before class (11am) 26 Oct.)
+					<ul>
+						<li>Problems 4.3, 4.9, 4.10, 4.13, 4.14, 4.24 (Octave)</li>
+						<li>Implement Jacobi method using Octave</li>
+						<li>Submit problems solved in paper except 4.24</li>
+						<li>Send Octave codes (problem 4.24 and Jacobi method) to T.A.</li>
+					</ul>
+				</li>
+				<li>[9/30] Homework #1
+				(Due: before class (11am) 12 Oct.)
+					<ul>
+						<li>Problems (p.84~92) 3.3, 3.14, 3.15</li>
+						<li>Implement a modified bisection method,
+						where the interval is divided into three
+						(not two) at each step,
+						using Octave.
+						Send the Octave source code
+						to
+						the course TA
+						<a href="mailto:banana.yong@gmail.com">banana.yong@gmail.com</a>.
+						</li>
+						<li>
+							[10/7] More about the homework #1
+							<ul>
+								<li>3.14
+									<ul>
+										<li><tt>BisectionRoot.m</tt>이란 이름의 function script를 작성하여 조교에게 메일로 보낼 것.</li>
+										<li>Example 3-1의 script를 참고하여 구현해도 좋음.</li>
+									</ul>
+								</li>
+								<li>
+									3.15
+									<ul>
+										<li><tt>SquareRoot.m</tt>이란 이름의 function script를 작성하여 조교에게 메일로 보낼 것.</li>
+									</ul>
+								</li>
+								<li>
+									Trisection method
+									<ul>
+										<li><tt>TriSectionRoot.m</tt>이란 이름의 function script를 작성하여 조교에게 메일로 보낼 것.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

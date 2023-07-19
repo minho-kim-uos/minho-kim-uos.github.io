@@ -1,0 +1,28 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+	</head>
+	<body>
+		<h1 align=center>Note for the Final Exam</h1>
+			<ul>
+				<li>
+					전체 문제는 4문제이고, sub problem들이 있습니다.
+				</li>
+				<li>
+					5-8장마다 각 1문제씩 출제됩니다.
+				</li>
+				<li>
+				기존의 기말고사 문제와 문제 유형이 매우 비슷합니다.
+				예전 문제들을 꼭 풀어보시기 바랍니다.
+				(같은 문제가 나오지는 않습니다.)
+				</li>
+				<li>
+				Taylor series, 특히 remainder를 사용하는 분석기법을 잘 숙지하시기 바랍니다.
+				</li>
+				<li>
+				준비 잘 하시고 시험시간에 맞춰 늦지 않게 오시기 바랍니다.
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

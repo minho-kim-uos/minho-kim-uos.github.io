@@ -1,0 +1,132 @@
+<html lang="ko">
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+	<head>
+		<title>Homework #1 Showcase</title>
+		<style type="text/css">
+		table
+		{
+			border-width:10px;
+		}
+		td
+		{
+		}
+		tr.name td
+		{
+			background-color:silver;
+			font-size:large;
+			font-weight:bold;
+			text-align:center;
+			padding:10px;
+		}
+		tr.work td
+		{
+			text-align:center;
+			margin-bottom:1cm;
+		}
+		</style>
+	</head>
+	<body>
+		<h1 align=center>Homework #1 Gallery</h1>
+		<table align=center>
+			<tr class=name>
+				<td>강상묵</td>
+				<td>김세형</td>
+				<td>김원태</td>
+			</tr>
+			<tr class=work>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/isp85c30Ztk" frameborder="0" allowfullscreen></iframe></td>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/iscPzUz2jF4" frameborder="0" allowfullscreen></iframe></td>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/GT6aCg_W6cc" frameborder="0" allowfullscreen></iframe></td>
+			</tr>
+			<tr class=name>
+				<td>김유환</td>
+				<td>김정훈</td>
+				<td>김진수</td>
+			</tr>
+			<tr class=work>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/B0vVhGlmh1A" frameborder="0" allowfullscreen></iframe></td>
+<!--				<td><a href="http://tk3829.tistory.com/entry/blender-%EC%9D%B4%EB%A6%84">link</a></td>
+-->
+				<td><embed src="http://flvs.daum.net/flvPlayer.swf?vid=cs9SFnqDEkQ%24&amp;pwidth=502&amp;pheight=399" width="502" height="399" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" bgcolor="#000000"></td>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/CLtPj8cDcbI" frameborder="0" allowfullscreen></iframe></td>
+			</tr>
+			<tr class=name>
+				<td>김태형</td>
+				<td>김훈</td>
+				<td>민재홍</td>
+			</tr>
+			<tr class=work>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/v8NV_gB1-kU" frameborder="0" allowfullscreen></iframe></td>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/YW_ZT2uNbE8" frameborder="0" allowfullscreen></iframe></td>
+				<td>게임</td>
+			</tr>
+			<tr class=name>
+				<td>박한주</td>
+				<td>백록선</td>
+				<td>신희재</td>
+			</tr>
+			<tr class=work>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/TIADR3p01Uk" frameborder="0" allowfullscreen></iframe></td>
+				<td>blend only</td>
+				<td><iframe width="420" height="315" src="http://www.youtube.com/embed/4DUIu_684Mg" frameborder="0" allowfullscreen></iframe></td>
+			</tr>
+			<tr class=name><td>오동일</td>
+				<td>오지웅</td>
+				<td>유병화</td>
+			</tr>
+			<tr class=work>
+				<td>blend only</td>
+				<td><a href="http://www.youtube.com/watch?v=hwjX4lRB3Uw">http://www.youtube.com/watch?v=hwjX4lRB3Uw</a></td>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/tCz694Jkeys" frameborder="0" allowfullscreen></iframe></td>
+			</tr>
+			<tr class=name>
+				<td>유주열</td>
+				<td>이영무</td>
+				<td>이영우</td>
+			</tr>
+			<tr class=work>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/AmyXvIpTAaY" frameborder="0" allowfullscreen></iframe></td>
+				<td><iframe width="420" height="315" src="http://www.youtube.com/embed/h_vl0llbXv4" frameborder="0" allowfullscreen></iframe></td>
+				<td>blend only</td>
+			</tr>
+			<tr class=name>
+				<td>이재욱</td>
+				<td>이현진</td>
+				<td>정원혁</td>
+			</tr>
+			<tr class=work>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/kYADOpUWswg" frameborder="0" allowfullscreen></iframe></td>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/DvhUU6plju0" frameborder="0" allowfullscreen></iframe></td>
+				<td><iframe width="420" height="315" src="http://www.youtube.com/embed/upPG79xYO1w" frameborder="0" allowfullscreen></iframe></td>
+			</tr>
+			<tr class=name>
+				<td>진승언</td>
+				<td>천미란</td>
+				<td>최병기</td>
+			</tr>
+			<tr class=work>
+				<td><a href="https://docs.google.com/leaf?id=0BwGF9FqTAjh8OGU0MjJhNzUtYjM3Mi00MjM0LThiMjktODIzN2RhZDA5YzVm&hl=en_US">link</a></td>
+				<td>blend only</td>
+				<td><a href="http://bigfile.naver.com/bigfileupload/download?fid=zdKwFAJOM4K9FqtjK3Ywa3YZKAuwKxgZKqUZKxtmFCeoF6uwK4trM4pvazUZFrKZFAFopAtmFoJ0azFSMriSpg==">link</a></td>
+			</tr>
+			<tr class=name>
+				<td>최영도</td>
+				<td>최효주</td>
+				<td>하석주</td>
+			</tr>
+			<tr class=work>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/tF8VxrcPtJM" frameborder="0" allowfullscreen></iframe></td>
+				<td><iframe width="420" height="315" src="http://www.youtube.com/embed/bZfJqk5Gnl0" frameborder="0" allowfullscreen></iframe></td>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/jz8FPTjP7n8" frameborder="0" allowfullscreen></iframe></td>
+			</tr>
+			<tr class=name>
+				<td>홍인표</td>
+				<td>홍창수</td>
+			</tr>
+			<tr class=work>
+				<td><iframe width="560" height="315" src="http://www.youtube.com/embed/oCxkqsQoQBQ" frameborder="0" allowfullscreen></iframe></td>
+				<td>blend only</td>
+			</tr>
+		</table>
+	</body>
+</html>

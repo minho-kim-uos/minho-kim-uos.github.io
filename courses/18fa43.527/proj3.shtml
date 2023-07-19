@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<title>Project #3 (fall, 2017)</title>
+		<style type="text/css">
+			table.ctrl
+			{
+				border:1px solid black;
+				border-collapse:collapse;
+			}
+			table.ctrl td
+			{
+				padding:5px;
+				border:1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align=center>Project #3</h1>
+		<h2 align=center style="color:red;">(due: <strike>18 Dec (Mon) 11:59pm</strike> 22 Dec (Fri) 11:59pm)</h2>
+		<table>
+			<tr>
+				<td><img src="https://upload.wikimedia.org/wikipedia/en/6/63/Luxo_Jr._poster.jpg">
+				<td><iframe width="560" height="315" src="https://www.youtube.com/embed/Mj-fZ8Qf8wY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></td>
+			</tr>
+		</table>
+		<ul>
+			<li>Goal: To imeplement the "luxo" lamp.</li>
+			<li>Requirements
+			<ul>
+				<li>Viewing transformation: <tt>setLookAt(0, 0, 3, 0, 0, 0, 0, 1, 0);</tt></li>
+				<li>Projection transformation: <tt>setPerspective(60, 1, 1, 5);</tt></li>
+				<li>Canvas size: 512&times;512</li>
+				<li>Shading model: Phong reflection model + Phong interpolation (per-fragment shading)</li>
+				<li>Room
+					<ul>
+						<li>Composed of five walls (back, left, right, top, bottom).</li>
+						<li>Each wall needs to be assigned different materials.</li>
+						<li>Each wall has its size 2&times;2.</li>
+						<li>The room is centered at (0,0,0) of the world coordinate system.</li>
+					</ul>
+				</li>
+				<li>
+					The axes need not be rendered.
+				</li>
+				<li>Lights (minimum 2 light sources need to be implemented.)
+					You need to set the ambient/diffuse/specular properties appropriately.
+					<ul>
+						<li>A (point type) ceiling light at (0,0.9,0).</li>
+						<li>A (spot type) head lamp at the head of the luxo lamp.</li>
+					</ul>
+				</li>
+				<li>
+					Luxo parts
+					<ul>
+						<li>The luxo is composed of four parts:
+							base, lower arm, upper arm, head</li>
+						<li>You can set the material properties of each part 
+							as you want.</li>
+						<li>The base is in the shape of a "box" and it needs to
+							be on the surface of the "bottom" wall. You can set the size
+								of the box appropriately.  </li>
+						<li>The lower arm is in the shape of a "box"
+							and it needs to be connected to the base and the upper arm.</li>
+						<li>The upper arm is in the shape of a "box"
+							and it needs to be connected to the lower arm and the head.</li>
+						<li>The head is in the shape of a <a href="http://mathworld.wolfram.com/ConicalFrustum.html">conical frustum</a> and it needs to be connected to the upper arm.</li>
+					</ul>
+				</li>
+
+				<li>
+					The luxo needs to be controlled by ten sliders.
+					<table class=ctrl>
+						<tr>
+							<td>name</td><td>range</td><td>step</td><td>description</td>
+						</tr>
+						<tr>
+							<td>x</td><td>[-1,+1]</td><td>0.01</td><td>Controls the x-coordinate of the base of the luxo.</td>
+						</tr>
+						<tr>
+							<td>z</td><td>[-1,+1]</td><td>0.01</td><td>Controls the z-coordinate of the base of the luxo.</td>
+						</tr>
+						<tr>
+							<td>shoulder1</td><td>[-180,+180]</td><td>1</td>
+								<td rowspan=2>Controls the joint between the base and the lower arm. </td>
+						</tr>
+						<tr>
+							<td>shoulder2</td><td>[0,+180]</td><td>1</td>
+						</tr>
+						<tr>
+							<td>lower arm</td><td>[0.1,1.0]</td><td>0.01</td> <td>Controls the length of the lower arm.</td>
+						</tr>
+						<tr>
+							<td>elbow</td><td>[-180,+180]</td><td>1</td><td>Controls the joint between the lower and upper arms.</td>
+						</tr>
+						<tr>
+							<td>upper arm</td><td>[0.1,1.0]</td><td>0.01</td> <td>Controls the length of the lower arm.</td>
+						</tr>
+						<tr>
+							<td>head1</td><td>[-180,+180]</td><td>1</td>
+								<td rowspan=2>Controls the joint between the upper arm and the head. </td>
+						</tr>
+						<tr>
+							<td>head2</td><td>[0,+180]</td><td>1</td>
+						</tr>
+						<tr>
+							<td>cut-off angle</td><td>[1,90]</td><td>1</td><td>Controls the cut-off angle of the head lamp.</td>
+						</tr>
+
+					</table>
+					<ul>
+					</ul>
+				</li>
+			</ul>
+            </li>
+            <li>
+				Instructions
+				<ul>
+					<li>
+						Submit two files only. The file names should be
+						<ul>
+						<li><tt>proj3.html</tt>
+						(You can start with 
+						 <a href="https://www.dropbox.com/s/z3fk743pgvw5mcu/proj3.html?dl=0">this file</a> and mofify it.)</li>
+							<li><tt>proj3.js</tt> 
+							(To avoid being rejected by the mail server,
+							 please change the name of this file to <tt>proj3.txt</tt>.)</li>
+						<li><tt>README.txt</tt></li>
+						</ul>
+					</li>
+					<li>
+						Do submit any compressed file. Just attach the files as they are.
+					</li>
+					<li>
+					You should submit a <tt>README</tt> file
+						about your implemntation.
+						(What you successfully implemented,
+						what you failed to implement, etc.)
+					</li>
+
+					<li>
+					You should use the following four libraries ONLY 
+						and include them as below.
+						<div style="border:black 1px solid;">
+							<xmp>
+     <script src="../lib/webgl-utils.js"></script>
+     <script src="../lib/webgl-debug.js"></script>
+     <script src="../lib/cuon-utils.js"></script>
+     <script src="../lib/cuon-matrix.js"></script>
+							</xmp>
+						</div>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<hr>
+		<div style="text-align:center;margin-bottom:100px">
+		last updated 12 Dec. 2017  
+		</div>
+	</body>
+</html>

@@ -1,0 +1,70 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2013): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<!--
+				<li><span class=date>10/24</span>
+				The class will be held in the room #317 from tomorrow
+				(25 Oct) due to the system requirement for OpenGL 3.3.
+				</li>
+				<li><span class=date>9/10</span>
+				No class will be held this week.
+				</li>
+				-->
+				<li><span class=date>12/23</span> Please
+				download,
+				fill, and send me <a href="data/eval-form.txt">the peer-review form</a>
+				as soon as possible.
+				<li>
+				<li><span class=date>9/12</span> Lecture slide for Chap 2 is uploaded.</li>
+
+				<li><span class=date>9/9</span> Lecture slide for Chap 1 is updated.</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

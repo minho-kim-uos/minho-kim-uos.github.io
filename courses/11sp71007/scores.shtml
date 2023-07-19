@@ -1,0 +1,224 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2010): Scores</title>
+		<style type="text/css">
+		<!--#include file="style-menu.css"-->
+			table
+			{
+				border-spacing:0px;
+			}
+			td
+			{
+				border-top:solid thin black;
+				border-bottom:solid thin black;
+				border-collapse:collapse;
+				padding-left:5px;
+				padding-right:5px;
+			}
+			td.id
+			{
+				font-family:courier;
+				font-weight:bold;
+			}
+			td.score
+			{
+				text-align:right;
+			}
+			tr.header td
+			{
+				text-align:center;
+				background-color:lightgray;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Scores</h1>
+		<table align=center>
+			<tr class=header>
+				<td rowspan=2>ID</td>
+				<td>hw#1</td>
+				<!--
+				<td>hw#2</td>
+				<td>hw#3</td>
+				<td>midterm</td>
+				-->
+			</tr>
+			<tr class=header>
+				<td class=score>80</td>
+			</td>
+			<tr>
+				<td class=id>880223</td>
+				<td class=score>60.0</td>
+			</tr>
+			<tr>
+				<td class=id>1014ja</td>
+				<td class=score>47.5</td>
+			</tr>
+			<tr>
+				<td class=id>25bb80</td>
+				<td class=score>52.5</td>
+			</tr>
+			<tr>
+				<td class=id>321ewq</td>
+				<td class=score>67.5</td>
+			</tr>
+			<tr>
+				<td class=id>a12345</td>
+				<td class=score>65.0</td>
+			</tr>
+			<tr>
+				<td class=id>alive1</td>
+				<td class=score>77.5</td>
+			</tr>
+			<tr>
+				<td class=id>army01</td>
+				<td class=score>72.5</td>
+			</tr>
+			<tr>
+				<td class=id>cool77</td>
+				<td class=score>50.0</td>
+			</tr>
+			<tr>
+				<td class=id>diwk00</td>
+				<td class=score>72.5</td>
+			</tr>
+			<tr>
+				<td class=id>hi1126</td>
+				<td class=score>70.0</td>
+			</tr>
+			<tr>
+				<td class=id>hrgm21</td>
+				<td class=score>77.5</td>
+			</tr>
+			<tr>
+				<td class=id>i32767</td>
+				<td class=score>52.5</td>
+			</tr>
+			<tr>
+				<td class=id>jm4500</td>
+				<td class=score>65.0</td>
+			</tr>
+			<tr>
+				<td class=id>jsp008</td>
+				<td class=score>65.0</td>
+			</tr>
+			<tr>
+				<td class=id>jump15</td>
+				<td class=score></td>
+			</tr>
+			<tr>
+				<td class=id>jy0224</td>
+				<td class=score>45.0</td>
+			</tr>
+			<tr>
+				<td class=id>kkh005</td>
+				<td class=score>72.5</td>
+			</tr>
+			<tr>
+				<td class=id>km96jm</td>
+				<td class=score>72.5</td>
+			</tr>
+			<tr>
+				<td class=id>liy845</td>
+				<td class=score>30.0</td>
+			</tr>
+			<tr>
+				<td class=id>N4V733</td>
+				<td class=score>67.5</td>
+			</tr>
+			<tr>
+				<td class=id>qq9639</td>
+				<td class=score>65.0</td>
+			</tr>
+			<tr>
+				<td class=id>sin180</td>
+				<td class=score>77.5</td>
+			</tr>
+			<tr>
+				<td class=id>sj221z</td>
+				<td class=score>52.5</td>
+			</tr>
+			<tr>
+				<td class=id>sj8716</td>
+				<td class=score>57.5</td>
+			</tr>
+			<tr>
+				<td class=id>wnghd1</td>
+				<td class=score>62.5</td>
+			</tr>
+			<tr>
+				<td class=id>yj0205</td>
+				<td class=score>72.5</td>
+			</tr>
+			<tr>
+				<td class=id>ysj326</td>
+				<td class=score>57.5</td>
+			</tr>
+			<tr>
+				<td class=id>z9y8x7</td>
+				<td class=score>67.5</td>
+			</tr>
+			<tr>
+				<td class=id>zhsks2</td>
+				<td class=score>55.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>75.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>40.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>45.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>77.5</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>55.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>45.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>45.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>42.5</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>50.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>37.5</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>30.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score><del>27.5</del><br>0.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score>70.0</td>
+			</tr>
+			<tr>
+				<td class=id></td>
+				<td class=score><del>27.5</del><br>0.0</td>
+			</tr>
+		</table>
+	</body>
+</html>

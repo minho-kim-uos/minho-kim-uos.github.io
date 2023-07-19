@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Homework #2</title>
+	</head>
+	<body>
+		<h1 align=center>Homework #2: OpenGL Fireworks Tank</h1>
+		<img style="display:block;" src="hw2.png">
+		<ul>
+			<li>
+				<span style="font-weight:bold;color:blue;">Due: 1 Dec 11:59pm</span>
+				<span style="font-weight:bold;color:red;">(Please DO NOT send any EXE file!
+					It will be bounced by the spam filter!)</span>
+			</li>
+			<li>
+				Keyboard control
+				<ul>
+					<li>Up/down arrow: changes the "elevation angle" of the cannon.</li>
+					<li>Left/right arrow: changes the "traversal angle" of the cannon.</li>
+					<li>w/s: moves the tank forward/backword.</li>
+					<li>a/d: changes the orientation of the tank.</li>
+					<li>Page up/down: changes the elevation angle of the camera.</li>
+					<li>Home/end: rotates the camera.</li>
+					<li>-/+(=): zooms out/in.</li>
+					<li>Spacebar: shoots a fire.</li>
+					<li>p: pauses the animation.</li>
+					<li>Ctrl+Page Up/Down: changes the rendering level of the tank.
+					(May help to understand rendering process.)</li>
+				</ul>
+			</li>
+			<li>
+				Requirements
+				<ul>
+					<li>Implement UI for tank control.
+						<ul>
+							<li>To change the elevation angle of the cannon.</li>
+							<li>To change the traversal angle of the cannon.</li>
+							<li>To move forward/backward.</li>
+							<li>To change the orientation.</li>
+						</ul>
+					</li>
+					<li>
+						Simulate the trajectory of the cannon ball.
+						<ul>
+							<li>The motion should follow that of a trajectory.</li>
+							<li>It's ok to have only one cannon ball at a time.
+							(Simulating multiple balls simutaneously may be tricker.)</li>
+							<li>Each ball should act as a point light source.</li>
+							<li>The ball should disappear when hit the ground.</li>
+							<li>Put several objects (teapot, cone, sphere, etc.) on the ground so that 
+								the light effect can be seen.</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Executables
+				<ul>
+					<li><a href="data/hw2_linux_64">Linux (64bit)</a></li>
+					<li><a href="data/hw2_winxp_32.exe">Windows XP (32bit)</a></li>
+					<li><a href="data/hw2_win7_64.exe">Windows 7 (64bit)</a></li>
+				</ul>
+				Samples
+				<ul>
+					<li><a href="data/arm.cpp"><tt>arm.cpp</tt></a></li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

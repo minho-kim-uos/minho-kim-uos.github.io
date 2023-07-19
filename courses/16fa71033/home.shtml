@@ -1,0 +1,80 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2016): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li><span class=date>16 Nov</span>
+					<ul>
+						<li>
+					The due date for the midterm project is
+					posted.
+					(30 Nov 11:59pm)
+						</li>
+						<li>
+						Next week (21 &amp; 24 Nov) is a break week,
+						but we won't have any break.
+							Instead we will have
+							lab activities.
+							Please bring your laptops
+							(or use the PCs in the lab)
+							and work on your midterm project.
+						</li>
+					</ul>
+				</li>
+				<li><span class=date>29 Oct</span>
+					Midterm project page (draft version)
+					is open.
+					(Check out the &ldquo;projects&rdquo; tab above.)
+				</li>
+				<li><span class=date>9 Oct</span>
+					Homework #1 is posted.
+					Sorry for the delay.
+				</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

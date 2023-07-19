@@ -1,0 +1,147 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Mathematical Models for Engineering Problems 
+			and Differential Equations (fall,2016): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+					<span class=date>12/27</span>
+					<ul>
+						<li>
+					<a href="data/2016fa_ode_grades.pdf">Homeworks scores</a> are posted.
+						</li>
+						<li><a href="data/midterm-2016-solution.pdf">Solution for midterm exam</a> is posted.</li>
+						<li><a href="data/final-2016-solution.pdf">Solution for final exam</a> is posted.</li>
+						<li><a href="data/16fa_ode_midterm_scores.pdf">Midterm Exam Scores</a></li>
+						<li><a href="data/16fa_ode_final_scores.pdf">Final Exam Scores</a></li>
+						<li>
+						<span class=note>
+							본인의 passcode를 모르는 학생은 조교에게 문의하시기 바랍니다.
+						</span>
+						</li>
+						<li>
+						<span class=note>
+							본인의 시험지를 확인하고 싶은 학생은 
+							<u>반드시 미리 연락한 후</u>
+							28일 오후 혹은 29일 오전에 방문하시기 바랍니다.
+						</span>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>12/19</span>
+					<a href="final-note.shtml">Note for the Final Exam</a>
+				</li>
+				<li>
+					<span class=date>12/13</span>
+					Homework #5 is posted.
+					(due: 21 Dec 6pm)
+				</li>
+
+				<li>
+					<span class=date>12/6</span>
+					Homework #4 is posted.
+					(due: 13 Dec 6pm)
+				</li>
+				<li>
+					<span class=date>12/5</span>
+					Final exam 
+					<ul>
+						<li>when: 20 Dec 2016 (Tuesday) 1-2:50pm</li>
+						<li>coverage: Chapters 5~8</li>
+						<li>open book exam: <span class=note>Textbook</span> &amp; <span class=note>lecture slides printouts</span> are allowed <span class=note>ONLY</span>.</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/15</span>
+					As announced during the class,
+					during the next week,
+					<ul>
+						<li>there will be 
+							class
+							on 21 Nov (Mon), but</li>
+						<li>
+						there will be <u>NO CLASS</u>
+					on 22 Nov (Tue).
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/9</span>
+					Homework #3 is posted.
+					(due: 28 Nov 6pm)
+				</li>
+				<li>
+					<span class=date>10/21</span>
+					Midterm exam
+					<ul>
+						<li>when: 25 Oct 2016 (Tuesday) 1-2:50pm</li>
+						<li>coverage: Chapter 1-4</li>
+						<li>open book exam: <span class=note>Textbook</span> &amp; <span class=note>lecture slides printouts</span> are allowed <span class=note>ONLY</span>.</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>10/18</span>
+					Homework #2 is posted.
+					(due: 1 Nov 6pm)
+				</li>
+				<li>
+					<span class=date>10/10</span>
+					In homework #1, you don't need to
+					solve the problem 2.14(b) on p.56.
+					(But you should solve 2.14(a).)
+				</li>
+				<li>
+					<span class=date>9/27</span>
+					Homework #1 is posted.
+					(due: 11 Oct 6pm)
+				</li>
+				<li>
+					Welcome!
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

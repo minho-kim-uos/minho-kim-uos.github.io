@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>GNU Octave 초간단 설명서</title>
+	</head>
+	<body>
+		<h1 align=center>GNU Octave 초간단 설명서</h1>
+		<h2>다운로드 및 설치</h2>
+		<a href="http://octave.sourceforge.net">Octave-Force</a>에서 윈도우즈용 설치 화일을 다운로드 받아 설치한다.
+		<h2>기초</h2>
+		<ul>
+			<li>GNU Octave 명령어 입력 창에서 여러 명령어를 입력하거나, 스크립트 화일을 만들어 한 번에 실행할 수 있다.</li>
+			<li>명령어 끝에 ;를 붙이면 현재 명령어의 결과가 화면에 출력되지 않는다.</li>
+		</ul>
+		<h2>Linear Algebra</h2>
+		<ul>
+			<li>column vector 만들기: v=[1;2;3]</li>
+			<li>row vector 만들기: v=[1,2,3]</li>
+			<li>2x3 크기의 matrix 만들기:
+			m = [1,2,3;4,5,6]</li>
+			<li>transpose: v'</li>
+			<li>dot product: dot(u,v) 혹은 [1,2,3]*[1;2;3]</li>
+			<li>element-wise 곱셈: u.*v</li>
+			<li>rank: rank(m)</li>
+			<li>reduced row echelon form 만들기:
+				rref(m)</li>
+		</ul>
+		<h2>현재 경로</h2>
+		<ul>
+			<li>스크립트를 실행하려면, "현재 경로"를 스크립트 화일이 있는 위치로 변경해야 한다.</li>
+			<li>"현재 경로"를 알려면 명령어 pwd를 실행하면 된다.</h1>
+			<li>현재 경로를 바꾸려면 cd 명령어를 이용한다.</li>
+			<li>디렉토리의 내용을 보려면 ls 명령어를 이용한다.</li>
+		</ul>
+		<h2>스크립트</h2>
+		<ul>
+			<li>Octave의 명령어 모임을 하나의 화일로 만든 후 실행할 수 있다.</li>
+			<li>스크립트 화일의 이름을 "myfile.m"의 형태로 한다.</li>
+			<li>스크립트를 실행하려면, 현재 경로를 스크립트 화일이 있는 경로로 변경한 후, (확장자 없이) 화일 이름을 명령어로 실행하면 된다. (ex: myfile)</li>
+		</ul>
+	</body>
+</html>

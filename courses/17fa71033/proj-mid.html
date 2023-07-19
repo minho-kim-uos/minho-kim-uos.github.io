@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>Midterm Project: &ldquo;Falling Stars&rdquo;</title>
+	</head>
+	<body>
+		<h1 align=center>Midterm Project: &ldquo;Falling Stars&rdquo;</h1>
+		<ul>
+			<li>
+			Objective:
+			To build an interactive animation 
+			&ldquo;Falling Stars&rdquo;
+			</li>
+			<li style="color:red;">
+			(Due: 30 Nov 11:59pm)
+			</li>
+			<li>
+			Requirements:
+				<ul>
+					<li>Render a terrain in the scene.
+						The terrain can be a simple square,
+						but the fancier it looks, 
+						the more points you can get.
+						<br>
+						Suggested terrain rendering methods:
+						<ul>
+							<li>To render a fixed terrain
+							using &ldquo;height maps&rdquo;.</li>
+							<li>To implement a &ldquo;Procedural Terrain Generation&rdquo;
+								algorithm to generate the terrain in real time.
+							</li>
+						</ul>
+					</li>
+					<li>
+						Implement a UI (mouse or keyboard)
+						such that the user can interactively
+						move the camera.
+						(Refer to <tt>mouse_examine.cpp</tt> sample.)
+					</li>
+					<li>
+						Implement falling stars.
+						<ul>
+							<li>Each star should act as a point light source.</li>
+							<li>Make the intensity &ldquo;attenuated&rdquo;
+							for more interesting effect.</li>
+							<li>Make the stars fall and the terrain is shaded
+							accordingly.
+							You can implement any fancier effect, e.g. fireworks.
+							</li>
+							<li>Assign various colors to the stars
+							so that the scene can be interesting.</li>
+							<li>Too many number of stars may slow down
+							the rendering performance.</li>
+						</ul>
+					</li>
+					<li>
+					Be creative as much as possible!
+					</li>
+				</ul>
+			</li>
+			<li>
+				NOTES
+				<ul>
+					<li>(21 Nov) 
+					In addition to the source codes,
+					please send a <tt>README</tt> file that
+					describes
+						<ul>
+							<li>which requirements you successfully implemented and</li>
+							<li>what you've done as extras, 
+								using which techniques, etc.</li>
+						</ul>
+					</li>
+					<li>(16 Nov) 
+					You can find some information about terrain
+					in <a href="http://www.lighthouse3d.com/opengl/terrain/index.php?introduction">&ldquo;Terrain Tutorial&rdquo;</a> by <a href="http://www.lighthouse3d.com/">Lighthouse3d</a>.
+						For example,
+					<a href="http://www.lighthouse3d.com/opengl/terrain/index.php?normals">This page</a> will be helpful for normal computation.</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<head>
+		<title>Linear Algebra (spring,2016): syllabus</title>
+		<style type="text/css">
+			td
+			{
+				vertical-align:top;
+			}
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<div class=title >Syllabus</div>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: Linear algebra</li>
+				<li>course webpage: 
+					<a href="http://www.minho-kim.com/courses/16sp71007">http://www.minho-kim.com/courses/16sp71007</a></li>
+				<li>credits: 3</li>
+				<li>course number: 71007</li>
+				<li>hours: </li>
+				<li>classroom: </li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-6490-2453</li>
+				<li>office: 19-312</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading</div>
+			<ul>
+				<li>attendance/participation 10%</li>
+				<li>midterm exam 35%</li>
+				<li>final exam 35%</li>
+				<li>homework/projects 20%</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for copied homework/projects (including the original one)</li>
+				<li>no score for cheating during exams</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>to understand fundamentals of linear algebra: vectors, vectors spaces, and matrices</li>
+				<li>to apply linear algebra to solve various problems in computer science</li>
+				<li>to learn <a href="http://www.python.org">Python</a> to implement and practice related algorithms</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>textbooks</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">
+						<img width="300" src="http://ecx.images-amazon.com/images/I/71PAenlrXwL.jpg">
+					</td>
+					<td style="valign:top;">
+						<a href="http://www.codingthematrix.com">
+							&ldquo;
+							Coding the Matrix: Linear Algebra through Applications to Computer Science
+							&rdquo;</a>
+						(by 
+							<a href="http://cs.brown.edu/~pnk">Philip N. Klein</a>)
+						<ul>
+							<!--
+							<li><a href="http://book.interpark.com/product/BookDisplay.do?_method=Detail&sc.shopNo=0000400000&sc.dispNo=&sc.prdNo=213276576">인터파크</a></li>
+							-->
+							<li><a href="http://www.yes24.com/24/goods/11089616?scode=032&OzSrank=2">예스24</a></li>
+							<li><a href="http://www.kangcom.com/sub/view.asp?sku=2013F0980634">강컴닷컴</a></li>
+							<!--
+							<li><a href="http://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=coding+the+matrix&x=0&y=0">알라딘</a></li>
+							-->
+							<li>(Much cheaper) <a href="http://www.amazon.com/Coding-Matrix-Algebra-Computer-Applications-ebook/dp/B00VSN9NHY/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=">Amazon Kindle e-book</a> is available. <span style="color:red">But some figures are missing and the pages are not consistent with the printed version.</span></li>
+						</ul>
+						<!--
+						* Can be purchased at the campus bookstore.
+						-->
+					<div>
+						* <a href="https://cs.brown.edu/video/channels/coding-matrix-fall-2014">Video lectures</a>
+						by the author at Brown University (2014)
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

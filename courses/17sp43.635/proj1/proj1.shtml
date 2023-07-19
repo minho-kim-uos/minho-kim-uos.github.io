@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<title>
+		</title>
+	</head>
+	<body>
+		<h1 align=center>Project #1: 2D drawing tool</h1>
+		<h2 align=center style="color:red">Due: 8 Oct. 11:59pm</h2>
+		<div style="text-align:center">
+		<img src="proj1.png" style="border:1px solid black">
+		</div>
+		<ul>
+			<li>
+				Directions
+				<ul>
+					<li><span style="font-weight:bold;color:red">Due: 8 Oct. 11:59pm</span></li>
+					<li>Send an e-mail with your code attached.</li>
+					<li>Describe, in detail, how your code can be compiled.</li>
+					<li>Send all the files required to compile. Otherwise, you may lose points.</li>
+					<li>Make sure your code is compiled correctly.</li>
+					<li>You can use other languages other than C,
+						(C++, Java, etc.) but describe how to compile (or run) your code carefully.</li>
+				</ul>
+			</li>
+			<li>
+				Objective: To implement a simple 2D drawing tool.
+			</li>
+			<li>
+				Executables
+				<ul>
+					<li><a href="proj1.lin64"><tt>proj1.lin64</tt></a>: for linux 64 bit</li>
+					<li><a href="proj1.xp32.exe"><tt>proj1.xp32.exe</tt></a>: for Windows XP 32 bit</li>
+				</ul>
+				<b>Let me know if you have any problem with the executables!</b>
+			</li>
+			<li>
+				Requirements
+				<ul>
+					<li>
+						Let the user draw 2D shapes.
+						<ul>
+							<li>White background</li>
+							<li>Use double-buffering to avoid blinking</li>
+							<li>
+							The user can draw a shape
+							by dragging the mouse with 
+							the left button pressed.</li>
+							<li>While dragging,
+							a bounding box with black dashed line
+							should be shown.</li>
+							<li>
+							The bounding box should be
+							changing dynamically while dragging.</li>
+							<li>
+							When the user is drawing an oval,
+							an oval with dashed line
+							should be shown, too.</li>
+							<li>
+							When the user stops dragging
+							by releasing the left mouse button,
+							a shape should be drawn with 
+							current properties
+							(shape, color, fill type, and line width).</li>
+							<li>
+							New shapes should "overwrite" old ones.</li>
+						</ul>
+					</li>
+					<li>
+						Let the user change the properties
+						from the pop-up menu.
+						<ul>
+							<li>The menu
+							should pop up when the right button is clicked.</li>
+							<li>
+								The menu should be organized as follows:
+								<div style="border:1px solid black;">
+								<ul>
+									<li>Shape
+										<ul>
+											<li>Rectangle</li>
+											<li>Oval</li>
+										</ul>
+									</li>
+									<li>Color
+										<ul>
+											<li>Black</li>
+											<li>Red</li>
+											<li>Green</li>
+											<li>Blue</li>
+										</ul>
+									</li>
+									<li>Filled
+										<ul>
+											<li>Filled</li>
+											<li>Empty</li>
+										</ul>
+									</li>
+									<li>Line width
+										<ul>
+											<li>1</li>
+											<li>2</li>
+											<li>3</li>
+											<li>4</li>
+											<li>5</li>
+										</ul>
+									</li>
+									<li>Reset
+									</li>
+								</ul>
+								</div>
+							</li>
+							<li>"Reset" clears all the shapes drawn so far.</li>
+						</ul>
+					</li>
+					<li>
+						Let the user change the window size.
+						<ul>
+							<li>
+								To make things easy,
+								use a 2D orthographic projection
+								whose x- and y-dimensions are is the same
+								as the window size.
+							</li>
+							<li>
+								The shapes should stay the same
+								even when the window is resized.
+							</li>
+							<li>
+								The bottom-left corner should be fixed.
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Challenges
+				<ul>
+					<li>How to implement menus?</li>
+					<li>How to set up the orthographic projetion as required?</li>
+					<li>How to figure out where the mouse position where the user clicks?</li>
+					<li>How to handle "dragging"?</li>
+					<li>How to render an oval?</li>
+					<li>How to render dashed lines? (<tt>glLineStipple</tt>)</li>
+					<li>How to change the line width? (<tt>glLineWidth</tt>)</li>
+					<li>How to render a filled polygon? (<tt>glPolygonMode</tt>)</li>
+					<li>How to render a bounding box while dragging?</li>
+				</ul>
+			</li>
+			<li>
+				Notes
+				<ul>
+					<li>When the user selects an item from the pop-up menu,
+					a "mouse button up" event is triggered.
+					Handle this situation carefully.</li>
+				</ul>
+			</li>
+		</ul>
+		<hr>
+	</body>
+</html>

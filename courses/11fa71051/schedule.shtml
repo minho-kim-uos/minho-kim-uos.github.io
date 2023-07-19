@@ -1,0 +1,193 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2011): schedule</title>
+		<style type="text/css">
+			div.topic
+			{
+				font-weight:bold;
+			}
+			div.topic:before
+			{
+//				content:open-quote;
+				content:"\"";
+			}
+			div.topic:after
+			{
+//				content:close-quote;
+				content:"\"";
+			}
+			tr.header td
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:center;
+			}
+			td.week
+			{
+				font-size:200%;
+				font-weight:bold;
+				text-align:right;
+			}
+			table
+			{
+				border-collapse:collapse;
+			}
+			td
+			{
+				border-top:1px dashed black;
+				border-bottom:1px dashed black;
+				padding-left:5px;
+				padding-right:5px;
+			}
+			tr.header td
+			{
+				border-top:2px solid black;
+				border-bottom:2px solid black;
+			}
+			td ul
+			{
+				margin:0px;
+				list-style-type:square;
+			}
+		<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Course Schedule</h1>
+		<table align=center>
+			<tr class=header>
+				<td>week</td>
+				<td>topics</td>
+				<td>materials</td>
+			</tr>
+			<tr>
+				<td class=week>1</td>
+				<td>
+					Introduction to numerical methods
+				</td>
+				<td>
+<!--					<a href="data/p1_handout.pdf">p1_handout.pdf</a>
+-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td>
+					Introduction to
+					GNU Octave/MATLAB<br>
+					Mathematical background<br>
+					Solving a nonlinear equation
+				</td>
+				<td>
+					<!--
+					<a href="data/pA_handout.pdf">pA_handout.pdf</a>
+					<br>
+					<a href="data/p2_handout.pdf">p2_handout.pdf</a>
+					<br>
+					<a href="data/p3_handout.pdf">p3_handout.pdf</a>
+					-->
+				</td>
+			</tr>
+			<tr style="background-color:gray;">
+				<td class=week>3</td>
+				<td>
+					Ãß¼®¿¬ÈÞ
+				</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td class=week>4</td>
+				<td>
+					Solving a system of equations
+				</td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td>
+					Function approximation, curve fitting, and interpolation
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td>
+					Differentiation
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>7</td>
+				<td>
+					Integration
+				</td>
+				<td></td>
+			</tr>
+			<tr style="background-color:orange;">
+				<td class=week>8</td>
+				<td>
+					Midterm exam
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td>
+					Introduction to ODE (ordinary differential equations)
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td>
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td>
+					Fist order ODEs
+				</td>
+
+				<td></td>
+			</tr>
+			<tr style="background-color:gray">
+				<td class=week>12</td>
+				<td>
+					Break
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>14</td>
+				<td>
+					Second order ODEs
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td></td>
+			</tr>
+			<tr style="background-color:orange;">
+				<td class=week>16</td>
+				<td>
+					Final exam
+				</td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2018): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.note
+	{
+		color:red;
+	}
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+	span.date:before
+	{
+		content:"[";
+	}
+	span.date:after
+	{
+		content:"]";
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li>
+					<span class=date>6/14</span>
+					<a href="https://www.dropbox.com/s/xnobl3mw27exlll/hw3.pdf?dl=0">Homework #3</a>
+					(due: 22 Jun (Fri) 6pm, Please submit
+					yours to the TA in room 206, IT building.
+					If no one is in the room,
+					put it in my mailbox in room 202.)
+				</li>
+				<li>
+					<span class=date>5/17</span>
+					<a href="https://www.dropbox.com/s/ijn7uh1thekdspn/hw2.pdf?dl=0">Homework #2</a>
+					(due: 30 May (Wed) 6pm, Please submit
+					yours to the TA in room 206, IT building.)
+				</li>
+				<li>
+					<span class=date>4/10</span>
+					Homework for Chapter 2
+					<span style="color:red;">
+					(due: 25 Apr (Wed) 6pm, Please submit
+					yours to the TA in room 206, IT building.)
+				</span>
+					<ul>
+						<li>sec 2.2 (p.51~55): 6, 11</li>
+						<li>sec 2.3 (p.63~66): 27</li>
+						<li>sec 2.4 (p.75~80): 32</li>
+						<li>sec 2.5 (p.89~94): 7, 30</li>
+						<li>sec 2.6 (p.102~106): 13, 19</li>
+						<li>sec 2.7 (p.115~119): 31, 40</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Project #1</title>
+	</head>
+	<body>
+		<h1 align=center>Project #1</h1>
+		<img width=512 src="data/screenshot.png">
+		<ul>
+			<li>
+			executables
+				<ul>
+					<li>
+			<a href="data/racecar_w32.exe"><tt>racecar_w32.exe</tt></a>:
+			for Win32. requires <tt>glew32.dll</tt> and <tt>freeglut.dll</tt> to run.
+					</li>
+					<a href="data/racecar_osx"><tt>racecar_osx</tt></a>:
+					for OSX. tested on OSX 10.10 Yosemite.
+					<li>
+					shaders:
+					<a href="data/axes.vert"><tt>axes.vert</tt></a>
+					<a href="data/axes.frag"><tt>axes.frag</tt></a>
+					<a href="data/car.vert"><tt>car.vert</tt></a>
+					<a href="data/car.frag"><tt>car.frag</tt></a>
+					<a href="data/room.vert"><tt>room.vert</tt></a>
+					<a href="data/room.frag"><tt>room.frag</tt></a>
+
+					</li>
+				</ul>
+			</li>
+			<li>Goal: Implement a racecar.</li>
+			<li>UI
+				<ul>
+					<li>left arrow: turn left</li>
+					<li>right arrow: turn right</li>
+					<li>up arrow: go forward</li>
+					<li>down arrow: go backward</li>
+				</ul>
+			</li>
+			<li>
+				Render floor and four walls in different colors.
+			</li>
+			<li>
+				Render the car as you want.
+			</li>
+		</ul>
+	</body>
+</html>

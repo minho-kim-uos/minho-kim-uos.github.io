@@ -1,0 +1,15 @@
+<?       $configfile = shell_exec(" ls ../.htuserinfo.php ");
+         if(!$configfile){
+         print "<script>window.alert('환경파일이 없거나 삭제 되었습니다. 관리자에게 문의하세요.');history.go(-1)</script>";
+         }
+?>
+<html>
+<head>
+<title>비누넷 웹메니져</title>
+</head>
+<frameset cols="130,*" frameborder=0>
+   <frame src="menu.htm" name="menu" scrolling="no" marginwidth=20 marginheight=20>
+   <frame src="main.htm" name="main" scrolling="auto" marginwidth=20 marginheight=20>
+</frameset>
+</html>
+

@@ -1,0 +1,161 @@
+<html>
+	<head>
+		<title>Project #3-1: 2D cubic B&eacute;zier curve editor</title>
+		<style type="text/css">
+			body
+			{
+				font-family:arial;
+			}
+			a.menu
+			{
+				background-color:dimgray;
+				padding:5px;
+				text-decoration:none;
+				color:silver;
+				font-weight:bold;
+				font-size:120%;
+				font-family:courier new;
+			}
+			a.menu:hover
+			{
+				color:white;
+				background-color:orange;
+			}
+			span.score:before
+			{
+				content:"[";
+			}
+			span.score:after
+			{
+				content:"pts]";
+			}
+			span.score 
+			{
+				font-weight:bold;
+				color:red;
+			}
+			table.screenshot tr td
+			{
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align="center">Project #3-1: 2D cubic B&eacute;zier curve editor</h1>
+		GOAL:
+		Implement an interactive 2D cubic B&eacute;zier curve editor.
+		<p>
+		<div style="background-color:silver;padding:10px;">
+			Demo programs
+			<ul>
+				<li><a href="proj3-1/proj3-1-xp32.exe">Windows XP 32bit</a></li>
+				<li><a href="proj3-1/proj3-1-linux64">Linux 64bit</a></li>
+			</ul>
+		</div>
+		Requirements (total <span class=score>210</span>):
+		<ul>
+			<li>
+				Window management
+				<ul>
+					<li><span class=score>5</span>
+					Put your name and passcode in the titlebar.
+					</li>
+					<li><span class=score>10</span>
+					Always show the area (-1.5,-1.5)&times;(1.5,1.5)
+					in the window regardless of the window size.
+					The marginal area must be rendered, too.
+					(i.e., the viewport should be the same as the whole window all the time.)
+					</li>
+				</ul>
+			</li>
+			<li>Render a cubic B&eacute;zier curve in three different ways.
+				<ul>
+					<li><span class=score>10</span>
+						Evaluates points on the curve using
+						OpenGL <tt>glMap</tt> and <tt>glEvalCoord</tt>
+						and approximate the curve with a piecewise linear curve.
+						(Render the evaluation points and line segments in white color.)
+					</li>
+					<li><span class=score>50</span>
+						Evaluates points on the curve using
+						the de Casteljau's algorithm
+						and approximate the curve with a piecewise linear curve.
+						(Render the evaluation points and line segments in <span style="color:cyan;">cyan</span> color.)
+					</li>
+					<li><span class=score>80</span>
+						Subdivide the control points (control polygon)
+						up to certain depth (0 for no subdivision)
+						and render eacah of the subdivided 
+						control polygons to approximate the curve.
+						(Render the subdivided control polygons
+						in 
+						<span style="color:yellow;">yellow</span> 
+						and
+						<span style="color:violet;">violet</span> 
+						colors
+						alternatively. See the screenshot below.)
+					</li>
+				</ul>
+			</li>
+			<li>
+				Implement user interface.
+				<ul>
+					<li><span class=score>20</span>
+						Let the user can pick and drag any of 
+						four control points.
+						You can adopt whatever picking method you want.
+					</li>
+					<li><span class=score>10</span>
+						The control polygon and the curve
+						should change accordingly 
+						dynamically while moving any control point.
+					</li>
+					<li><span class=score>10</span>
+						Keyboard interface:
+						<ul>
+							<li>
+						The number of evaluation points
+						can be increased/decreased by UP/DOWN arrow keys.
+							</li>
+							<li>
+						The subdivision depth can be increased/decreased
+						by PageUp/PageDown keys.
+							</li>
+							<li>
+								Three rendering modes can be switched
+								circularly by TAB key.
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Display detailed info.
+				<ul>
+					<li><span class=score>5</span>
+						Display current position of each control point
+						beside.
+						The position info should change dynamically
+						when moving the control points.
+					</li>
+					<li><span class=score>10</span>
+						Display detailed info on the bottom-left corner
+						of the screen
+						(number of evaluated points,
+						current subdivision depth,
+						current rendering (evaluation) method, etc.)
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<table class=screenshot align=center>
+			<tr><td><img src="proj3-1/screenshot-glMap.png"></td></tr>
+			<tr><td>(curve evaluated using <tt>glMap</tt> function)</td></tr>
+			<tr><td><img src="proj3-1/screenshot-deCasteljau.png"></td></tr>
+			<tr><td>(curve evaluated using de Castaljau's algorithm)</td></tr>
+			<tr><td><img src="proj3-1/screenshot-subdivision.png"></td></tr>
+			<tr><td>(curve approximated by subdivided control points)</td></tr>
+		</table>
+	</body>
+</html>

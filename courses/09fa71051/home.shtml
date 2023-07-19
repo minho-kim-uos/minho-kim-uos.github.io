@@ -1,0 +1,233 @@
+<html>
+	<head>
+		<title>Differential Equations (fall,2009): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.</h3>
+		<div class="announce">
+			<ul>
+				<li>
+					<span class=date>12/11</span>
+					<a href="data/hw3.pdf">Homework #3 solution</a>
+					is posted.
+				</li>
+				<li>
+					<span class=date>12/10</span>
+					<a href="data/p10.pdf">p10.pdf</a> is updated.
+				</li>
+				<li>
+					<span class=date>12/5</span>
+					<a href="data/p10.pdf">p10.pdf</a> is uploaded.
+					(You can find all the lecture notes
+					in the 
+					<a href="materials.shtml">materials</a> or
+					<a href="schedule.shtml">schedule</a> page.)
+				</li>
+				<li>
+					<span class=date>11/20</span>
+					<a href="homeworks.shtml">Homework #3</a> is posted.
+					<span style="color:red">[due: 11 Dec. (Fri.) before class]</span>
+				</li>
+				<li>
+					<span class=date>11/17</span>
+					<a href="data/p06.pdf">p06.pdf</a>
+					is updated.
+				</li>
+				<li>
+					<span class=date>11/17</span>
+					<a href="midterm.shtml">Midterm score</a> is posted.
+					Note that passcodes of more than 4 digits are truncated to 4 digits.
+					<p>
+					<span style="color:red">
+					You may not able to find your score
+					if you didn't send me your passcode yet.
+					Please send your passcode (4digits, consisting of
+					alphabets and numbers)
+					as soon as possible!
+					</span>
+				</li>
+				<li>
+					<span class=date>11/13 5:52pm</span>
+					<a href="data/p05.pdf">p05.pdf</a> is updated.
+				</li>
+				<li>
+					<span class=date>11/13</span>
+					<a href="data/p06.pdf">p06.pdf</a> is uploaded.
+				</li>
+				<li>
+					<span class=date>11/11</span>
+					<a href="data/p05.pdf">p05.pdf</a> is updated.
+				</li>
+				<li>
+					<span class=date>11/2</span>
+					Slide for Chap 5 (<a href="data/p05.pdf">p05.pdf</a>) is posted.
+				</li>
+				<li>
+					<span class=date>10/31</span>
+					<a href="data/midterm.pdf">Solution for midterm</a>
+					is posted.
+				</li>
+				<li>
+					<span class=date>10/26</span>
+					<a href="data/hw2.pdf">Solution for homework #2</a>
+					is uploaded.
+					Let me know if you find any mistake.
+				</li>
+				<li>
+					<span class=date>10/23 0:02am</span>
+					<a href="data/p04.pdf">p04.pdf</a> has been updated.
+				</li>
+				<li>
+					<span class=date>10/21 11:42pm</span>
+					Page 31 of <a href="data/p04.pdf">p04.pdf</a> has been updated.
+				</li>
+				<li>
+					<span class=date>10/20</span>
+					<b>Due date for homework #2 delayed.</b>
+					Since it is the midterm week,
+					the due date for the homework #2 is delayed to
+					<span style="color:red;">6pm 26 Oct. (Mon.)</span>.
+					Bring and submit your homework directly to me
+					in my office (room 312).
+					(Please slip your homework under the door if I am not 
+					in the office.)
+					<span style="color:red;font-weight:bold;">[WARNING: I won't accept
+					the homework after the due date this time.
+					Please submit your homework in time!]</span>
+				</li>
+				<li>
+					<span class=date>10/20</span>
+					Remark on the question 15A, #10:
+					To solver the problem,
+					please assume that the volume of water
+					does not change after the chemical is added.
+					In other words,
+					after 300 gal of chemical is added to the tank A
+					filled with 5000 gal of water,
+					the volume remains 5000 gal.
+				</li>
+				<li>
+					<span class=date>10/18</span>
+					Homework #2: 
+					<ul>
+						<li>Excercise 15A, #10 (p.125)</li>
+						<li>Excercise 15D, #10. (p.133)</li>
+						<li>Excercise 15E, #9. (p.137)</li>
+						<li>Excercise 16A, #39. (p.156)</li>
+						<li>Excercise 17B, #6. (p.176)</li>
+					</ul>
+					I translated the questions
+					into <a href="data/hw2_ko.pdf">Korean</a>.
+					Please let me know if there is any error!
+					<span style="color:red;">[due: 10am 23 Oct. (Fri.), before class]</span>
+				</li>
+				<li>
+					<span class=date>10/15</span>
+					Midterm exam! Hooooray!
+					<ul>
+						<li>date/time: 10am~11:50am (2~3 periods) on 
+						<span style="font-weight:bold;color:red;">30 Oct.</span></li>
+						<li>Chap 1~3 covered</li>
+						<li>Open book (You can bring any material you want.)</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>10/11</span>
+					Lecture slide for chap 4 (<a href="data/p04.pdf">p04.pdf</a>) has been posted.
+				</li>
+				<li>
+					<span class=date>9/29</span>
+					<a href="data/hw1.pdf">Solution for homework #1</a> is posted.
+				</li>
+				<li>
+					<span class=date>9/25</span>
+					Late submission of homework #1:
+					You can submit your homework by Monday in my office.
+					(Slide it under the door if I'm not in.)
+					<span style="color:red;font-weight:bold;">To be fair, there will be penalty. 
+					You will get only 50% of what you've done.</span>
+				</li>
+				<li>
+					<span class=date>9/22</span>
+					<a href="homeworks.shtml">Homework #1</a> is posted.
+					<span style="color:red;">[due: 25 Sep. (Fri.) before class]</span>
+				</li>
+				<li><span class=date>9/17 00:10</span>
+					<a href="data/p02.pdf">p02.pdf</a> has been updated, again!
+					Please check if you have the latest version.
+				</li>
+				<li><span class=date>9/16</span>
+				교과서설문의 "기초설문조사" 참여도가 너무 저조하오니 많이 참여해주시기 바랍니다.
+				</li>
+				<li><span class=date>9/11 00:57am</span>
+					<a href="data/p02.pdf">p02.pdf</a> has been updated.
+					Please check if you have the latest version.
+				</li>
+				<li><span class=date>9/10</span>
+					Proving &int;(1/<i>x</i>)d<i>x</i>=log|<i>x</i>|.
+					<ul>
+						<li>For <i>x</i>&gt;0,<br>
+							&int;(1/<i>x</i>)d<i>x</i>=log<i>x</i>.
+						</li>
+						<li>For <i>x</i>&lt;0, let 
+							<i>y</i>=-<i>x</i> then<br>
+							&int;(1/<i>x</i>)d<i>x</i>=&int;(1/<i>y</i>)d<i>y</i>
+							=log<i>y</i>=log(-<i>x</i>).
+						</li>
+					</ul>
+					Therefore, &int;(1/<i>x</i>)d<i>x</i>=log|<i>x</i>|.
+				</li>
+				<li><span class=date>9/10</span>
+					<a href="materials.shtml">Materials</a> page created.
+					Lecture slides can be found either <a href="materials.shtml">materials</a> or <a href="schedule.shtml">schedule</a> page.
+				</li>
+				<li><span class=date>9/3</span>
+					The textbooks are not ready in the bookstore yet,
+					but they will arrive soon. (hopefully this week)
+					Sorry for the delay.
+				</li>
+				<li><span class=date>9/3</span> Welcome. 
+					In this course, `passcode' will be used to post your scores for your privacy. 
+					Please send your own passcode (composed of 4 alpha-numeric characters) to 
+					<a href="mailto:minhokim@uos.ac.kr">me</a> as soon as possible. 
+					In case of conflicts, please send at least three candidates.
+					For example, your e-mail may look as follows:
+					<table style="border:1px solid black"><tr><td>
+					name: Minho Kim<br>
+					id: 20090000<br>
+					passcodes: (1)1a2b (2)2b3c (3)abcd
+					</td></tr></table>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

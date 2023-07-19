@@ -1,0 +1,164 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2012): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.</h3>
+		<div class="announce">
+			<ul>
+				<li><span class=date>6/29</span>
+				<a href="data/LA-2012-score-final.pdf">Grade for the final exam</a> is posted.
+				You can drop by my office (#312) 
+				this afternoon to check your answer sheet.
+				</li>
+				<li><span class=date>6/28</span>
+				Solution fot the final exam is posted.
+				</li>
+				<li><span class=date>6/20</span>
+				Review sheet is uploaded.
+				</li>
+				<li><span class=date>6/18</span>
+				Homework #4 is posted.
+				</li>
+				<li><span class=date>6/18</span>
+				Solution for homework 3-2 is posted.
+				</li>
+				<li><span class=date>6/12</span>
+				Old final exams (2010, 2011)
+				are posted.
+				</li>
+				<li><span class=date>6/7</span>
+				<span style="color:red">Final exam</span>
+				<ul>
+					<li>When: 4-6pm 23 June (Sat)</li>
+					<li>Where: B114</li>
+					<li>Coverage: To be announced</li>
+				</ul>
+				</li>
+				<li><span class=date>5/30</span>
+				Homework #3(2) is posted. (due: 6/7 6pm)
+				</li>
+				<li><span class=date>5/29</span>
+				Lecture slide for Chap 4 is posted.
+				</li>
+				<li><span class=date>5/22</span>
+				Midterm score is updated.
+				(There was an error in the score of passcode 26310F.)
+				</li>
+
+				<li><span class=date>5/21</span>
+				Lecture slide for Chap 3 is updated.
+				</li>
+				<li><span class=date>5/17</span>
+				<a href="data/LA-2012-score-midterm.pdf">Midterm score</a> is posted.
+				(Passcodes will be sent to each student
+				via e-mail.)
+				</li>
+				<li><span class=date>5/17</span>
+				Lecture slide for Chap 3 is updated.
+				</li>
+				<li><span class=date>5/14</span>
+				Solution for the midterm exam is uploaded
+				in "materials" page.
+				</li>
+				<li><span class=date>5/14</span>
+				Lecture slide for Chap 3 is updated.
+				</li>
+				<li><span class=date>4/20</span>
+				Old midterm exams (2010, 2011)
+				are posted
+				in <a href="materials.shtml">materials</a> page.
+				</li>
+				<li><span class=date>4/20</span>
+				Solution for homework #2 is posted.
+				</li>
+				<li><span class=date>4/18</span>
+				About the midterm exam:
+				<ul>
+					<li>
+					The midterm exam will cover Chap 1 - Sec 3.1.
+					</li>
+					<li>
+					You can bring only (1) <b>the textbook</b>
+					and (2) <b>the lecture slides</b> with you.
+					</li>
+				</ul>
+				</li>
+				<li><span class=date>4/18</span>
+					Homework for Sec 3.1 is posted.
+					</li>
+				</li>
+				<li><span class=date>4/10</span>
+				<span style="color:red;font-weight:bold;">[IMPORTANT NOTICE!!!]</span>
+					From the next week, the classroom is changed as follows.
+					<ul>
+						<li>Tuesday: Room 110</li>
+						<li>Wednesday: Room <span style="color:red">B114</span></li>
+					</ul>
+				</li>
+				<li><span class=date>4/10</span>
+				Midterm exam:
+					<ul>
+						<li>When? 4/25 4-6pm</li>
+						<li>Where? To be announced</li>
+						<li>Coverage? Chap 1-2 and early part of Chap 3 (to be announced)</li>
+					</ul>
+				</li>
+				<li><span class=date>4/10</span>
+				Homework #2 due is delayed to "before class on 18 Apr."
+				</li>
+				<li><span class=date>4/10</span>
+				Lecture slide for chap 3 is posted.
+				</li>
+				<li><span class=date>4/5</span>
+				Solution for homework #1 is posted.
+				</li>
+				<li><span class=date>4/5</span>
+				Homework for chap 2 is posted.
+				</li>
+				<li><span class=date>3/21</span>
+				Homework for chap 1 is posted.
+				(Go to "<a href="homeworks.shtml">homeworks</a>" page.)
+				</li>
+				<li><span class=date>3/20</span>
+				Slide for chap 1 is updated.</li>
+				<li><span class=date>3/19</span>
+				Slide for chap 2 is uploaded.</li>
+				<li><span class=date>3/13</span>
+				Slide for chap 1 is updated.</li>
+				<li><span class=date>3/12</span>
+				Slide for chap 1 is updated.</li>
+				<li>Welcome! Check out the <a href="syllabus.shtml">syllabus</a> for details.</li>
+			</ul>
+		</div>
+	</body>
+</html>

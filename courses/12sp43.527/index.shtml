@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Computer Graphics for grad students (spring, 2012)</title>
+	</head>
+	<body>
+		<h1 align=center>Computer Graphics for grad students (spring, 2012)</h1>
+		<ul>
+			<li><a href="projectile1.zip">projectile1.zip</a></li>
+			<li><a href="forces.zip">forces.zip</a></li>
+			<li><a href="projectile0_wrong.zip">projectile0_wrong.zip</a></li>
+			<li><a href="projectile0.zip">projectile0.zip</a></li>
+			<li><a href="spring_force1.zip">spring_force1.zip</a></li>
+			<li><a href="spring_force.zip">spring_force.zip</a></li>
+			<li><a href="firework.zip">firework.zip</a></li>
+			<li><a href="spring0.zip">spring0.zip</a></li>
+			<li><a href="collision_spring.zip">collision_spring.zip</a></li>
+			<li><a href="resting.zip">resting.zip</a></li>
+			<!--<li><a href="demo_rod.zip">demo_rod.zip</a></li>-->
+			<li><a href="collision_impulse2.zip">collision_impulse2.zip</a></li>
+			<li><a href="collision_impulse.zip">collision_impulse.zip</a></li>
+			<li><a href="forces_to_fill.zip">forces_to_fill.zip</a></li>
+
+		</ul>
+	</body>
+</html>

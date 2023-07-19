@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title>Final Project: &ldquo;Searching Drone&rdquo;</title>
+		<style type="text/css">
+			span.date
+			{
+				color:red;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1 align=center>Final Project: &ldquo;Searching Drone&rdquo;</h1>
+		<ul>
+			<li>
+			Objective:
+			To implement interactive searching drone.
+			</li>
+			<li style="color:red;">
+			(Due: 21 Dec 11:59pm)
+			</li>
+			<li>
+			Requirements:
+				<ul>
+					<li>
+						Implement a &ldquo;drone&rdquo;
+						that can be controlled interactively.
+						<ul>
+							<li>
+							The shape of the drone doesn't matter.
+							</li>
+							<li>
+							A UI (keyboard or mouse)
+							to control the drone needs to be implemented.
+							The user should be able to control the drone
+							freely in the sky.
+							The UI spec is as follows.:
+								<ul>
+									<li>UP: move forward</li>
+									<li>DOWN: move backward</li>
+									<li>LEFT/RIGHT: rotate around the vertical axis 
+									(<a href="https://en.wikipedia.org/wiki/Aircraft_principal_axes">yaw</a>)
+									</li>
+									<li>w/W: move up</li>
+									<li>s/S: move down</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						Implement (one or more) &ldquo;search lights&rdquo;
+						attached to the drone.
+						<ul>
+							<li>By default, the search light(s) should be directed to the ground.</li>
+							<li>The lights should be modeled as
+							<a href="http://www.lighthouse3d.com/tutorials/glsl-tutorial/spotlights">spotlights</a>.</li>
+							<li>The direction of the light(s) can be 
+							controlled by the user.
+							But the multiple lights do not have to be controlled separately.</li>
+						</ul>
+					</li>
+					<li>
+						Implement a camera attached to the drone.
+						<ul>
+							<li>By default, the camera should be directed to the ground.</li>
+							<li>Render the scene viewed from the camera at the corner of the screen.</li>
+							<li>To verify the small screen,
+							render the viewing frustum of the camera
+							using lines only.
+							</li>
+						</ul>
+					</li>
+					<li>
+					Make your program as fancy as possible!
+					</li>
+				</ul>
+			</li>
+			<li>
+				NOTES
+				<ul>
+					<li><span class=date>12/02</span>
+					You can start with
+					the sample
+					<tt>tess_quad_disp.cpp</tt>.
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

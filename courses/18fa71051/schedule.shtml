@@ -1,0 +1,208 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2018): schedule</title>
+		<style type="text/css">
+			div.topic
+			{
+				font-weight:bold;
+			}
+			div.topic:before
+			{
+//				content:open-quote;
+				content:"\"";
+			}
+			div.topic:after
+			{
+//				content:close-quote;
+				content:"\"";
+			}
+			tr.header td
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:center;
+			}
+			td.week
+			{
+				font-size:200%;
+				font-weight:bold;
+				text-align:right;
+			}
+			table
+			{
+				border-collapse:collapse;
+			}
+			td
+			{
+				border-top:1px dashed black;
+				border-bottom:1px dashed black;
+				padding-left:5px;
+				padding-right:5px;
+			}
+			tr.header td
+			{
+				border-top:2px solid black;
+				border-bottom:2px solid black;
+			}
+			td ul
+			{
+				margin:0px;
+				list-style-type:square;
+			}
+			span.holiday
+			{
+				color:red;
+				font-weight:bold;
+			}
+		<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Course Schedule</h1>
+		<table align=center>
+			<tr class=header>
+				<td>week</td>
+				<td>date</td>
+				<td>topics</td>
+				<td>materials</td>
+			</tr>
+			<tr>
+				<td class=week>1</td>
+				<td class=date>6,7 Sep</td>
+				<td>
+					Introduction to numerical methods
+				</td>
+				<td>
+<!--					<a href="data/p1_handout.pdf">p1_handout.pdf</a>
+-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td class=date>13,14 Sep</td>
+				<td>
+					Introduction to
+					GNU Octave/MATLAB<br>
+					Mathematical background
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>3</td>
+				<td class=date>20,21 Sep</td>
+				<td>
+					Solving a nonlinear equation
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>4</td>
+				<td class=date>27,28 Sep</td>
+				<td>
+					Solving a system of equations
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td class=date>4,5 Oct</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td class=date>11,12 Oct</td>
+				<td>
+					Function approximation, curve fitting, and interpolation
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>7</td>
+				<td class=date>18,19 Oct</td>
+				<td>
+				</td>
+				<td></td>
+			</tr>
+			<tr style="background-color:orange;">
+				<td class=week>8</td>
+				<td class=date>25,26 Oct</td>
+				<td>
+					Midterm exam
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td class=date>1,2 Nov</td>
+				<td>
+					Differentiation
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td class=date>8,9 Nov</td>
+				<td>
+					Integration
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td class=date>15,16 Nov</td>
+				<td>
+					Introduction to ODE (ordinary differential equations)
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>12</td>
+				<td class=date>22,23 Nov</td>
+				<td>
+					ODE: Initial-Value Problems
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td class=date>29,30 Nov</td>
+				<td>
+				</td>
+				<td></td>
+			</tr>
+			<tr style="background-color:gray">
+				<td class=week>14</td>
+				<td class=date>6,7 Dec</td>
+				<td>
+					No classes
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td class=date>13,14 Dec</td>
+				<td>
+					ODE: Boundary-Value Problems
+				</td>
+				<td></td>
+			</tr>
+			<tr style="background-color:orange;">
+				<td class=week>16</td>
+				<td class=date>20,21 Dec</td>
+				<td>
+					Final exam
+				</td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>

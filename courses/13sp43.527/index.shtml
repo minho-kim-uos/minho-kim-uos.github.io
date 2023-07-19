@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Computer Graphics for grads (spring,2013): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.</h3>
+		<div class="announce">
+			<ul>
+				<li>
+				<span class=date>24 May</span>
+				<a href="project.html">Term project page</a>  is up.
+				</li>
+				<li>
+				<span class=date>25 Apr</span>
+				Lecture slides are uploaded in "materials" page.
+				</li>
+				<li>
+				<span class=date>21 Mar</span>
+				<a href="graphics-sp13-graphics.pdf">Lecture slide</a> is uploaded.
+				</li>
+				<li>
+				<span class=date>11 Mar</span>
+				Check out the <a href="materials.shtml">materials</a> 
+				section to find out how to develop OpenGL ES 2.0 apps.
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

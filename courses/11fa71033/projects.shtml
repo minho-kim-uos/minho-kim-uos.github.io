@@ -1,0 +1,80 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2011): projects</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+		span.date
+		{
+			font-weight:bold;
+			color:red;
+		}
+		span.date:before
+		{
+			content:'[';
+		}
+		span.date:after
+		{
+			content:']';
+		}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Projects</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li><span class=date>8/30</span>
+				Term project Overview
+				<ul> 
+					<li>Topic: Visualizing an algorithm (<a href="http://en.wikipedia.org/wiki/Bucket_sort">Bucket sort</a>)</li> 
+					<li>Team project (3~4 members)</li> 
+					<li>Animation or game</li> 
+					<li>2D or 3D</li> 
+					<li>Blender or OpenGL or both</li> 
+					<li>Grading criteria
+					<ul> 
+					<li>How effectively does it visualize the algorithm?</li> 
+					<li>How effectively are the computer graphics used?</li> 
+					<li>How advanced are the techniques?
+					(camera work, lighting, modeling, transformations, etc.)
+					</li> 
+					</ul> 
+					</li> 
+					<li>Grading: By the instructor and other teams</li> 
+					<li>Peer review in each team</li> 
+				</ul> 
+				</li>
+				<li>
+					<span class=date>8/31</span>
+					Proposal submission 
+					<ul>
+						<li>due: 22 Sep.</li>
+						<li>Describe your design
+							as clearly as possible.
+							(Pictures (hand-drawing ok) help a lot.)
+						</li>
+						<li>
+							Explain why you chose your design.
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>8/31</span>
+					Proposal presentation 
+					<ul>
+						<li>date: 22 Sep.</li>
+						<li>&lt; 5 min</li>
+						<li>[added 25 Oct] Please upload your video file on YouTube.
+						You can either
+							<ul>
+								<li>make it public or </li>
+								<li>private and share it with me.</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

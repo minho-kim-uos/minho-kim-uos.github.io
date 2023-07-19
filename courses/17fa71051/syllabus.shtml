@@ -1,0 +1,123 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems
+			and Differential Equations
+			(fall,2017): syllabus</title>
+		<style type="text/css">
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Syllabus</h1>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: Mathematical models for engineering problems and differential equations</li>
+				<li>course webpage: 
+					<a href="http://www.minho-kim.com/courses/17fa71051">http://www.minho-kim.com/courses/17fa71051</a></li>
+				<li>credits: 3</li>
+				<li>course number: 71051</li>
+				<li>hours: Wed 9 (5-5:50pm), Fri 8-9 (4-5:50pm)</li>
+				<li>classroom: 5-202</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-6490-2453</li>
+				<li>office: 19-312</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading</div>
+			<ul>
+				<li>attendance/participation 10%</li>
+				<li>midterm exam 35%</li>
+				<li>final exam 35%</li>
+				<li>homeworks 20%</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for pirated homeworks (including the original one)</li>
+				<li>no score for cheating during exams</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>To understand the process of 
+				<a href="http://en.wikipedia.org/wiki/Mathematical_model">mathematical modelling</a>
+				in various fields.</li>
+				<li>To understand the 
+				<a href="http://en.wikipedia.org/wiki/Numerical_error">numerical errors</a>
+				and the need of various numerical methods.</li>
+				<li>To understand and apply various 
+				<a href="http://en.wikipedia.org/wiki/Numerical_method">numerical methods</a>
+				to find solutions of mathematical models.</li>
+				<li>To learn how to use numerical computing S/W, such as 
+				<a href="http://en.wikipedia.org/wiki/Matlab">Matlab</a>, 
+				<a href="http://en.wikipedia.org/wiki/GNU_Octave">GNU Octave</a>, 
+				<a href="http://en.wikipedia.org/wiki/Numpy">NumPy</a>, etc.</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>prerequisite</div>
+			<ul>
+				<li>calculus (미적분학)</li>
+				<li>linear algebra (선형대수)</li>
+				<li>basic concepts of programming</li>
+				<li>basic concepts of algorithms</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>textbook</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">
+						<a href="http://as.wiley.com/WileyCDA/WileyTitle/productCd-EHEP002915.html">
+							<img src="http://media.wiley.com/product_data/coverImage300/15/EHEP0029/EHEP002915.jpg">
+
+					</a>
+					</td>
+					<td style="vertical-align:top;">
+							<b>
+						<a href="http://as.wiley.com/WileyCDA/WileyTitle/productCd-EHEP002915.html">
+							Numerical 
+							methods for engineers and scientists:
+							An introduction with applications using MATLAB (3rd ed.)</a>
+					</b>
+						<br>
+						(by <a href="https://mae.osu.edu/people/gilat.1">Amos Gilat</a>)
+					</ul>
+					</td>
+
+					<!--
+					<td style="text-align:right;">
+						<img src="http://bks4.books.google.com/books?id=29utVed7QMIC&printsec=frontcover&img=1&zoom=5&sig=ACfU3U1WE37KtZYhEQ7CDIOTStmsNYabRw">
+					</td>
+					<td style="valign:top;">
+						<a href="http://books.google.com/books?id=29utVed7QMIC">
+						&ldquo;Ordinary Differential Equations&rdquo;</a>
+						 (by Morris Tenenbaum and Harry Pollard)
+						<p>
+						* Can be purchased at the campus bookstore.
+					</td>
+					-->
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (for grads) (spring,2018): links</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	table.tbl
+	{
+		display:block;
+		border-collapse:collapse;
+	}
+	table.tbl th
+	{
+		border:solid 1px black;
+		background-color:lightgray;
+	}
+	table.tbl td
+	{
+		padding:5px;
+		border:solid 1px black;
+	}
+	li.section
+	{
+		display:block;
+		border:1px solid black;
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>WebGL Links</h1>
+		<div style="margin:100px;">
+			<!--#include file="links-webgl.html"-->
+		</div>
+		<h1 align=center>OpenGL Links</h1>
+		<div style="margin:100px;">
+			<!--#include file="links-new.html"-->
+		</div>
+		<h1 align=center>Old Links</h1>
+		<div style="margin:100px;">
+			<!--#include file="links-old.html"-->
+		</div>
+	</body>
+</html>

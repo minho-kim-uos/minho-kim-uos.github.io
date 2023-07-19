@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2012): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.note
+	{
+		color:red;
+	}
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li>
+					<span class=date>[6/18]</span>
+					Homework #4
+					<span class=note>(Due: 6/21 6pm - Please submit to the TA in room #206</span>
+					<ul>
+						<li>Excercises 4.1: 16, 17</li>
+						<li>Excercises 4.2: 55</li>
+						<li>Excercises 4.3: 8, 21, 25</li>
+						<li>Excercises 4.4: 12, 27, 44, 47</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>[6/18]</span>
+					<a href="data/hw3-2-sol.pdf">Solution for homework #3(2)</a>
+				</li>
+				<li>
+					<span class=date>[5/30]</span>
+					<span class=note>(Due: 6/7 6pm - Please submit to the TA in room #206</span>
+					<ul>
+						<li>Excercises 3.2: 31, 34</li>
+						<li>Excercises 3.3: 17(b), 42, 64</li>
+						<li>Excercises 3.4: 10, 25</li>
+						<li>Excercises 3.5: 19, 28, 46, 58, 63</li>
+						<li>Excercises 3.6: 42, 44</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>[4/24]</span>
+					<a href="data/hw3-1-sol.pdf">Solution for homework #3(1)</a>
+					</li>
+				<li>
+					<span class=date>[4/20]</span>
+					<a href="data/hw2-sol.pdf">Solution for homework #2</a> (Let me know if you find any error.)
+				</li>
+
+				<li>
+					<span class=date>[4/18]</span>
+					<span class=note>(Due: 4/23 6pm - Please submit to the TA in room #206</span>
+					<ul>
+						<li>Excercises 3.1:
+							17 (the answer should be different from the one on p.680),
+							34, 37
+							</li>
+					</ul>
+
+				</li>
+				<li>
+					<span class=date>[4/5]</span>
+					<a href="data/hw1-sol.pdf">Solution for homework #1</a> (Let me know if you find any error.)
+				</li>
+				<li>
+					<span class=date>[4/5]</span>
+					<span class=note>(Due: <del>4/16 6pm</del> before class 4/18) - <del>Please submit to the TA in room #206</del></span>
+					<br>
+					<ul>
+						<li>Excercises 2.2:
+						13, 14, 17, 21, 24(See top of p.77),
+						30, 42, 44, 49</li>
+						<li>Excercises 2.3:
+						4, 8, 10, 21, 25, 30, 35, 40, 46</li>
+						<li>Excercises 2.4:
+						4, 17</li>
+
+					</ul>
+				</li>
+				<li>
+					<span class=date>[3/21]</span>
+					<span class=note>(Due: 4/4 before class)</span>
+					<br>
+					<span class=note>(All questions are from the  2nd edition of the textbook.)</span>
+					<ul>
+						<li>Solve problem 6(c) on p.46, but do not use
+							the fact in 8(a).</li>
+						<li>Exercises 
+							<ul>
+								<li>Sec 1.2 (p.26-28): 54, 56, 57, 62</li>
+								<li>Sec 1.3 (p.41-44): 39, 40, 41, 45</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

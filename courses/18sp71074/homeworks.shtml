@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Data Structure (spring,2018): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.note
+	{
+		color:red;
+	}
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+	span.date:before
+	{
+		content:"[";
+	}
+	span.date:after
+	{
+		content:"]";
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<ul>
+			</ul>
+		</div>
+	</body>
+</html>

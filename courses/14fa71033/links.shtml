@@ -1,0 +1,20 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2012): links</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Links</h1>
+		<div style="margin:100px;">
+			<!--#include file="links-new.html"-->
+		</div>
+		<h1 align=center>Old Links</h1>
+		<div style="margin:100px;">
+			<!--#include file="links-old.html"-->
+		</div>
+	</body>
+</html>

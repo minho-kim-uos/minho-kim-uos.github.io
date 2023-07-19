@@ -1,0 +1,294 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<head>
+		<title>Linear Algebra (spring,2018): schedule</title>
+		<style type="text/css">
+			tr.header td
+			{
+				text-align:center;
+				background-color:gray;
+				color:white;
+				font-weight:bold;
+				padding:10px;
+				font-size:larger;
+			}
+			td.week
+			{
+				font-family:courier new;
+				text-align:center;
+				font-weight:bold;
+				font-size:larger;
+			}
+			div.schedule
+			{
+				font-family:tahoma;
+
+				align:center;
+//				margin:0 auto;
+//				padding:0px;
+//				width:50%;
+
+//				-moz-border-radius-bottomleft:10px;
+//				-webkit-border-bottom-left-radius:10px;
+//				border-bottom-left-radius:10px;
+//							
+//				-moz-border-radius-bottomright:10px;
+//				-webkit-border-bottom-right-radius:10px;
+//				border-bottom-right-radius:10px;
+//										
+//				-moz-border-radius-topright:10px;
+//				-webkit-border-top-right-radius:10px;
+//				border-top-right-radius:10px;
+//													
+//				-moz-border-radius-topleft:10px;
+//				-webkit-border-top-left-radius:10px;
+//				border-top-left-radius:10px;
+			}
+			td.topleft
+			{
+				-moz-border-radius-topleft:10px;
+				-webkit-border-top-left-radius:10px;
+				border-top-left-radius:10px;
+			}
+			div.title
+			{
+				text-align:center;
+				font-weight:bold;
+				display:block;
+				padding:20px;
+			}
+			td.topright
+			{
+				-moz-border-radius-topright:10px;
+				-webkit-border-top-right-radius:10px;
+				border-top-right-radius:10px;
+			}
+			tr.footer
+			{
+				height:10px;
+			}
+			tr.footer td
+			{
+				border-bottom: none;
+
+				-moz-border-radius-bottomleft:10px;
+				-webkit-border-bottom-left-radius:10px;
+				border-bottom-left-radius:10px;
+							
+				-moz-border-radius-bottomright:10px;
+				-webkit-border-bottom-right-radius:10px;
+				border-bottom-right-radius:10px;
+			}
+			div.schedule
+			{
+			}
+			table.schedule 
+			{
+//				display:block;
+				border-collapse: collapse;
+				border-spacing: 0;
+//				width:50%;
+//				height:100%;
+//				margin:0px;
+				padding:0px;
+				box-shadow: 10px 10px 5px #888888;
+//				border:1px solid #000000;
+
+				-moz-border-radius-bottomleft:10px;
+				-webkit-border-bottom-left-radius:10px;
+				border-bottom-left-radius:10px;
+							
+				-moz-border-radius-bottomright:10px;
+				-webkit-border-bottom-right-radius:10px;
+				border-bottom-right-radius:10px;
+										
+				-moz-border-radius-topright:10px;
+				-webkit-border-top-right-radius:10px;
+				border-top-right-radius:10px;
+													
+				-moz-border-radius-topleft:10px;
+				-webkit-border-top-left-radius:10px;
+				border-top-left-radius:10px;
+
+			}
+			table.schedule td
+			{
+//				border-top:thin solid black;
+//				border:thin none darkgray;
+				padding:5px;
+//				border-collapse:collapse;
+				border-top:thin dashed black;
+//				border:1px solid black;
+//				background-color:red;
+			}
+			tr.exam td
+			{
+				background-color:orange;
+			}
+			tr.break td
+			{
+				background-color:silver;
+			}
+			tr.break td.topics
+			{
+				text-align:center;
+				font-weight:bold;
+			}
+			tr.exam td.topics
+			{
+				text-align:center;
+				font-weight:bold;
+			}
+			tr.header td
+			{
+				border:none;
+				padding:20px;
+//				border-top:medium solid black;
+//				border-bottom:medium solid black;
+			}
+//			tr.footer td
+//			{
+//				border-top:medium solid black;
+//				border-bottom-style:none;
+//			}
+			span.holiday
+			{
+				color:red;
+			}
+		<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<div class=title >Course Schedule</div>
+		<table class=schedule align=center>
+			<!--			<table align=center>	-->
+			<tr class=header>
+				<td class=topleft>week</td>
+				<td>date</td>
+				<td>topics</td>
+				<td class=topright>materials</td>
+			</tr>
+			<tr>
+				<td class=week>1</td>
+				<td class=date>8 Mar</td>
+				<td>
+				</td>
+				<td> &nbsp; </td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td class=date>15 Mar</td>
+				<td>
+				</td>
+				<td> &nbsp; </td>
+			</tr>
+			<tr>
+				<td class=week>3</td>
+				<td class=date>22 Mar</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>4</td>
+				<td class=date>29 Mar</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td class=date>5 Apr</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td class=date>12 Apr</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr class=exam>
+				<td class=week>7</td>
+				<td class=date>19 Apr</td>
+				<td class=topics>
+					Midterm exam
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>8</td>
+				<td class=date>26 Apr</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td class=date>3 May</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td class=date>10 May</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td class=date>17 May</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr class=break>
+				<td class=week>12</td>
+				<td class=date>24 May</td>
+				<td class=topics>
+					Make-up Week
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td class=date>31 May</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>14</td>
+				<td class=date>7 Jun</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td class=date>14 Jun</td>
+				<td>
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr class=exam>
+				<td class=week>16</td>
+				<td class=date>21 Jun</td>
+				<td class=topics>
+					Final exam
+				</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr class=footer>
+				<td colspan=4>
+					&nbsp;
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

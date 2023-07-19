@@ -1,0 +1,196 @@
+<html>
+	<head>
+		<title>Computer Graphics for graduate students (spring, 2013)</title>
+		<style type="text/css">
+			div.post
+			{
+				border-color:silver;
+				border-width:1px;
+				border-style:solid;
+				margin:10px;
+				padding:10px;
+			}
+			span.date
+			{
+				display:block;
+				color:green;
+				font-weight:bold;
+				font-size:large;
+			}
+			span.date:before
+			{
+				content:"[";
+			}
+			span.date:after
+			{
+				content:"]";
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align=center>Computer Graphics for graduate students (spring, 2013)</h1>
+		<div class=post>
+			<span class=date>11 Mar</span>
+			Developing OpenGL ES 2.0 applications
+			<ol>
+				<li>
+				Using ARM emulator (for OpenGL ES 2.0)
+					<ul>
+						<li>Can be downloaded 
+						<a href="http://malideveloper.arm.com/develop-for-mali/tools/opengl-es-2-0-emulator">here</a>.
+						</li>
+						<li>
+						Supports OpenGL ES 2.0
+						</li>
+						<li>
+						Supports three major platforms (Windows, Linux, OSX)
+						</li>
+						<li>
+						No hassle to deal with UI/Windows layer --
+						EGL is implemented and examples from the "Goldbook" can be ported easily.)
+						</li>
+						<li>
+						Should be ported to a specific mobile platform
+						(Android or iOS) for final release
+						</li>
+						<li>
+						OpenGL ES 3.0 emulator is limited to the Windows platform.
+						(<a href="http://malideveloper.arm.com/develop-for-mali/tools/opengl-es-3-0-emulator">OpenGL ES 3.0 emulator</a>)
+
+					</ul>
+				</li>
+				<li>
+					Using AMD emulator
+					<ul>
+						<li>Can be downloaded 
+						<a href="http://developer.amd.com/tools/graphics-development/amd-opengl-es-sdk">here</a>.
+						</li>
+						<li>
+						OpenGL ES 2.0
+						</li>
+						<li>
+							Windows &amp; Linux only
+						</li>
+						<li>
+							Almost the same pros/cons with the ARM emulator
+						</li>
+					</ul>
+				</li>
+				<li>
+					xcode
+					<ul>
+						<li>
+						OSX only
+						</li>
+						<li>
+							Can be installed from the AppStore.
+						</li>
+						<li>
+						For iOS apps only.
+						</li>
+						<li>
+						Requires to get familiar with Objective-C to some level.
+						</li>
+						<li>
+						OSX-specific library for UI/Window management (EAGL)
+						</li>
+						<li>
+						App running on iOS devices (requires membership to run on actual devices)
+						</li>
+						<li>
+						Fast and stable emulator
+						</li>
+						<li>
+						Decent developement environment
+						</li>
+					</ul>
+				</li>
+				<li>
+				ADT (Android Development Tools)
+					<ul>
+						<li>
+						Can be downloaded 
+						<a href="http://developer.android.com/sdk/index.html">here</a>.
+						</li>
+						<li>
+						For android apps
+						</li>
+						<li>
+						Supports many platforms
+						</li>
+						<li>
+							(Normally) required to develop in Java
+						</li>
+						<li>
+							C with NDK (OpenGL ES 2 sample code in NDK)
+						</li>
+						<li>
+							Slow emulator
+						</li>
+						<li>
+							Can run the app on actual devices directly
+						</li>
+					</ul>
+				</li>
+				<li>
+					WebGL
+					<ul>
+						<li>
+							Almost compatible with OpenGL ES 2
+						</li>
+						<li>
+							No dev tools required (only any compatible webbrower required)
+						</li>
+						<li>
+						Required to develop in Javascript
+						</li>
+						<li>
+						Hard to debug
+						</li>
+						<li>
+							Source codes exposed (?)
+						</li>
+						<li>
+						Good to develop cross-platform mobile apps via HTML5 (?)
+						</li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+		<div class=post>
+			<span class=date>11 Mar</span>
+			Textbook
+
+			<table>
+				<tr>
+					<td>
+			<img src="http://bks5.books.google.co.kr/books?id=Oi_l1ZvzZoMC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73EeDZ4r_aqRbBbeEOqmaKgubuqtU1xOyLn6Elqjn2E7hZ48ux0kofPXKzMq-SnzzaMQU-r99mPu_EDGbssH8cKsRe1MZzHIpKav68O8yrbBVdmMi3AuPVrcDpYHSebjZQZEyYi">
+				</td>
+				<td>
+
+			<div>
+			OpenGL&reg; ES 2.0 Programming Guide 
+			(a.k.a. "Goldbook")
+
+			<ul>
+				<li>
+			Authors: Aaftab Munshi, Dan Ginsburg, Dave Shreiner
+			</li>
+			<li>
+			Publisher: Addison-Wesley Professional
+				</li>
+				<li>
+			ISBN: 0321502795
+				</li>
+				<li>
+				<a href="opengles-book.com">
+					Book website
+				</a>
+			</ul>
+		</div>
+				</td>
+			</table>
+
+		</div>
+	</body>
+</html>

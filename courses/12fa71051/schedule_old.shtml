@@ -1,0 +1,168 @@
+<html>
+	<head>
+		<title>Differential Equations (fall,2009): schedule</title>
+		<style type="text/css">
+			tr.header td
+			{
+				text-align:center;
+			}
+			td.week
+			{
+				text-align:right;
+			}
+			table
+			{
+//				border-collapse:collapse;
+				border-spacing:0px;
+			}
+			td
+			{
+//				border-top:thin solid black;
+//				border-bottom:thin solid black;
+				border:thin solid darkgray;
+				padding-left:5px;
+				padding-right:5px;
+				border-collapse:collapse;
+			}
+//			tr.header td
+//			{
+//				border-top:medium solid black;
+//				border-bottom:medium solid black;
+//			}
+//			tr.footer td
+//			{
+//				border-top:medium solid black;
+//				border-bottom-style:none;
+//			}
+		<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Course Schedule</h1>
+		<table align=center>
+			<tr class=header>
+				<td rowspan=2>week</td>
+				<td colspan=2>topics</td>
+				<td rowspan=2>materials</td>
+			</tr>
+			<tr class=header>
+				<td>planned</td>
+				<td>done</td>
+			</tr>
+			<tr>
+				<td class=week>1</td>
+				<td>Introduction to ODE (Ordinary Differential Equations)</td>
+				<td>Chap 1: intro to ODE &amp; direction field</td>
+				<td><a href="data/p01.pdf">p01.pdf</a></td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td rowspan=3>
+					1st order differential equations and related problems
+				</td>
+				<td>Chap 2: types of 1st order ODE</td>
+				<td><a href="data/p02.pdf">p02.pdf</a></td>
+			</tr>
+			<tr>
+				<td class=week>3</td>
+				<td>Chap 2: types of 1st order ODE</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>4</td>
+				<td>Chap 3: applications of 1st order ODE</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td rowspan=3>
+					high order differential equations and related problems
+				</td>
+				<td>Chap 3: applications of 1st order ODE</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td>break (<a href="http://cg.postech.ac.kr/pg2009">PG'09</a> conference)</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>7</td>
+				<td>Chap 4: higher order linear ODEs</td>
+				<td><a href="data/p04.pdf">p04.pdf</a></td>
+			</tr>
+			<tr>
+				<td class=week>8</td>
+				<td>midterm exam</td>
+				<td>Chap 4: higher order linear ODEs</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td rowspan=2>
+					numerical methods
+				</td>
+				<td>midterm exam</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td>Chap 5: Laplace transform</td>
+				<td><a href="data/p05.pdf">p05.pdf</a></td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td>
+					series methods (1/2)
+				</td>
+				<td>Chap 5: Laplace tansform<br>
+					Chap 6: Oscillation
+				</td>
+				<td><a href="data/p06.pdf">p06.pdf</a></td>
+			</tr>
+			<tr>
+				<td class=week>12</td>
+				<td>
+					break
+				</td>
+				<td>Chap 6: Oscillation<br>
+					Chap 9: Series methods</td>
+				<td><a href="data/p09.pdf">p09.pdf</a></td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td>
+					series methods (2/2)
+				</td>
+				<td>Chap 9: Series methods</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>14</td>
+				<td rowspan=2>
+					systems of differential equations and related problems
+				</td>
+				<td rowspan=2>Chap 10: Numerical methods</td>
+				<td><a href="data/p10.pdf">p10.pdf</a></td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>16</td>
+				<td>
+					final exam
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr class=footer>
+				<td colspan=4>
+					&nbsp;
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

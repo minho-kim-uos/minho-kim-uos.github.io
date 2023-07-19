@@ -1,0 +1,162 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<head>
+		<title>Linear Algebra (spring,2013): homework #01</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+span.emph
+{
+	color:red;
+	font-weight:bold;
+}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homework #01</h1>
+		<ul>
+			<li>
+			<span class=emph>Due: 11 Apr 11:59pm</span>
+			</li>
+			<li>
+			How to submit: send 
+				your python file
+			to the TA 
+			(Hyunjun Kim)
+			via an e-mail.
+			(<tt>uos.cs.la@gmail.com</tt>)
+			</li>
+			<!--
+			<li>
+			Reading in the file
+			<div class=code>
+				&gt;&gt;&gt;
+				f = open('voting_record_dump109.txt')
+				<br>
+				&gt;&gt;&gt;
+				mylist = list(f)
+			</div>
+			</li>
+			-->
+			<li>
+			What to do:
+			Implement python functions
+			in &ldquo;Lab: Comparing voting records using dot-product&rdquo;
+			on p.108-110.
+				<ol>
+					<li>
+						Download
+						<a href="http://grading.codingthematrix.com/edition1/index.html"><tt>politics_lab.py</tt></a>
+						and
+						<a href="http://resources.codingthematrix.com"><tt>voting_record_dump109.txt</tt></a>.
+					</li>
+					<li>
+					Upload them to your <tt>pythonanywhere.com</tt> account.
+					</li>
+					<li>
+					Implement the bodies of the following functions.
+						<ol>
+							<li><tt>policy_compare</tt> (Task 2.12.2)</li>
+							<li><tt>least_similar</tt> (Task 2.12.4)</li>
+							<li><tt>find_average_similarity</tt> (Task 2.12.7)</li>
+							<li><tt>find_average_record</tt> (Task 2.12.8)</li>
+							<li><tt>bitter_rivals</tt> (Task 2.12.9)</li>
+						</ol>
+					</li>
+					<li>
+						Run the following
+						(in a bash shell)
+						to test your implementation.
+						(See the NOTES.)
+						<div class=code>
+						&gt;&gt;&gt;
+						python3 -m doctest politics_lab.py
+		
+						</div>
+					</li>
+				</ol>
+			</li>
+			<li>
+				NOTES
+				<ul>
+					<li>
+					<span class=emph>
+						Some of the doctests may fail
+						even though you implemented it correctly.
+						The doctest checks if the result is EXACTLY
+						the same as expected, 
+						so it thinks it is incorrect if the order is not the same,
+						which is the case of dictionary/set types.
+					</span>
+					</li>
+					<li>
+					Due to the large size of the class,
+					we cannot grade individual homework in detail.
+					So there will be 
+					<span class=emph>no partial score</span>.
+					</li>
+				</ul>
+			</li>
+			<li>
+				HINTS
+				<ul>
+					<li>
+					You can use <tt>vec.py</tt> if you want,
+					but you may not need it.
+					</li>
+					<li>
+					You may need to use <tt>create_voting_dict</tt> (Task 2.12.1)
+					of which body can be defined as follows:
+						<div class=code>
+							def create_voting_dict(strlist):
+							<br>
+							&nbsp; &nbsp; &nbsp; &nbsp;
+							return {line.split()[0]:[int(x) for x in line.split()[3:]] for line in strlist}
+
+						</div>
+					</li>
+					<li>
+					A sample implementation of
+					<tt>most_similar</tt> (Task 2.12.3)
+					is provided below
+					as a reference.
+						<div class=code>
+							def most_similar(sen, voting_dict):
+							<br>
+							&nbsp; &nbsp; &nbsp; &nbsp;
+							dict_comp = {other:policy_compare(sen, other, voting_dict) for other in voting_dict if not sen==other}
+							<br>
+							&nbsp; &nbsp; &nbsp; &nbsp;
+						    return max(dict_comp, key=lambda k: dict_comp[k])
+						</div>
+						In the above implementation,
+						we created a temporary dictionary variable <tt>dict_compare</tt>
+						which, for each of other senator, 
+						creates a voting comparison value.
+						To find the maximum comparison value
+						we used the <tt>max</tt>
+						function with a <tt>key</tt>
+						parameter.
+						Here, <tt>key=lambda k: dict_compare[k]</tt>
+						means that when comparing two values
+						of <tt>dict_compare</tt> (the first parameter of <tt>max</tt>)
+						we compare their values (not keys).
+						Without <tt>key</tt> parameter,
+						the <tt>max</tt> function may return the element
+						of the dictionary of which key is the maximum
+						(not its value).
+					</li>
+					<li>
+					<tt>find_average_record</tt> may be little bit tricky.
+					One way to implement:
+					(1) create a list composed of
+					the voting dictionaries (by calling <tt>voting_dict</tt>)
+					for the senators in <tt>sen_set</tt>.
+					(2) iterate the list just created to compute
+					the average record.
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

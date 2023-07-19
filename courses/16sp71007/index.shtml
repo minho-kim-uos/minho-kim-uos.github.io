@@ -1,0 +1,269 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<head>
+		<meta charset="euc-kr">
+		<title>Linear Algebra (spring,2016): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:blue;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<div class=title >Announcements</div>
+		<h3 align=center>Please refresh (by pressing F5) for 
+			the latest announcements.</h3>
+		<div class="announce">
+			<ul>
+				<li>
+				<span class=date>28 Jun</span>
+				<span style="color:red;">
+					중간고사 및 기말고사 시험지 확인을 원하는 학생은 <u>이메일로 미리 방문시간을 알려주신 후</u> <b>29일(수) 오전11시-오후3시 사이</b>에 제 사무실(정보기술관 312호)에 방문해 주시기 바랍니다.
+					</span>
+				</li>
+				<li>
+				<span class=date>27 Jun</span>
+				Scores
+					<ul>
+						<li>
+						<!--
+				<a href="https://www.dropbox.com/s/a691yoa7bf3grp6/scores-homeworks.pdf?dl=0">homeworks</a>
+				-->
+				<a href="https://www.dropbox.com/s/3dlk6nxtmbdab8a/scores-homeworks.pdf?dl=0">homeworks</a>
+						</li>
+						<li><a href="https://www.dropbox.com/s/cb6usime3kvpgpr/scores-midterm.pdf?dl=0">midterm exam</a>
+						</li>
+						<li>
+						<a href="https://www.dropbox.com/s/djyurcnj458o1kw/scores-final.pdf?dl=0">final exam</a>
+						</li>
+					</ul>
+					<div style="color:red">
+					NOTES:
+					<ul>
+						<li>숙제 점수에 대한 문의는 조교
+						(e-mail: <a href="mailto:uos.cs.la@gmail.com"><tt>uos.cs.la@gmail.com</tt></a>)에게 문의.</li>
+						<li>각 개인의 passcode는 조교가 개인 메일로 전송했습니다.
+							passcode 문의도 조교에게 하기 바랍니다.</li>
+							<li><strike>중간고사 및 기말고사 시험지를 확인하고 싶은 사람은
+							<tt>Mr.Minho.Kim@gmail.com</tt>으로 연락하시기 바랍니다.</strike>
+						</li>
+						<li>
+						중간고사 및 기말고사 시험지 확인을 원하는 학생은 이메일로 미리 방문시간을 알려주신 후 <b>29일(수) 오전11시-오후3시 사이</b>에 제 사무실(정보기술관 312호)에 방문해 주시기 바랍니다.
+						</li>
+					</ul>
+				</div>
+				</li>
+				<li>
+				<span class=date>23 Jun</span>
+					<ul>
+						<li>
+						<span style="color:red;font-weight:bold;">
+							Please keep monitoring this page.
+							Your scores will be posted soon.
+						</span>
+						</li>
+						<li>
+				Solutions for
+				<a href="https://www.dropbox.com/s/5lhpxm6uqqehui8/midterm-solution.pdf?dl=0">midterm</a>
+				and
+				<a href="https://www.dropbox.com/s/hwnfl22r0gw7mb8/final-solution.pdf?dl=0">final</a>
+				are posted.
+						</li>
+					</ul>
+				</li>
+				<li>
+				<span class=date>13 Jun</span>
+				<a href="https://www.dropbox.com/s/pk7m8g2blngmd1m/hw3-solution.pdf?dl=0">solution for homework #3</a> is posted.
+				</li>
+				<li>
+				<span class=date>13 Jun</span>
+					Final exam
+					<ul>
+						<li>When: 2~3:50pm, 16 Jun </li>
+						<li>coverage: chap5~9, chap12</li>
+						<li>This is an open-book exam. Only lecture slides printouts and the textbook are allowed. (translated textbook is not allowed.)</li>
+					</ul>
+				</li>
+				<li>
+				<span class=date>17 May</span>
+					Homework #3 is posted!
+				</li>
+				<li>
+				<span class=date>14 Apr</span>
+					Midterm exam
+					<ul>
+						<li>When: 2-3:50pm, 21 Apr</li>
+						<li>coverage: ~ chap4 (no python-related question)</li>
+						<li>This is an open-book exam. Only lecture slides printouts and the textbook are allowed. (translated textbook is not allowed.)</li>
+					</ul>
+				</li>
+				<li>
+				<span class=date>11 Apr</span>
+					Homework #2 is posted.
+					(due: 25 Apr 5:00pm)
+				</li>
+				<li>
+				<span class=date>11 Apr</span>
+				Midterm and final exams of 2014 are posted.
+				</li>
+				<li>
+				<span class=date>4 Apr</span>
+				To try <tt>doctest</tt> on pythonanywhere.com,
+				you have to run a bash shell
+				as follows.
+					<ol>
+						<li>Go to &ldquo;Dashboard&rdquo;
+						&rarr;
+						&ldquo;Console&rdquo;</li>
+						<li>Click &ldquo;Bash&rdquo;
+						under &ldquo;Star a new console&rdquo; menu.</li>
+					</ol>
+				</li>
+				<li>
+				<span class=date>4 Apr</span>
+				The e-mail address of the TA is
+				<tt>uos.cs.la@gmail.com</tt>.
+				</li>
+				<li>
+				<span class=date>29 Mar</span>
+				The link to the
+				<tt>politics_lab.py</tt> is added
+				to the homework #1 page.
+				</li>
+				<li>
+				<span class=date>28 Mar</span>
+				Your first homework is posted!
+				</li>
+				<li>
+				<span class=date>28 Mar</span>
+				You can find 
+				a Korean decent video lecture for python
+				<a href="http://tryhelloworld.co.kr/courses/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%AC%B8">here</a>.
+				</li>
+				<li>
+				<span class=date>21 Mar</span>
+				3월25일까지 선형대수 공학인증기초설문 답변입력 기간입니다.
+				많은 학생들이 답변을 입력해 주시기 바랍니다.
+				</li>
+
+				<li>
+				<span class=date>21 Mar</span>
+				It seems that you cannot reload only a function in a module.
+				<div class="box">
+					<ol>
+						<li>
+					Currently <tt>getitem()</tt> in <tt>vec.py</tt> is empty.
+					(just doing <tt>pass</tt>...)
+					Type the following.
+					<div class="code">
+								&gt;&gt;&gt; from vec import Vec
+								<br>
+								&gt;&gt;&gt; x = Vec({'A':1, 'B':2, 'C':3}, {'A':1, 'C':2})
+								<br>
+								&gt;&gt;&gt; x['A']
+					</div>
+						</li>
+						<li>
+						Now replace <tt>pass</tt> in <tt>getitem()</tt>
+						with <tt>return v.f[k] if k in v.f else 0</tt>
+						and save <tt>vec.py</tt>.
+						Then run the following, but it still does not work
+						since the change is not applied.
+					<div class="code">
+								&gt;&gt;&gt; x['A']
+					</div>
+						</li>
+						<li>
+						Calling <tt>reload()</tt> does not work either.
+						<div class=code>
+						&gt;&gt;&gt; from imp import reload
+						&gt;&gt;&gt; reload(vec)
+						<br>
+						Traceback (most recent call last):
+						<br>
+						 &nbsp;&nbsp; File "&gt;stdin&lt;", line 1, in &gt;module&lt;
+						<br>
+						  NameError: name 'vec' is not defined
+						<br>
+						  &gt;&gt;&gt; reload(Vec)
+						<br>
+						  Traceback (most recent call last):
+						<br>
+						    &nbsp;&nbsp;File "&gt;stdin&lt;", line 1, in &gt;module&lt;
+						<br>
+							  &nbsp;&nbsp;File "/usr/lib/python3.4/imp.py", line 315, in reload
+						<br>
+							      &nbsp;&nbsp;&nbsp;&nbsp;return importlib.reload(module)
+						<br>
+								    &nbsp;&nbsp;File "/usr/lib/python3.4/importlib/__init__.py", line 122, in reload
+						<br>
+									    &nbsp;&nbsp;&nbsp;&nbsp;raise TypeError("reload() argument must be module")
+						<br>
+										TypeError: reload() argument must be module
+									</div>
+						</li>
+						<li>
+						You can use <tt>reload()</tt> if in the following way.
+						<div class=code>
+							&gt;&gt;&gt; import vec
+							<br>
+							&gt;&gt;&gt; x = vec.Vec({'A', 'B', 'C'}, {'A':1, 'C':2})
+							<br>
+							&gt;&gt;&gt; x['A']
+						</div>
+						Modify and save <tt>vec.py</tt>.
+						Note that you have to re-define <tt>x</tt>
+						so that the modification has an effect.
+						<div class=code>
+							&gt;&gt;&gt; from imp import reload
+							<br>
+							&gt;&gt;&gt; reload(vec)
+							<br>
+							&gt;&gt;&gt; x = vec.Vec({'A', 'B', 'C'}, {'A':1, 'C':2})
+							<br>
+							&gt;&gt;&gt; x['A']
+							<br>
+							1
+						</div>
+						</li>
+					</ol>
+				</div>
+				</li>
+				<li>
+				<span class=date>2 Mar</span>
+				Lecture slides for
+				introduction and chapter 0 
+				are uploaded
+				in 
+				<a href="materials.shtml">materials</a> page.
+				</li>
+				<li>
+					Welcome!
+					Check out the <a href="syllabus.shtml">syllabus</a> page first.
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

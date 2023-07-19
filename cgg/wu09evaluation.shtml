@@ -1,0 +1,32 @@
+<div class=work>
+	<img class=thumbnail src="images/wu09evaluation.png">
+	<a class=title href="http://dx.doi.org/10.1118/1.3250843">Evaluation of Similarity Measures for 
+	Use in the Intensity-Based Rigid 2D-3D Registration for 
+	Patient Positioning in Radiotherapy</a>
+	<div class=author>
+	<!--#include file="authors/jian.wu.html"-->,
+	<!--#include file="authors/minho.kim.html"-->,
+	<!--#include file="authors/jorg.peters.html"-->,
+	<!--#include file="authors/heetaek.chung.html"-->
+	and
+	<!--#include file="authors/sanjiv.samant.html"-->
+	</div>
+	<a class=where href="http://www.medphys.org">Medical Physics</a>,
+	36(12), 
+	pp. 5391-5403,
+	Dec. 
+	<span class=year>2009</span>
+	<div class=abstract>
+		<div class=title>abstract</div>
+		<b>Purpose</b>: Rigid 2D-3D registration is an alternative to 3D-3D registration for cases where largely bony anatomy can be used for patient positioning in external beam radiation therapy. In this article, the authors evaluated seven similarity measures for use in the intensity-based rigid 2D-3D registration using a variation in Skerl's similarity measure evaluation protocol.
+		<!--
+		<p>
+		<b>Methods</b>: The seven similarity measures are partitioned intensity uniformity, normalized mutual information (NMI), normalized cross correlation (NCC), entropy of the difference image, pattern intensity (PI), gradient correlation (GC), and gradient difference (GD). In contrast to traditional evaluation methods that rely on visual inspection or registration outcomes, the similarity measure evaluation protocol probes the transform parameter space and computes a number of similarity measure properties, which is objective and optimization method independent. The variation in protocol offers an improved property in the quantification of the capture range. The authors used this protocol to investigate the effects of the downsampling ratio, the region of interest, and the method of the digitally reconstructed radiograph (DRR) calculation [i.e., the incremental ray-tracing method implemented on a central processing unit (CPU) or the 3D texture rendering method implemented on a graphics processing unit (GPU)] on the performance of the similarity measures. The studies were carried out using both the kilovoltage (kV) and the megavoltage (MV) images of an anthropomorphic cranial phantom and the MV images of a head-and-neck cancer patient.
+		<p>
+		<b>Results</b>: Both the phantom and the patient studies showed the 2D-3D registration using the GPU-based DRR calculation yielded better robustness, while providing similar accuracy compared to the CPU-based calculation. The phantom study using kV imaging suggested that NCC has the best accuracy and robustness, but its slow function value change near the global maximum requires a stricter termination condition for an optimization method. The phantom study using MV imaging indicated that PI, GD, and GC have the best accuracy, while NCC and NMI have the best robustness. The clinical study using MV imaging showed that NCC and NMI have the best robustness.
+		<p>
+		<b>Conclusions</b>: The authors evaluated the performance of seven similarity measures for use in 2D-3D image registration using the variation in Skerl's similarity measure evaluation protocol. The generalized methodology can be used to select the best similarity measures, determine the optimal or near optimal choice of parameter, and choose the appropriate registration strategy for the end user in his specific registration applications in medical imaging.
+		-->
+		(...)
+	</div>
+</div>

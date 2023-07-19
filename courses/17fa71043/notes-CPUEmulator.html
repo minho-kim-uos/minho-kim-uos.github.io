@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<title>Notes on the CPU Emulator</title>
+		<style type="text/css">
+			span.date
+			{
+				color:darkgreen;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				border:1px black solid;
+				padding:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align=center>Notes on the CPU Emulator</h1>
+		<ul>
+			<li>
+				<span class=date>11/28</span>
+				For more in-depth information
+				about the test script file format
+				(<tt>*.tst</tt>)
+				refer to
+				<a href="http://www.nand2tetris.org/chapters/appendix%20B.pdf">the Appendix B</a> of the nand2tetris book.
+
+			</li>
+			<li>
+				<span class=date>11/24</span>
+				How to implement &ldquo;<tt>RAM[RAM[x]] = RAM[y]</tt>&rdquo;?
+				<div class=code>
+					<tt>
+						@y<br>
+						D=M<br>
+						@x<br>
+						A=M<br>
+						M=D
+					</tt>
+				</div>
+			</li>
+			<li>
+				<span class=date>11/23</span>
+				The test script file
+				<tt>Mult.asm</tt>
+				works as follows.
+				<ol>
+					<li>Set the operands
+					(<tt>RAM[R0]</tt> and <tt>RAM[R1]</tt>).</li>
+					<li>Run the program for some
+					time (<tt>repeat xxx</tt>)</li>
+					<li>Print the output (<tt>RAM[R0]</tt>,
+						<tt>RAM[R1]</tt>,
+						<tt>RAM[R2]</tt>)
+
+				</ol>
+				Therefore,
+				if your program doesn't finish all the computations
+				within the number of clocks (the value after <tt>repeat</tt>)
+				the CPUEmulator may conclude that your program
+				is incorrect.
+				If you 
+				think this is the case, just
+				increase the number of clocks for 
+				that test.
+				(Note that this may increase the running time.)
+			</li>
+			<li>
+				<span class=date>11/22</span>
+				How to implement 
+				&ldquo;<tt>RAM[z]=RAM[x]+RAM[y]</tt>&rdquo;?
+				<div class=code>
+					<tt>
+					@x<br>
+					D=M<br>
+					@y<br>
+					D=D+M<br>
+					@z<br>
+					M=D
+					</tt>
+				</div>
+			</li>
+			<li>
+				<span class=date>11/22</span>
+				To pass a negative constant value.
+				(We can pass only a positive value
+				using an A-instruction
+				due to its 15-bit limit.)
+				<br>
+				Example: to store <tt>-123</tt> in <tt>RAM[x]</tt>.
+				<div class=code>
+					<tt>
+					@123<br>
+					D=-A<br>
+					@x<br>
+					M=D
+				</tt>
+				</div>
+			</li>
+			<li>
+				<span class=date>11/22</span>
+				(For MacOS users)
+				You should install the Java SDK
+				(not the JRE)
+				version &ge;1.8
+				<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">here</a>
+				to make the screen work correctly.
+				Refer to 
+				<a href="http://nand2tetris-questions-and-answers-forum.32033.n3.nabble.com/CPU-Emulator-Screen-GUI-Component-Not-Working-td4028862.html">this page</a> for more information.
+			</li>
+		</ul>
+	</body>
+</html>

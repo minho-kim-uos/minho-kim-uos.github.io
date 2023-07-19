@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Differential Equations (fall,2009): materials</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Materials</h1>
+		<div style="margin:100px;">
+		<ul>
+			<li>
+				Lecture slides
+				<ul>
+					<li><a href="data/p01.pdf">p01.pdf</a>: Chap 1. Basic concepts</li>
+					<li><a href="data/p02.pdf">p02.pdf</a>: Chap 2. Special types of DE of 1st order</li>
+					<li><a href="data/p04.pdf">p04.pdf</a>: Chap 4. Linear differential equations of order greater than one</li>
+					<li><a href="data/p05.pdf">p05.pdf</a>: Chap 5. Operators and Laplace transforms</li>
+					<li><a href="data/p06.pdf">p06.pdf</a>: Chap 6. Problems leading to linear differential equations of order two</li>
+					<li><a href="data/p09.pdf">p09.pdf</a>: Chap 9. Series methods</li>
+					<li><a href="data/p10.pdf">p10.pdf</a>: Chap 10. Numerical methods</li>
+				</ul>
+			</li>
+			<li>
+				Homewotk solutions
+				<ul>
+					<li><a href="data/hw1.pdf">hw#1</a></li>
+					<li><a href="data/hw2.pdf">hw#2</a> (<a href="data/hw2_ko.pdf">questions in Korean</a>)</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

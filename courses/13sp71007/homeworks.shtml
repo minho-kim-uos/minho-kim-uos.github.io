@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2013): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.note
+	{
+		color:red;
+	}
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+	span.date:before
+	{
+		content:"[";
+	}
+	span.date:after
+	{
+		content:"]";
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li><span class="date">6/7</span>
+				Homewok for chapter 4
+				<span class=note>(Due: 14 June, before class)</span>
+				<ul>
+					<li>Excercises 4.1: 16, 35</li>
+					<li>Excercises 4.2: 46, 56</li>
+					<li>Excercises 4.3: 7, 20, 28, 39</li>
+					<li>Excercises 4.4: 14, 23, 41, 42, 48</li>
+				</ul>
+				</li>
+				<li><span class="date">5/28</span>
+				Homework for chapter 3
+				<span class=note>(Due: 7 June, before class)</span>
+				<ul>
+					<li>Excercises 3.5:	10,20, 50, 63, 66</li>
+					<li>Excercises 3.6: 26(b)(c), 43</li>
+					<li>Excercises 3.7: 9</li>
+				</ul>
+				</li>
+				<li><span class="date">4/24</span>
+				<a href="data/score-hw1&2.pdf">Scores for homework 1&2</a>
+				</li>
+				<li><span class="date">4/9</span>
+				Homework for chapter 2
+				<span class=note>(Due: 19 April, before class)</span>
+					<ul>
+						<li>Excercises 2.2:
+						19, 20, 34, 41, 55
+						</li>
+						<li>Excercises 2.3:
+						2.3: 3, 12, 29, 39, 44
+						</li>
+						<li>Excercises 2.4:
+						2.4:	28, 33
+						</li>
+					</ul>
+				</li>
+				<li><span class="date">3/25</span>
+				Homework for chapter 1
+				<span class=note>(Due: 5 April, before class)</span>
+					<ul>
+						<li>Excercises 1.1:
+							56
+						</li>
+						<li>Excercises 1.2:
+						54, 67, 69
+						</li>
+						<li>Excercises 1.3:
+						31, 43
+						</li>
+						<li>
+						Exploraton - The Cross Product (p.49):
+							6, 8
+						</li>
+						<li>Excercises 1.4:
+						30, 34
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

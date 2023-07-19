@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2013): syllabus</title>
+		<style type="text/css">
+			td
+			{
+				vertical-align:top;
+			}
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Syllabus</h1>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: Linear algebra</li>
+				<li>course webpage: 
+					<a href="http://www.minho-kim.com/courses/13sp71007">http://www.minho-kim.com/courses/13sp71007</a></li>
+				<li>credits: 3</li>
+				<li>course number: 71007</li>
+				<li>hours: Wed 3, Fri 2-3</li>
+				<li>classroom: 5-202</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-6490-2453</li>
+				<li>office: 19-312</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading</div>
+			<ul>
+				<li>attendance/participation 10%</li>
+				<li>midterm exam 35%</li>
+				<li>final exam 35%</li>
+				<li>homework/projects 20%</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for copied homework/projects (including the original one)</li>
+				<li>no score for cheating during exams</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>to understand fundamentals of linear algebra: vectors, vectors spaces, and matrices</li>
+				<li>to apply linear algebra to solve engineering problems</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>textbooks</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">
+						<!--
+						<img src="http://ecx.images-amazon.com/images/I/51rIfaB1PeL._SL500_AA240_.jpg">
+						-->
+						<img src="http://www.cengage.com/asiahed/imageservlet?productISBN=9780538735445">
+					</td>
+					<td style="valign:top;">
+						<!--
+							<a href="http://www.cengage.com/cengage/instructor.do?disciplinenumber=1&product_isbn=9780534998455&courseid=MA07&codeid=2B9E&subTab=&mainTab=About_the_Book&mailFlag=true&topicName=">
+								-->
+								<!--
+								<a href="http://www.cengage.com/asiahed/instructor.do?disciplinenumber=3100&product_isbn=9780534405960&courseid=MA07&codeid=2B9E&sortByShow=all&sortBy=copyrightYear&instructorFlag=true&newProducts=false&codeFlag=false">
+									-->
+									<!--
+						<a href="http://www.cengage.com/cgi-wadsworth/course_products_wp.pl?fid=M20bI&product_isbn_issn=9780534998455">
+							-->
+							<a href="http://www.cengage.com/asiahed/instructor.do?disciplinenumber=3100&product_isbn=9780538735445&courseid=MA07&codeid=2B9E&sortByShow=&sortBy=&instructorFlag=true&newProducts=false">
+								&ldquo;Linear Algebra: A Modern Introduction (3rd ed.)&rdquo;</a>
+						(by <a href="http://euclid.trentu.ca/math/dgp/david.home.html">David Poole</a>)
+						<!--
+						<p>
+						<a href="http://www.amazon.com/Linear-Algebra-Modern-Introduction-CD-ROM/dp/0534998453">Amazon</a>
+						<a href="http://books.google.com/books?id=oBk3u2fDFc8C">Google books</a>
+						-->
+						<p>
+						* Can be purchased at the campus bookstore.
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

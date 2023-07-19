@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>
+			Project #1
+		</title>
+	</head>
+	<body>
+		<h1 align=center>Project #1</h1>
+		<ul>
+			<li>
+			GOAL: to draw an interactive cubic B&eacute;zier curve.
+			</li>
+			<li>
+			DUE: 11:59pm 1 April
+			</li>
+			<li>
+			SUBMISSION: send your python code (two files) to me via an e-mail.
+			(<tt>Mr.Minho.Kim@gmail.com</tt>)
+			</li>
+			<li>
+			REQUIREMENTS
+			<ul>
+				<li>
+				A sample pyton files
+				<a href="https://www.dropbox.com/s/61rliu2a66rlucx/sample-drag.py?dl=0"><tt>sample-drag.py</tt></a>
+				is provided.
+				(courtesy of Hyunjun Kim)
+				</li>
+				<li>
+				You need to draw a cubic B&eacute;zier
+				curve defined by the four control points.
+				</li>
+				<li>
+				You can draw a curve by 
+				approximating it with
+				a piecewise linear curve
+				defined by uniform samples on the curve
+				(e.g., for t=0, 0.01, 0.02, ..., 0.99, 1.0).
+				</li>
+				<li>
+				You need to implement two versions for curve evaluation.
+				One using the <b>de Casteljau algorithm</b>
+				and the other using
+				the <b>Bernstein basis functions</b>.
+				</li>
+				<li>
+				When the control polygon is modified
+				interactively,
+				the curve also needs to be updated accordingly.
+				</li>
+			</ul>
+		</ul>
+	</body>
+</html>

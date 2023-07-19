@@ -1,0 +1,44 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Digital Logic Design and Experiment (for SCSC)
+			(spring,2018): links</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Links</h1>
+		<ul>
+			<li>
+			&ldquo;The Elements of Computing Systems&rdquo;
+				<ul>
+					<li><a href="http://nand2tetris.org">From NAND to Tetris</a></li>
+					<li><a href="http://www.oracle.com/technetwork/java/javase/downloads">JRE (Java Runtime Environment) download</a> </li>
+					<li><a href="http://www.nand2tetris.org/software/HDL%20Survival%20Guide.html">HDL Survival Guide</a></li>
+				</ul>	
+			</li>
+			<li>
+			Online logic gates simulators
+				<ul>
+					<li><a href="http://circuits-cloud.com">Circuits Cloud</a></li>
+					<li><a href="https://www.circuitlab.com">CircuitLab</a></li>
+					<li><a href="http://simcironline.appspot.com">Simcir</a></li>
+					<li><a href="http://www.neuroproductions.be/logic-lab">Logic Lab</a></li>
+					<li><a href="http://itools.subhashbose.com/educational-tools/logic-simulator.html">iTools</a></li>
+					<li><a href="http://www.expertgear.com/projects/boolLogicSim">Boolean Logic Simulator</a></li>
+					<li><a href="http://www.tetzl.de/logicsim_applet.html">LogicSim</a></li>
+				</ul>
+			</li>
+			<li>
+				etc.
+				<ul>
+					<li><a href="http://www.wolframalpha.com/examples/BooleanAlgebra.html">WolframAlpha Boolean Algebra</a>:
+					Given a boolean expression, it can generate a truth table and logic circuits.
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

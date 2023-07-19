@@ -1,0 +1,74 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Topics in Computer Graphics (spring,2017): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+					<span class=date>12 May</span>
+					Please send me an e-mail 
+					notifying the paper you choose
+					for presentation.
+					(Due: 11:59pm 16 May (Tue))
+				</li>
+				<li>
+					<span class=date>4 May</span>
+					Please submit your midterm project
+					to <a href="mailto:Mr.Minho.Kim@gmail.com">Mr.Minho.Kim@gmail.com</a>.
+				</li>
+				<li>
+					<span class=date>18 Apr</span>
+					Midterm project is posted.
+					(due: 11:59pm, 4 May)
+				</li>
+				<li>
+					<span class=date>14 Mar</span>
+					<a href="pyopencl.html">How to install PyOpenCL</a>
+				</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

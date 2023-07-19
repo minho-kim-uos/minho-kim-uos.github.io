@@ -1,0 +1,102 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2014): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li><span class=date>12/18</span>
+				<ul>
+					<li>
+				<a href="https://www.dropbox.com/s/9j6jweqqpeshpcz/eval-form.txt?dl=0">Here</a> is the evaluation form. Each of you need to fill out the form and send it back to me. Please send it back in plain text format. (not HWP, DOC, PDF, etc.)
+					</li>
+					<li>
+					Each team should submit the term project materials
+					(source codes, video, report, presentation file, etc.)
+					until <span class=note>11:59pm 21 Dec</span>.
+					</li>
+				</ul>
+				</li>
+				<li><span class=date>11/12</span>
+				<span class=note>IMPORTANT NOTICE</span>
+				When sending your project files, please EXCLUDE
+				all the DLL , EXE, or other problemetic files.
+				They are rejected by the Gmail server.
+				</li>
+				<li><span class=date>10/29</span>
+				<a href="proj1.shtml">Project #1</a>
+				is posted.
+				(due: 12 Nov. (Wednesday) 11:59pm)
+				</li>
+				<li><span class=date>9/23</span>
+				Please check out the
+				<a href="projects.shtml">projects</a> page.
+				</li>
+				<li><span class=date>9/23</span>
+				Sample files are being updated.
+				Keep checking 
+				<a href="https://www.dropbox.com/s/jsgs1mlfi7rmxbu/README.txt?dl=0">README.txt</a>
+				for the latest info.
+				</li>
+				<li><span class=date>9/11</span>
+				Please read <a href="https://www.dropbox.com/s/jsgs1mlfi7rmxbu/README.txt?dl=0">README.txt</a>
+				for
+					<ul>
+						<li>
+						checking the OpenGL version of your machine and
+						</li>
+						<li>
+				compiling and building on OpenGL 3.1.
+						</li>
+					</ul>
+				</li>
+				<li><span class=date>9/4</span>
+				Please read <a href="https://www.dropbox.com/s/jsgs1mlfi7rmxbu/README.txt?dl=0">README.txt</a>
+				for &ldquo;How to build sample codes?&rdquo; help.
+				</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+
+
+<? include "../.htuserinfo.php" ; ?>
+<? echo"
+
+	<html>
+	<body background='http://byus.net/image/bgcheck.gif'>
+
+	<table align=center width=800>
+	  <tr>
+	    <td>
+<pre>
+byus.net 에서 알립니다.
+
+$account 회원님의 가입을 축하 드립니다.
+현재 이 사이트는 정상적으로 오픈 되었습니다.
+
+* 계정 등록일 : $initdate 
+
+* 등록 서버 : $hostno 차 서버 
+* 등록 서버 아이피 : $hostip 
+
+* 계정 아이디 : $account
+* 계정 비번 : 신청하신 비밀번호
+* 계정 종류 : $grade
+* 홈 디렉토리 : $rootdir
+  - 계정에 ftp 접속후 public_html 아래에 홈파일을 업로드 하시면 됩니다.
+
+* HOSTNAME : localhost
+* MYSQL DB NAME : $dbname
+* MYSQL DB PASSWORD : 계정 비번과 동일
+* MYSQL DB USER : $dbuser
+
+</pre>
+<span style='font-size:9pt;'>* 제로보드 인스톨 바로가기 <a href=/zboard/admin.php>[ GO ]</a></span><br>
+<span style='font-size:9pt;'>* 제로보드 메뉴얼 새창열기 <a href=http://nzeo.com/manual/index.html target=_blank>[ GO ]</a></span><br><br>
+
+<span style='font-size:9pt;'>* 계정 FTP 접속하기 <a href=ftp://$ftpadd>[ GO ]</a></span><br>
+<span style='font-size:9pt;'>* 계정 Webmail 접속하기 <a href=http://$mailadd>[ GO ]</a></span><br>
+<span style='font-size:9pt;'>* 계정 Telnet 접속하기 <a href=telnet://$hostname>[ GO ]</a></span><br><br>
+<span style='font-size:9pt;'>* Telnet/SSH 프로그램 다운 <a href=http://byus.net/jsb/read.php?table=pds&no=102&page=1>[ GO ]</a></span><br>
+<span style='font-size:9pt;'>* 알 FTP 프로그램 다운 <a href=http://www.altools.com/download/altools_download.asp?AppName=알FTP공개용&Version=v3.4&URL=http://down.altools.com/ALFTP34.exe>[ GO ]</a></span><br><br>
+
+<span style='font-size:9pt;'>* 계정 트래픽 확인 <a href=/throttle-me>[ GO ]</a></span><br>
+<pre>
+* 비누넷 서버의 PHP 의 설정은 보안관련 register_globals = Off 가 디폴트 이나,
+  개별 계정의 .htaccess 파일에 register_globals = On 이 적용되고 있습니다. [2004-12-18]
+
+  보안 관련 해당 변수를 OFF 로 사용 희망하시는 경우 public_html 폴더
+  안에 .htaccess 파일을 삭제하여 주시면 됩니다.
+ 
+  public_html/.htaccess 파일의 내용 ---------
+  php_flag register_globals on
+  -------------------------------------------
+</pre>
+<span style='font-size:9pt;'>* 자세한 안내는 <a href=http://byus.net/jsb/read.php?table=notice&no=239>[여기]</a>를 클릭하세요.</span><br>
+	    </td>
+	  </tr>
+	</table>
+
+	</body>
+	</html>
+" ?>

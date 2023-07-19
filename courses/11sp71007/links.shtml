@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2011): links</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Links</h1>
+		<div style="margin:100px;">
+		<ul>
+			<li>
+				Linear Algebra
+				<ul>
+					<li>
+					<a href="http://en.wikibooks.org/wiki/Linear_algebra">Linear algebra</a>
+					(by <a href="http://www.wikibooks.org">Wikibooks</a>)
+					</li>
+					<li>
+						<a href="http://ocw.mit.edu/OcwWeb/Mathematics/18-06Spring-2005/CourseHome/index.htm">Video lecture</a> 
+						(original course name: <a href="http://web.mit.edu/18.06/www">18.06 Linear Algebra</a>)
+						by <a href="http://www-math.mit.edu/~gs">Gilbert Strang</a>
+						(Dept. of Mathematics, <a href="http://www.mit.edu">MIT</a>)
+					</li>
+					<li>
+						<a href="http://www.youtube.com/watch?v=xJBGfPfE4fQ">&ldquo;Vectors&rdquo;</a>
+						(YouTube video)
+					</li>
+					<li>
+						Thomas Yuster,
+						<a href="http://mathdl.maa.org/mathDL/20/?pa=content&sa=viewDocument&nodeId=3520">&ldquo;The Reduced Row Echelon Form of a Matrix is Unique: A Simple Proof&rdquo;</a>,
+						Mathematics Magazine,
+						March, 1984
+					</li>
+				</ul>
+			<li>
+			<li>
+				Tools
+				<ul>
+					<li>
+						<a href="http://maxima.sourceforge.net">Maxima</a>: a FREE Computer Algebra System (CAS)
+						<ul>
+							<li><a href="http://sourceforge.net/projects/maxima/files">Windows installer</a></li>
+						</ul>
+					</li>
+					<li>
+						GNU Octave: FREE Matlab clone
+						<ul>
+							<li><a href="http://www.gnu.org/software/octave">Homepage</a>
+							<li><a href="http://octave.sourceforge.net">Octave-Force</a>: Windows installer can be found here</li>
+		</li>
+							<li><a href="http://www.network-theory.co.uk/docs/octave3">GNU Octave Manual Version 3</a></li>
+							<li><a href="http://xoctave.webs.com">Xoctave</a>: GLU Octave Interface for Win32 (requires Octave installed)</li>
+						</ul>
+					</li>	
+					<li>
+					<a href="http://www.wolfram.com/products/player">Mathematica Player</a>:
+					Free viewer for Mathematica notebook files.
+					</li>
+					<li>
+						<a href="http://www.sagemath.org">Sage</a>: FREE open-source  mathematics software system
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

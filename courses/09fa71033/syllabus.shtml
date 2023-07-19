@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>Computer Graphics (fall,2009): syllabus</title>
+		<style type="text/css">
+			td
+			{
+				vertical-align:top;
+			}
+			div.item div.title
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:left;
+			}
+<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Syllabus</h1>
+		<div class=item>
+			<div class=title>course info</div>
+			<ul>
+				<li>title: Computer Graphics (for undergrads)</li>
+				<li>course webpage: 
+					<a href="http://www.minho-kim.com/courses/09fa71033">http://www.minho-kim.com/courses/09fa71033</a></li>
+				<li>credits: 3</li>
+				<li>course number: 71033</li>
+				<li>hours: Wed 6-7, Thu 9</li>
+				<li>classroom: 19-112</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>instructor</div>
+			<ul>
+				<li>Minho Kim</li>
+				<li>e-mail: <a href="mailto:minhokim@uos.ac.kr">minhokim@uos.ac.kr</a></li>
+				<li>tel: 02-2210-5786</li>
+				<li>office: 19-312</li>
+				<li>office hours: 4pm~5pm <del>Tue</del> Wed</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>grading</div>
+			<ul>
+				<li>attendance/participation 10%</li>
+				<li>midterm exam 20%</li>
+				<li>final exam 20%</li>
+				<li>homework/projects 50%</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>academic dishonesty</div>
+			<ul>
+				<li>no score for copied homework/projects (including the original one)</li>
+				<li>no score for cheating during exams</li>
+			</ul>
+		</div>
+		<div class=item>
+			<div class=title>course objectives</div>
+			<ul>
+				<li>to understand how the OpenGL graphics system works</li>
+				<li>to implement interactive 3D graphics applications</li>
+				<li>to get familiar with the newest graphics technology (shaders, OpenGL 3.0, etc.)</li>
+			</ul>
+			* We're NOT learning how to use 3D tools to build fancy objects!
+		</div>
+		<div class=item>
+			<div class=title>textbooks</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">
+						<img src="http://ecx.images-amazon.com/images/I/51IFpicx-tL._SL500_AA240_.jpg">
+<!--						<img src="http://ecx.images-amazon.com/images/I/51ByUOsWfsL._SL500_AA240_.jpg">	-->
+					</td>
+					<td style="valign:top;">
+						<a href="http://www.cs.unm.edu/~angel">
+							Interactive Computer Graphics, A top-down approach with OpenGL (4th Edition)
+						</a>
+						(by Edward Angel)
+						<p>
+						* The latest edition (5th) is quite expensive, but the 4th edition can be purchased at the campus bookstore with reasonable price.
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">
+						<img src="http://www.opengl.org/documentation/img/books/red_book.jpg">
+					</td>
+					<td style="valign:top;">
+						<a href="http://www.opengl.org/documentation/red_book">
+						&ldquo;OpenGL Programming Guide: The Official Guide 
+						to Learning OpenGL version 2.1&rdquo; 
+						(6th ed.)
+						</a>
+						(by Dave Shreiner, Mason Woo, Jackie Neider, Tom Davis)
+						<p>
+						* online version for OpenGL 1.1
+						<a href="http://www.glprogramming.com/red">http://www.glprogramming.com/red</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

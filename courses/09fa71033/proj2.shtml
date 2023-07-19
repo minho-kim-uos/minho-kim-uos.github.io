@@ -1,0 +1,127 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+	
+		<title>Computer Graphics (fall,2009): projects</title>
+<style type="text/css">
+	body
+	{
+		font-family:arial;
+	}
+	a.menu
+	{
+		background-color:dimgray;
+		padding:5px;
+		text-decoration:none;
+		color:silver;
+		font-weight:bold;
+		font-size:120%;
+		font-family:courier new;
+	}
+	a.menu:hover
+	{
+		color:white;
+		background-color:orange;
+	}
+
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align="center">Project #2</h1>
+		<h3 style="color: red;" align="center">[due: 24 Nov. 11:59pm]</h3>
+		<div style="margin: 100px;">
+			<div style="text-align:center">
+			<img style="margin: 20px;" src="proj2/screenshot.png">
+			</div>
+			<p>
+			Implements an interactive 3D lamp.
+			<div style="background-color:lightgray;">
+				<ul>
+					<li><a href="proj2/proj2_xp32.exe"><tt>proj2_xp32.exe</tt></a>: for WinXP (32bit)</li>
+					<li><a href="proj2/proj2_linux64"><tt>proj2_linux64</tt></a>: for linux (64bit)</li>
+					<li><a href="proj2/proj2_vista64.exe"><tt>proj2_vista64.exe</tt></a>: for Vista (64bit)</li>
+				</ul>
+				* Let me know if you need the demo executable for other platform.)
+			</div>
+			<p>
+			Requirements:
+			</p><ul>
+				<li>The title must be of the form "Your Name [Your Passcode]".</li>
+				<li>Viewing (See example <tt>projection.c</tt>)
+					<ul>
+						<li>Use <b>perspective</b> projection.</li>
+						<li>When the window is resized, the image should not be distorted.</li>
+						<li>Provides zooming in/out feature
+						by changing the "field of view" parameter
+						changed by '+'/'-'.</li>
+					</ul>
+				</li>
+				<li>
+					Render a desk and some objects on top.
+					<ul>
+						<li>Render a desk (size 8x8) using small quads (about 128x128) to
+						show the spot light effect accurately.
+						(See the example <tt>gouraud.c</tt>.)</li>
+						<li>Render some objects in the scene as you want.
+						(The demo contains a sphere and a teapot.)</li>
+						<li>Assign various material properties to each object.
+						(See the OpenGL example <a href="http://www.opengl.org/resources/code/samples/redbook"><tt>teapots.c</tt></a>.)
+						</li>
+					</ul>
+				</li>
+				<li>
+					Render a desk lamp.
+					<ul>
+						<li>The lamp is composed of various movable parts.</li>
+						<li>Each part can be selected by pressing keyboard '0'~'5'.</li>
+						<li>When selected, each part should be rendered in solid red (not shaded) with edges in white.
+						(See the example <tt>polyoffset.c</tt>.)</li>
+						<li>The 'base' of the lamp is selected by pressing '0'.
+						When selected, the base is translated by the arrow keys.</li>
+						<li>The 'base joint' is selected by pressing '1'.
+						When selected, the joint is rotated by pressing left/right arrows.</li>
+						<li>The 'lower joint' is selected by pressing '2'.
+						When selected, the joint is rotated by pressing up/down arrows.</li>
+						<li>The 'middle joint' is selected by pressing '3'.
+						When selected, the joint is rotated by pressing up/down arrows.</li>
+						<li>The 'upper joint' is selected by pressing '4'.
+						When selected, the joint is rotated by pressing up/down arrows.</li>
+						<li>The 'head joint' is selected by pressing '5'.
+						When selected, the joint is rotated by pressing left/right arrows.</li>
+					</ul>
+				</li>
+				<li>
+					Lighting
+					<ul>
+						<li>Set the global ambient light with RGB (0.2, 0.2, 0.2).</li>
+						<li>Set the sun light (directional light) with
+							<ul>
+								<li>direction (1,-1,1)</li>
+								<li>ambient (0,0,0,1)</li>
+								<li>diffuse (0.5,0.5,0.5,1)</li>
+								<li>specular (0.2,0.2,0.2,1).</li>
+							</ul>
+						</li>
+						<li>
+							Set the lamp light as a spot light with
+							<ul>
+								<li>ambient (0,0,0,1)</li>
+								<li>diffuse (1,1,1,1)</li>
+								<li>specular (1,1,1,1).</li>
+							</ul>
+							The direction and cut-off angle of the lamp
+							can be dynamically set.
+							<ul>
+								<li>The direction is set by the transformation
+								of the parts of the lamp.</li>
+								<li>The cut-off angle of the spot light
+								can be changed by Page Up/Down keys.</li>
+								<li>The cut-off angle needs to be indicated
+								by a wireframe cone.</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body></html>

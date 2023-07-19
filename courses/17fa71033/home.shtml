@@ -1,0 +1,78 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Computer Graphics (fall,2017): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:green;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li><span class=date>12/28</span> 
+				<a href="https://www.dropbox.com/s/1obqubmd8hgw4dp/17cg_score_posting.pdf?dl=0">Scores</a>
+				</li>
+				<li><span class=date>12/28</span> 
+					성적관련 공지사항
+					<ul>
+						<li>오늘중으로 project #1~3 성적이 공지될 예정입니다.
+						확인을 위해서는 passcode가 필요합니다.</li>
+						<li>각 개인에게 passcode가 부여되었고 행정정보시스템에 등록된
+						e-mail로 전송되었습니다.
+						혹시 받지 못하신 분은 문의하시기 바랍니다.</li>
+						<li>점수와 관련하여 문의하실 분은 내일 (금요일) 오후에 제 사무실(정보기술관312호)에 방문하시기 바랍니다.</li>
+					</ul>
+				</li>
+				<li><span class=date>12/14</span> 
+				Due date for project #3 is postponed to <span class=note>11:59pm 22 Dec (Fri)</span>. Hooooooray!</li>
+				<li><span class=date>12/12</span> A video for the project #3 is added. Sorry for the delay.</li>
+				<li><span class=date>11/29</span> Project #3 is posted.</li>
+				<li><span class=date>10/7</span> Project #2 is posted.</li>
+				<li><span class=date>10/25</span>
+				Please change the file extension *.js to *.txt
+				when you submit your project files.
+				Do not upload your files in a cloud storage.
+				</li>
+				<li><span class=date>10/11</span> Project #1 is posted.</li>
+				<li>Welcome!</li>
+			</ul>
+		</div>
+	</body>
+</html>

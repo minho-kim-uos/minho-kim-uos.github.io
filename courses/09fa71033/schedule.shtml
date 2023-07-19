@@ -1,0 +1,184 @@
+<html>
+	<head>
+		<title>Computer Graphics (fall,2009): schedule</title>
+		<style type="text/css">
+			tr.header td
+			{
+				text-align:center;
+			}
+			td.week
+			{
+				text-align:right;
+			}
+			table
+			{
+				border-collapse:collapse;
+			}
+			td
+			{
+				border-top:1px solid black;
+				border-bottom:1px solid black;
+				padding-left:5px;
+				padding-right:5px;
+			}
+			tr.header td
+			{
+				border-top:2px solid black;
+				border-bottom:2px solid black;
+			}
+		<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Course Schedule</h1>
+		<table align=center>
+			<tr class=header>
+				<td>week</td>
+				<td>topics</td>
+				<td>materials</td>
+			</tr>
+			<tr>
+				<td class=week>1</td>
+				<td>Introduction to computer graphics</td>
+				<td><a href="data/fa09_CG_intro.pptx">fa09_CG_intro.pptx</a></td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td>Introduction to OpenGL programming</td>
+				<td>
+					<a href="data/fa09_CG_01.pptx">fa09_CG_01.pptx</a><br>
+					<a href="data/fa09_CG_02.pptx">fa09_CG_02.pptx</a>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>3</td>
+				<td>
+					<del>
+					rendering primitives, color
+					</del>
+					<br>
+					GLUT,
+					interaction,
+					animation
+				</td>
+				<td>
+					<a href="data/fa09_CG_03.pptx">fa09_CG_03.pptx</a>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>4</td>
+				<td>transformation &amp; viewing</td>
+				<td><a href="data/fa09_CG_B.pdf">fa09_CG_B.pdf</a><br>
+				<a href="data/fa09_CG_04.pdf">fa09_CG_04.pdf</a></td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td>
+					<del>animation &amp; interaction</del><br>
+					transformation &amp; viewing
+				</td>
+				<td><a href="data/fa09_CG_05.pptx">fa09_CG_05.pptx</a></td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td>
+					<del>more on transformation</del><br>
+					break (<a href="http://cg.postech.ac.kr/pg2009">Pacific Graphics 2009</a> conference)
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>7</td>
+				<td>
+					viewing<br>
+					Pacific Graphics 2009 papers
+				</td>
+				<td><a href="data/fa09_CG_05.pptx">fa09_CG_05.pptx</a></td>
+			</tr>
+			<tr>
+				<td class=week>8</td>
+				<td>
+					<del>midterm exam</del><br>
+					shading: lighting &amp; material
+				</td>
+				<td><a href="data/fa09_CG_06.pptx">fa09_CG_06.pptx</a></td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td>
+					<del>lighting &amp; material</del><br>
+					pipeline
+				</td>
+				<td><a href="data/fa09_CG_07.pptx">fa09_CG_07.pptx</a></td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td>
+					<del>pixels, bitmaps, fonts &amp; images</del>
+					<br>
+					antialiasing,
+					pixel operation
+				</td>
+				<td rowspan=2><a href="data/fa09_CG_08.pptx">fa09_CG_08.pptx</a></td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td>
+					advanced graphics:
+					texture mapping
+				</td>
+			</tr>
+			<tr>
+				<td class=week>12</td>
+				<td>
+					<del>break</del>
+					<br>
+					advanced graphics:
+					curves &amp; surfaces
+				</td>
+				<td><a href="data/fa09_CG_11_handout.pdf">fa09_CG_11_handout.pdf</a></td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td>
+					advanced graphics:
+					curves &amp; surfaces
+					<br>
+					picking and UI
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>14</td>
+				<td>
+					<del>
+					more topics:
+					GPU programming,
+					ray-tracing,
+					isosurface extraction,
+					particle system, 
+					etc.
+					</del>
+					<br>
+					polygonal meshes, 3d file formats, vertex arrays, VBO 
+				</td>
+				<td>
+					<a href="data/fa09_CG_polymesh.pptx">fa09_CG_polymesh.pptx</a>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>16</td>
+				<td>
+					final exam
+				</td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>

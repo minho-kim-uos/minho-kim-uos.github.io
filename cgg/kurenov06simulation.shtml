@@ -1,0 +1,22 @@
+<div class=work>
+	<img class=thumbnail src="images/kurenov06simulation.jpg">
+	<a class=title href="http://dx.doi.org/10.1177/1553350606296923">Simulation for Training with the Autosuture Endo Stitch Device</a>
+	<div class=author>
+	<!--#include file="authors/sergei.kurenov.html"-->,
+	<!--#include file="authors/sukitti.punak.html"-->,
+	<!--#include file="authors/minho.kim.html"-->,
+	<!--#include file="authors/jorg.peters.html"-->
+
+	and
+	<!--#include file="authors/juan.cendan.html"-->
+</div>
+	<a class=where href="http://sri.sagepub.com">Surgical Innovation</a>,
+	13(4),
+	pp. 283-287,
+	Dec. 
+	<span class=year>2006</span>.
+	<div class=abstract>
+		<div class=title>abstract</div>
+		The rapid development and deployment of novel laparoscopic instruments present the surgical educator and trainee with a significant challenge. Several useful instruments have been particularly difficult to teach the novice. We have developed a platform that allows the combination of the actual instrument handle with a virtual re-creation of the instrument tip. We chose the Autosuture&trade; Endo Stitch&trade; device as the prototypical instrument because it satisfies our subjective experience of &ldquo;useful, but hard to teach.&rdquo; A software package was developed to support the re-creation of the needle and suture that accompany the device. The apparatus has haptic capabilities and collision detection so that the needle driver is &ldquo;aware&rdquo; of suture and instrument contact. The developed virtual environment allows re-creation of the necessary motion to simulate the instrument, the trainee can use the actual instrument handle, and the system can be altered to accommodate other instruments.
+	</div>
+</div>

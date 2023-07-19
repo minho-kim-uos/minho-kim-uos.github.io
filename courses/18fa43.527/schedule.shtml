@@ -1,0 +1,233 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Computer Graphics
+			(fall,2018dule</title>
+		<style type="text/css">
+			div.topic
+			{
+				font-weight:bold;
+			}
+			div.topic:before
+			{
+//				content:open-quote;
+				content:"\"";
+			}
+			div.topic:after
+			{
+//				content:close-quote;
+				content:"\"";
+			}
+			tr.header td
+			{
+				font-size:150%;
+				font-weight:bold;
+				text-align:center;
+			}
+			td.week
+			{
+				font-size:200%;
+				font-weight:bold;
+				text-align:right;
+			}
+			table
+			{
+				border-collapse:collapse;
+			}
+			td
+			{
+				border-top:1px dashed black;
+				border-bottom:1px dashed black;
+				padding-left:5px;
+				padding-right:5px;
+			}
+			tr.header td
+			{
+				border-top:2px solid black;
+				border-bottom:2px solid black;
+			}
+			td ul
+			{
+				margin:0px;
+				list-style-type:square;
+			}
+			span.holiday
+			{
+				color:red;
+				font-weight:bold;
+			}
+		<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Course Schedule</h1>
+		<table align=center>
+			<tr class=header>
+				<td>week</td>
+				<td>date</td>
+				<td>topics</td>
+				<td>materials</td>
+			</tr>
+			<tr>
+				<td class=week>1</td>
+				<td class=date>6,7 Sep</td>
+				<td>
+					Introduction<br>
+					Ch01 Overview of WebGL
+
+				</td>
+				<td>
+<!--					<a href="data/p1_handout.pdf">p1_handout.pdf</a>
+-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td class=date>13,14 Sep</td>
+				<td>
+					Ch02 
+					Your First Step with WebGL
+				</td>
+				<td>
+					<!--
+					<a href="data/pA_handout.pdf">pA_handout.pdf</a>
+					<br>
+					<a href="data/p2_handout.pdf">p2_handout.pdf</a>
+					<br>
+					<a href="data/p3_handout.pdf">p3_handout.pdf</a>
+					-->
+				</td>
+			</tr>
+			<tr>
+				<td class=week>3</td>
+				<td class=date>20,21 Sep</td>
+				<td>
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td class=week>4</td>
+				<td class=date>27,28 Sep</td>
+				<td>
+					Ch03 
+					Drawing and Transforming Triangles
+				</td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td class=date>4,5 Oct</td>
+				<td>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td class=date>11,12 Oct</td>
+				<td>
+					Ch04 
+					More Transformations and Basic Animation
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>7</td>
+				<td class=date>18,19 Oct</td>
+				<td>
+					Ch05 
+					Using Colors and Texture Images
+				</td>
+				<td></td>
+			</tr>
+			<!--
+			<tr style="background-color:orange;">
+				-->
+			<tr>
+				<td class=week>8</td>
+				<td class=date>25,26 Oct</td>
+				<td>
+					Ch06 
+					The OpenGL ES Shading Language (GLSL ES)
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td class=date>1, 2 Nov</td>
+				<td>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td class=date>8,9 Nov</td>
+				<td>
+					Ch07
+					Toward the 3D World
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td class=date>15,16 Nov</td>
+				<td>
+					Ch08
+					Lighting Ojects
+				</td>
+
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>12</td>
+				<td class=date>22,23 Nov</td>
+				<td>
+					Ch09 Hierarchical Objects
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td class=date>29,30 Nov</td>
+				<td>
+					Ch10 Advanced Techniques
+				</td>
+				<td></td>
+			</tr>
+			<tr style="background-color:gray">
+				<td class=week>14</td>
+				<td class=date>6,7 Dec</td>
+				<td>
+					No classes
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td class=date>13,14 Dec</td>
+				<td>
+					More on Computer Graphics
+					<ul>
+						<li>Desktop OpenGL</li>
+						<li>Vulkan</li>
+					</ul>
+				</td>
+				<td></td>
+			</tr>
+			<!--
+			<tr style="background-color:orange;">
+				-->
+			<tr>
+				<td class=week>16</td>
+				<td class=date>20,21 Dec</td>
+				<td>
+					More on Computer Graphics
+					(cont'd)
+				</td>
+				<td></td>
+			</tr>
+		</table>
+	</body>
+</html>

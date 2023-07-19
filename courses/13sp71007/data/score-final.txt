@@ -1,0 +1,79 @@
+Linear Algebra
+(spring, 2013)
+
+final exam score
+
+(NOTE: Everybody who took the final exam got extra 10 points.)
+
+passcode	score
+
+016s		18
+0pp9		48
+3jmr		11
+4xfi		52
+51lv		45
+5f3e		72
+5yoq		32
+6dht		46
+705y		29
+7isy		62
+7pgs		32
+7pxm		49
+87p2		40
+9foe		24
+a6yp		47
+b9sd		45
+c7qk		76
+c8uv		26
+cp48		77
+d18r		45
+e4zx		55
+f19t		0
+f3ub		0
+fy9d		25
+gsse		50
+gx20		50
+h190		10
+hqq3		68
+iaok		89
+j1rl		12
+j3x2		23
+jk10		25
+jr1h		28
+l9bw		10
+m8oq		17
+msj9		16
+n05t		35
+nvtc		38
+o5r9		44
+opmp		68
+oqrb		27
+or75		70
+pvas		51
+pw16		24
+qfex		88
+qr7f		0
+r2tq		47
+r6cz		71
+raw4		25
+rgft		87
+rn3a		49
+s2wv		14
+tnx8		78
+tq19		53
+ttkv		85
+uc5b		29
+vgwk		37
+vkn0		58
+vp52		32
+wj3u		58
+wjq9		11
+y788		20
+ynfc		70
+yy98		24
+yyq6		23
+z10h		17
+zy8a		18
+
+
+

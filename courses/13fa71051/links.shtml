@@ -1,0 +1,145 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<meta content-language="ko">
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2013): links</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Links</h1>
+		<div style="margin:100px;">
+		<ul>
+			<li>
+				Numerical methods
+				<ul>
+					<li><a href="http://www.cs.utah.edu/~zachary/isp/applets/Root/Bisection.html">Bisection method applet</a> @U of Utah</li>
+					<li><a href="http://www.apropos-logic.com/nc/index.html">Numerical methods applets</a> by Ronald Mak</li>
+				</ul>
+			</li>
+			<li><a href="http://en.wikipedia.org/wiki/Mathematical_model">Mathematical model</a> by Wikipedia</li>
+			<li><a href="http://en.wikipedia.org/wiki/Numerical_method">Numerical methods (Numerical analysis)</a>
+			by Wikipedia</li>
+			<li><a href="http://en.wikipedia.org/wiki/Numerical_error">Numerical error</a> by Wikipedia</li>
+			<li>
+				Ch.3
+				<ul>
+					<li><a href="http://math.fullerton.edu/mathews/a2001/Animations/RootFinding/RootFinding.html">Animations for Root Finding</a>
+						California State University Fullerton
+				</ul>
+			</li>
+			<li>
+				Mathematical Modeling
+				<ul>
+					<li><a href="http://www.indiana.edu/~hmathmod/modelmodel.html">The Mathematical Modeing Cycle</a> by Daniel Maki &amp; Maynard Thompson @Indiana University
+					(<a href="modeling-ko.html">번역본</a>)
+					</li>
+				</ul>
+			</li>
+			<li>
+				Differential equations
+				<ul>
+					<li>
+						<a href="http://en.wikibooks.org/wiki/Differential_Equations">Differential equations</a> (by <a href="http://www.wikibooks.org">Wikibooks</a>)
+					</li>
+					<li>
+						<a href="http://ocw.mit.edu/OcwWeb/Mathematics/18-03Spring-2006/VideoLectures/index.htm">Video lectures</a> 
+						(course title: <a href="http://ocw.mit.edu/OcwWeb/Mathematics/18-03Spring-2006/CourseHome/index.htm">Differential Equations</a>)
+						by <a href="http://math.mit.edu/~apm">Arthur Mattuck</a>
+						(Dept. of Mathematics, <a href="http://www.mit.edu">MIT</a>)
+					</li>
+					<li>
+						<a href="http://www.jirka.org/diffyqs">Notes on Diffy Qs: Differential Equations for Engineers</a>
+						by <a href="http://www.math.uiuc.edu/~jlebl">Ji&#345;&#237; Lebl</a> 
+						(Dept. of Mathematics, <a href="http://www.uiuc.edu">UIUC</a>)
+					</li>
+					<li>
+						<a href="http://tutorial.math.lamar.edu/Classes/DE/DE.aspx">Paul's Online Math Notes</a> 
+						by <a href="http://ptdawkins.com">Paul Dawkins</a> 
+						(Dept. of Mathematics, <a href="http://www.lamar.edu">Lamar University</a>)
+					</li>
+				</ul>
+			</li>
+			<li>
+				Calculus
+				<ul>
+					<li>
+						<a href="http://www.vias.org/calculus">Elementary Calculus</a>
+						by VIAS (Virtual Institute of Applied Science) group
+					</li>
+					<li>
+						<a href="http://integrals.wolfram.com">Wolfram Mathematica Online Integrator</a>
+					</li>
+					<li>
+						<a href="http://en.wikipedia.org/wiki/Lists_of_integrals">Lists of integrals</a> (Wikipedia)
+					</li>
+					<li>
+						<a href="http://ocw.mit.edu/ans7870/resources/Strang/strangtext.htm">Calculus</a> 
+						by <a href="http://www-math.mit.edu/~gs">Gilbert Strang</a> 
+						(Dept. of Mathematics, MIT): Free PDF version.
+					</li>
+				</ul>
+			</li>
+			<li>
+				Tools
+				<ul>
+					<li>
+						GNU Octave: FREE Matlab clone
+						<ul>
+							<li><a href="http://www.gnu.org/software/octave">Homepage</a>
+		</li>
+							<li><a href="http://www.network-theory.co.uk/docs/octave3">GNU Octave Manual Version 3</a></li>
+							<li><a href="http://www.guioctave.com">GUI Octave</a>: GUI for the GNU Octave (recommended, GNU Octave needs to be installed separately.)</li>
+							<li><a href="http://xoctave.webs.com">Xoctave</a>: GLU Octave Interface for Win32 (requires GNU Octave installed)</li>
+							<li><a href="octave.html">GNU Octave 초간단 설명서</a> by Minho Kim</li>
+							<li><a href="http://www-mdp.eng.cam.ac.uk/web/CD/engapps/octave/octavetut.pdf">Introduction to Octave</a>
+							by	P.J.G. Long (2005)</li>
+							<li><a href="http://math.jacobs-university.de/oliver/teaching/iub/resources/octave/octave-intro.pdf">Introduction to GNU Octave</a> by Hubert Selhofer (2008)</li>
+							<li><a href="http://en.wikibooks.org/wiki/MATLAB_Programming/Differences_between_Octave_and_MATLAB">Differences between Octave and MATLAB</a></li>
+						</ul>
+					</li>	
+					<li>
+						<a href="http://www.sagemath.org">Sage</a>: FREE open-source  mathematics software system
+					</li>
+					<li>
+						<a href="http://maxima.sourceforge.net">Maxima</a>: a FREE Computer Algebra System (CAS)
+					</li>
+				</ul>
+			</li>
+			<li>
+			<a href="http://en.wikipedia.org/wiki/Physics_engine">Physics engines</a>
+				<ul>
+					<li><a href="http://bulletphysics.org">Bullet</a> (<a href="http://en.wikipedia.org/wiki/Bullet_(software)">Wikipedia</a>)</li>
+					<li><a href="http://www.havok.com">Havok</a> (<a href="http://en.wikipedia.org/wiki/Havok_(software)">Wikipedia</a>)</li>
+					<li><a href="http://developer.nvidia.com/technologies/physx">PhysX</a> (<a href="http://en.wikipedia.org/wiki/PhysX">Wikipedia</a>)</li>
+					<li><a href="http://www.naturalmotion.com/euphoria">Euphoria</a></li>
+					<li><a href="http://www.blender.org">Blender</a></li>
+				</ul>
+			</li>
+			<li>
+				Etc.
+				<ul>
+					<li>
+						Stability of the Euler's implicit method
+						<ul>
+							<li>
+								<a href="http://web.mit.edu/10.001/Web/Course_Notes/Differential_Equations_Notes/node3.html">Forward and Backward Euler Methods</a> @MIT
+							</li>
+							<li>
+								<img src="http://www.adobe.com/images/pdficon_small.gif">
+								<a href="www.cs.cmu.edu/~baraff/sigcourse/slidese.pdf">Implicit Methods: how to not blow up</a>
+									by David Baraff @CMU
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

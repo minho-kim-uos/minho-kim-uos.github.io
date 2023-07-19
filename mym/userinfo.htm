@@ -1,0 +1,112 @@
+<?       $configfile1 = shell_exec(" ls ./.htaccess ");
+         if(!$configfile1){
+         print "<script>window.alert('메니져 접근 인증이 설정되지 않아, 처리가 보류됩니다..');history.go(-1)</script>";
+         }
+?>
+
+<? include "head.htm"; ?>
+<? include "../.htuserinfo.php"; ?>
+<? echo "
+
+<html>
+<body bgcolor='#F5F5F5' LINK='#555555' ALINK='#888888' VLINK='#3f3f3f' TEXT='#000000' TOPMARGIN=20 LEFTMARGIN=10>
+&nbsp;<b>* <u>사용자 정보</u></b>
+<br><br>
+
+<table width=100%><tr><td>
+
+
+<table align=left width=560 border=0 cellpadding='3' cellspacing='1' bgcolor='B0BDD5'>
+	<tr><td height=2></td></tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25 width=40%><font color=#414141>&nbsp;&nbsp; <b>* 입주 서버<b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $hostname ($hostno 차) </td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25 width=40%><font color=#414141>&nbsp;&nbsp; <b>* 서버 아이피<b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $hostip</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#3D5C9A>&nbsp;&nbsp; <b>* 계정 아이디</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $account</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#3D5C9A>&nbsp;&nbsp; <b>* 계정 등록일</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $initdate</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#3D5C9A>&nbsp;&nbsp; <b>* 계정 만기일</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $expiredate</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#AD6CE8>&nbsp;&nbsp; <b>* 홈주소</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $homeadd</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#AD6CE8>&nbsp;&nbsp; <b>* FTP주소</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $ftpadd</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#AD6CE8>&nbsp;&nbsp; <b>* POP3 / SMTP주소</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $mailadd</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#AD6CE8>&nbsp;&nbsp; <b>* 등록 이메일</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $remail</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#AD6CE8>&nbsp;&nbsp; <b>* 유저 이메일</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $uemail</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#39B039>&nbsp;&nbsp; <b>* 계정 이용단위</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $gradeno 단위 ( $grade )</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#39B039>&nbsp;&nbsp; <b>* 계정 허용용량</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $hddlimit 메가</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#39B039>&nbsp;&nbsp; <b>* 트래픽 허용용량</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $trafficelimit 메가</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#E48B12>&nbsp;&nbsp; <b>* 절대 경로</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $rootdir</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#E48B12>&nbsp;&nbsp; <b>* MySQL HostName</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $dbhost</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#E48B12>&nbsp;&nbsp; <b>* MySQL DB ID</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $dbuser</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#E48B12>&nbsp;&nbsp; <b>* MySQL DB Name</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; $dbname</td>
+	</tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25><font color=#E48B12>&nbsp;&nbsp; <b>* MySQL DB Pass</b></font></td><td bgcolor=#FDFDFD>&nbsp;&nbsp; 최초 계정비번과 동일</td>
+	</tr>
+	<tr><td height=2></td></tr>
+</table>
+
+</td></tr><tr><td>
+
+<br><br>
+&nbsp;<b>* <u>도메인 이메일 포워딩 정보</u></b>
+<br><br>
+<table align=left width=560 border=0 cellpadding='3' cellspacing='1' bgcolor='B0BDD5'>
+	<tr><td height=2></td></tr>
+	<tr>
+		<td bgcolor=#E2E6EC height=25 ><font color=#414141>&nbsp;&nbsp; <b>* 도메인 정보<b></font></td><td bgcolor=#E2E6EC >&nbsp;&nbsp; <b>발급 이메일</b> </td><td bgcolor=#E2E6EC >&nbsp;&nbsp; <b>메일계정</b> </td>
+	</tr><tr>
+";
+	for($i=1; $i<=count($domain); $i++)
+	{
+		if (!($mailendno[$i])) {
+			 $mailendno[$i] = $i*100+1 ;}
+		for($j=($i*100+1); $j<=$mailendno[$i]; $j++)
+			{
+			if ($domain[$i]) { $domain[$i] = "* $domain[$i]"; }
+			echo "<td bgcolor=#F6F6EE height=25 ><font color=#414141>&nbsp;&nbsp; <b>$domain[$i]<b></font></td><td bgcolor=#FDFDFD >&nbsp;&nbsp; $email[$j]</td><td bgcolor=#FDFDFD >&nbsp;&nbsp; $forward[$j]</td></tr><tr>";
+			$domain[$i]="";
+			}
+
+	}
+	?>
+
+	</tr>
+	<tr><td height=2></td></tr>
+</table>
+
+</td></tr></table>
+<br>
+<br>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2011): homeworks</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+	span.date
+	{
+		color:green;
+		font-weight:bold;
+	}
+	span.date:before
+	{
+		content:"[";
+	}
+	span.date:after
+	{
+		content:"]";
+	}
+	span.note
+	{
+		color:red;
+	}
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Homeworks</h1>
+		<div style="margin:100px;">
+			<ul>
+				<li>
+					<span class=date>11/30</span>
+					<span class=note>(due: before class on 16 Dec)</span>
+					<ul>
+						<li>Chap 8:
+							3, 5, 10, 11, 14, 16, 17
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/23</span>
+					<span class=note>(due: before class on 8 Dec)</span>
+					<ul>
+						<li>Chap 7:
+						1, 4, 11, 15, 17, 18, 19, 22
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>11/4</span>
+					<span class=note>(due: before class on 18 Nov)</span>
+					<ul>
+						<li>Chap 6: (by hand) 1, 6, 8
+							(Octave programming) 
+							19, 23
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>10/28</span>
+					<span class=note>(due: before class on 11 Nov)</span>
+					<ul>
+						<li>Chap 5: (by hand) 4, 5, 7, 11 (--&ge; Octave required), 14 (Octave programmin) 19(b), 21(b)</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>10/7</span>
+					<span class=note>(due: before class on 14 Oct)</span>
+					<ul>
+						<li>Chap 4: (by hand) 1, 8, 14 (Octave programming) 20, 22</li>
+					</ul>
+				</li>
+				<li>
+					<span class=date>9/23</span>
+					<span class=note>(due: before class on 7 Oct)</span>
+					<ul>
+						<li>Chap 2: (by hand) 2, 4, (Octave programming) 17, 20, 22, 25</li>
+						<li>Chap 3: (by hand) 15 (Octave programming) 27</li>
+					</ul>
+					Please send your Octave programs to
+					이영준 조교 (<a href="mailto:nedis3000@nate.com">nedis3000@nate.com</a>).
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

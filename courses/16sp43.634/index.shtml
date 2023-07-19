@@ -1,0 +1,61 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Advanced Computer Graphics (spring,2016): home</title>
+		<style type="text/css">
+			body
+			{
+			}
+			div.announce
+			{
+				border-spacing:0px;
+				margin-top:100px;
+				margin-left:50px;
+				margin-right:50px;
+			}
+			span.date
+			{
+				color:red;
+				font-weight:bold;
+			}
+			span.date:before
+			{
+				content:'[';
+			}
+			span.date:after
+			{
+				content:']';
+			}
+			div.code
+			{
+				font-family:courier new;
+				background-color:silver;
+				padding:10px;
+			}
+			<!--#include file="style-menu.css"-->
+			span.note
+			{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Announcements</h1>
+		<h3 align=center>(Please refresh (by pressing F5) this page frequently to
+			check the latest announcements.)</h3>
+		<div class="announce">
+			<ul>
+				<li>
+					<span class=date>4/14</span>
+					Midterm exam
+					<ul>
+						<li>when: 22 Apr 3-4:50pm</li>
+						<li>coverage: chap 2~6</li>
+						<li>open-book exam: lecture slides printouts and the textbook are allowed.</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

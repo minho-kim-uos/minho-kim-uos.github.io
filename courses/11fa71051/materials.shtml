@@ -1,0 +1,34 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>
+			Mathematical Models for Engineering Problems 
+			and Differential Equations
+			(fall,2011): materials</title>
+<style type="text/css">
+<!--#include file="style-menu.css"-->
+</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Materials</h1>
+		<div style="margin:100px;">
+		<ul>
+			<li>Lecture slides
+			<ul>
+				<li><a href="data/p0-handout.pdf">Introduction</a></li>
+				<li><a href="data/p1-handout.pdf">Chapter 1</a></li>
+				<li><a href="data/p2-handout.pdf">Chapter 2</a></li>
+				<li><a href="data/p3-handout.pdf">Chapter 3</a></li>
+				<li><a href="data/p4-handout.pdf">Chapter 4</a></li>
+				<li><a href="data/p5-handout.pdf">Chapter 5</a></li>
+				<li><a href="data/p6-handout.pdf">Chapter 6</a></li>
+				<li><a href="data/p7-handout.pdf">Chapter 7</a></li>
+				<li><a href="data/p8-handout.pdf">Chapter 8</a></li>
+				<li><a href="data/pA-handout.pdf">Appendix A</a></li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+	</body>
+</html>

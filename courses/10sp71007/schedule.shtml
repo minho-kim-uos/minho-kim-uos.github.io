@@ -1,0 +1,206 @@
+<html>
+	<head>
+		<title>Linear Algebra (spring,2010): schedule</title>
+		<style type="text/css">
+			tr.header td
+			{
+				text-align:center;
+			}
+			td.week
+			{
+				text-align:right;
+			}
+			table
+			{
+//				border-collapse:collapse;
+				border-spacing:0px;
+			}
+			td
+			{
+//				border-top:thin solid black;
+//				border-bottom:thin solid black;
+				border:thin solid darkgray;
+				padding-left:5px;
+				padding-right:5px;
+				border-collapse:collapse;
+			}
+//			tr.header td
+//			{
+//				border-top:medium solid black;
+//				border-bottom:medium solid black;
+//			}
+//			tr.footer td
+//			{
+//				border-top:medium solid black;
+//				border-bottom-style:none;
+//			}
+		<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Course Schedule</h1>
+		<table align=center>
+			<tr class=header>
+				<td rowspan=2>week</td>
+				<td colspan=2>topics</td>
+				<td rowspan=2>materials</td>
+			</tr>
+			<tr class=header>
+				<td>planned</td>
+				<td>done</td>
+			</tr>
+			<tr>
+				<td class=week>1</td>
+				<td>
+					Introduction to linear algebra<br>
+					- Vectors
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>2</td>
+				<td>
+					Systems of linear equations<br>
+					- Solving systems of linear equations<br>
+					- Gaussian elimination
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>3</td>
+				<td>
+					Systems of linear equations<br>
+					- Gaussian elimination<br>
+					- Spanning sets and linear independence
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>4</td>
+				<td>
+					Matrices<br>
+					- Matrix operations<br>
+					- Inverse matrices
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>5</td>
+				<td>
+					Matrices<br>
+					- Inverse matrices<br>
+					- (LU factorization)
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>6</td>
+				<td>
+					Matrices<br>
+					- Subspaces, dimensions, and rank<br>
+					- Linear transformations
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>7</td>
+				<td>
+					Midterm exam
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>8</td>
+				<td>
+					Eigenvalues and eigenvectors<br>
+					- Determinants
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>9</td>
+				<td>
+					Eigenvalues and eigenvectors<br>
+					- Determinants<br>
+					- Similarity and diagonalization
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>10</td>
+				<td>
+					Eigenvalues and eigenvectors<br>
+					- Similarity and diagonalization
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>11</td>
+				<td>
+					Orthogonality<br>
+					- QR factorization
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>12</td>
+				<td>
+					Make-up week
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>13</td>
+				<td>
+					Distance and approximation<br>
+					- Least square approximation
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>14</td>
+				<td>
+					Distance and approximation<br>
+					- Least square approximation
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>15</td>
+				<td>
+					Advanced linear algebra
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td class=week>16</td>
+				<td>
+					Final exam
+				</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr class=footer>
+				<td colspan=4>
+					&nbsp;
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,160 @@
+<html>
+	<head>
+		<title>Project #2</title>
+        <style type="text/css">
+            td
+            {
+                text-align:center;
+            }
+        </style>
+	</head>
+	<body>
+		<h1 align=center>Project #2</h1>
+		<h2 align=center style="color:red;">(due: 27 Nov(Mon) 11:59pm)</h2>
+        <table>
+            <tr>
+				<td>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/mcCElSOzaGw" frameborder="0" allowfullscreen></iframe>
+				</td>
+                <td>
+			<img src="spherical_coords.png">
+                </td>
+            </tr>
+            <tr>
+                <td>[Video]</td>
+                <td>[Figure]</td>
+            </tr>
+        </table>
+		<ul>
+			<li>
+				Requirements
+				<ul>
+					<li>
+						Draw a cube with edge lengths 2 and with its center at the origin
+                        of the world space.
+						The faces of the cube should be colored differently.
+					</li>
+					<li>
+						Draw two tracks as circles 
+                        with their radii (&rho; in [Figure]) 10.
+                        <ul>
+                            <li>One track (white circle in the video)
+                            denotes the &ldquo;equator&rdquo;
+                                and the camera moves along the equator
+                                as its longitude changes.
+								(&theta; in [Figure])
+							</li>
+                            <li>The other track (yellow circle in the video)
+                            denotes the path 
+                            along which the camera moves as its latitude
+                            changes.
+                                (&delta; in [Figure])
+                                Note that this track should be transformed
+                                as the longitude changes.
+                                </li>
+                                
+                        </ul>
+					</li>
+                    <li>
+                        To show the camera location (P in [Figure]),
+                        draw the &ldquo;line of sight&rdquo;
+                        (the pink line in the video.)
+                        from the camera position to the origin.
+						The distance to the camera from the origin should be 10.
+                    </li>
+					<li>
+						On the left half of the canvas,
+						draw the whole scene (the cube, the camera tracks, and the line-of-sight)
+						seen from the fixed camera.
+						(You do not need to draw the axes.)
+						<ul>
+							<li>The camera can be either orthographic or perspective.</li>
+							<li>Just make it sure that the whole seen can be seen.</li>
+							<li>You can use <tt>setLookAt()</tt>/<tt>lookAt()</tt> for this viewing transformation.</li>
+						</ul>
+					</li>
+					<li>
+						On the right half of the canvas,
+						draw the scene viewed from the moving camera.
+						<ul>
+							<li>You should use a perspective camera.</li>
+							<li>Set the parameters properly so that 
+							the whole cube can be drawn. </li>
+							<li>The distance from the camera to the origin should be 10.</li>
+							<li>When longitude=latitude=0, the camera should be (in world coordinates)
+								<ul>
+									<li>located at (0, 0, 10)</li>
+									<li>looking long the direction (0,0,-1)</li>
+									<li>with it &ldquo;up direction&rdquo; (0,1,0).</li>
+								</ul>
+							</li>
+							<li>
+						You should NOT use <tt>setLootAt()</tt>/<tt>lookAt</tt> function for thie viewing transformation.
+							</li>
+						</ul>
+					</li>
+					<li>
+						The moving camera should
+						be controlled by the arrow keys
+						and the slide bars.
+                        (The range of the longitude is [0,360]
+                        and that of the latitude is [-90,90].)
+                        <ul>
+                            <li>Left/Right: Decrese/increse the longitude by 1 degree.</li>
+                            <li>Down/Up: Decrese/increse the latitude by 1 degree.</li>
+                        </ul>
+						When the camera is moved by the arrow keys,
+						the slide bars should be changed accordingly.
+					</li>
+				</ul>
+			</li>
+			<li>
+				Instructions
+				<ul>
+					<li>
+						Submit two files only. The file names should be
+						<ul>
+							<li><tt>proj2.html</tt></li>
+							<li><tt>proj2.js</tt> 
+							(To avoid being rejected by the mail server,
+							 please change the name of this file to <tt>proj2.txt</tt>.)</li>
+						</ul>
+					</li>
+					<li>
+						Do submit any compressed file. Just attach the files as they are.
+					</li>
+					<li>
+					You should submit a <tt>README</tt> file
+						about your implemntation.
+						(What you successfully implemented,
+						what you failed to implement, etc.)
+					</li>
+
+					<li>
+					You should use the following four libraries ONLY 
+						and include them as below.
+						<div style="border:black 1px solid;">
+							<xmp>
+     <script src="../lib/webgl-utils.js"></script>
+     <script src="../lib/webgl-debug.js"></script>
+     <script src="../lib/cuon-utils.js"></script>
+     <script src="../lib/cuon-matrix.js"></script>
+							</xmp>
+						</div>
+					</li>
+				</ul>
+			</li>
+			<li>
+				You may find the following examples helpful.
+				<ul>
+					<li><a href="https://xregy.github.io/webgl/src/multiple_objects.html">Drawing multiple objects using JavaScript objects</a></li>
+					<li><a href="https://xregy.github.io/webgl/src/multiple_viewports.html">Multiple viewports</a></li>
+				</ul>
+			</li>
+		</ul>
+		<hr>
+		<div style="text-align:center;margin-bottom:100px">
+		last updated 9 Nov. 2017  
+		</div>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+	<!--#include file="meta.html"-->
+	<head>
+		<title>Topics in Computer Graphics (spring,2014): materials</title>
+		<style type="text/css">
+			body
+			{
+			}
+			<!--#include file="style-menu.css"-->
+		</style>
+	</head>
+	<body>
+		<!--#include file="menu.html"-->
+		<h1 align=center>Lecture materials</h1>
+		<ul>
+			<li>Lecture slides
+				<ul>
+					<li><a href="data/p02-handout.pdf">Chapter 2: Introductory Material</a></li>
+					<li><a href="data/p03-handout.pdf">Chapter 3: Linear Interpolation</a></li>
+					<li><a href="data/p04-handout.pdf">Chapter 4: The de Casteljau Algorithm</a></li>
+					<li><a href="data/p05-handout.pdf">Chapter 5: The Bernstein Form of a B&eacute;zier Curve</a></li>
+					<li><a href="data/p06-handout.pdf">Chapter 6: B&eacute;zier Curve Topics</a></li>
+					<li><a href="data/p07-handout.pdf">Chapter 7: Polynomial Curve Constructions</a></li>
+					<li><a href="data/p08-handout.pdf">Chapter 8: B-Spline Curves</a></li>
+					<li><a href="data/p14-handout.pdf">Chapter 14: Tensor Product Patches</a></li>
+					<li><a href="data/p17-handout.pdf">Chapter 17: B&eacute;zier Triangles</a></li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>

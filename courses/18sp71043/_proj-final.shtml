@@ -1,0 +1,119 @@
+<html>
+	<head>
+		<title>Final Project</title>
+		<style type="text/css">
+			li
+			{
+				margin:1em 0;
+			}
+			table.truthtable
+			{
+				border:1px black solid;
+				border-collapse:collapse;
+			}
+			table.truthtable td
+			{
+				border:1px black solid;
+				padding:5px;
+			}
+			table.truthtable td.header-in
+			{
+				background-color:black;
+				text-align:center;
+				font-weight:bold;
+				color:white;
+			}
+			table.truthtable td.header-out
+			{
+				background-color:gray;
+				text-align:center;
+				font-weight:bold;
+				color:white;
+			}
+			table.truthtable td.in
+			{
+				background-color:lightgray;
+				text-align:center;
+			}
+			table.truthtable td.out
+			{
+				text-align:center;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1 align=center>Final Project</h1>
+		<h2 align=center>Implementing a Hack &ldquo;Drawing&rdquo; Assembly Program</h2>
+		<h3 align=center style="color:red;font-weight:bold;">( Due: 11:59pm 25 June 2018 (Monday) )</h3>
+	</body>
+	<div style="align:center;margin:100px;">
+	<ul>
+		<li>Goal:
+		To implement a Hack assembly programs that draws a square dot on the screen.
+			<ul>
+				<li>Implement required assembly programs (<tt>Draw.asm</tt>) and send them 
+				to me
+		(Mr.Minho.Kim@gmail.com).</li>
+			</ul>
+		</li>
+		<li>
+			<tt>Draw.asm</tt>
+			<ul>
+				<li>A program that draws a square dot in the screen.</li>
+				<li>The program should work correctly when executed in the following steps:
+					<ol>
+						<li>Load the program <tt>Draw.asm</tt> into the CPU emulator.</li>
+						<li>Clear all the memory.</li>
+						<!--
+						<li>Set <tt>R0</tt> and <tt>R1</tt> to the x and y coordinates of the 
+						dot to be drawn.
+						-->
+						<li>Execute the program.</li>
+						<li>The grid is drawn and te square dot is drawn at the position (16,8).</li>
+						<li>The user can move the dot around by pressing the arrow keys.</li>
+					</ol>
+				</li>
+				<li>
+					Requirements
+					<ul>
+						<li>You need to draw a grid on the screen.
+						The size of each grid cell is 16x16.
+						Therefore, overall  32x16 grid cells are drawn
+						and the range of the (x,y) coordinates is
+						[0,31]x[0,15].
+						</li>
+						<li>
+						The size of the square dot is 16x16.
+						</li>
+						<li>
+						You do not have to verify the x,y coordinates.
+						You can assume they are in the valid range
+						</li>
+						<li>
+							When the dot is on the boundary, it should not move further.
+						</li>
+					</ul>
+				</li>
+				<li>
+					Bonus points
+					<ul>
+						<li>Solve the &ldquo;sensitive key&rdquo; issue.</li>
+						<li>Draw a (filled) rectangular box.</li>
+						<li>Draw a (non-filled) rectangular box.</li>
+						<li>Resize the box using the keyboard.</li>
+					</ul>
+				</li>
+
+			</ul>
+		</li>
+		<li>
+			Hints
+			<ul>
+				<li>Please read the <a href="http://www.nand2tetris.org/software.php">CPU emulator tutorial</a> first.</li>
+				<li>The &ldquo;break points&rdquo; feature might be really handy during debugging.</li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+</html>
